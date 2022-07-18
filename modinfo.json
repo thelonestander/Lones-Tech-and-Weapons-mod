@@ -7,6 +7,5 @@
     "maintainers": [ "Thelonestander" ],
     "description": "Adds various tweaks to the game Bn.",
     "category": "content",
-    "dependencies": [ "Bn" ]
   }
 ]
