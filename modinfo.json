@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "lonestweaks",
+    "name": "Lones Tweaks",
+    "authors": [ "Thelonestander" ],
+    "maintainers": [ "Thelonestander" ],
+    "description": "Adds various tweaks to the game Bn.",
+    "category": "content",
+    "dependencies": [ "Bn" ]
+  }
+]
