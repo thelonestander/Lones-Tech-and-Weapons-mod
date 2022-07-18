@@ -4,8 +4,6 @@
     "id": "military",
     "subtype": "distribution",
     "entries": [
-{ "item": "gmglynx", "prob": 5 },
-{ "item": "gmglynxmag", "prob": 5 }
-
-]
-
+      { "item": "gmglynx", "prob": 5 },
+      { "item": "gmglynxmag", "prob": 5 }
+    ]
