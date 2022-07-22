@@ -4,7 +4,7 @@
     "id": "military",
     "subtype": "distribution",
     "entries": [ { "item": "gmglynx", "prob": 5 }, { "item": "gmglynxmag", "prob": 5 } ],
-	"entries": [ { "item": "m134m", "prob": 5 }, { "item": "belt308s", "prob": 5 } ]
+	[ { "item": "m134m", "prob": 5 }, { "item": "belt308s", "prob": 5 } ]
   }
 ]
 
