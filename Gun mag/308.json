@@ -1,0 +1,15 @@
+[
+  {
+    "id": "belt308s",
+    "copy-from": "magazine_belt",
+    "type": "MAGAZINE",
+    "name": { "str": "7.62x51mm ammo belt small" },
+    "ammo_type": "308",
+    "capacity": 250,
+    "count": 100,
+    "default_ammo": "762_51",
+    "linkage": "ammolink308"
+  }
+]
+
+

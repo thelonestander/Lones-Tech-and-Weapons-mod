@@ -1,0 +1,32 @@
+[
+  {
+	  "id": "m134m",
+    "looks_like": "m134",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "name": { "str": "M134D-M Minigun" },
+    "description": "The M134D-H Mini mini gun is a much smaller versions of the standard M134  This versions is for personal use and doesnt need to be mounted to work.",
+    "weight": "9895 g",
+    "volume": "4 L",
+    "price": 5500000,
+    "price_postapoc": 10000,
+    "to_hit": -4,
+    "bashing": 18,
+    "material": "hardsteel",
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "308",
+    "skill": "rifle",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 300,
+    "durability": 9,
+    "handling": 60,
+    "blackpowder_tolerance": 96,
+    "reload": 400,
+    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "sling", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ] ],
+    "modes": [ [ "DEFAULT", "low auto", 6 ], [ "AUTO", "high auto", 18 ] ],
+    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
+    "magazines": [ [ "308", [ "belt308s" ] ] ],
+    "flags": [ "NEVER_JAMS" ]
+  }
+]
