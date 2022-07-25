@@ -9,7 +9,7 @@
     "time": "3 h",
     "reversible": true,
     "autolearn": true,
-    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "qualities": [ { "id": "CUT", "level": 1 } ]
     "components": [ [ [ "steel_chain", 3 ] ] ]
   }
 ]
