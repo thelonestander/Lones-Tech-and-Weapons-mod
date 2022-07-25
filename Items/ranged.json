@@ -10,6 +10,6 @@
     "reversible": true,
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "steel_chain", 3 ] ], ]
+    "components": [ [ [ "steel_chain", 3 ] ] ]
   }
 ]
