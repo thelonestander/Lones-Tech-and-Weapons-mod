@@ -1,0 +1,20 @@
+[
+ {
+    "id": "chainwhip",
+    "type": "GENERIC",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "whip",
+    "name": { "str": "Chain Whip" },
+    "description": "A long slightly rusty chain usable as a whip.  You don't know how you can use this but you can.",
+    "weight": "5200 g",
+    "volume": "2 L",
+    "price": 3500,
+    "price_postapoc": 500,
+    "material": [ "steel" ],
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
+    "cutting": 5,
+    "bash": 10
+  }
+]
