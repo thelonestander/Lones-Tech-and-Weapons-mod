@@ -5,7 +5,7 @@
     "category": "weapons",
     "symbol": "/",
     "color": "brown",
-    "looks_like": "whip",
+    "looks_like": "bullwhip",
     "name": { "str": "Chain Whip" },
     "description": "A long slightly rusty chain usable as a whip.  You don't know how you can use this but you can.",
     "weight": "5200 g",
