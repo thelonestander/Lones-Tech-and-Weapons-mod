@@ -1,0 +1,10 @@
+[
+  {
+    "type": "item_group",
+    "subtype": "distribution",
+    "id": "phones",
+    "items": [
+      { "item": "cell_phone", "prob": 3, "charges-min": 0, "charges-max": 15 },
+    ]
+  }
+]
