@@ -1,0 +1,12 @@
+[
+  {
+    "type": "scenario",
+    "id": "wevacuee",
+    "name": "Winter Evacuee",
+    "points": 0,
+    "description": "You have survived the initial wave of panic, and have achieved (relative) safety in one of the many government evac shelters and its winter!.",
+    "allowed_locs": [ "sloc_shelter", "sloc_shelter_vandalized" ],
+    "start_name": "Evac Shelter",
+    "flags": [ "CITY_START", "WIN_START" ]
+  }
+]
