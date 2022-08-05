@@ -1,0 +1,16 @@
+For the main Github of BN
+
+https://github.com/cataclysmbnteam/Cataclysm-BN 
+
+
+
+USE 7zip to unzip ALL FILES FOR THE GAME AND MODS. The built in zip extrator for windows does not always grab all the files as needed.
+
+https://www.7-zip.org/download.html 
+
+
+If any errors happen please send your crash log, and your mods log to #development in BN discord. 
+
+https://discord.gg/ph2mWSqu7U
+
+
