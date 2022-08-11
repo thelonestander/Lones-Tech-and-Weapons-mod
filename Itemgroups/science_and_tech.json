@@ -5,7 +5,7 @@
     "ammo": 50,
     "magazine": 100,
     "items": [
-      { "item": "pip_pad", "prob": 20, "charges-min": 1 }
+      { "item": "pip_pad", "prob": 10, "charges-min": 1 }
   ]
   }
 ]
