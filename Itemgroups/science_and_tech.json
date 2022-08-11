@@ -1,0 +1,11 @@
+[
+  {
+    "type": "item_group",
+    "id": "science",
+    "ammo": 50,
+    "magazine": 100,
+    "items": [
+      { "item": "pip_pad", "prob": 20, "charges-min": 1 }
+  ]
+  }
+]
