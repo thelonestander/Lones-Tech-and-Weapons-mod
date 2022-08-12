@@ -8,5 +8,48 @@
     "allowed_locs": [ "sloc_shelter", "sloc_shelter_vandalized" ],
     "start_name": "Evac Shelter",
     "flags": [ "CITY_START", "WIN_START" ]
+  },
+  {
+    "type": "scenario",
+    "name": "Preped & cold",
+    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, it's time to put your plan into action.",
+    "id": "prep_house",
+    "points": 2,
+    "start_name": "Boarded Up House",
+    "allowed_locs": [ "sloc_house_boarded" ],
+    "professions": [ "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ],
+	"vehicle":  "4x4_car", 
+    "traits": [ "MARTIAL_ARTS_SURV_COM" ],
+	"flags": [ "WIN_START" ]
+  },
+  {
+    "type": "scenario",
+    "id": "extra_bad_day",
+    "name": "Challenge - An Extra Really Bad Day",
+    "points": -8,
+    "description": "You start drunk to the point of incapacitation, depressed, infected, surrounded by fire, and sick with the flu and the beginning of winter.  This day went downhill really fast.",
+    "start_name": "In Town",
+    "allowed_locs": [
+      "sloc_house",
+      "sloc_house_boarded",
+      "sloc_school",
+      "sloc_grocery_store",
+      "sloc_gun_store",
+      "sloc_garage",
+      "sloc_pawn_shop",
+      "sloc_bank",
+      "sloc_military_surplus",
+      "sloc_furniture_store",
+      "sloc_library",
+      "sloc_bookstore",
+      "sloc_zoo_giftshop",
+      "sloc_zoo_cages",
+      "sloc_golfcourse_mid_course",
+      "sloc_golfcourse_clubhouse",
+      "sloc_church",
+      "sloc_cemetery"
+    ],
+    "professions": [ "svictim", "tweaker" ],
+    "flags": [ "FIRE_START", "INFECTED", "BAD_DAY", "CHALLENGE", "CITY_START", "WIN_START" ]
   }
 ]
