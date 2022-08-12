@@ -12,7 +12,7 @@
   {
     "type": "scenario",
     "name": "Preped & cold",
-    "description": "You knew something was coming, you prepared, when the dead rose, you knew what to do. With your house now barricaded, it's time to put your plan into action.",
+    "description": "You knew something was coming, you prepared, when the dead rose, you boarded up your house. With your house now barricaded, it's time to make a decision.",
     "id": "prep_house",
     "points": 2,
     "start_name": "Boarded Up House",
@@ -27,7 +27,7 @@
     "id": "extra_bad_day",
     "name": "Challenge - An Extra Really Bad Day",
     "points": -8,
-    "description": "You start drunk to the point of incapacitation, depressed, infected, surrounded by fire, and sick with the flu and the beginning of winter.  This day went downhill really fast.",
+    "description": "You start drunk to the point of incapacitation, depressed, infected, surrounded by fire, and sick with the flu in the beginning of winter.  This day went downhill really fast.",
     "start_name": "In Town",
     "allowed_locs": [
       "sloc_house",
