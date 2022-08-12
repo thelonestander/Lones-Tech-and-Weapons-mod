@@ -1,0 +1,10 @@
+[
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "apache_knuckleduster", "prob": 4 }
+	  ]
+  }
+  ]
