@@ -22,7 +22,7 @@
     "type": "TOOL",
     "category": "weapons",
     "name": { "str": "pair of Apache knuckleduster", "str_pl": "pairs of Apache Knuckledusters" },
-    "description": "This unique knuckleduster has a 7mm pinfire revolver, as well as a knife this is surly unique.",
+    "description": "This unique knuckleduster has a .38 revolver, as well as a knife this is surly unique.",
     "color": "dark_gray",
     "material": [ "brass" ],
     "weight": "550 g",
