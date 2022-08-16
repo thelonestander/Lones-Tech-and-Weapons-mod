@@ -32,7 +32,7 @@
     "stabbing": 10,
     "to_hit": 1,
     "symbol": "8",
-    "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE" ],
+    "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "STAB" ],
     "techniques": [ "WBLOCK_2", "UHAND", "HOOK" ],
     "use_action": { "type": "transform", "target": "apache_knuckleduster_gun_on", "active": false, "msg": "You switch knuckleduster from melee to revolver mode" }
   },
