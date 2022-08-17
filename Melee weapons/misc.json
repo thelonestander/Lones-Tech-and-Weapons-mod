@@ -21,7 +21,7 @@
     "id": "apache_knuckleduster",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "pair of Apache knuckleduster", "str_pl": "pairs of Apache Knuckledusters" },
+    "name": { "str": "Apache knuckleduster", "str_pl": "Apache Knuckledusters" },
     "description": "This unique knuckleduster has a .38 revolver, as well as a knife this is surly unique.",
     "color": "dark_gray",
     "material": [ "brass" ],
@@ -34,7 +34,7 @@
     "symbol": "8",
     "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "STAB" ],
     "techniques": [ "WBLOCK_2", "UHAND", "HOOK" ],
-    "use_action": { "type": "transform", "target": "apache_knuckleduster_gun_on", "active": false, "msg": "You switch knuckleduster from melee to revolver mode" }
+    "use_action": { "type": "transform", "target": "apache_knuckleduster_gun_on", "active": false, "msg": "You switch the knuckleduster from melee to revolver mode" }
   },
   {
     "id": "apache_knuckleduster_gun_on",
@@ -42,7 +42,7 @@
     "looks_like": "sw_619",
     "type": "GUN",
     "name": { "str_sp": "Apache revolver" },
-    "description": "A six-shot revolver, its a part of the Apache knuckleduster.",
+    "description": "A six-shot revolver, its integral to the Apache knuckleduster.",
     "volume": "402 ml",
     "price": 42400,
     "price_postapoc": 1250,
@@ -54,6 +54,6 @@
     "durability": 8,
     "blackpowder_tolerance": 56,
     "clip_size": 6,
-    "use_action": { "type": "transform", "target": "apache_knuckleduster", "active": false, "msg": "You switch knuckleduster from revolver to melee mode" }
+    "use_action": { "type": "transform", "target": "apache_knuckleduster", "active": false, "msg": "You switch the knuckleduster from revolver to melee mode" }
   }
 ]
