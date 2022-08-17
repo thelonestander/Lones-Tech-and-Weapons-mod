@@ -46,6 +46,7 @@
     "volume": "402 ml",
     "price": 42400,
     "price_postapoc": 1250,
+	"valid_mod_locations": [  ],
     "to_hit": -2,
     "material": [ "brass"],
     "color": "dark_gray",
