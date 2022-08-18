@@ -1,0 +1,11 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "translocator_gates",
+    "name": "Translocator Gates",
+    "authors": [ "Shard" ],
+    "description": "Translocator and portable Gates!",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

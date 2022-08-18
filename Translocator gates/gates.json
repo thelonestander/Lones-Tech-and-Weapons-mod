@@ -1,0 +1,163 @@
+[
+  {
+    "type": "furniture",
+    "id": "f_translocator_beacon",
+    "name": "Deployed Translocator Beacon",
+    "looks_like": "tr_telepad",
+    "move_cost_mod": 0,
+    "symbol": "X",
+    "description": "An odd metal shape covered in plastic, the internal diagram acts as a beacon for translocation, once attuned.  Can be picked up using deconstruction.",
+    "color": "light_gray",
+    "required_str": -1,
+    "flags": [ "TRANSLOCATOR", "EASY_DECONSTRUCT", "TINY", "PERMEABLE", "TRANSPARENT" ],
+    "deconstruct": { "items": [ { "item": "portable_translocator_gate", "count": 1 } ] },
+    "bash": {
+      "str_min": 1,
+      "str_max": 2,
+      "sound": "smash!",
+      "sound_fail": "whump.",
+      "items": [ { "item": "portable_translocator_gate", "prob": 10 } ]
+    },
+    "examine_action": "translocator"
+  },{
+    "id": "portable_translocator_gate",
+    "type": "TOOL",
+    "name": { "str": "portable translocator beacon" },
+    "looks_like": "telepad",
+    "description": "This is a rare, bizarre, and arcane device of an otherworldly nature.  It's giving you a headache just looking at it.  It is covered in alien markings, faintly visible below the plastic covering.",
+    "weight": "1 kg",
+    "volume": "1 L",
+    "price": 100000,
+    "price_postapoc": 10,
+    "to_hit": -1,
+    "bashing": 3,
+    "material": [ "steel", "plastic", "gold" ],
+    "symbol": ";",
+    "color": "magenta",
+    "use_action": { "type": "deploy_furn", "furn_type": "f_translocator_beacon" }
+  },{
+    "id": "translocator",
+    "type": "TOOL",
+    "name": { "str": "personal translocator" },
+    "looks_like": "teleporter",
+    "description": "This is an experimental device that will translocate you to an attuned beacon when activated.",
+    "weight": "1360 g",
+    "volume": "2 L",
+    "price": 600000,
+    "price_postapoc": 1000,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ";",
+    "color": "magenta",
+    "ammo": "battery",
+    "charges_per_use": 100,
+    "use_action": { "type": "cast_spell", "spell_id": "translocate", "no_fail": true, "level": 0 },
+    "magazine_well": 1,
+    "magazines": [
+      [
+        "battery",
+        [
+          "light_minus_atomic_battery_cell",
+          "light_atomic_battery_cell",
+          "light_disposable_cell",
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_disposable_cell",
+          "medium_atomic_battery_cell",
+          "heavy_battery_cell",
+          "heavy_plus_battery_cell",
+          "heavy_disposable_cell",
+          "heavy_atomic_battery_cell",
+          "small_storage_battery",
+          "medium_storage_battery",
+          "large_storage_battery",
+          "storage_battery"
+        ]
+      ]
+    ]
+  },{
+    "id": "translocate",
+    "type": "SPELL",
+    "name": "Translocate",
+    "description": "Translocates the user to an attuned beacon.",
+    "valid_targets": [ "self" ],
+    "effect": "translocate",
+    "flags": [ "SILENT", "NO_LEGS", "NO_HANDS" ],
+    "base_casting_time": 20
+  },{
+    "type": "item_group",
+    "id": "rare",
+    "//": "Items that should have very low frequencies and or few locations.",
+    "entries": [
+      { "item": "translocator", "prob": 5 },
+      { "item": "portable_translocator_gate", "prob": 10 },
+      { "item": "recipe_translocator_beacon", "prob": 10 }
+    ]
+  },{
+    "type": "item_group",
+    "id": "nanofab_recipes",
+    "//": "Very rare high level loot. This list doesn't spawn anywhere directly, it is used to create the recipes inside nanofabricator templates. ",
+    "entries": [
+      { "item": "translocator", "prob": 5 },
+      { "item": "portable_translocator_gate", "prob": 10 }
+    ]
+  },{
+    "type": "item_group",
+    "id": "science",
+    "entries": [
+      { "item": "translocator", "prob": 1 },
+      { "item": "portable_translocator_gate", "prob": 2 }
+    ]
+  },{
+    "type": "item_group",
+    "id": "teleport",
+    "entries": [
+      { "group": "translocator_spawn", "prob": 5 },
+      { "item": "portable_translocator_gate", "prob": 20 }
+    ]
+  },{
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "translocator_spawn",
+    "entries": [
+      { "item": "translocator", "prob": 100  },
+      { "item": "recipe_translocator_beacon", "prob": 100 }
+    ]
+  },{
+    "result": "portable_translocator_gate",
+    "type": "recipe",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_PARTS",
+    "skill_used": "electronics",
+    "difficulty": 3,
+    "skills_required": [ "fabrication", 1 ],
+    "time": "1h 30 m",
+    "decomp_learn": 2,
+    "flags": [ "SECRET" ],
+    "book_learn": [ [ "recipe_translocator_beacon", 2 ] ],
+    "qualities": [ { "id": "ANVIL", "level": 1 }, { "id": "HAMMER", "level": 2 }, { "id": "CUT_FINE", "level": 1 }, { "id": "CHISEL", "level": 1 } ],
+    "tools": [ [ [ "forge", 20 ], [ "oxy_torch", 20 ] ], [ [ "soldering_iron", 35 ] ] ],
+    "components": [
+      [ [ "plastic_chunk", 5 ] ],
+      [ [ "scrap", 6 ], [ "steel_chunk", 2 ] ],
+      [ [ "gold", 100 ] ]
+    ]
+  },{
+    "id": "recipe_translocator_beacon",
+    "type": "BOOK",
+    "name": { "str": "computer printout" },
+    "description": "One side of this sheet is printed an insane diagram of wildly crossing lines.  The other side describes a beacon that allows a dimensional translocator to anchor itself, utilizing the diagram from the other side, and how to verify the creation.",
+    "weight": "10 g",
+    "volume": "2 ml",
+    "price": 40000,
+    "price_postapoc": 1250,
+    "material": [ "paper" ],
+    "symbol": "?",
+    "color": "light_green",
+    "skill": "electronics",
+    "required_level": 1,
+    "max_level": 2,
+    "intelligence": 12,
+    "time": "60 m",
+    "fun": -1
+  }
+]
