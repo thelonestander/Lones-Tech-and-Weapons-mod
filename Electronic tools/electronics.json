@@ -124,5 +124,38 @@
       "type": "transform"
     },
     "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "type": "TOOL_ARMOR",
+    "category": "clothing",
+    "id": "atomic_military_watch",
+    "name": { "str": "Atomic military watch", "str_pl": "Atomic military watches" },
+    "volume": "250 ml",
+    "description": "A waterproof military watch. It has reliable weather data, a compass, and acts as a communication device and runs on the power of the Atom! Has a feint hum and green glow.  Activate to use.",
+    "weight": "112 g",
+    "to_hit": -1,
+    "color": "light_gray",
+    "covers": [ "hand_either" ],
+    "price": 6000,
+    "price_postapoc": 100,
+    "material": [ "superalloy" ],
+    "flags": [
+      "WATCH",
+      "ALARMCLOCK",
+      "WATER_FRIENDLY",
+      "BELTED",
+      "FRAGILE",
+      "ALLOWS_NATURAL_ATTACKS",
+      "OVERSIZE",
+      "THERMOMETER",
+      "TWO_WAY_RADIO",
+      "LEAK_DAM",
+      "RADIOACTIVE",
+      "BAROMETER",
+      "HYGROMETER"
+    ],
+    "coverage": 15,
+    "symbol": "[",
+    "use_action": [ "PORTABLE_GAME", "WEATHER_TOOL" ]
   }
 ]
