@@ -1,0 +1,25 @@
+[
+  {
+    "id": "XL_tactical_backpack",
+    "type": "ARMOR",
+    "name": { "str": "XL tactical backpack" },
+    "description": "An extra large tactical multi-compartment backpack that has ample space for storage as well as a mag compartment. Meant to offer as much storage while not being a huge backpack",
+    "weight": "2400 g",
+    "volume": "15 L",
+    "price": 9000,
+    "price_postapoc": 1250,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "backpack",
+    "color": "green",
+    "covers": [ "torso" ],
+    "coverage": 35,
+    "rigid": true,
+    "encumbrance": 13,
+    "max_encumbrance": 60,
+    "storage": "80 L",
+    "warmth": 10,
+    "material_thickness": 2,
+    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE" ]
+  }
+]

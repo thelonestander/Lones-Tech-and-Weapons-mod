@@ -8,7 +8,8 @@
       { "item": "gmglynxmag", "prob": 5 },
       { "item": "m134m", "prob": 5 },
       { "item": "belt308s", "prob": 5 },
-	  { "item": "atomic_military_watch", "prob": 10 }
+	  { "item": "atomic_military_watch", "prob": 10 },
+		  { "item": "XL_tactical_backpack", "prob": 5 }
     ]
   }
 ]
