@@ -6,7 +6,7 @@
     "points": 0,
     "description": "You have survived the initial wave of panic, and have achieved (relative) safety in one of the many government evac shelters and its winter!.",
     "allowed_locs": [ "sloc_shelter", "sloc_shelter_vandalized" ],
-	"vehicle":  "car_hatch",
+    "vehicle": "car_hatch",
     "start_name": "Evac Shelter",
     "flags": [ "CITY_START", "WIN_START" ]
   },
@@ -19,9 +19,9 @@
     "start_name": "Boarded Up House",
     "allowed_locs": [ "sloc_house_boarded" ],
     "professions": [ "survivalist", "jr_survivalist", "bionic_prepper", "prepper" ],
-	"vehicle":  "4x4_car", 
+    "vehicle": "4x4_car",
     "traits": [ "MARTIAL_ARTS_SURV_COM" ],
-	"flags": [ "WIN_START" ]
+    "flags": [ "WIN_START" ]
   },
   {
     "type": "scenario",

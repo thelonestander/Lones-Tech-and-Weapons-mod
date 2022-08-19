@@ -1,6 +1,6 @@
 [
   {
-  "id": "gmglynx",
+    "id": "gmglynx",
     "copy-from": "rifle_base",
     "looks_like": "ar15",
     "type": "GUN",
@@ -26,4 +26,3 @@
     "flags": [ "NEVER_JAMS" ]
   }
 ]
-

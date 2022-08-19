@@ -1,5 +1,5 @@
 [
- {
+  {
     "id": "chainwhip",
     "type": "GENERIC",
     "category": "weapons",
@@ -34,7 +34,12 @@
     "symbol": "8",
     "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "STAB" ],
     "techniques": [ "WBLOCK_2", "UHAND", "HOOK" ],
-    "use_action": { "type": "transform", "target": "apache_knuckleduster_gun_on", "active": false, "msg": "You switch the knuckleduster from melee to revolver mode" }
+    "use_action": {
+      "type": "transform",
+      "target": "apache_knuckleduster_gun_on",
+      "active": false,
+      "msg": "You switch the knuckleduster from melee to revolver mode"
+    }
   },
   {
     "id": "apache_knuckleduster_gun_on",
@@ -46,15 +51,20 @@
     "volume": "402 ml",
     "price": 42400,
     "price_postapoc": 1250,
-	"valid_mod_locations": [  ],
+    "valid_mod_locations": [  ],
     "to_hit": -2,
-    "material": [ "brass"],
+    "material": [ "brass" ],
     "color": "dark_gray",
     "ammo": "38",
     "dispersion": 480,
     "durability": 8,
     "blackpowder_tolerance": 56,
     "clip_size": 6,
-    "use_action": { "type": "transform", "target": "apache_knuckleduster", "active": false, "msg": "You switch the knuckleduster from revolver to melee mode" }
+    "use_action": {
+      "type": "transform",
+      "target": "apache_knuckleduster",
+      "active": false,
+      "msg": "You switch the knuckleduster from revolver to melee mode"
+    }
   }
 ]
