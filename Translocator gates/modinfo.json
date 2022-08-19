@@ -7,6 +7,6 @@
 	"Maintainers": [ "Thelonestander" ],
     "description": "Translocator and portable Gates!",
     "category": "content",
-    "dependencies": [ "Bright Nights" ]
+    "dependencies": [ "dda" ]
   }
 ]
