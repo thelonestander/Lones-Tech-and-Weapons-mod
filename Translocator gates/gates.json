@@ -70,7 +70,10 @@
           "small_storage_battery",
           "medium_storage_battery",
           "large_storage_battery",
-          "storage_battery"
+          "storage_battery",
+		  "light_atomic_battery_cell_rechargeable",
+		  "medium_atomic_battery_cell_rechargeable",
+		  "heavy_atomic_battery_cell_rechargeable"
         ]
       ]
     ]
