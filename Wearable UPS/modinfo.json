@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "lonestweaks",
+    "name": "Wearable UPS",
+    "authors": [ "Thelonestander" ],
+    "maintainers": [ "Thelonestander" ],
+    "description": "Adds Wearable UPS to the game.",
+    "category": "content"
+	"dependencies": [ "Bn" ]
+  }
+]

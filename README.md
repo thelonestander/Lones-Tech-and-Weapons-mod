@@ -1,9 +1,15 @@
 # Tweaks
  Tweaks for the game
 
-You can delete any tweaks you may or may not like here. 
-Some of the guns may or may not have spawns set. So you may need to spawn them in. 
-Currently both guns have spawns so no spawning needed!
+Hello! When you go to add my mod to your game it will seperate Translocator gates, and Wearable UPS into its own mod folder seperate
+from lones tweaks. It will look like this. 
+
+
+Lones tweaks
+Wearable UPS
+Translocator gates
+
+This is to make it easier to not add anything you may not want. Simply don't select the mod in world gen!
 
 Thanks to the many people that have helped me with making the items in this mod. 
 
