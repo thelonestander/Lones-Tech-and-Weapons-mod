@@ -2,11 +2,11 @@
   {
     "type": "MOD_INFO",
     "id": "lones_UPS",
-    "name": "Wearable UPS",
+    "name": "Lones Wearable UPS",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
     "description": "Adds Wearable UPS to the game.",
     "category": "content",
-	"dependencies": [ "Bn" ]
+	"dependencies": [ "Bright Nights" ]
   }
 ]
