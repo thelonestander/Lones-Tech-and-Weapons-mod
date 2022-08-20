@@ -5,7 +5,7 @@
     "//": "clothing found in a man's wardrobe",
     "subtype": "collection",
     "entries": [
-      { "item": "life_card", "prob": 10 },
+      { "item": "life_card", "prob": 10 }
     ]
   }
 ]
