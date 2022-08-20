@@ -3,7 +3,7 @@
     "id": "XL_tactical_backpack",
     "type": "ARMOR",
     "name": { "str": "XL tactical backpack" },
-    "description": "An extra large tactical multi-compartment backpack that has ample space for storage as well as a mag compartment. Meant to offer as much storage while not being a huge backpack",
+    "description": "An extra large tactical multi-compartment backpack that has ample space for storage as well as a mag compartment. Meant to offer as much storage while not being as encumbering",
     "weight": "2400 g",
     "volume": "15 L",
     "price": 9000,
