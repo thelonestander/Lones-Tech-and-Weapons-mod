@@ -1,0 +1,11 @@
+[
+  {
+    "id": "SUS_wardrobe_mens",
+    "type": "item_group",
+    "//": "clothing found in a man's wardrobe",
+    "subtype": "collection",
+    "entries": [
+      { "item": "life_card", "prob": 10 },
+    ]
+  }
+]

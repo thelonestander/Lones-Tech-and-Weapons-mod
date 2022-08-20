@@ -1,0 +1,27 @@
+[
+  {
+    "id": "life_card",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "reload_noise_volume": 5,
+    "name": { "str_sp": "Life Card" },
+    "description": "A very sleek single shot .22 pistol, no bigger than a stack of credit cards.  At .5 inches thin and weighing less than 7 ounces, it could save your life.",
+    "weight": "198 g",
+    "volume": "250 ml",
+    "price": 36000,
+    "price_postapoc": 750,
+    "to_hit": -2,
+    "bashing": 9,
+    "material": [ "aluminum", "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "22",
+    "skill": "pistol",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 480,
+    "durability": 8,
+    "valid_mod_locations": [ ],
+    "clip_size": 1, 
+    "flags": [ "RELOAD_ONE" ] 
+  }
+]
