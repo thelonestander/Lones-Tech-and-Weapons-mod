@@ -122,7 +122,7 @@
   {
     "id": "electro_chainwhip_on",
     "copy-from": "electro_chainwhip",
-    "type": "GENERIC",
+    "type": "TOOL",
     "name": { "str": "Electro Chain Whip (on)", "str_p": "Electro Chain Whips (on)" },
     "description": "A long slightly rusty chain usable as a whip.  This one has a series of wires and connectors to it, and a place for a battery at the hilt.  It's currently on, arcing with electricity that will zap whatever you hit with it.",
     "turns_per_charge": 20,
