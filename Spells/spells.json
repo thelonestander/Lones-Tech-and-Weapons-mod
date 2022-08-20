@@ -1,0 +1,21 @@
+[
+  {
+    "id": "spell_electrowhip_zap",
+    "type": "SPELL",
+    "name": { "str": "Electrowhip Zap" },
+    "sprite": "fd_electricity",
+    "description": "Zaps someone in melee.",
+    "message": "",
+    "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
+    "valid_targets": [ "hostile" ],
+    "effect_str": "zapped",
+    "min_damage": 1,
+    "max_damage": 5,
+    "damage_type": "electric",
+    "min_range": 1,
+    "max_range": 1,
+    "effect": "target_attack",
+    "min_duration": 100,
+    "max_duration": 500
+  }
+]

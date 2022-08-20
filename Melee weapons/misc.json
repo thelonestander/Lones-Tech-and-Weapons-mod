@@ -15,7 +15,7 @@
     "material": [ "steel" ],
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
     "cutting": 5,
-    "bash": 10
+    "bashing": 10
   },
   {
     "id": "apache_knuckleduster",
@@ -66,5 +66,67 @@
       "active": false,
       "msg": "You switch the knuckleduster from revolver to melee mode"
     }
+  },
+  {
+    "id": "electro_chainwhip",
+    "type": "TOOL",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "bullwhip",
+    "name": { "str": "Electro Chain Whip" },
+    "description": "A long slightly rusty chain usable as a whip.  This one has a series of wires and connectors to it, and a place for a battery at the hilt.  Activate it to electrify.",
+    "weight": "5200 g",
+    "volume": "2 L",
+    "price": 3500,
+    "price_postapoc": 500,
+    "material": [ "steel" ],
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP" ],
+    "bashing": 10,
+    "cutting": 5,
+    "ammo": "battery",
+    "charges_per_use": 20,
+    "magazines": [
+      [
+        "battery",
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell", "medium_atomic_battery_cell_rechargeable" ]
+      ]
+    ],
+    "magazine_well": "500 ml",
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_electrowhip_zap",
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
+    "use_action": [
+      {
+        "target": "electro_chainwhip_on",
+        "msg": "The %s sparks to life!",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The %s is out of juice!",
+        "type": "transform"
+      }
+    ]
+  },
+  {
+    "id": "electro_chainwhip_on",
+    "copy-from": "electro_chainwhip",
+    "type": "GENERIC",
+    "name": { "str": "Electro Chain Whip (on)", "str_p": "Electro Chain Whips (on)" },
+    "description": "A long slightly rusty chain usable as a whip.  This one has a series of wires and connectors to it, and a place for a battery at the hilt.  It's currently on, arcing with electricity that will zap whatever you hit with it.",
+    "turns_per_charge": 20,
+    "revert_to": "electro_chainwhip",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "electro_chainwhip" } ]
   }
 ]
