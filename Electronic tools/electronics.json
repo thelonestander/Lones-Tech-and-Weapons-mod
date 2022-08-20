@@ -96,7 +96,7 @@
       "CAMERA",
       "MP3"
     ],
-    "flags": [ "WATCH", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "WATCH", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "TWO_WAY_RADIO" ]
   },
   {
     "id": "smartphone_music",
