@@ -5,8 +5,8 @@ Hello! When you go to add my mod to your game it will seperate Translocator gate
 from lones tweaks. It will look like this. 
 
 
-Lones tweaks
-Wearable UPS
+Lones tweaks,
+Wearable UPS,
 Translocator gates
 
 This is to make it easier to not add anything you may not want. Simply don't select the mod in world gen! The core of the mod is items that I felt were not in the game, or just fun guns or pieces of tech. There is refrences to other games as well. Who doesnt love refences? This mod is slowly getting bigger so if anyone has any ideas on some cool tech or some cool prototype guns, let me know! You can reach me on the BN discord or on my own discord. 
