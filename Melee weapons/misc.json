@@ -122,5 +122,42 @@
     "turns_per_charge": 20,
     "revert_to": "electro_chainwhip",
     "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "electro_chainwhip" } ]
+  },
+  {
+    "id": "dual_action_otf_blade",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "double action OTF switchblade" },
+    "description": "This knifes blade is in the hilt, at the touch of a button the blade comes out.",
+    "weight": "114 g",
+    "volume": "50 ml",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -2,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "flags": [ "STAB", "SHEATH_KNIFE" ],
+    "use_action": { "type": "transform", "target": "dual_action_otf_blade_on", "active": false, "msg": "You switch the blade out" }
+  },
+  {
+    "id": "dual_action_otf_blade_on",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "double action OTF switchblade" },
+    "description": "This knives blade is in the hilt, at the touch of a button the blade comes out.",
+    "weight": "114 g",
+    "volume": "50 ml",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -2,
+    "cutting": 16,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 14 ] ],
+    "techniques": [ "RAPID" ],
+    "flags": [ "STAB", "SHEATH_KNIFE" ],
+    "use_action": { "type": "transform", "target": "dual_action_otf_blade", "active": false, "msg": "You switch the blade down" }
   }
 ]
