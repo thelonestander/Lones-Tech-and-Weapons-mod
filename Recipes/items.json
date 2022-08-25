@@ -11,5 +11,16 @@
     "using": [ [ "welding_standard", 5 ], [ "steel_tiny", 2 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "components": [ [ [ "pipe", 2 ] ], [ [ "spring", 4 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "bat_chete",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "time": "10 m",
+    "reversible": true,
+    "autolearn": true,
+    "components": [ [ [ "superglue", 5 ] ], [ [ "blade", 1 ] ], [ [ "bat", 1 ] ] ]
   }
 ]
