@@ -1,5 +1,5 @@
 # Tweaks
- Tweaks for the game!
+ Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
 
 Hello! When you go to add my mod to your game it will seperate Translocator gates, and Wearable UPS into its own mod folder seperate
 from lones tweaks. It will look like this. 
