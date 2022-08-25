@@ -159,5 +159,24 @@
     "techniques": [ "RAPID" ],
     "flags": [ "STAB", "SHEATH_KNIFE" ],
     "use_action": { "type": "transform", "target": "dual_action_otf_blade", "active": false, "msg": "You switch the blade down" }
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "bat_chete",
+    "name": { "str": "Bat-Chete" },
+    "description": "A sturdy wood bat, this one has a machete built into it! Makes a supreme melee weapon.",
+    "weight": "1200 g",
+    "to_hit": 3,
+    "price_postapoc": 600,
+    "color": "brown",
+    "symbol": "/",
+    "material": [ "wood" ],
+    "techniques": [ "WBLOCK_1" ],
+    "flags": [ "DURABLE_MELEE" ],
+    "volume": "1750 ml",
+    "bashing": 26,
+    "cutting": 15,
+    "price": 16000
   }
 ]

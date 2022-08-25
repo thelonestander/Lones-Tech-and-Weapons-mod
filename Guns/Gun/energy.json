@@ -17,7 +17,7 @@
     "durability": 10,
     "ups_charges": 40,
     "loudness": 10,
-    "ammo_effects": [ "LIGHTNING", "BOUNCE" ],
+    "ammo_effects": [ "LIGHTNING", "BOUNCE", "BEANBAG" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID", "NO_UNLOAD" ]
   }
 ]
