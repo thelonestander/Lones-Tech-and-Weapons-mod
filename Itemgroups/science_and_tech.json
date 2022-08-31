@@ -4,6 +4,6 @@
     "id": "science",
     "ammo": 50,
     "magazine": 100,
-    "items": [ { "item": "pip_pad", "prob": 10, "charges-min": 1 }, { "item": "arc_lightning_rifle", "prob": 20 } ]
+    "items": [ { "item": "pip_pad", "prob": 10, "charges-min": 1 }, { "item": "arc_lightning_rifle", "prob": 20 }, { "item": "archflash_emg", "prob": 15 } ]
   }
 ]

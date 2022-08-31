@@ -60,6 +60,6 @@
     "max_damage": 250,
     "damage_type": "cut",
     "valid_targets": [ "hostile", "ally", "self", "ground" ],
-	"effect": "target_attack"
+    "effect": "target_attack"
   }
 ]

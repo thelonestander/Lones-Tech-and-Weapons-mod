@@ -19,5 +19,29 @@
     "loudness": 10,
     "ammo_effects": [ "LIGHTNING", "BOUNCE", "BEANBAG" ],
     "flags": [ "NEVER_JAMS", "TRADER_AVOID", "NO_UNLOAD" ]
+  },
+  {
+    "id": "archflash_emg",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "symbol": "(",
+    "color": "dark_gray",
+    "name": { "str": "Archflash EMG coilgun" },
+    "description": "Made by Arch Flash labs this gun is very powerful and very rare, not many were made.",
+    "price": 3000,
+    "material": [ "steel", "plastic" ],
+    "flags": [ "NEVER_JAMS", "NON-FOULING", "NEEDS_NO_LUBE" ],
+    "skill": "rifle",
+    "ammo": "pebble",
+    "weight": "322 g",
+    "volume": "500 ml",
+    "price_postapoc": 250,
+    "to_hit": 1,
+    "ranged_damage": { "damage_type": "stab", "amount": 25 },
+    "range": 20,
+    "dispersion": 45,
+    "durability": 7,
+    "clip_size": 50,
+    "valid_mod_locations": [ [ "grip mount", 1 ], [ "underbarrel mount", 1 ] ]
   }
 ]

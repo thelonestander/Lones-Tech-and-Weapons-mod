@@ -20,8 +20,8 @@
     "ranged_damage": { "damage_type": "bullet", "amount": -1 },
     "dispersion": 480,
     "durability": 8,
-    "valid_mod_locations": [ ],
-    "clip_size": 1, 
-    "flags": [ "RELOAD_ONE" ] 
+    "valid_mod_locations": [  ],
+    "clip_size": 1,
+    "flags": [ "RELOAD_ONE" ]
   }
 ]
