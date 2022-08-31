@@ -188,7 +188,7 @@
     "volume": 17,
     "price": "5500 USD",
 	"looks_like": "spear_steel",
-    "to_hit": 1,
+    "to_hit": -2,
     "bashing": 10,
     "cutting": 20,
 	"max_charges": 8,
