@@ -3,7 +3,6 @@
     "type": "item_group",
     "id": "antique_rare",
     "subtype": "distribution",
-    "entries": [ { "item": "apache_knuckleduster", "prob": 4 },	
-	{ "item": "bat_chete", "prob": 4 } ]
-  }
+    "entries": [ { "item": "apache_knuckleduster", "prob": 4 },	{ "item": "bat_chete", "prob": 4 }, { "item": "survival_spear", "prob": 5 } ]
+	}
 ]

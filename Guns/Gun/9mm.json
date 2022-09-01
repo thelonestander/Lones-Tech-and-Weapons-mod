@@ -1,0 +1,27 @@
+[
+  {
+    "id": "beretta_93r",
+    "copy-from": "pistol_base",
+    "looks_like": "glock_17",
+    "type": "GUN",
+    "name": { "str_sp": "Beretta 93R" },
+    "description": "An iconic 9x19mm pistol made in the late 1970's for police and military. It has selective fire.",
+    "weight": "950 g",
+    "volume": "528 ml",
+    "price": 65000,
+    "price_postapoc": 2500,
+    "to_hit": -2,
+    "bashing": 8,
+    "material": [ "steel", "aluminum" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "9mm",
+    "range": 15,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
+    "dispersion": 480,
+    "durability": 7,
+    "min_cycle_recoil": 450,
+    "magazine_well": "250 ml",
+    "magazines": [ [ "9mm", [ "m9mag", "m9bigmag" ] ] ]
+  }
+]
