@@ -11,8 +11,9 @@ Hopefully this mod adds some things you like, and most of all ENJOY!
 
 
 Lones tweaks,
-Wearable UPS,
-Translocator gates
+Lones Wearable UPS,
+Lones Translocator gates,
+Lones Flesh Raptors
 
    This is to make it easier to not add anything you may not want. Simply don't select the mod in world gen! The core of the mod, 
 is items that I felt were not in the game, or just fun guns or pieces of tech. There is refrences to other games as well. 
