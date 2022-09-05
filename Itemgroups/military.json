@@ -11,7 +11,26 @@
 	  { "item": "atomic_military_watch", "prob": 10 },
 		  { "item": "XL_tactical_backpack", "prob": 5 },
 		  { "item": "modified_deagle_44", "prob": 5 },
-		  { "item": "beretta_93r", "prob": 5 }
+		  { "item": "beretta_93r", "prob": 5 },
+		  { "item": "belt68_51_200", "prob": 1251 },
+      { "item": "belt68_51_100", "prob": 5 },
+      { "item": "belt68_51_50", "prob": 5 },
+      { "item": "belt68_51_30", "prob": 10 },
+      { "item": "xm5_mag", "prob": 2 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "military_standard_assault_rifles",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "Xm5", "prob": 88, "charges": [ 0, 30 ] }
+    ]
+  },
+   {
+    "type": "item_group",
+    "id": "military_standard_lmgs",
+    "subtype": "distribution",
+    "entries": [ { "item": "Xm250", "prob": 100, "charges": [ 0, 100 ] } ]
   }
 ]

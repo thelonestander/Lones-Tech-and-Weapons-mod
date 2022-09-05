@@ -1,0 +1,80 @@
+[
+  {
+    "id": "Xm250",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "Xm250" },
+    "description": "The XM250 is the US military designation for the SIG-LMG a 6.8×51mm, gas-operated, belt-fed, light machine gun designed by SIG Sauer for the U.S. Army's Next Generation Squad Weapon Program in 2022 to replace the M249 light machine gun. The XM250 features a free-floating reinforced M-LOK handguard for direct accessory attachment onto the negative space hollow slot mounting points.",
+    "weight": "5896 g",
+    "volume": "3 L",
+    "price": 750000,
+    "price_postapoc": 8000,
+    "to_hit": -1,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "6.8x51",
+    "dispersion": 200,
+    "durability": 7,
+    "handling": 40,
+    "min_cycle_recoil": 1350,
+    "reload": 400,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 4 ] ],
+    "built_in_mods": [ "bipod" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [
+      [
+        "6.8x51",
+        [
+          "belt68_51_200",
+		  "belt68_51_100",
+		  "belt68_51_50",
+		  "belt68_51_30"
+        ]
+      ]
+    ]
+  },
+  {
+    "id": "Xm5",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "Xm5 rifle" },
+    "description": "The XM5 is the U.S. Army variant of the SIG MCX Spear, a 6.8×51mm, gas-operated, magazine-fed, assault rifle designed by SIG Sauer for the Next Generation Squad Weapon Program in 2022 to replace the M4 carbine. The XM5 features a free-floating reinforced M-LOK handguard for direct accessory attachment onto the negative space hollow slot mounting points.",
+    "weight": "3792 g",
+    "volume": "1750 ml",
+    "price": 320000,
+    "price_postapoc": 6000,
+    "to_hit": -1,
+    "bashing": 10,
+    "material": [ "steel", "plastic" ],
+    "ammo": "6.8x51",
+    "dispersion": 180,
+    "durability": 9,
+    "min_cycle_recoil": 1350,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 6 ], [ "AUTO", "auto", 8 ] ],
+    "built_in_mods": [ "folding_stock" ],
+    "magazines": [
+      [
+        "6.8x51",
+        [
+          "xm5_mag"
+        ]
+      ]
+    ]
+  }
+]

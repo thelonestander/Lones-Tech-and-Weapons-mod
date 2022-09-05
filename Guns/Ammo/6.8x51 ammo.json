@@ -1,0 +1,25 @@
+[
+  {
+    "id": "6.8x51",
+    "type": "AMMO",
+    "name": { "str": "6.8x51 mm" },
+    "description": "The .277 Fury or 6.8×51mm Common Cartridge, designated as the .277 SIG Fury by the SAAMI, is a centerfire rimless bottlenecked rifle cartridge announced by SIG Sauer in late 2019. Its hybrid three-piece cartridge case has a steel case head and brass body connected by an aluminum locking washer to support the high chamber pressure of 80,000 psi",
+    "weight": "16 g",
+    "volume": "250 ml",
+    "price": 120,
+    "price_postapoc": 900,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 30,
+    "stack_size": 20,
+    "ammo_type": "6.8x51",
+    "casing": "68_51_casing",
+    "range": 30,
+    "damage": { "damage_type": "bullet", "amount": 45, "armor_penetration": 10 },
+    "dispersion": 35,
+    "recoil": 2036,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
+  }
+]

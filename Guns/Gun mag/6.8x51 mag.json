@@ -1,0 +1,68 @@
+[
+  {
+    "id": "belt68_51_200",
+    "copy-from": "magazine_belt",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "200 round 6.8x51mm ammo pouch" },
+    "ammo_type": "6.8x51",
+    "capacity": 200,
+    "count": 100,
+    "default_ammo": "6.8x51",
+    "linkage": "ammolink223"
+  },
+  {
+    "id": "belt68_51_100",
+    "copy-from": "magazine_belt",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "100 round 6.8x51mm ammo pouch" },
+    "ammo_type": "6.8x51",
+    "capacity": 100,
+    "count": 100,
+    "default_ammo": "6.8x51",
+    "linkage": "ammolink223"
+  },
+  {
+    "id": "belt68_51_50",
+    "copy-from": "magazine_belt",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "50 round 6.8x51mm ammo pouch" },
+    "ammo_type": "6.8x51",
+    "capacity": 50,
+    "count": 20,
+    "default_ammo": "6.8x51",
+    "linkage": "ammolink223"
+  },
+  {
+    "id": "belt68_51_30",
+    "copy-from": "magazine_belt",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "30 round 6.8x51mm ammo pouch" },
+    "ammo_type": "6.8x51",
+    "capacity": 30,
+    "count": 20,
+    "default_ammo": "6.8x51",
+    "linkage": "ammolink223"
+  },
+  {
+    "id": "xm5_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "XM5 20 round magazine" },
+    "description": "A 20 round magazine for the XM5.  It resembles a STANAG magazine but is not compatible nor interchangeable.",
+    "weight": "340 g",
+    "volume": "480 ml",
+    "price": 115000,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "6.8x51",
+    "capacity": 20,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]
