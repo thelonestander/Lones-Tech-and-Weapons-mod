@@ -1,0 +1,39 @@
+[
+  {
+    "id": "auto_crossbow",
+    "looks_like": "crossbow",
+    "type": "GUN",
+    "reload_noise_volume": 10,
+    "symbol": "(",
+    "color": "green",
+    "name": { "str": "auto crossbow" },
+    "description": "A well made crossbow with a mechanism that loads and fires bolts in a single motion. Bolts fired from this weapon have a good chance of remaining intact for re-use.",
+    "price": 4000,
+    "material": [ "steel", "wood" ],
+    "flags": [ "FIRE_TWOHAND", "TRADER_AVOID", "CROSSBOW" ],
+    "skill": "smg",
+    "ammo": "bolt",
+    "weight": "3628 g",
+    "volume": "2500 ml",
+    "price_postapoc": 6000,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
+    "bashing": 13,
+    "to_hit": -1,
+    "ranged_damage": { "damage_type": "stab", "amount": 30 },
+    "range": 12,
+    "dispersion": 500,
+	"max_charges": 10,
+    "recoil": 30,
+    "durability": 6,
+    "reload": 300,
+    "valid_mod_locations": [ [ "dampening", 1 ] ],
+    "magazines": [
+      [
+        "bolt",
+        [
+          "crossbow_10mag"
+        ]
+      ]
+    ]
+  }
+]

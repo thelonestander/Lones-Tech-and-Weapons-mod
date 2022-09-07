@@ -1,0 +1,18 @@
+[
+  {
+    "id": "crossbow_10mag",
+    "looks_like": "38_speedloader",
+    "type": "MAGAZINE",
+    "name": { "str": "Auto bolt mag" },
+    "description": "This mag holds ten bolts for the auto crossbow.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": 2200,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "bolt" ],
+    "capacity": 10
+  }
+]
