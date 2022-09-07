@@ -1,0 +1,22 @@
+[
+  {
+    "id": "cargo_socks",
+    "type": "ARMOR",
+    "name": { "str": "pair of cargo socks", "str_pl": "pairs of cargo socks" },
+    "description": "Cargo socks.  No fucking way these exist.",
+    "weight": "40 g",
+    "volume": "250 ml",
+    "price": 200,
+    "price_postapoc": 50,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "socks_wool",
+    "color": "white",
+    "storage": "5 L",
+    "covers": [ "feet" ],
+    "coverage": 100,
+    "warmth": 5,
+    "material_thickness": 1,
+    "flags": [ "VARSIZE", "SKINTIGHT" ]
+  }
+]

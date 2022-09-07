@@ -1,0 +1,10 @@
+[
+  {
+    "id": "gear_homeless",
+    "type": "item_group",
+    "//": "Regular items for the homeless.",
+    "items": [
+      { "item": "cargo_socks", "prob": 1 }
+    ]
+  }
+]
