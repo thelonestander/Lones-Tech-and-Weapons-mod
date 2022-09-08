@@ -2,7 +2,7 @@
 
  Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
 
-   Hello! When you go to add my mod to your game it will seperate translocator gates, Wearable UPS, and CBM slot rebalance. 
+   Hello! When you go to add my mod to your game it will seperate Lones tweaks (the core mod), translocator gates, Wearable UPS, and CBM slot rebalance. 
 The idea with my mod, is to allow ANYONE to delete things they dont need. So for instance. With my flesh raptors. They will ONLY
 be in their file, so you can delete the whole thing and not have ANY flesh raptors. 
 
@@ -10,7 +10,7 @@ The idea behind this is to have a mod where you can delete what you dont like an
 Hopefully this mod adds some things you like, and most of all ENJOY!
 
 
-Lones tweaks,
+Lones tweaks (the core mod),
 Lones Wearable UPS,
 Lones Translocator gates,
 Lones Flesh Raptors
