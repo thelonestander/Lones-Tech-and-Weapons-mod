@@ -14,6 +14,7 @@
     "color": "white",
     "storage": "5 L",
     "covers": [ "feet" ],
+	"encumbrance": 5,
     "coverage": 100,
     "warmth": 5,
     "material_thickness": 1,
