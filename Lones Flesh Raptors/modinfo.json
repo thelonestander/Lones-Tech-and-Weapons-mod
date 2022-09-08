@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "flesh raptors",
+    "name": "Lones Flesh Raptor",
+    "authors": [ "Thelonestander" ],
+	"Maintainers": [ "Thelonestander" ],
+    "description": "Adds the flesh raptors back to BN!",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]
