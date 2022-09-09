@@ -24,7 +24,8 @@
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
     "entries": [
-      { "item": "Xm5", "prob": 88, "charges": [ 0, 30 ] }
+      { "item": "Xm5", "prob": 88, "charges": [ 0, 30 ] },
+	  { "item": "folding_rifle_base", "prob": 10 }
     ]
   },
    {

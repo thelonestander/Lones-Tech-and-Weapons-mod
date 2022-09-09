@@ -1,0 +1,73 @@
+[
+  {
+    "id": "folding_rifle_base",
+    "type": "TOOL",
+    "category": "weapons",
+    "name": { "str": "folding rifle base", "str_pl": "folding rifles base" },
+    "description": "This base does nothing on its own, activate to unfold the rifle.",
+    "color": "dark_gray",
+    "material": [ "brass" ],
+    "weight": "700 g",
+    "volume": "750 ml",
+    "price": 20000,
+    "bashing": 10,
+    "to_hit": 0,
+    "symbol": "8",
+    "use_action": {
+      "type": "transform",
+      "target": "folding_rifle_on",
+      "active": false,
+      "msg": "You unfold the M4A1."
+    }
+  },
+{
+    "id": "folding_rifle_on",
+    "copy-from": "rifle_auto",
+    "looks_like": "ar15",
+    "type": "GUN",
+    "name": { "str": "folding M4A1" },
+    "description": "This M4A1 has been modified to be foldable.  A nice rifle for CQB or longer range.",
+    "weight": "3160 g",
+    "volume": "1750 ml",
+    "price": 240000,
+    "price_postapoc": 5000,
+    "to_hit": -1,
+    "ascii_picture": "m4a1",
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "color": "dark_gray",
+    "ammo": "223",
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+    "dispersion": 180,
+    "durability": 6,
+    "min_cycle_recoil": 1350,
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
+    "use_action": {
+      "type": "transform",
+      "target": "folding_rifle_base",
+      "active": false,
+      "msg": "You fold the M4A1."
+    },
+    "magazines": [
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  }
+]
