@@ -1,0 +1,20 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_rifle_rare",
+    "//": "Less common rifles including those only used by police/paramilitary forces.",
+    "items": [
+      { "item": "folding_rifle_on", "prob": 25, "charges-min": 0, "charges-max": 30 },
+      { "item": "beretta_93r", "prob": 15 },
+      { "item": "gmglynx", "prob": 40, "charges-min": 0, "charges-max": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_bank_vault",
+    "//": "Rare guns for bank vaults. No heavy weapons and LMGs.",
+    "items": [
+      { "item": "arc_lightning_rifle", "prob": 5 }
+    ]
+  }
+]
