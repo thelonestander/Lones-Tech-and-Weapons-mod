@@ -16,7 +16,9 @@
       { "item": "belt68_51_100", "prob": 5 },
       { "item": "belt68_51_50", "prob": 5 },
       { "item": "belt68_51_30", "prob": 10 },
-      { "item": "xm5_mag", "prob": 2 }
+      { "item": "xm5_mag", "prob": 2 },
+	  { "item": "double_m4a1", "prob": 5 },
+	  { "item": "double_mag_60", "prob": 5 }
     ]
   },
   {
