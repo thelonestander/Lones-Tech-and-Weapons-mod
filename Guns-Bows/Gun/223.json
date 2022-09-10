@@ -75,10 +75,11 @@
     "copy-from": "rifle_auto",
     "type": "GUN",
     "name": { "str": "Double Barrel M4A1" },
+	"looks_like": "ar15",
     "description": "A double barrel M4A1 outfitted with heavier barrels to enable higher amounts of suppressive fire while retaining a good degree of mobility.",
     "weight": "3710 g",
 	"ammo": "223",
-    "modes": [ [ "BURST", "burst", 2 ], [ "AUTO", "auto", 6 ] ],
+    "modes": [ [ "DEFAULT", "double", 2 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 8 ] ],
     "magazines": [
       [
         "223",
