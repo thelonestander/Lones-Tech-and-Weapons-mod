@@ -7,7 +7,7 @@
       { "item": "folding_rifle_on", "prob": 25, "charges-min": 0, "charges-max": 30 },
       { "item": "beretta_93r", "prob": 15 },
       { "item": "gmglynx", "prob": 40, "charges-min": 0, "charges-max": 5 },
-	  { "item": "double_m4a1", "prob": 5, "charges-min": 0, "charges-max": 60 },
+	  { "item": "double_m4a1", "prob": 5, "charges-min": 0, "charges-max": 60 }
     ]
   },
   {
