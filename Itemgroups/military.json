@@ -4,21 +4,7 @@
     "id": "military",
     "subtype": "distribution",
     "entries": [
-      { "item": "gmglynx", "prob": 5 },
-      { "item": "gmglynxmag", "prob": 5 },
-      { "item": "m134m", "prob": 5 },
-      { "item": "belt308s", "prob": 5 },
-	  { "item": "atomic_military_watch", "prob": 10 },
-		  { "item": "XL_tactical_backpack", "prob": 5 },
-		  { "item": "modified_deagle_44", "prob": 5 },
-		  { "item": "beretta_93r", "prob": 5 },
-		  { "item": "belt68_51_200", "prob": 1251 },
-      { "item": "belt68_51_100", "prob": 5 },
-      { "item": "belt68_51_50", "prob": 5 },
-      { "item": "belt68_51_30", "prob": 10 },
-      { "item": "xm5_mag", "prob": 2 },
-	  { "item": "double_m4a1", "prob": 5 },
-	  { "item": "double_mag_60", "prob": 5 }
+	{ "item": "beretta_93r", "prob": 5 }
     ]
   },
   {
@@ -41,7 +27,44 @@
     "id": "army_personal_locker",
     "subtype": "distribution",
     "entries": [
-      { "item": "atomic_military_watch", "prob": 5 }
+      { "item": "atomic_military_watch", "prob": 5 },
+	  { "item": "XL_tactical_backpack", "prob": 5 },
+	  { "item": "dual_action_otf_blade", "prob": 5 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_milspec",
+    "//": "Military specification rifles only ever found at military sites.",
+    "items": [
+      { "item": "gmglynx", "prob": 15, "charges-min": 0, "charges-max": 20 },
+      { "item": "gmglynxmag", "prob": 15, "charges-min": 0, "charges-max": 20 },
+      { "item": "m134m", "prob": 5, "charges-min": 0, "charges-max": 100 },
+      { "item": "belt308s", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "belt68_51_200", "prob": 20, "charges-min": 100, "charges-max": 200 },
+      { "item": "belt68_51_100", "prob": 15, "charges-min": 72, "charges-max": 100 },
+      { "item": "belt68_51_50", "prob": 25, "charges-min": 30, "charges-max": 50 },
+      { "item": "belt68_51_30", "prob": 50, "charges-min": 0, "charges-max": 30 },
+      { "item": "xm5_mag", "prob": 10, "charges-min": 0, "charges-max": 20 },
+	  { "item": "Xm250", "prob": 10, "charges-min": 30, "charges-max": 200 },
+	   { "item": "double_m4a1", "prob": 20, "charges-min": 100, "charges-max": 200 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare_display",
+    "//": "Empty uncommon pistols found exclusively at gun stores.",
+    "items": [
+      { "item": "modified_deagle_44", "prob": 20, "charges-min": 0, "charges-max": 0 }
+    ]
+  },
+   {
+    "type": "item_group",
+    "id": "guns_energy",
+    "//": "Assorted factory crafted energy weapons.",
+    "items": [
+      { "item": "archflash_emg", "prob": 10 },
+	  { "item": "arc_lightning_rifle", "prob": 10 }
     ]
   }
 ]
