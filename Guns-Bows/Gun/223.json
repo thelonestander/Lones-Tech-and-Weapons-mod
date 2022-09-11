@@ -76,7 +76,7 @@
     "type": "GUN",
     "name": { "str": "Double Barrel M4A1" },
 	"looks_like": "ar15",
-    "description": "A double barrel M4A1 outfitted with heavier barrels to enable higher amounts of suppressive fire while retaining a good degree of mobility.",
+    "description": "A double barrel M4A1 outfitted with heavier barrels to enable higher amounts of suppressive fire while retaining a good degree of mobility. Odd but a very effective in combat known to double tap.",
     "weight": "3710 g",
 	"ammo": "223",
     "modes": [ [ "DEFAULT", "double", 2 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 8 ] ],
