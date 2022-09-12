@@ -20,6 +20,16 @@
     "storage": "80 L",
     "warmth": 10,
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE" ]
+    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE" ],
+	 "use_action": {
+      "type": "holster",
+      "holster_prompt": "Holster weapon",
+      "holster_msg": "You holster your %s",
+      "min_volume": "250ml",
+      "max_volume": "2500ml",
+      "multi": 2,
+      "draw_cost": 3,
+      "skills": [ "smg", "shotgun", "rifle", "launcher" ]
+    }
   }
 ]
