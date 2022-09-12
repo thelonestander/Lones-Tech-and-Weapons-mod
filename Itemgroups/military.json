@@ -66,5 +66,13 @@
       { "item": "archflash_emg", "prob": 10 },
 	  { "item": "arc_lightning_rifle", "prob": 10 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "infantry_common_gear",
+    "subtype": "collection",
+    "entries": [
+      { "item": "XL_tactical_backpack", "prob": 60 }
+    ]
   }
 ]
