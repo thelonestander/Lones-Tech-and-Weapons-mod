@@ -36,17 +36,7 @@
       [ "sling", 1 ],
       [ "stock", 1 ]
     ],
-    "magazines": [
-      [
-        "6.8x51",
-        [
-          "belt68_51_200",
-		  "belt68_51_100",
-		  "belt68_51_50",
-		  "belt68_51_30"
-        ]
-      ]
-    ]
+    "magazines": [ [ "6.8x51", [ "belt68_51_200", "belt68_51_100", "belt68_51_50", "belt68_51_30" ] ] ]
   },
   {
     "id": "Xm5",
@@ -68,13 +58,6 @@
     "min_cycle_recoil": 1350,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 6 ], [ "AUTO", "auto", 8 ] ],
     "built_in_mods": [ "folding_stock" ],
-    "magazines": [
-      [
-        "6.8x51",
-        [
-          "xm5_mag"
-        ]
-      ]
-    ]
+    "magazines": [ [ "6.8x51", [ "xm5_mag" ] ] ]
   }
 ]

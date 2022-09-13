@@ -1,8 +1,8 @@
-	[
+[
   {
     "id": "wearable_smart_phone",
     "type": "TOOL_ARMOR",
-	"copy-from": "smart_phone",
+    "copy-from": "smart_phone",
     "category": "tools",
     "name": { "str": "Wearable smartphone" },
     "description": "A niche, fancy smartphone. New tech that allows phones to be worn on the arm! Capable of taking pictures, music, and has a alarm clock!  Runs on a small, rechargeable power cell compatible with Unified Power Supply.",
@@ -26,7 +26,7 @@
         "target": "wearable_smart_phone_flashlight",
         "msg": "You activate the flashlight app.",
         "active": true,
-		"revert_to": "wearable_smart_phone",
+        "revert_to": "wearable_smart_phone",
         "need_charges": 5,
         "need_charges_msg": "The smartphone's charge is too low.",
         "type": "transform"
@@ -71,10 +71,10 @@
     "description": "A rare wrist worn personal information processor, it has radio, picture taking abilites, and a light, also has map data you can access.",
     "weight": "230 g",
     "volume": "100 ml",
-	"ammo": "plutonium",
-	"max_charges": 2500,
+    "ammo": "plutonium",
+    "max_charges": 2500,
     "price": 40000,
-	"charges_per_use": 1,
+    "charges_per_use": 1,
     "price_postapoc": 200,
     "material": [ "plastic", "aluminum" ],
     "looks_like": "cell_phone",
@@ -90,8 +90,8 @@
         "target": "pip_pad_flashlight",
         "msg": "You activate the flashlight app.",
         "active": true,
-		"need_charges": 5,
-		"need_charges_msg": "The pip pads charge is too low.",
+        "need_charges": 5,
+        "need_charges_msg": "The pip pads charge is too low.",
         "type": "transform"
       },
       "CAMERA",
@@ -106,7 +106,7 @@
     "name": { "str": "pip pad - music", "str_pl": "pip pad - music" },
     "description": "This pip pad is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
     "revert_to": "pip_pad",
-	 "power_draw": 4000,
+    "power_draw": 4000,
     "use_action": "MP3_ON",
     "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD" ],
     "magazine_well": "250 ml"
@@ -116,7 +116,7 @@
     "copy-from": "smart_phone_flashlight",
     "type": "TOOL",
     "name": { "str": "Wearable pip pad - Flashlight", "str_pl": "Wearable pip pad - Flashlight" },
-	 "power_draw": 5000,
+    "power_draw": 5000,
     "revert_to": "pip_pad",
     "use_action": {
       "target": "pip_pad",

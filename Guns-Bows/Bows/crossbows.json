@@ -22,18 +22,11 @@
     "ranged_damage": { "damage_type": "stab", "amount": 30 },
     "range": 12,
     "dispersion": 500,
-	"max_charges": 10,
+    "max_charges": 10,
     "recoil": 30,
     "durability": 6,
     "reload": 300,
     "valid_mod_locations": [ [ "dampening", 1 ] ],
-    "magazines": [
-      [
-        "bolt",
-        [
-          "crossbow_10mag"
-        ]
-      ]
-    ]
+    "magazines": [ [ "bolt", [ "crossbow_10mag" ] ] ]
   }
 ]
