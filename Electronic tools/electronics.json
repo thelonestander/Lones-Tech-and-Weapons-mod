@@ -1,7 +1,8 @@
-[
+	[
   {
     "id": "wearable_smart_phone",
     "type": "TOOL_ARMOR",
+	"copy-from": "smart_phone",
     "category": "tools",
     "name": { "str": "Wearable smartphone" },
     "description": "A niche, fancy smartphone. New tech that allows phones to be worn on the arm! Capable of taking pictures, music, and has a alarm clock!  Runs on a small, rechargeable power cell compatible with Unified Power Supply.",
@@ -22,9 +23,10 @@
     "charges_per_use": 1,
     "use_action": [
       {
-        "target": "smart_phone_flashlight",
+        "target": "wearable_smart_phone_flashlight",
         "msg": "You activate the flashlight app.",
         "active": true,
+		"revert_to": "wearable_smart_phone",
         "need_charges": 5,
         "need_charges_msg": "The smartphone's charge is too low.",
         "type": "transform"
@@ -36,25 +38,25 @@
   },
   {
     "id": "smartphone_music",
-    "copy-from": "smart_phone",
-    "type": "TOOL",
+    "copy-from": "smartphone_music",
+    "type": "TOOL_ARMOR",
     "name": { "str": "smartphone - music", "str_pl": "smartphones - music" },
     "description": "This phone is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
     "power_draw": 7000,
-    "revert_to": "smart_phone",
+    "revert_to": "wearable_smart_phone",
     "use_action": "MP3_ON",
     "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
     "magazine_well": "250 ml"
   },
   {
-    "id": "smart_phone_flashlight",
-    "copy-from": "smart_phone",
-    "type": "TOOL",
-    "name": { "str": "smartphone - Flashlight", "str_pl": "smartphones - Flashlight" },
+    "id": "wearable_smart_phone_flashlight",
+    "copy-from": "smart_phone_flashlight",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "wearable smartphone - Flashlight", "str_pl": "wearable smartphones - Flashlight" },
     "power_draw": 5000,
-    "revert_to": "smart_phone",
+    "revert_to": "wearable_smart_phone",
     "use_action": {
-      "target": "smart_phone",
+      "target": "wearable_smart_phone",
       "msg": "You deactivate the flashlight app.",
       "menu_text": "Turn off flashlight",
       "type": "transform"
@@ -69,7 +71,10 @@
     "description": "A rare wrist worn personal information processor, it has radio, picture taking abilites, and a light, also has map data you can access.",
     "weight": "230 g",
     "volume": "100 ml",
+	"ammo": "plutonium",
+	"max_charges": 2500,
     "price": 40000,
+	"charges_per_use": 1,
     "price_postapoc": 200,
     "material": [ "plastic", "aluminum" ],
     "looks_like": "cell_phone",
@@ -78,52 +83,48 @@
     "encumbrance": 5,
     "coverage": 5,
     "covers": [ "arm_either" ],
-    "ammo": "battery",
-    "initial_charges": 160,
-    "max_charges": 200,
-    "charges_per_use": 1,
     "artifact_data": { "charge_type": "ARTC_SOLAR" },
     "use_action": [
       { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
       {
-        "target": "smart_phone_flashlight",
+        "target": "pip_pad_flashlight",
         "msg": "You activate the flashlight app.",
         "active": true,
-        "need_charges": 5,
-        "need_charges_msg": "The smartphone's charge is too low.",
+		"need_charges": 5,
+		"need_charges_msg": "The pip pads charge is too low.",
         "type": "transform"
       },
       "CAMERA",
       "MP3"
     ],
-    "flags": [ "WATCH", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD", "TWO_WAY_RADIO" ]
+    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD", "TWO_WAY_RADIO" ]
   },
   {
-    "id": "smartphone_music",
-    "copy-from": "smart_phone",
+    "id": "pip_pad_music",
+    "copy-from": "smartphone_music",
     "type": "TOOL",
-    "name": { "str": "smartphone - music", "str_pl": "smartphones - music" },
-    "description": "This phone is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
-    "power_draw": 7000,
-    "revert_to": "smart_phone",
+    "name": { "str": "pip pad - music", "str_pl": "pip pad - music" },
+    "description": "This pip pad is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
+    "revert_to": "pip_pad",
+	 "power_draw": 4000,
     "use_action": "MP3_ON",
-    "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD" ],
     "magazine_well": "250 ml"
   },
   {
-    "id": "smart_phone_flashlight",
-    "copy-from": "smart_phone",
+    "id": "pip_pad_flashlight",
+    "copy-from": "smart_phone_flashlight",
     "type": "TOOL",
-    "name": { "str": "smartphone - Flashlight", "str_pl": "smartphones - Flashlight" },
-    "power_draw": 5000,
-    "revert_to": "smart_phone",
+    "name": { "str": "Wearable pip pad - Flashlight", "str_pl": "Wearable pip pad - Flashlight" },
+	 "power_draw": 5000,
+    "revert_to": "pip_pad",
     "use_action": {
-      "target": "smart_phone",
+      "target": "pip_pad",
       "msg": "You deactivate the flashlight app.",
       "menu_text": "Turn off flashlight",
       "type": "transform"
     },
-    "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "ALARMCLOCK", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "WATCH", "LIGHT_35", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD" ]
   },
   {
     "type": "TOOL_ARMOR",
