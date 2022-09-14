@@ -4,7 +4,7 @@
     "id": "translocator_gates",
     "name": "Lones Translocator Gates",
     "authors": [ "Shard" ],
-	"Maintainers": [ "Thelonestander" ],
+	"maintainers": [ "Thelonestander" ],
     "description": "Translocator and portable Gates!",
     "category": "content",
     "dependencies": [ "dda" ]
