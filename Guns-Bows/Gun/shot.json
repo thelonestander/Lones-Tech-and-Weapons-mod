@@ -47,7 +47,7 @@
     "description": "The Dx-12 'punisher' if glock ever made a shotgun this would be it. Unique design meant to be hidden.",
     "clip_size": 2,
     "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
-    "relative": { "weight": 500, "volume": 1, "price": 5000 },
+    "relative": { "weight": 500, "volume": 5 , "price": 5000 },
     "barrel_length": "72 ml",
     "valid_mod_locations": [
       [ "accessories", 2 ],
