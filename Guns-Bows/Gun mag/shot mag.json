@@ -1,0 +1,19 @@
+[
+  {
+    "id": "x_12_shot_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": "X-12 shot mag" },
+    "description": "A 12 round shot mag for the x-12.",
+    "weight": "181 g",
+    "volume": "800 ml",
+    "price": 12000,
+    "material": "aluminum",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "shot" ],
+    "capacity": 12,
+    "reliability": 7,
+    "flags": [ "MAG_COMPACT" ]
+  }
+]
