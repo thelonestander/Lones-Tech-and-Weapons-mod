@@ -148,7 +148,7 @@
     "name": { "str": "double action OTF switchblade" },
     "description": "This knives blade is in the hilt, at the touch of a button the blade comes out.",
     "weight": "114 g",
-    "volume": "50 ml",
+    "volume": "56 ml",
     "price": 2000,
     "price_postapoc": 50,
     "to_hit": 1,
