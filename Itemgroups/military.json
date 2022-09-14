@@ -84,5 +84,13 @@
     "entries": [
       { "item": "6.8x51", "prob": 20 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common_display",
+    "//": "Shotguns commonly owned by citizens and found in gun stores.",
+    "items": [
+      { "item": "dx_12_punisher", "prob": 20, "charges-min": 0, "charges-max": 2 }
+    ]
   }
 ]
