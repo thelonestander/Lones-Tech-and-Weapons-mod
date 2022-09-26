@@ -97,7 +97,7 @@
       "CAMERA",
       "MP3"
     ],
-    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD", "TWO_WAY_RADIO" ]
+    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "TWO_WAY_RADIO" ]
   },
   {
     "id": "pip_pad_music",
@@ -108,7 +108,7 @@
     "revert_to": "pip_pad",
     "power_draw": 4000,
     "use_action": "MP3_ON",
-    "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ],
     "magazine_well": "250 ml"
   },
   {
@@ -124,7 +124,7 @@
       "menu_text": "Turn off flashlight",
       "type": "transform"
     },
-    "flags": [ "WATCH", "LIGHT_35", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "WATCH", "LIGHT_35", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ]
   },
   {
     "type": "TOOL_ARMOR",
