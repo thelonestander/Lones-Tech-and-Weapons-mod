@@ -22,5 +22,17 @@
     "reversible": true,
     "autolearn": true,
     "components": [ [ [ "superglue", 5 ] ], [ [ "blade", 1 ] ], [ [ "bat", 1 ] ] ]
+  },
+  {
+    "result": "cargo_socks",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "qualities": [ { "id": "KNIT", "level": 1 } ],
+    "components": [ [ [ "rag", 30 ] ] ]
   }
 ]
