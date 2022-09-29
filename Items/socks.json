@@ -34,7 +34,7 @@
     "looks_like": "socks_wool",
     "color": "white",
     "storage": "20 L",
-    "covers": [ "feet" ],
+    "covers": [ "feet", "legs" ],
 	"encumbrance": 10,
     "coverage": 100,
     "warmth": 10,
