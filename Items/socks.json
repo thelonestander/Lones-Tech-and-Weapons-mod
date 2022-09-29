@@ -17,7 +17,28 @@
 	"encumbrance": 5,
     "coverage": 100,
     "warmth": 5,
-    "material_thickness": 1,
+    "material_thickness": 2,
+    "flags": [ "VARSIZE", "SKINTIGHT" ]
+  },
+  {
+    "id": "thigh_high_cargo_socks",
+    "type": "ARMOR",
+    "name": { "str": "pair of thigh-high cargo socks", "str_pl": "pairs of thigh-high cargo socks" },
+    "description": "As if the nomral cargo socks were not enough they went and made these. No fucking way man.",
+    "weight": "55 g",
+    "volume": "400 ml",
+    "price": 400,
+    "price_postapoc": 100,
+    "material": [ "cotton" ],
+    "symbol": "[",
+    "looks_like": "socks_wool",
+    "color": "white",
+    "storage": "20 L",
+    "covers": [ "feet" ],
+	"encumbrance": 10,
+    "coverage": 100,
+    "warmth": 10,
+    "material_thickness": 2,
     "flags": [ "VARSIZE", "SKINTIGHT" ]
   }
 ]
