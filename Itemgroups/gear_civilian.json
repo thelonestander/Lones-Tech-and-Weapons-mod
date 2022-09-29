@@ -4,7 +4,8 @@
     "type": "item_group",
     "//": "Regular items for the homeless.",
     "items": [
-      { "item": "cargo_socks", "prob": 1 }
+      { "item": "cargo_socks", "prob": 5 },
+	  { "item": "thigh_high_cargo_socks", "prob": 2 }
     ]
   }
 ]
