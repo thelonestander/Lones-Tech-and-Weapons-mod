@@ -1,0 +1,33 @@
+[
+  {
+    "id": "four_barrel_pistol_flintlock",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str": "Five barrel flintlock pistol" },
+    "description": "A beautifully decorated four barrel flintlock pistol. Also know as a duckfoot pistol. This one must be a collectors item, wonder if it shoots?",
+    "weight": "2 kg",
+    "volume": "400 ml",
+    "price": 35000,
+    "price_postapoc": 1750,
+    "bashing": 5,
+    "material": [ "iron", "wood" ],
+    "color": "brown",
+    "ammo": "flintlock",
+    "range": 5,
+    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
+    "dispersion": 620,
+    "durability": 6,
+    "blackpowder_tolerance": 96,
+    "clip_size": 4,
+    "reload": 800,
+    "valid_mod_locations": [
+      [ "accessories", 1 ],
+      [ "grip mount", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ],
+      [ "stock mount", 1 ],
+      [ "underbarrel mount", 1 ]
+    ],
+    "flags": [ "NEVER_JAMS" ]
+  }
+]

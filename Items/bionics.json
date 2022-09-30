@@ -1,0 +1,30 @@
+[
+  {
+    "id": "bio_lightning_emitter",
+    "type": "bionic",
+    "name": { "str": "Lightning Emitter CBM" },
+    "description": "When active, this bionic shoots out eletricity wildy. Can be useful in certain situations.",
+    "occupied_bodyparts": [ [ "torso", 10 ] ],
+    "flags": [ "BIONIC_TOGGLED" ],
+    "enchantments": [ "ENCH_LIGHTNING_CLOUD" ],
+    "act_cost": "9 kJ",
+    "react_cost": "9 kJ",
+    "time": 1
+  },
+  {
+    "id": "bio_lightning_emitter",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Lightning Emitter CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "When active, this bionic shoots out eletricity wildy. Can be useful in certain situations.",
+    "price":60000,
+    "difficulty": 7
+  },
+  {
+    "type": "enchantment",
+    "id": "ENCH_LIGHTNING_CLOUD",
+    "condition": "ACTIVE",
+    "emitter": "emit_shock_cloud"
+  }
+]

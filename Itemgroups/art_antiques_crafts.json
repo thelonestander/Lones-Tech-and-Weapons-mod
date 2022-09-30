@@ -6,7 +6,8 @@
     "entries": [
       { "item": "apache_knuckleduster", "prob": 5 },
       { "item": "bat_chete", "prob": 10 },
-      { "item": "survival_spear", "prob": 5 }
+      { "item": "survival_spear", "prob": 5 },
+	  { "item": "five_barrel_pistol_flintlock", "prob": 2 }
     ]
   }
 ]
