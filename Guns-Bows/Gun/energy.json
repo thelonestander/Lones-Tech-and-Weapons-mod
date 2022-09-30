@@ -43,5 +43,25 @@
     "durability": 7,
     "clip_size": 50,
     "valid_mod_locations": [ [ "grip mount", 1 ], [ "underbarrel mount", 1 ] ]
+  },
+  {
+    "id": "atomic_arc_lightning_rifle",
+    "type": "GUN",
+    "name": { "str": "Atomic Arc lightning rifle" },
+    "description": "This gun is a very early prototype of a chain lightning rifle, this one runs on the power of the Atom! Be careful it can still hurt you too.",
+    "volume": "3 L",
+    "price": 0,
+    "material": [ "steel", "plastic" ],
+    "symbol": "(",
+    "looks_like": "laser_rifle",
+    "color": "magenta",
+    "skill": "rifle",
+    "range": 15,
+    "ranged_damage": { "damage_type": "electric", "amount": 16 },
+    "dispersion": 10,
+    "durability": 10,
+    "loudness": 10,
+    "ammo_effects": [ "LIGHTNING", "BOUNCE", "BEANBAG" ],
+    "flags": [ "NEVER_JAMS", "TRADER_AVOID", "NO_UNLOAD" ]
   }
 ]
