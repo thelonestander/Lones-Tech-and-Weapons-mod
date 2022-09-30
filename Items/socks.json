@@ -36,7 +36,7 @@
     "color": "white",
     "storage": "20 L",
     "covers": [ "feet", "legs" ],
-	"encumbrance": 10,
+	"encumbrance": 5,
 	"max_encumbrance": 25,
     "coverage": 100,
     "warmth": 10,
