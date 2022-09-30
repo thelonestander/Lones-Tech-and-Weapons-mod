@@ -3,7 +3,7 @@
     "id": "four_barrel_pistol_flintlock",
     "copy-from": "pistol_base",
     "type": "GUN",
-    "name": { "str": "Five barrel flintlock pistol" },
+    "name": { "str": "Four barrel flintlock pistol" },
     "description": "A beautifully decorated four barrel flintlock pistol. Also know as a duckfoot pistol. This one must be a collectors item, wonder if it shoots?",
     "weight": "2 kg",
     "volume": "400 ml",
