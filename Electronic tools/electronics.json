@@ -187,13 +187,10 @@
       [
         "battery",
         [
-          "light_disposable_cell",
-          "light_minus_disposable_cell",
-          "light_battery_cell",
-          "light_plus_battery_cell",
-          "light_minus_battery_cell",
-          "light_atomic_battery_cell",
-          "light_minus_atomic_battery_cell"
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
         ]
       ]
     ],
@@ -204,7 +201,7 @@
     "copy-from": "flashlight",
     "type": "TOOL",
     "name": { "str": "Imalent (on)", "str_pl": "Imalents (on)" },
-    "power_draw": 10000,
+    "power_draw": 25000,
     "revert_to": "imalentms18",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "flashlight" },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
