@@ -32,8 +32,8 @@
     "difficulty": 2,
     "time": "1 h",
     "autolearn": true,
-    "qualities": [ { "id": "KNIT", "level": 1 } ],
-    "components": [ [ [ "rag", 30 ] ] ]
+    "using": [ [ "sewing_standard", 20 ] ],
+    "components": [ [ [ "rag", 20 ], [ "leather_pouch", 2 ] ] ]
   },
   {
     "result": "thigh_high_cargo_socks",
@@ -44,7 +44,7 @@
     "difficulty": 4,
     "time": "1 h",
     "autolearn": true,
-    "qualities": [ { "id": "KNIT", "level": 1 } ],
-    "components": [ [ [ "rag", 50 ] ] ]
+    "using": [ [ "sewing_standard", 35 ] ],
+    "components": [ [ [ "rag", 35 ], [ "leather_pouch", 4 ] ] ]
   }
 ]
