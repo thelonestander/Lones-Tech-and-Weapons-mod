@@ -205,5 +205,40 @@
     "revert_to": "imalentms18",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "flashlight" },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
+  },
+  {
+    "id": "atomic_laptop",
+    "type": "TOOL",
+    "category": "tools",
+    "name": "Atomic laptop computer",
+    "description": "A laptop computer. This one has a feint green glow and hums.",
+    "symbol": ",",
+    "color": "dark_gray",
+    "material": [ "plastic", "aluminum" ],
+    "weight": "2721 g",
+    "volume": "2500 ml",
+    "price": 75000,
+    "price_postapoc": 250,
+    "bashing": 6,
+    "use_action": [
+      "EINKTABLETPC",
+      "PORTABLE_GAME",
+      {
+        "target": "atomic_laptop_screen_lit",
+        "msg": "You light up the screen.",
+        "active": true,
+        "type": "transform"
+      }
+    ],
+    "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "atomic_laptop_screen_lit",
+    "copy-from": "atomic_laptop",
+    "type": "TOOL",
+    "name": { "str": "Atomic laptop computer - lit screen", "str_pl": "Atomic laptop computers - lit screen" },
+    "revert_to": "atomic_laptop",
+    "use_action": { "target": "atomic_laptop", "msg": "You stop lighting up the screen.", "menu_text": "Turn off", "type": "transform" },
+    "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD" ]
   }
 ]
