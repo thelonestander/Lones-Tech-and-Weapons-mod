@@ -97,7 +97,7 @@
       "CAMERA",
       "MP3"
     ],
-    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "TWO_WAY_RADIO", "PORTABLE_GAME" ]
+    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "TWO_WAY_RADIO" ]
   },
   {
     "id": "pip_pad_music",
