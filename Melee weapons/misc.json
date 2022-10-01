@@ -239,5 +239,25 @@
       "msg": "You turn the shotgun back over to the spear side and ready yourself.",
       "target": "survival_spear"
     }
+  },
+   {
+    "id": "dual_knife_trench",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "dual trench knife", "str_pl": "dual trench knives" },
+    "description": "These combat knives feature a steel guard to protect the user's knuckles.  The guard can also be used for striking or blocking, and you have two!",
+    "weight": "1200 g",
+    "volume": "500 ml",
+    "price": 15000,
+    "price_postapoc": 2250,
+    "to_hit": 1,
+    "bashing": 12,
+    "cutting": 28,
+    "material": [ "steel", "wood" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "techniques": [ "WBLOCK_1" ],
+    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
+    "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE" ]
   }
 ]
