@@ -42,7 +42,7 @@
     "material": [ "titanium", "plastic" ],
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
     "skill": "archery",
-    "min_strength": 4,
+    "min_strength": 9,
     "weight": "120 g",
     "volume": "1500 ml",
 	"ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
