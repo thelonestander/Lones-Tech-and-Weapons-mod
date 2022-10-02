@@ -12,7 +12,7 @@
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
     "entries": [
-      { "item": "Xm5", "prob": 88, "charges": [ 0, 20 ] },
+      { "item": "Xm5", "prob": 50, "charges": [ 0, 20 ] },
 	  { "item": "folding_rifle_base", "prob": 10 }
     ]
   },
@@ -20,7 +20,7 @@
     "type": "item_group",
     "id": "military_standard_lmgs",
     "subtype": "distribution",
-    "entries": [ { "item": "Xm250", "prob": 50, "charges": [ 0, 200 ] } ]
+    "entries": [ { "item": "Xm250", "prob": 50, "charges": [ 0, 100 ] } ]
   },
   {
     "type": "item_group",
@@ -47,7 +47,7 @@
       { "item": "belt68_51_30", "prob": 50, "charges-min": 0, "charges-max": 30 },
       { "item": "xm5_mag", "prob": 10, "charges-min": 0, "charges-max": 20 },
 	  { "item": "Xm250", "prob": 10, "charges-min": 30, "charges-max": 200 },
-	   { "item": "double_m4a1", "prob": 20, "charges-min": 36, "charges-max": 60 },
+	   { "item": "double_m4a1", "prob": 20, "charges-min": 37, "charges-max": 60 },
 	   { "item": "Xm5", "prob": 10, "charges-min": 10, "charges-max": 20 }
     ]
   },

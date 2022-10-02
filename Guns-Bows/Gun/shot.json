@@ -17,7 +17,7 @@
     "color": "light_gray",
     "ammo": "shot",
     "skill": "pistol",
-    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "dispersion": 480,
     "durability": 7,
     "min_cycle_recoil": 1413,

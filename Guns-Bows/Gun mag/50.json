@@ -4,7 +4,7 @@
     "looks_like": "stanag30",
     "type": "MAGAZINE",
     "name": { "str": "Gmg Lynx mag" },
-    "//": "Fully loaded 10 magazine, presumably loaded with the 114.7 gram M33 Ball cartridge, weighs 1868.801 grams. Source inetres.com",
+    "//": "Fully loaded 5 round magazine, presumably loaded with the 114.7 gram M33 Ball cartridge, weighs 1868.801 grams.",
     "description": "Standard 5-round box magazine for a Gmg Lynx.",
     "weight": "727 g",
     "volume": "500 ml",

@@ -4,7 +4,7 @@
     "copy-from": "rifle_auto",
     "looks_like": "ar15",
     "type": "GUN",
-    "name": { "str": "Xm250" },
+    "name": { "str": "Xm250 LMG" },
     "description": "The XM250 is the US military designation for the SIG-LMG a 6.8×51mm, gas-operated, reciprocating barrel, belt-fed, light machine gun designed by SIG Sauer for the U.S. Army's Next Generation Squad Weapon Program in 2022 to replace the M249 light machine gun. The XM250 features a free-floating reinforced M-LOK handguard for direct accessory attachment onto the negative space hollow slot mounting points.",
     "weight": "5896 g",
     "volume": "3 L",
@@ -43,7 +43,7 @@
     "copy-from": "rifle_auto",
     "looks_like": "ar15",
     "type": "GUN",
-    "name": { "str": "Xm5" },
+    "name": { "str": "Xm5 military rifle" },
     "description": "The XM5 is the U.S. Army variant of the SIG MCX Spear, a 6.8×51mm, gas-operated, magazine-fed, assault rifle designed by SIG Sauer for the Next Generation Squad Weapon Program in 2022 to replace the M4 carbine. The XM5 features a free-floating reinforced M-LOK handguard for direct accessory attachment onto the negative space hollow slot mounting points.",
     "weight": "3792 g",
     "volume": "1750 ml",
@@ -56,7 +56,7 @@
     "dispersion": 180,
     "durability": 9,
     "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 6 ], [ "AUTO", "auto", 8 ] ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ], [ "AUTO", "auto", 8 ] ],
     "built_in_mods": [ "folding_stock" ],
     "magazines": [ [ "6.8x51", [ "xm5_mag" ] ] ]
   }

@@ -4,7 +4,7 @@
     "copy-from": "casing",
     "type": "GENERIC",
     "name": { "str": "6.8x51 casing" },
-    "description": "An empty casing from a .6.8x51 round.",
+    "description": "An empty casing from a 6.8x51 round.",
     "weight": "5 g",
     "volume": "5ml"
   }

@@ -18,6 +18,7 @@
     "range": 100,
     "ranged_damage": { "damage_type": "bullet", "amount": -5 },
     "dispersion": 130,
+	"modes": [ [ "DEFAULT", "double", 2 ] ],
     "durability": 8,
     "barrel_length": "18542 ml",
     "default_mods": [ "bipod", "rifle_scope", "muzzle_brake" ],
