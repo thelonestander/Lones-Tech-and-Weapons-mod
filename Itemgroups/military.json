@@ -12,7 +12,7 @@
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
     "entries": [
-      { "item": "Xm5", "prob": 88, "charges": [ 0, 30 ] },
+      { "item": "Xm5", "prob": 88, "charges": [ 0, 20 ] },
 	  { "item": "folding_rifle_base", "prob": 10 }
     ]
   },
@@ -20,7 +20,7 @@
     "type": "item_group",
     "id": "military_standard_lmgs",
     "subtype": "distribution",
-    "entries": [ { "item": "Xm250", "prob": 100, "charges": [ 0, 100 ] } ]
+    "entries": [ { "item": "Xm250", "prob": 50, "charges": [ 0, 200 ] } ]
   },
   {
     "type": "item_group",
@@ -37,18 +37,18 @@
     "id": "guns_rifle_milspec",
     "//": "Military specification rifles only ever found at military sites.",
     "items": [
-      { "item": "gmglynx", "prob": 15, "charges-min": 0, "charges-max": 20 },
-      { "item": "gmglynxmag", "prob": 15, "charges-min": 0, "charges-max": 20 },
+      { "item": "gmglynx", "prob": 15, "charges-min": 0, "charges-max": 5 },
+      { "item": "gmglynxmag", "prob": 15, "charges-min": 0, "charges-max": 5 },
       { "item": "m134m", "prob": 5, "charges-min": 0, "charges-max": 100 },
-      { "item": "belt308s", "prob": 5, "charges-min": 0, "charges-max": 20 },
+      { "item": "belt308s", "prob": 10, "charges-min": 100, "charges-max": 250 },
       { "item": "belt68_51_200", "prob": 20, "charges-min": 100, "charges-max": 200 },
       { "item": "belt68_51_100", "prob": 15, "charges-min": 72, "charges-max": 100 },
       { "item": "belt68_51_50", "prob": 25, "charges-min": 30, "charges-max": 50 },
       { "item": "belt68_51_30", "prob": 50, "charges-min": 0, "charges-max": 30 },
       { "item": "xm5_mag", "prob": 10, "charges-min": 0, "charges-max": 20 },
 	  { "item": "Xm250", "prob": 10, "charges-min": 30, "charges-max": 200 },
-	   { "item": "double_m4a1", "prob": 20, "charges-min": 100, "charges-max": 200 },
-	   { "item": "Xm5", "prob": 10, "charges-min": 10, "charges-max": 30 }
+	   { "item": "double_m4a1", "prob": 20, "charges-min": 36, "charges-max": 60 },
+	   { "item": "Xm5", "prob": 10, "charges-min": 10, "charges-max": 20 }
     ]
   },
   {
@@ -64,7 +64,7 @@
     "id": "guns_energy",
     "//": "Assorted factory crafted energy weapons.",
     "items": [
-      { "item": "archflash_emg", "prob": 10 },
+      { "item": "archflash_emg", "prob": 10, "charges-min": 25, "charges-max": 50 },
 	  { "item": "arc_lightning_rifle", "prob": 10 }
     ]
   },
@@ -73,7 +73,7 @@
     "id": "infantry_common_gear",
     "subtype": "collection",
     "entries": [
-      { "item": "XL_tactical_backpack", "prob": 60 }
+      { "item": "XL_tactical_backpack", "prob": 30 }
     ]
   },
   {

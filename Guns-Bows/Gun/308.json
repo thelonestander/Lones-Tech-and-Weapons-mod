@@ -5,7 +5,7 @@
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "M134D-M Minigun" },
-    "description": "The M134D-M Mini mini gun is a much smaller versions of the standard M134  This versions is for personal use and doesnt need to be mounted to work.",
+    "description": "The M134D-M Mini mini gun is a much smaller version of the standard M134  This version is for personal use and doesnt need to be mounted to work.",
     "weight": "9895 g",
     "volume": "4 L",
     "price": 5500000,
