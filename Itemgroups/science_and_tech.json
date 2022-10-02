@@ -10,7 +10,8 @@
       { "item": "archflash_emg", "prob": 5 },
 	  { "item": "bio_lightning_emitter", "prob": 3 },
 	  { "item": "atomic_laptop", "prob": 5 },
-	  { "item": "plasma_longbow", "prob": 2 }
+	  { "item": "plasma_longbow", "prob": 2 },
+	  { "item": "acid_shot", "prob": 5 }
     ]
   }
 ]

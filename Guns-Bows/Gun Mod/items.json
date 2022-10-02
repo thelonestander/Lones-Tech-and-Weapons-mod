@@ -17,5 +17,33 @@
     "magazine_adaptor": [ [ "223", [ "belt223" ] ], [ "308", [ "belt308" ] ], [ "50", [ "belt50" ] ] ],
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 3 ] ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
+  },
+  {
+    "id": "acid_shot",
+    "type": "GUNMOD",
+    "name": { "str": "Acid Barrel mod" },
+    "description": "A new type of weapon mod that mixes the bullet and laces it in acid, creating an acid field where the bullet hits.",
+    "weight": "540 g",
+    "volume": "1500 ml",
+    "integral_volume": "150 ml",
+    "price": "900 USD",
+    "price_postapoc": "90 USD",
+    "material": [ "steel" ],
+    "looks_like": "high_density_capacitor",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "barrel",
+    "blacklist_mod": "emitter",
+    "mod_targets": [ "smg", "rifle", "shotgun", "pistol", "launcher" ],
+    "install_time": "45 m",
+    "handling_modifier": -2,
+    "range_modifier": -5,
+    "dispersion_modifier": 90,
+    "loudness_modifier": 10,
+    "damage_modifier": { "damage_type": "bullet", "amount": 50 },
+    "ups_charges_modifier": 100,
+    "ammo_effects": [ "ACIDBOMB" ],
+    "min_skills": [ [ "weapon", 4 ], [ "fabrication", 6 ], [ "electronics", 5 ] ],
+    "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
   }
 ]
