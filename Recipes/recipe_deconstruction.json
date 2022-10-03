@@ -1,0 +1,48 @@
+[
+  {
+    "result": "mre_box_small",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "mre_chilibeans_box", 1 ] ],
+      [ [ "mre_bbqbeef_box", 1 ] ],
+      [ [ "mre_chickennoodle_box", 1 ] ],
+      [ [ "mre_spaghetti_box", 1 ] ],
+      [ [ "mre_chicken_box", 1 ] ]
+	  ]
+  },
+  {
+    "result": "mre_box_medium",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "mre_beeftaco_box", 1 ] ],
+      [ [ "mre_beef_box", 1 ] ],
+      [ [ "mre_meatball_box", 1 ] ],
+      [ [ "mre_beefstew_box", 1 ] ],
+      [ [ "mre_chilimac_box", 1 ] ],
+	  [ [ "mre_veggy_box", 1 ] ],
+      [ [ "mre_macaronimarinara_box", 1 ] ],
+      [ [ "mre_mexicanchickenstew_box", 1 ] ],
+      [ [ "mre_cheesetort_box", 1 ] ],
+      [ [ "mre_mushroomfettuccine_box", 1 ] ]
+	  ]
+  },
+  {
+    "result": "mre_box_large",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "mre_chickenburritobowl_box", 2 ] ],
+      [ [ "mre_maplesausage_box", 2 ] ],
+      [ [ "mre_ravioli_box", 1 ] ],
+      [ [ "mre_pepperjackbeef_box", 1 ] ],
+      [ [ "mre_hashbrownbacon_box", 2 ] ],
+	  [ [ "mre_lemontuna_box", 2 ] ],
+      [ [ "mre_asianbeef_box", 1 ] ],
+      [ [ "mre_chickenpesto_box", 2 ] ],
+      [ [ "mre_southwestbeef_box", 1 ] ],
+      [ [ "mre_hotdog_box", 1 ] ]
+	  ]
+  }
+]

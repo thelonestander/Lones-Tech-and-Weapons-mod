@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "MRE",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "mre_box_small", "prob": 15 },
+      { "item": "mre_box_medium", "prob": 10 },
+      { "item": "mre_box_large", "prob": 5 }
+    ]
+  }
+]

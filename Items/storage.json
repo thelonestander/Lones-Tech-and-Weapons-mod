@@ -63,5 +63,58 @@
       "draw_cost": 3,
       "skills": [ "smg", "rifle" ]
   }
+  },
+  {
+    "id": "mre_box_small",
+    "type": "CONTAINER",
+    "category": "container",
+	"looks_like": "box_small",
+    "name": { "str": "MRE box", "str_pl": "MRE boxes" },
+    "description": "A small cardboard box filled with MRE's.",
+    "weight": "2267 g",
+    "volume": "1 L",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "cardboard",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "1 L",
+	"use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "mre_box_medium",
+    "type": "CONTAINER",
+    "category": "container",
+	"looks_like": "box_medium",
+    "name": { "str": "Medium MRE box", "str_pl": "Medium MRE boxes" },
+    "description": "A sturdy cardboard box, filled with MRE's. Great for munching.",
+    "weight": "4535 g",
+    "volume": "2 L",
+    "//": "Volume is much lower than the actual volume of a box this size because presumably if it's in your pack, it isn't empty and full of air; and if it's in your hands, it's irrelevant what the volume is.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "cardboard",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "3 L",
+	"use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "mre_box_large",
+    "type": "CONTAINER",
+    "category": "container",
+	"looks_like": "box_large",
+    "name": { "str": "Large MRE box", "str_pl": "Large MRE boxes" },
+    "description": "A very large MRE box.",
+    "weight": "6803 g",
+    "volume": "3 L",
+    "//": "Volume is much lower than the actual volume of a box this size because presumably if it's in your pack, it isn't empty and full of air; and if it's in your hands, it's irrelevant what the volume is.",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": "cardboard",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "5 L",
+    "use_action": "DISASSEMBLE"
   }
 ]
