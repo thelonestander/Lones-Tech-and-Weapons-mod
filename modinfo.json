@@ -5,7 +5,7 @@
     "name": "Lones Tweaks",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
-    "description": "Adds various tweaks to the game Bn.",
+    "description": "Adds various monsters, weapons, and tech to the game Bn.",
 	"dependencies": [ "dda" ],
     "category": "content"
   }
