@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "drugdealer",
+    "items": [
+      [ "electric_cbm_kit_box", 10 ],
+      [ "armor_cbm_kit_box", 5 ],
+      [ "military_cbm_kit_box", 5 ],
+      [ "everyday_cbm_kit_box", 30 ]
+    ]
+  }
+]

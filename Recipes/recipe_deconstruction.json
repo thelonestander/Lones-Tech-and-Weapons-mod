@@ -44,5 +44,55 @@
       [ [ "mre_southwestbeef_box", 1 ] ],
       [ [ "mre_hotdog_box", 1 ] ]
 	  ]
+  },
+  {
+    "result": "electric_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_chain_lightning", 1 ] ],
+      [ [ "bio_shock", 1 ] ],
+      [ [ "bio_shockwave", 1 ] ],
+      [ [ "bio_lightning_emitter", 1 ] ]
+	  ]
+  },
+  {
+    "result": "armor_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_armor_eyes", 1 ] ],
+      [ [ "bio_armor_head", 1 ] ],
+      [ [ "bio_armor_legs", 1 ] ],
+      [ [ "bio_armor_torso", 1 ] ]
+	  ]
+  },
+  {
+    "result": "military_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_blade", 1 ] ],
+      [ [ "bio_shotgun", 1 ] ],
+      [ [ "bio_hydraulics", 1 ] ],
+      [ [ "bio_infrared", 1 ] ],
+      [ [ "bio_ods", 1 ] ],
+	  [ [ "bio_power_armor_interface_mkII", 1 ] ],
+      [ [ "bio_targeting", 1 ] ]
+	  ]
+  },
+  {
+    "result": "everyday_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_fingerhack", 1 ] ],
+      [ [ "bio_laser", 1 ] ],
+      [ [ "bio_lighter", 1 ] ],
+      [ [ "bio_lockpick", 1 ] ],
+      [ [ "bio_sunglasses", 1 ] ],
+	  [ [ "bio_tools", 1 ] ],
+      [ [ "bio_watch", 1 ] ]
+	  ]
   }
 ]
