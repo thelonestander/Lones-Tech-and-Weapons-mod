@@ -94,5 +94,32 @@
 	  [ [ "bio_tools", 1 ] ],
       [ [ "bio_watch", 1 ] ]
 	  ]
+  },
+  {
+    "result": "medical_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_blood_anal", 1 ] ],
+      [ [ "bio_blood_filter", 1 ] ],
+      [ [ "bio_climate", 1 ] ],
+      [ [ "bio_digestion", 1 ] ],
+      [ [ "bio_evap", 1 ] ],
+	  [ [ "bio_leukocyte", 1 ] ],
+      [ [ "bio_nanobots", 1 ] ]
+	  ]
+  },
+  {
+    "result": "blackmarket_cbm_kit_box",
+    "type": "uncraft",
+    "time": "30 s",
+    "components": [
+      [ [ "bio_railgun", 1 ] ],
+      [ [ "bio_scent_mask", 1 ] ],
+      [ [ "bio_speed", 1 ] ],
+      [ [ "bio_teleport", 1 ] ],
+      [ [ "bio_time_freeze", 1 ] ],
+	  [ [ "bio_shock_absorber", 1 ] ]
+	  ]
   }
 ]

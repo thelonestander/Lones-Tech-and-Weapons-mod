@@ -6,7 +6,9 @@
       [ "electric_cbm_kit_box", 10 ],
       [ "armor_cbm_kit_box", 5 ],
       [ "military_cbm_kit_box", 5 ],
-      [ "everyday_cbm_kit_box", 30 ]
+      [ "everyday_cbm_kit_box", 30 ],
+	  [ "medical_cbm_kit_box", 10 ],
+      [ "blackmarket_cbm_kit_box", 1 ]
     ]
   }
 ]
