@@ -13,9 +13,9 @@
     "id": "vault_good",
     "//": "Useful or good stuff for bank vaults.",
     "items": [
-      { "item": "arc_lightning_rifle", "prob": 5 },
+      { "item": "arc_lightning_rifle", "prob": 1 },
       { "item": "atomic_military_watch", "prob": 5 },
-      { "item": "x_12_pistol", "prob": 10 },
+      { "item": "x_12_pistol", "prob": 5 },
       { "item": "x_12_shot_mag", "prob": 10 }
     ]
   }
