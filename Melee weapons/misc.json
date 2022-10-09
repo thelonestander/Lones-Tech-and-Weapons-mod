@@ -259,5 +259,59 @@
     "techniques": [ "WBLOCK_1" ],
     "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 1 ], [ "BUTCHER", 19 ] ],
     "flags": [ "DURABLE_MELEE", "STAB", "SHEATH_KNIFE" ]
+  },
+  {
+    "id": "chain_sword",
+    "type": "TOOL",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "longsword",
+    "name": { "str": "Chain sword" },
+    "description": "This sword was made with one task in mind. To kill zombies. That it does well. Turn it on to do some real damage.",
+    "weight": "2000 g",
+    "volume": "5 L",
+    "price": 350000,
+    "price_postapoc": 1000,
+    "material": [ "steel" ],
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "TRADER_AVOID" ],
+    "bashing": 6,
+    "cutting": 16,
+    "ammo": [ "gasoline" ],
+    "max_charges": 1500,
+    "charges_per_use": 1,
+    "use_action": [
+      {
+        "target": "chain_sword_on",
+        "msg": "The %s rumbles loudly!",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The %s is out of juice!",
+        "type": "transform"
+      }
+    ]
+  },
+  {
+    "id": "chain_sword_on",
+    "type": "TOOL",
+	"category": "weapons",
+    "name": { "str": "Chain sword (on)", "str_p": "Chain swords (on)" },
+    "description": "The chainsaw blades are on and are hungry!",
+	"looks_like": "longsword",
+	"weight": "2000 g",
+    "volume": "5 L",
+	"symbol": "/",
+    "price": 350000,
+    "price_postapoc": 1000,
+    "material": [ "steel" ],
+    "flags": [ "DURABLE_MELEE", "TRADER_AVOID", "TRADER_AVOID" ],
+	"cutting": 120,
+	"bashing": 6,
+	"ammo": [ "gasoline" ],
+    "max_charges": 1500,
+    "charges_per_use": 1,
+    "turns_per_charge": 5,
+    "revert_to": "chain_sword",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "chain_sword" } ]
   }
 ]

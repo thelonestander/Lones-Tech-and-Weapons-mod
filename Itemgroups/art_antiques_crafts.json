@@ -7,7 +7,8 @@
       { "item": "apache_knuckleduster", "prob": 5 },
       { "item": "bat_chete", "prob": 10 },
       { "item": "survival_spear", "prob": 5 },
-	  { "item": "four_barrel_pistol_flintlock", "prob": 2 }
+	  { "item": "four_barrel_pistol_flintlock", "prob": 2 },
+	  { "item": "chain_sword", "prob": 1 }
     ]
   }
 ]
