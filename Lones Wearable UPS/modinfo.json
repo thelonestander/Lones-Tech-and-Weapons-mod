@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "lones_UPS",
-    "name": "Lones Wearable UPS",
+    "name": "<color_cyan>Lones Wearable UPS",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
     "description": "Adds Wearable UPS to the game.",

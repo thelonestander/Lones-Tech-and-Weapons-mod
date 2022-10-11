@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "translocator_gates",
-    "name": "Lones Translocator Gates",
+    "name": "<color_cyan>Lones Translocator Gates",
     "authors": [ "Shard" ],
 	"maintainers": [ "Thelonestander" ],
     "description": "Translocator and portable Gates!",

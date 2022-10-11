@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "lones_CBM_slot balance",
-    "name": "Lones CBM slot balance",
+    "name": "<color_cyan>Lones CBM slot balance",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
     "description": "Rebalances CBM slots to allow more tactical choices.",
