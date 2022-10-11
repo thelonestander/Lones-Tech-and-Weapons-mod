@@ -70,5 +70,45 @@
       ]
     ],
     "components": [ [ [ "spring", 2 ] ], [ [ "steel_chunk", 2 ] ], [ [ "scrap", 2 ] ], [ [ "plut_cell", 5 ] ], [ [ "arc_lightning_rifle", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "flamekatana_off",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": "30 m",
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [ [ "welding_book", 8 ], [ "book_icef", 4 ] ],
+    "using": [ [ "welding_standard", 2 ] ],
+    "components": [
+      [ [ "leather", 5 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "katana", 1 ] ],
+      [ [ "pilot_light", 1 ] ],
+      [ [ "aux_pressurized_tank", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "zweifire_off",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "mechanics",
+    "difficulty": 5,
+    "time": "30 m",
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [ [ "welding_book", 8 ], [ "book_icef", 4 ] ],
+    "using": [ [ "welding_standard", 2 ] ],
+    "components": [
+      [ [ "leather", 5 ] ],
+      [ [ "pipe", 1 ] ],
+      [ [ "zweihander", 1 ] ],
+      [ [ "pilot_light", 1 ] ],
+      [ [ "aux_pressurized_tank", 1 ] ]
+    ]
   }
 ]
