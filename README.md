@@ -7,7 +7,8 @@
 ![123](https://user-images.githubusercontent.com/82045140/195094332-4e323f70-d90b-42c5-8d59-aa5acaf84777.png)
 
 
-   Hello! When you go to add my mod to your game it will seperate Lones tweaks (the core mod), translocator gates, Wearable UPS, and CBM slot rebalance. 
+   Hello! When you go to add my mod to your game it will seperate Lones tweaks (the core mod), translocator gates, Wearable UPS, Lones Flesh raptors and CBM slot rebalance. 
+   
 The idea with my mod, is to allow ANYONE to delete things they dont need.
 
 The idea behind this is to have a mod where you can delete what you dont like and add what you want. Transparency. 
@@ -18,6 +19,7 @@ Lones tweaks (the core mod),
 Lones Wearable UPS,
 Lones Flesh raptors,
 Lones Translocator gates
+Lones CBM slot rebalance
 
 ![Screenshot (1145)](https://user-images.githubusercontent.com/82045140/195093350-777326f0-fc6d-4f33-a681-97087313a820.png)
 
