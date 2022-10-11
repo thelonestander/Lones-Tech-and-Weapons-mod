@@ -1,6 +1,11 @@
 # Lones Tech and Weapon mod!
 
  Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
+ 
+![pic2](https://user-images.githubusercontent.com/82045140/195094268-163424c3-d82d-4450-9aec-2b70bda3d5e5.png)
+![Pic for readme](https://user-images.githubusercontent.com/82045140/195094313-2bec28c2-9dab-4e1c-b0b5-91cdcf32fd48.png)
+![123](https://user-images.githubusercontent.com/82045140/195094332-4e323f70-d90b-42c5-8d59-aa5acaf84777.png)
+
 
    Hello! When you go to add my mod to your game it will seperate Lones tweaks (the core mod), translocator gates, Wearable UPS, and CBM slot rebalance. 
 The idea with my mod, is to allow ANYONE to delete things they dont need.
