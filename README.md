@@ -14,6 +14,10 @@ Lones Wearable UPS,
 Lones Flesh raptors,
 Lones Translocator gates
 
+![Screenshot (1145)](https://user-images.githubusercontent.com/82045140/195093350-777326f0-fc6d-4f33-a681-97087313a820.png)
+
+I added colors to each mod in my pack to easily show you. See screenshot above. 
+
    This is to make it easier to not add anything you may not want. Simply don't select the mod in world gen! The core of the mod, 
 is items that I felt were not in the game, or just fun guns or pieces of tech. There is refrences to other games as well. 
 Who doesnt love refences? This mod is slowly getting bigger so if anyone has any ideas on some cool tech or some cool prototype guns,
