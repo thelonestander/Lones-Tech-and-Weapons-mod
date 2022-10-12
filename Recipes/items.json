@@ -73,7 +73,7 @@
   },
   {
     "type": "recipe",
-    "result": "flamekatana_off",
+    "result": "firekatana_off",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",
@@ -109,6 +109,27 @@
       [ [ "zweihander", 1 ] ],
       [ [ "pilot_light", 1 ] ],
       [ [ "aux_pressurized_tank", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "electric_longsword",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "mechanics",
+    "difficulty": 7,
+    "time": "30 m",
+    "reversible": true,
+    "decomp_learn": 4,
+    "book_learn": [ [ "welding_book", 8 ], [ "book_icef", 4 ] ],
+    "using": [ [ "welding_standard", 3 ] ],
+    "components": [
+      [ [ "leather", 5 ] ],
+      [ [ "longsword", 1 ] ],
+      [ [ "duct_tape", 50 ] ],
+      [ [ "cable", 1 ] ],
+	  [ [ "circuit", 1 ] ],
+	  [ [ "amplifier", 1 ] ]
     ]
   }
 ]
