@@ -11,7 +11,8 @@
 	  { "item": "bio_lightning_emitter", "prob": 3 },
 	  { "item": "atomic_laptop", "prob": 5 },
 	  { "item": "plasma_longbow", "prob": 2 },
-	  { "item": "acid_shot", "prob": 5 }
+	  { "item": "acid_shot", "prob": 5 },
+	  { "item": "atomic_stealth_cloak_on", "prob": 2 }
     ]
   }
 ]
