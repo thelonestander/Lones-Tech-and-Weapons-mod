@@ -1,0 +1,27 @@
+[
+  {
+    "id": "wearable_folding_bicycle",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "name": { "str": "Wearable folding bicycle" },
+    "description": "This is a bicycle folded into a relatively portable package this one is wearable.",
+    "weight": "9071 g",
+    "volume": "21500 ml",
+	"encumbrance": 20,
+    "coverage": 50,
+    "covers": [ "torso" ],
+    "price": 35000,
+    "price_postapoc": 2000,
+    "to_hit": -5,
+    "bashing": 10,
+    "material": "aluminum",
+    "symbol": "0",
+    "color": "light_gray",
+    "use_action": {
+      "type": "unfold_vehicle",
+      "vehicle_name": "bicycle",
+      "unfold_msg": "You painstakingly unfold the bicycle and make it ready to ride.",
+      "moves": 500
+    }
+  }
+]
