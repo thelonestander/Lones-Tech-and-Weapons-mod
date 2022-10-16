@@ -9,7 +9,7 @@
       [ [ "mre_chickennoodle_box", 1 ] ],
       [ [ "mre_spaghetti_box", 1 ] ],
       [ [ "mre_chicken_box", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "mre_box_medium",
@@ -21,12 +21,12 @@
       [ [ "mre_meatball_box", 1 ] ],
       [ [ "mre_beefstew_box", 1 ] ],
       [ [ "mre_chilimac_box", 1 ] ],
-	  [ [ "mre_veggy_box", 1 ] ],
+      [ [ "mre_veggy_box", 1 ] ],
       [ [ "mre_macaronimarinara_box", 1 ] ],
       [ [ "mre_mexicanchickenstew_box", 1 ] ],
       [ [ "mre_cheesetort_box", 1 ] ],
       [ [ "mre_mushroomfettuccine_box", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "mre_box_large",
@@ -38,12 +38,12 @@
       [ [ "mre_ravioli_box", 1 ] ],
       [ [ "mre_pepperjackbeef_box", 1 ] ],
       [ [ "mre_hashbrownbacon_box", 2 ] ],
-	  [ [ "mre_lemontuna_box", 2 ] ],
+      [ [ "mre_lemontuna_box", 2 ] ],
       [ [ "mre_asianbeef_box", 1 ] ],
       [ [ "mre_chickenpesto_box", 2 ] ],
       [ [ "mre_southwestbeef_box", 1 ] ],
       [ [ "mre_hotdog_box", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "electric_cbm_kit_box",
@@ -54,18 +54,13 @@
       [ [ "bio_shock", 1 ] ],
       [ [ "bio_shockwave", 1 ] ],
       [ [ "bio_lightning_emitter", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "armor_cbm_kit_box",
     "type": "uncraft",
     "time": "30 s",
-    "components": [
-      [ [ "bio_armor_eyes", 1 ] ],
-      [ [ "bio_armor_head", 1 ] ],
-      [ [ "bio_armor_legs", 1 ] ],
-      [ [ "bio_armor_torso", 1 ] ]
-	  ]
+    "components": [ [ [ "bio_armor_eyes", 1 ] ], [ [ "bio_armor_head", 1 ] ], [ [ "bio_armor_legs", 1 ] ], [ [ "bio_armor_torso", 1 ] ] ]
   },
   {
     "result": "military_cbm_kit_box",
@@ -77,9 +72,9 @@
       [ [ "bio_hydraulics", 1 ] ],
       [ [ "bio_infrared", 1 ] ],
       [ [ "bio_ods", 1 ] ],
-	  [ [ "bio_power_armor_interface_mkII", 1 ] ],
+      [ [ "bio_power_armor_interface_mkII", 1 ] ],
       [ [ "bio_targeting", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "everyday_cbm_kit_box",
@@ -91,9 +86,9 @@
       [ [ "bio_lighter", 1 ] ],
       [ [ "bio_lockpick", 1 ] ],
       [ [ "bio_sunglasses", 1 ] ],
-	  [ [ "bio_tools", 1 ] ],
+      [ [ "bio_tools", 1 ] ],
       [ [ "bio_watch", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "medical_cbm_kit_box",
@@ -105,9 +100,9 @@
       [ [ "bio_climate", 1 ] ],
       [ [ "bio_digestion", 1 ] ],
       [ [ "bio_evap", 1 ] ],
-	  [ [ "bio_leukocyte", 1 ] ],
+      [ [ "bio_leukocyte", 1 ] ],
       [ [ "bio_nanobots", 1 ] ]
-	  ]
+    ]
   },
   {
     "result": "blackmarket_cbm_kit_box",
@@ -119,7 +114,7 @@
       [ [ "bio_speed", 1 ] ],
       [ [ "bio_teleport", 1 ] ],
       [ [ "bio_time_freeze", 1 ] ],
-	  [ [ "bio_shock_absorber", 1 ] ]
-	  ]
+      [ [ "bio_shock_absorber", 1 ] ]
+    ]
   }
 ]

@@ -3,10 +3,7 @@
     "type": "item_group",
     "id": "cop_evidence",
     "subtype": "distribution",
-    "entries": [
-      { "item": "blackmarket_cbm_kit_box", "prob": 1 },
-      { "item": "military_cbm_kit_box", "prob": 5 }
-    ]
+    "entries": [ { "item": "blackmarket_cbm_kit_box", "prob": 1 }, { "item": "military_cbm_kit_box", "prob": 5 } ]
   },
   {
     "type": "item_group",

@@ -5,8 +5,6 @@
     "//": "A general hardware group for retail, workshops, etc., with an odd assortment of extra items.",
     "//2": "often spawns a box to hold everything, sometimes a plastic sheet to cover it, and then some stuff in the box.",
     "subtype": "collection",
-        "distribution": [
-          { "item": "imalentms18", "prob": 3 }
-        ]
-      }
+    "distribution": [ { "item": "imalentms18", "prob": 3 } ]
+  }
 ]

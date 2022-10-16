@@ -186,12 +186,7 @@
     "magazines": [
       [
         "battery",
-        [
-          "medium_battery_cell",
-          "medium_plus_battery_cell",
-          "medium_atomic_battery_cell",
-          "medium_disposable_cell"
-        ]
+        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
       ]
     ],
     "magazine_well": "250 ml"
@@ -223,12 +218,7 @@
     "use_action": [
       "EINKTABLETPC",
       "PORTABLE_GAME",
-      {
-        "target": "atomic_laptop_screen_lit",
-        "msg": "You light up the screen.",
-        "active": true,
-        "type": "transform"
-      }
+      { "target": "atomic_laptop_screen_lit", "msg": "You light up the screen.", "active": true, "type": "transform" }
     ],
     "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD" ]
   },

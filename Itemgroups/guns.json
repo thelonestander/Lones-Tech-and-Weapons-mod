@@ -15,8 +15,8 @@
     "//": "Rare guns for bank vaults. No heavy weapons and LMGs.",
     "items": [
       { "item": "arc_lightning_rifle", "prob": 5 },
-	  { "item": "x_12_pistol", "prob": 5 },
-	  { "item": "x_12_shot_mag", "prob": 5 }
+      { "item": "x_12_pistol", "prob": 5 },
+      { "item": "x_12_shot_mag", "prob": 5 }
     ]
   }
 ]

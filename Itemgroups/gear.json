@@ -3,8 +3,6 @@
     "id": "gear_survival",
     "type": "item_group",
     "//": "Lightweight, simple and portable items useful for survival.",
-    "items": [
-      { "item": "cargo_duffel_bag", "prob": 60 }
-    ]
+    "items": [ { "item": "cargo_duffel_bag", "prob": 60 } ]
   }
 ]

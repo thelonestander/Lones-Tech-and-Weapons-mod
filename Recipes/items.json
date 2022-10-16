@@ -69,7 +69,13 @@
         [ "large_repairkit", 30 ]
       ]
     ],
-    "components": [ [ [ "spring", 2 ] ], [ [ "steel_chunk", 2 ] ], [ [ "scrap", 2 ] ], [ [ "plut_cell", 5 ] ], [ [ "arc_lightning_rifle", 1 ] ] ]
+    "components": [
+      [ [ "spring", 2 ] ],
+      [ [ "steel_chunk", 2 ] ],
+      [ [ "scrap", 2 ] ],
+      [ [ "plut_cell", 5 ] ],
+      [ [ "arc_lightning_rifle", 1 ] ]
+    ]
   },
   {
     "type": "recipe",
@@ -128,8 +134,8 @@
       [ [ "longsword", 1 ] ],
       [ [ "duct_tape", 50 ] ],
       [ [ "cable", 1 ] ],
-	  [ [ "circuit", 1 ] ],
-	  [ [ "amplifier", 1 ] ]
+      [ [ "circuit", 1 ] ],
+      [ [ "amplifier", 1 ] ]
     ]
   },
   {
@@ -138,12 +144,10 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",
-	"autolearn": true,
+    "autolearn": true,
     "difficulty": 0,
     "time": "1 m",
     "reversible": true,
-    "components": [
-      [ [ "folding_bicycle", 1 ] ]
-    ]
+    "components": [ [ [ "folding_bicycle", 1 ] ] ]
   }
 ]

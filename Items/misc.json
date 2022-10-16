@@ -7,7 +7,7 @@
     "description": "This is a bicycle folded into a relatively portable package this one is wearable.",
     "weight": "9071 g",
     "volume": "21500 ml",
-	"encumbrance": 20,
+    "encumbrance": 20,
     "coverage": 50,
     "covers": [ "torso" ],
     "price": 35000,

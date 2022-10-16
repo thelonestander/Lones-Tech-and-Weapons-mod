@@ -3,16 +3,12 @@
     "type": "item_group",
     "id": "archery",
     "subtype": "distribution",
-    "entries": [
-      { "item": "auto_crossbow", "prob": 10 }
-    ]
+    "entries": [ { "item": "auto_crossbow", "prob": 10 } ]
   },
   {
     "type": "item_group",
     "id": "archery_ammo",
     "subtype": "distribution",
-    "entries": [
-      { "item": "crossbow_10mag", "prob": 15 }
-    ]
+    "entries": [ { "item": "crossbow_10mag", "prob": 15 } ]
   }
 ]

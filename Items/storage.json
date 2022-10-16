@@ -21,7 +21,7 @@
     "warmth": 10,
     "material_thickness": 2,
     "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "STURDY" ],
-	 "use_action": {
+    "use_action": {
       "type": "holster",
       "holster_prompt": "Holster weapon",
       "holster_msg": "You holster your %s",
@@ -53,7 +53,7 @@
     "storage": "70 L",
     "material_thickness": 2,
     "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ],
-	 "use_action": {
+    "use_action": {
       "type": "holster",
       "holster_prompt": "Holster weapon",
       "holster_msg": "You holster your %s",
@@ -62,13 +62,13 @@
       "multi": 2,
       "draw_cost": 3,
       "skills": [ "smg", "rifle" ]
-  }
+    }
   },
   {
     "id": "mre_box_small",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_small",
+    "looks_like": "box_small",
     "name": { "str": "MRE box", "str_pl": "MRE boxes" },
     "description": "A small cardboard box filled with MRE's.",
     "weight": "2267 g",
@@ -79,13 +79,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "1 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "mre_box_medium",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Medium MRE box", "str_pl": "Medium MRE boxes" },
     "description": "A sturdy cardboard box, filled with MRE's. Great for munching.",
     "weight": "4535 g",
@@ -97,13 +97,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "mre_box_large",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_large",
+    "looks_like": "box_large",
     "name": { "str": "Large MRE box", "str_pl": "Large MRE boxes" },
     "description": "A very large MRE box.",
     "weight": "6803 g",
@@ -121,7 +121,7 @@
     "id": "electric_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Electric CBM kit box", "str_pl": "Electric CBM kit boxes" },
     "description": "A sturdy box, filled with electric CBM's.",
     "weight": "4535 g",
@@ -133,13 +133,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "armor_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Armor CBM kit box", "str_pl": "Armor CBM kit boxes" },
     "description": "A sturdy box, filled with armor based CBM's.",
     "weight": "4535 g",
@@ -151,13 +151,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "military_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Military CBM kit box", "str_pl": "Military CBM kit boxes" },
     "description": "A sturdy box, filled with military CBM's. You dont think you should have this.",
     "weight": "4535 g",
@@ -169,13 +169,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "everyday_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "CBM kit box", "str_pl": "CBM kit boxes" },
     "description": "A sturdy box, filled with everyday CBM's.",
     "weight": "4535 g",
@@ -187,13 +187,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "medical_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Medical CBM kit box", "str_pl": "Medical CBM kit boxes" },
     "description": "A sturdy box, filled with medical CBM's.",
     "weight": "4535 g",
@@ -205,13 +205,13 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   },
   {
     "id": "blackmarket_cbm_kit_box",
     "type": "CONTAINER",
     "category": "container",
-	"looks_like": "box_medium",
+    "looks_like": "box_medium",
     "name": { "str": "Black market CBM kit box", "str_pl": "Black market CBM kit boxes" },
     "description": "A sturdy box, filled with black market CBM's. These are most likely stolen.",
     "weight": "4535 g",
@@ -223,6 +223,6 @@
     "symbol": ")",
     "color": "brown",
     "contains": "3 L",
-	"use_action": "DISASSEMBLE"
+    "use_action": "DISASSEMBLE"
   }
 ]

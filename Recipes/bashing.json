@@ -23,7 +23,7 @@
     "autolearn": true,
     "using": [ [ "soldering_standard", 50 ] ],
     "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
-  "components": [ [ [ "chain", 3 ] ] ]
+    "components": [ [ [ "chain", 3 ] ] ]
   },
   {
     "result": "dual_knife_trench",
@@ -38,6 +38,4 @@
     "autolearn": true,
     "components": [ [ [ "knife_trench", 2 ] ] ]
   }
-  ]
-  ]
-
+]

@@ -13,14 +13,9 @@
     "bashing": 10,
     "to_hit": 0,
     "symbol": "8",
-    "use_action": {
-      "type": "transform",
-      "target": "folding_rifle_on",
-      "active": false,
-      "msg": "You unfold the M4A1."
-    }
+    "use_action": { "type": "transform", "target": "folding_rifle_on", "active": false, "msg": "You unfold the M4A1." }
   },
-{
+  {
     "id": "folding_rifle_on",
     "copy-from": "rifle_auto",
     "looks_like": "ar15",
@@ -43,12 +38,7 @@
     "durability": 6,
     "min_cycle_recoil": 1350,
     "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
-    "use_action": {
-      "type": "transform",
-      "target": "folding_rifle_base",
-      "active": false,
-      "msg": "You fold the M4A1."
-    },
+    "use_action": { "type": "transform", "target": "folding_rifle_base", "active": false, "msg": "You fold the M4A1." },
     "magazines": [
       [
         "223",
@@ -70,24 +60,17 @@
       ]
     ]
   },
-   {
+  {
     "id": "double_m4a1",
     "copy-from": "rifle_auto",
     "type": "GUN",
     "name": { "str": "Double Barrel M4A1" },
-	"looks_like": "ar15",
+    "looks_like": "ar15",
     "description": "A double barrel M4A1 outfitted with heavier barrels to enable higher amounts of suppressive fire while retaining a good degree of mobility. Odd but a very effective in combat known to double tap.",
     "weight": "3710 g",
-	"ammo": "223",
+    "ammo": "223",
     "modes": [ [ "DEFAULT", "double", 2 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 8 ] ],
-    "magazines": [
-      [
-        "223",
-        [
-          "double_mag_60"
-        ]
-      ]
-    ],
+    "magazines": [ [ "223", [ "double_mag_60" ] ] ],
     "relative": { "ranged_damage": { "damage_type": "bullet", "amount": 1 }, "durability": 1 }
   }
 ]

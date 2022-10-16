@@ -3,9 +3,6 @@
     "id": "gear_homeless",
     "type": "item_group",
     "//": "Regular items for the homeless.",
-    "items": [
-      { "item": "cargo_socks", "prob": 5 },
-	  { "item": "thigh_high_cargo_socks", "prob": 2 }
-    ]
+    "items": [ { "item": "cargo_socks", "prob": 5 }, { "item": "thigh_high_cargo_socks", "prob": 2 } ]
   }
 ]

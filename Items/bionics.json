@@ -18,7 +18,7 @@
     "name": { "str": "Lightning Emitter CBM" },
     "looks_like": "bio_int_enhancer",
     "description": "When active, this bionic shoots out eletricity wildy. Can be useful in certain situations.",
-    "price":60000,
+    "price": 60000,
     "difficulty": 7
   },
   {
