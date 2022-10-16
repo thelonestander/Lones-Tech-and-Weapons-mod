@@ -135,8 +135,8 @@
   {
     "type": "recipe",
     "result": "wearable_folding_bicycle",
-    "category": "CC_OTHER",
-    "subcategory": "CSC_OTHER_VEHICLE",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",
 	"autolearn": true,
     "difficulty": 0,
