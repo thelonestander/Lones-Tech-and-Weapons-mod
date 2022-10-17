@@ -263,5 +263,19 @@
       ]
     },
     "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "LEAK_DAM" ]
+  },
+  {
+    "id": "auto_safecracker",
+    "type": "TOOL",
+    "name": { "str": "auto safecracker device" },
+    "description": "This is an mechanical assisted safecracking device. Place on the safe and use to unlock a safe!",
+    "weight": "350 g",
+    "volume": "125 ml",
+    "price": "15 USD",
+    "price_postapoc": "31 USD",
+    "material": [ "steel" ],
+    "symbol": ";",
+    "color": "light_gray",
+    "flags": [ "SAFECRACK" ]
   }
 ]
