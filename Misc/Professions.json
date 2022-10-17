@@ -24,7 +24,8 @@
           { "item": "cbma_mono_knife", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cbma_mono_sword", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cbma_em_rail_iron", "charges": 50 },
-          { "item": "cbma_em_rail_steel", "charges": 50 }
+          { "item": "cbma_em_rail_steel", "charges": 50 },
+          { "item": "plut_cell", "charges": 100 }
         ]
       }
     }
