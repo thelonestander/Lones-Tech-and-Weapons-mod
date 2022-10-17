@@ -1,0 +1,30 @@
+[
+  {
+    "type": "profession",
+    "id": "cbma_test_prof",
+    "name": "Bionic Dog Trainer",
+    "description": "You were training the newest cyberdogs to be used as a last resort, now the world has ended you get to keep them! Geared up with bionic armor your ready to fight.",
+    "points": 8,
+	"pets": [ { "name": "mon_cyber_german", "amount": 2 } ],
+    "items": {
+      "both": {
+        "items": [
+          "cbma_bionic_armor",
+          "cbma_bionic_helmet",
+          "cbma_bionic_gloves",
+          "cbma_bionic_boots",
+          "cbma_bionic_duster",
+          "cbma_inner_suite"
+        ],
+        "entries": [
+          { "item": "cbma_carry_frame", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cbma_em_railrifle", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cbma_mono_knife", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cbma_mono_sword", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cbma_em_rail_iron", "charges": 50 },
+          { "item": "cbma_em_rail_steel", "charges": 50 }
+        ]
+      }
+    }
+  }
+]
