@@ -83,8 +83,8 @@
     "volume": "1750 ml",
     "price": 240000,
     "price_postapoc": 5000,
-	"to_hit": 2
-	"cutting": 30
+	"to_hit": 2,
+	"cutting": 30,
     "material": [ "steel", "plastic" ],
     "color": "dark_gray",
     "ammo": "223",
