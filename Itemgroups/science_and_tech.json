@@ -13,7 +13,13 @@
       { "item": "plasma_longbow", "prob": 2 },
       { "item": "acid_shot", "prob": 5 },
       { "item": "temporal_shoes_off", "prob": 5 },
-      { "item": "auto_safecracker", "prob": 5 }
+      { "item": "auto_safecracker", "prob": 5 },
+      { "item": "double_plutonium_core", "prob": 2 },
+      { "item": "bio_advreactor", "prob": 1 },
+      { "item": "bio_plut_filter", "prob": 2 },
+      { "item": "bio_plutdump", "prob": 2 },
+      { "item": "bio_reactor", "prob": 5 },
+      { "item": "bio_furnace", "prob": 5 }
     ]
   }
 ]
