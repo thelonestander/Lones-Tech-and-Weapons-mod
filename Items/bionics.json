@@ -54,7 +54,6 @@
     "name": { "str": "Plutonium Purger" },
     "included": true,
     "description": "Triggers an emergency reactor fuel purge that ejects all fuel from your reactor.",
-    "occupied_bodyparts": [ [ "torso", 4 ] ],
     "act_cost": 1
   },
   {
