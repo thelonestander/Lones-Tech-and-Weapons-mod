@@ -79,7 +79,7 @@
   },
   {
     "type": "recipe",
-    "result": "firekatana_off",
+    "result": "flamekatana_off",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",

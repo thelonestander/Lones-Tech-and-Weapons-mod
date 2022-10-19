@@ -533,7 +533,7 @@
     "material_thickness": 7,
     "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_carry_frame" },
-    "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE", "AEP_MOVEMENT_NOISE" ] }
+    "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE" ] }
   },
   {
     "id": "cbma_inner_suite",
@@ -557,7 +557,7 @@
     "storage": "0 ml",
     "warmth": 0,
     "material_thickness": 1,
-    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_RESIST" ],
+    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_RESIST" ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
