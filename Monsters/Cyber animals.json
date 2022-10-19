@@ -104,7 +104,7 @@
     "name": { "str": "Cyber shorthair cat" },
     "description": "A small domesticated predator gone feral in the absence of humans. However this one is well fed and has bioncs to help it hunt. This one has seen some serious shit as its not scared of humans.",
     "default_faction": "cat",
-	"looks_like": "mon_cat",
+    "looks_like": "mon_cat",
     "bodytype": "quadruped",
     "categories": [ "WILDLIFE" ],
     "species": [ "MAMMAL" ],
