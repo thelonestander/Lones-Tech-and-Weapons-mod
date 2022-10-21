@@ -118,7 +118,7 @@
 	  [ [ "bio_furnace", 1 ] ],
 	  [ [ "bio_lightning_emitter", 1 ] ]
     ]
-  }
+  },
   {
     "result": "plutonium_cbm_kit_box",
     "type": "uncraft",
