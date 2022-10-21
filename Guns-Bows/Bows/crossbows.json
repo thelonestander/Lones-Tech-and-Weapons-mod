@@ -39,7 +39,7 @@
     "description": "A compact, stringless metal longbow constructed of atomic-age materials.  Rather than using ammunition, a series of mirrors create a super heated plasma arrow.  It runs off of UPS.",
     "price": 2000000,
     "price_postapoc": 30000,
-    "material": [ "titanium", "plastic" ],
+    "material": [ "carbide", "plastic" ],
     "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
     "skill": "archery",
     "min_strength": 9,
