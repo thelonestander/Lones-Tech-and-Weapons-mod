@@ -86,5 +86,25 @@
     "coverage": 80,
     "material_thickness": 3,
     "magazine_well": "250 ml"
+  },
+  {
+    "id": "large_pet_carrier",
+    "type": "GENERIC",
+    "category": "tools",
+    "name": { "str": "Large pet carrier" },
+    "description": "A plastic container meant to hold large pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
+    "weight": "1000 g",
+	"looks_like": "pet_carrier",
+    "volume": "5 L",
+    "price": 1000,
+    "price_postapoc": 100,
+    "bashing": 1,
+    "cutting": 1,
+    "material": [ "steel", "plastic" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "properties": [ [ "monster_size_capacity", "LARGE" ] ],
+    "use_action": "CAPTURE_MONSTER_ACT",
+    "flags": [ "TRADER_AVOID" ]
   }
 ]
