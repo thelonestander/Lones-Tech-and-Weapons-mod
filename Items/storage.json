@@ -224,5 +224,23 @@
     "color": "brown",
     "contains": "3 L",
     "use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "plutonium_cbm_kit_box",
+    "type": "CONTAINER",
+    "category": "container",
+    "looks_like": "box_medium",
+    "name": { "str": "Plutonium market CBM kit box", "str_pl": "Plutonium market CBM kit boxes" },
+    "description": "A sturdy box, filled with advanced power gen CBMs market CBM's. These are most likely stolen.",
+    "weight": "4535 g",
+    "volume": "2 L",
+    "//": "Volume is much lower than the actual volume of a box this size because presumably if it's in your pack, it isn't empty and full of air; and if it's in your hands, it's irrelevant what the volume is.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "cardboard",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "3 L",
+    "use_action": "DISASSEMBLE"
   }
 ]
