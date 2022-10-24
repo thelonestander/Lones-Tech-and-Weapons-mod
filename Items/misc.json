@@ -94,7 +94,7 @@
     "name": { "str": "Large pet carrier" },
     "description": "A plastic container meant to hold large pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
     "weight": "1000 g",
-	"looks_like": "pet_carrier",
+    "looks_like": "pet_carrier",
     "volume": "5 L",
     "price": 1000,
     "price_postapoc": 100,
@@ -129,8 +129,6 @@
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 1 ] ],
     "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "OVERSIZE", "VARSIZE", "STURDY" ],
-    "artifact_data": {
-    "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ]
-  }
+    "artifact_data": { "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ] }
   }
 ]

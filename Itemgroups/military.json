@@ -25,7 +25,7 @@
       { "item": "atomic_military_watch", "prob": 5 },
       { "item": "XL_tactical_backpack", "prob": 5 },
       { "item": "dual_action_otf_blade", "prob": 5 },
-	  { "item": "miltary_aim_assist_goggles", "prob": 5 }
+      { "item": "miltary_aim_assist_goggles", "prob": 5 }
     ]
   },
   {
