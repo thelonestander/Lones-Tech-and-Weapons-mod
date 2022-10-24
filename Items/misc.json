@@ -106,5 +106,31 @@
     "properties": [ [ "monster_size_capacity", "LARGE" ] ],
     "use_action": "CAPTURE_MONSTER_ACT",
     "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "miltary_aim_assist_goggles",
+    "type": "ARMOR",
+    "name": { "str": "military aim assist goggles", "str_pl": "pairs of military aim assist goggles" },
+    "description": "A pair of armored goggles with tinted lenses. These offer the ability to see battlefield information, and help with aiming. Comfortable and built to last, they provide excellent protection from environmental dangers.",
+    "weight": "212 g",
+    "volume": "250 ml",
+    "price": 7500,
+    "price_postapoc": 3000,
+    "to_hit": -2,
+    "material": [ "kevlar", "leather" ],
+    "symbol": "[",
+    "looks_like": "glasses_bal",
+    "color": "dark_gray",
+    "covers": [ "eyes" ],
+    "coverage": 100,
+    "encumbrance": 20,
+    "warmth": 5,
+    "material_thickness": 4,
+    "environmental_protection": 15,
+    "qualities": [ [ "GLARE", 1 ] ],
+    "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "OVERSIZE", "VARSIZE", "STURDY" ],
+    "artifact_data": {
+    "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ]
+  }
   }
 ]
