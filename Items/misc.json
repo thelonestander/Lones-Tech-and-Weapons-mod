@@ -111,7 +111,7 @@
     "id": "miltary_aim_assist_goggles",
     "type": "ARMOR",
     "name": { "str": "military aim assist goggles", "str_pl": "pairs of military aim assist goggles" },
-    "description": "A pair of armored goggles with tinted lenses. These offer the ability to see battlefield information, and help with aiming. Comfortable and built to last, they provide excellent protection from environmental dangers.",
+    "description": "A pair of armored goggles with unknown tech and tinted lenses. These offer the ability to see battlefield information, and help with aiming. You can even see through walls...slightly. Comfortable and built to last, they provide excellent protection from environmental dangers.",
     "weight": "212 g",
     "volume": "250 ml",
     "price": 7500,
