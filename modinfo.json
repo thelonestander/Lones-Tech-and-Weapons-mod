@@ -2,11 +2,11 @@
   {
     "type": "MOD_INFO",
     "id": "lonestweaks",
-    "name": "<color_cyan>Lones Tweaks",
+    "name": "<color_cyan>Lones Tweaks</color>",
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
     "description": "Adds various monsters, weapons, and tech to the game Bn.",
-	"dependencies": [ "dda" ],
+    "dependencies": [ "dda", "Cata++", "aftershock" ],
     "category": "content"
   }
 ]

@@ -128,7 +128,7 @@
     "material_thickness": 4,
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 1 ] ],
-    "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "OVERSIZE", "VARSIZE", "STURDY" ],
+    "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "VARSIZE", "STURDY" ],
     "artifact_data": { "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ] }
   }
 ]

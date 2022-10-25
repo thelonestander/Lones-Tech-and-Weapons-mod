@@ -2,7 +2,7 @@
   {
     "type": "MOD_INFO",
     "id": "flesh raptors",
-    "name": "<color_cyan>Lones Flesh Raptor",
+    "name": "<color_cyan>Lones Flesh Raptor</color>",
     "authors": [ "Thelonestander" ],
 	"maintainers": [ "Thelonestander" ],
     "description": "Adds the flesh raptors back to BN!",
