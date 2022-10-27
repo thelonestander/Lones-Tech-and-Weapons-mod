@@ -15,8 +15,8 @@
           "cbma_bionic_boots",
           "cbma_bionic_duster",
           "cbma_inner_suite",
-		  "rope_6",
-		  "rope_6"
+          "rope_6",
+          "rope_6"
         ],
         "entries": [
           { "item": "cbma_carry_frame", "custom-flags": [ "no_auto_equip" ] },
@@ -25,8 +25,32 @@
           { "item": "cbma_mono_sword", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cbma_em_rail_iron", "charges": 50 },
           { "item": "cbma_em_rail_steel", "charges": 50 },
-		  { "item": "plut_cell", "charges": 100 }
+          { "item": "plut_cell", "charges": 100 }
         ]
+      }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "cbma_bionic_cowboy",
+    "name": "Bionic Cowboy",
+    "description": "You were once a cyber ghost town shootout outlaw, since the world has ended you took your cyber horse with no name, to get out fo the rain. To survive another day.",
+    "points": 8,
+    "pets": [ { "name": "mon_cyber_horse", "amount": 1 } ],
+    "items": {
+      "both": {
+        "items": [
+          "cbma_bionic_armor",
+          "cowboy_hat",
+          "cbma_bionic_gloves",
+          "cbma_bionic_boots",
+          "cbma_bionic_duster",
+          "holster",
+          "colt_army",
+          "rope_6",
+          "rope_6"
+        ],
+        "entries": [ { "item": "44army", "charges": 60 } ]
       }
     }
   }
