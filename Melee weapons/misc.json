@@ -509,5 +509,23 @@
     "turns_per_charge": 20,
     "revert_to": "electric_longsword",
     "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "electric_longsword" } ]
+  },
+  {
+    "type": "GENERIC",
+    "category": "weapons",
+    "id": "bio_mono_whip_item",
+    "name": { "str": "monomolecular whip" },
+    "looks_like": "bullwhip",
+    "description": "A long monomolecular wire made from high-tech alloy and nanocrystals. This is incredibly dangerous and should not used unless trained.",
+    "weight": "100 g",
+    "to_hit": 3,
+    "color": "dark_gray",
+    "symbol": "{",
+    "material": [ "superalloy" ],
+    "techniques": [ "WBLOCK_2" ],
+    "volume": "750 ml",
+    "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE" ],
+    "cutting": 40,
+    "bashing": 5
   }
 ]
