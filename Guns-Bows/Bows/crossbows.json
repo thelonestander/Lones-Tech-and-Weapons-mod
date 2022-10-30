@@ -33,7 +33,7 @@
     "id": "plasma_longbow",
     "type": "GUN",
     "symbol": "(",
-    "looks_like": "longbow",
+    "looks_like": "afs_hardlight_longbow",
     "color": "white",
     "name": { "str": "Plasma longbow" },
     "description": "A compact, stringless metal longbow constructed of atomic-age materials.  Rather than using ammunition, a series of mirrors create a super heated plasma arrow.  It runs off of UPS.",
