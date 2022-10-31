@@ -307,5 +307,15 @@
     "color": "light_gray",
     "qualities": [ [ "LOCKPICK", 12 ] ],
     "use_action": { "type": "picklock", "pick_quality": 12 }
+  },
+  {
+    "id": "cyber_power_mod",
+    "copy-from": "mod_battery",
+    "type": "TOOLMOD",
+    "category": "spare_parts",
+    "name": "cyber power mod",
+    "description": "This device has a port that interfaces into bionic implants.  When used, it will convert an item to run directly off of bionic power.",
+    "ammo_modifier": "battery",
+    "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]
   }
 ]
