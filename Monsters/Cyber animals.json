@@ -154,7 +154,7 @@
     "species": [ "MAMMAL" ],
     "volume": "550000 ml",
     "weight": "550 kg",
-    "hp": 150,
+    "hp": 350,
     "speed": 500,
     "material": [ "flesh" ],
     "symbol": "H",
