@@ -170,5 +170,19 @@
       [ [ "e_scrap", 2 ] ],
       [ [ "scrap", 2 ] ]
   ]
+  },
+  {
+    "result": "axe_bayonet_mod",
+    "type": "recipe",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MODS",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+	"autolearn": true,
+    "skills_required": [ "rifle", 2 ],
+    "time": 200000,
+    "using": [ [ "welding_standard", 4 ], [ "steel_tiny", 2 ] ],
+    "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SAW_M", "level": 1 } ],
+    "components": [ [ [ "axe_bayonet", 1 ] ] ]
   }
   ]
