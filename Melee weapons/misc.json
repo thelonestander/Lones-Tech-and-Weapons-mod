@@ -527,5 +527,39 @@
     "flags": [ "REACH_ATTACK", "REACH3", "WHIP", "NO_DROP", "NO_UNWIELD", "UNBREAKABLE_MELEE" ],
     "cutting": 40,
     "bashing": 5
+  },
+  {
+    "id": "axe_bayonet",
+    "type": "GENERIC",
+    "category": "weapons",
+    "name": { "str": "axe bayonet" },
+    "description": "An axe bayonet is a large slashing weapon that can be attached to the front of a firearm or crossbow converting it into a ruthless axe.",
+    "weight": "923 g",
+    "volume": "1750 ml",
+    "price": 25000,
+    "price_postapoc": 4000,
+    "to_hit": 1,
+    "bashing": 14,
+    "cutting": 10,
+    "material": [ "steel" ],
+    "symbol": "/",
+    "color": "light_gray",
+    "gunmod_data": {
+      "location": "underbarrel",
+      "mod_targets": [ "shotgun", "rifle", "crossbow", "launcher" ],
+      "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ]
+    },
+    "min_skills": [ [ "weapon", 2 ], [ "melee", 2 ] ],
+    "techniques": [ "WBLOCK_1", "RAPID" ],
+    "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ], [ "BUTCHER", 7 ] ],
+    "flags": [ "DURABLE_MELEE", "SHEATH_SWORD" ]
+  },
+  {
+    "id": "axe_bayonet_mod",
+    "copy-from": "axe_bayonet",
+    "type": "GENERIC",
+    "name": { "str": "modified axe bayonet" },
+    "description": "An axe bayonet is a large slashing weapon that can be attached to the front of a firearm or crossbow converting it into a ruthless axe.  This one was modified and customized to mount on pretty much any weapon other than pistols and SMGs, if you so want.",
+    "extend": { "flags": [ "PUMP_RAIL_COMPATIBLE" ] }
   }
 ]
