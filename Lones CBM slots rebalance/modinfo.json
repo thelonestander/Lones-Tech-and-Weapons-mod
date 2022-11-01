@@ -7,6 +7,6 @@
     "maintainers": [ "Thelonestander" ],
     "description": "Rebalances CBM slots to allow more tactical choices.",
     "category": "content",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "bn" ]
   }
 ]

@@ -7,6 +7,6 @@
 	"maintainers": [ "Thelonestander" ],
     "description": "Translocator and portable Gates!",
     "category": "content",
-    "dependencies": [ "dda" ]
+    "dependencies": [ "bn" ]
   }
 ]
