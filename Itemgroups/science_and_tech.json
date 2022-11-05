@@ -21,7 +21,8 @@
       { "item": "bio_furnace", "prob": 5 },
       { "item": "auto_lockpick", "prob": 5 },
       { "item": "bio_mono_whip", "prob": 5 },
-	  { "item": "cyber_power_mod", "prob": 5 }
+      { "item": "cyber_power_mod", "prob": 5 },
+      { "item": "the_eliminator_rifle", "prob": 1 }
     ]
   }
 ]
