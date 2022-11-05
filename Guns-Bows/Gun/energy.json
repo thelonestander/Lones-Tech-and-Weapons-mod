@@ -72,7 +72,7 @@
     "symbol": "(",
     "color": "light_blue",
     "name": { "str": "The eliminator plasma rifle" },
-    "description": "This is the best of the best when its comes to plasma. This was a concept weapon and this one is very very rare. It fires two shots by default and is very accurate. When you press the trigger the weapons heats up for a bit then fire two shots.",
+    "description": "This is the best of the best when its comes to plasma. This was a concept weapon and this one is very very rare. It fires two shots by default and is very accurate. When you press the trigger the weapons heats up for a bit then fire two shots. The weapon itself is very warm and hums constantly.",
     "price": 0,
     "material": "steel",
     "flags": [ "NEVER_JAMS", "NON-FOULING", "PYROMANIAC_WEAPON" ],
