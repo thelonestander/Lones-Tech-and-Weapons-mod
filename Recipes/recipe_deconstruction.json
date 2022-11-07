@@ -115,17 +115,28 @@
       [ [ "bio_teleport", 1 ] ],
       [ [ "bio_time_freeze", 1 ] ],
       [ [ "bio_shock_absorber", 1 ] ],
-	  [ [ "bio_furnace", 1 ] ],
-	  [ [ "bio_lightning_emitter", 1 ] ]
+      [ [ "bio_furnace", 1 ] ],
+      [ [ "bio_lightning_emitter", 1 ] ]
     ]
   },
   {
     "result": "plutonium_cbm_kit_box",
     "type": "uncraft",
     "time": "30 s",
+    "components": [ [ [ "bio_advreactor", 1 ] ], [ [ "bio_plut_filter", 1 ] ] ]
+  },
+  {
+    "result": "bionic_medkit_box",
+    "type": "uncraft",
+    "time": "30 s",
     "components": [
-      [ [ "bio_advreactor", 1 ] ],
-      [ [ "bio_plut_filter", 1 ] ]
+      [ [ "afs_complete_bionic_toolkit", 1 ] ],
+      [ [ "adrenaline_injector", 1 ] ],
+      [ [ "bandages", 6 ] ],
+      [ [ "morphine", 4 ] ],
+      [ [ "wearable_rx12", 1 ] ],
+      [ [ "ampoule", 4 ] ],
+      [ [ "stimpack_ammo", 4 ] ]
     ]
   }
 ]

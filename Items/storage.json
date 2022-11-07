@@ -242,5 +242,23 @@
     "color": "brown",
     "contains": "3 L",
     "use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "bionic_medkit_box",
+    "type": "CONTAINER",
+    "category": "container",
+    "looks_like": "1st_aid",
+    "name": { "str": "Bionic medkit", "str_pl": "Bionic medkits" },
+    "description": "A sturdy box, filled with more advanced meds made for people with heavy bionics.",
+    "weight": "4535 g",
+    "volume": "2 L",
+    "//": "Volume is much lower than the actual volume of a box this size because presumably if it's in your pack, it isn't empty and full of air; and if it's in your hands, it's irrelevant what the volume is.",
+    "price": 0,
+    "price_postapoc": 0,
+    "material": "cardboard",
+    "symbol": ")",
+    "color": "brown",
+    "contains": "3 L",
+    "use_action": "DISASSEMBLE"
   }
 ]
