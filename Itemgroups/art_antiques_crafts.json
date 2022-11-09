@@ -9,7 +9,8 @@
       { "item": "survival_spear", "prob": 5 },
       { "item": "four_barrel_pistol_flintlock", "prob": 2 },
       { "item": "chain_sword", "prob": 1 },
-      { "item": "axe_bayonet", "prob": 5 }
+      { "item": "axe_bayonet", "prob": 5 },
+	  { "item": "axe_flintlock", "prob": 4 }
     ]
   }
 ]

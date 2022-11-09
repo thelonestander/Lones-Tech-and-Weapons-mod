@@ -29,5 +29,30 @@
       [ "underbarrel mount", 1 ]
     ],
     "flags": [ "NEVER_JAMS" ]
+  },
+  {
+    "id": "axe_flintlock",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str": "flintlock axe" },
+    "description": "A beautifully decorated single shot flintlock axe. It is shorter then the standard flintlock rifle.",
+    "weight": "2 kg",
+    "volume": "400 ml",
+    "price": 35000,
+    "price_postapoc": 1750,
+    "cutting": 25,
+    "bashing": 5,
+    "material": [ "iron", "wood" ],
+    "color": "brown",
+    "ammo": "flintlock",
+    "range": 8,
+    "ranged_damage": { "damage_type": "bullet", "amount": 2 },
+    "dispersion": 620,
+    "durability": 6,
+    "blackpowder_tolerance": 96,
+    "clip_size": 1,
+    "reload": 800,
+    "valid_mod_locations": [ [ "accessories", 1 ], [ "grip mount", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ] ],
+    "flags": [ "NEVER_JAMS" ]
   }
 ]
