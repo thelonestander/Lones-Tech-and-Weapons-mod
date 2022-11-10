@@ -82,6 +82,6 @@
     "id": "ammo_milspec",
     "//": "Military specification ammo found at military sites.",
     "subtype": "distribution",
-    "entries": [ { "item": "6.8x51", "prob": 50 }, { "item": "50_beowulf", "prob": 20 } ]
+    "entries": [ { "item": "6.8x51", "prob": 50 }, { "item": "50_beowulf", "prob": 50 } ]
   }
 ]

@@ -13,7 +13,7 @@
     "symbol": "=",
     "color": "dark_gray",
     "count": 30,
-    "stack_size": 20,
+    "stack_size": 30,
     "ammo_type": "50_beowulf",
     "casing": "500_casing",
     "range": 30,
