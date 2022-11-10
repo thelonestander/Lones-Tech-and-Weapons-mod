@@ -26,7 +26,7 @@
       { "item": "XL_tactical_backpack", "prob": 5 },
       { "item": "dual_action_otf_blade", "prob": 5 },
       { "item": "miltary_aim_assist_goggles", "prob": 5 },
-      { "item": "military_exo_suit", "prob": 5 }
+	  { "item": "military_exo_suit", "prob": 5 }
     ]
   },
   {

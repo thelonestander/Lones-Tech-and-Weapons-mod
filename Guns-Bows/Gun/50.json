@@ -25,5 +25,24 @@
     "magazine_well": "250 ml",
     "magazines": [ [ "50", [ "gmglynxmag" ] ] ],
     "flags": [ "NEVER_JAMS" ]
+  },
+  {
+    "id": "beowolf_ar",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+    "name": { "str": "Beowulf Ar15" },
+    "//": "This is assumed to be the standard model matching the (currently not in-game) M16. Tileset whitelist for rifles",
+    "description": "This ar15 is the god king of all the ar 15 family. It shoots a very large .50 Beowulf round.",
+    "weight": "3500 g",
+    "volume": "2 L",
+    "price": 125000,
+    "price_postapoc": 4000,
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "ammo": "50_beowulf",
+    "dispersion": 150,
+    "durability": 7,
+    "min_cycle_recoil": 1350,
+    "magazines": [ [ "50_beowulf", [ "beowulf_mag" ] ] ]
   }
 ]

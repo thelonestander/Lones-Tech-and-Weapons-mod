@@ -1,0 +1,25 @@
+[
+  {
+    "id": "50_beowulf",
+    "type": "AMMO",
+    "name": { "str": ".50 Beowulf" },
+    "description": "The cartridge utilizes a rebated rim, sized to match the rim of the 6.5mm Grendel round. The case body is very similar in dimensions to the .500 S&W Magnum revolver cartridge, being slightly longer and fully tapered for automatic feeding in the weapon. The round is intended to improve stopping power greatly at short- to medium-range as compared to the standard 5.56×45mm NATO round. One of its advertised uses is at vehicle checkpoints, since the heavy bullet's flight path is not easily deflected by auto glass or standard vehicle body panels.",
+    "weight": "16 g",
+    "volume": "250 ml",
+    "price": 120,
+    "price_postapoc": 900,
+    "flags": [ "IRREPLACEABLE_CONSUMABLE" ],
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 30,
+    "stack_size": 20,
+    "ammo_type": "50_beowulf",
+    "casing": "500_casing",
+    "range": 30,
+    "damage": { "damage_type": "bullet", "amount": 45, "armor_penetration": 10 },
+    "dispersion": 35,
+    "recoil": 2036,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
+  }
+]

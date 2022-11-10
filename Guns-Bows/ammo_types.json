@@ -4,5 +4,11 @@
     "name": "6.8x51",
     "default": "6.8x51",
     "type": "ammunition_type"
+  },
+  {
+    "id": "50_beowulf",
+    "name": "50 beowulf",
+    "default": "50_beowulf",
+    "type": "ammunition_type"
   }
 ]

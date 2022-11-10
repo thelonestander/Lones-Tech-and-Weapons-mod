@@ -18,5 +18,25 @@
     "reliability": 9,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "beowulf_mag",
+    "looks_like": "stanag30",
+    "type": "MAGAZINE",
+    "name": { "str": ".50 Beowulf mag" },
+    "//": "Fully loaded 30 round magazine, presumably loaded with the 114.7 gram M33 Ball cartridge, weighs 1868.801 grams.",
+    "description": "Standard 30-round box magazine for a .50 Beowulf.",
+    "weight": "727 g",
+    "volume": "500 ml",
+    "price": 10000,
+    "price_postapoc": 250,
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "50_beowulf",
+    "capacity": 30,
+    "reliability": 9,
+    "reload_time": 130,
+    "flags": [ "MAG_BULKY" ]
   }
 ]
