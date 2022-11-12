@@ -12,7 +12,6 @@
     "max_aoe": 2,
     "base_casting_time": 500,
     "extra_effects": [ { "id": "spawning_zombie_die", "hit_self": true } ],
-    "shape": "blast",
     "effect": "summon",
     "effect_str": "mon_spawn_raptor"
   },
@@ -29,7 +28,6 @@
     "max_aoe": 4,
     "base_casting_time": 500,
     "extra_effects": [ { "id": "spawning_zombie_die", "hit_self": true } ],
-    "shape": "blast",
     "effect": "summon",
     "effect_str": "mon_spawn_raptor"
   },
