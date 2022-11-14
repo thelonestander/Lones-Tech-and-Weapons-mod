@@ -319,5 +319,29 @@
     "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "military_exo_suit" },
     "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE", "AEP_STR_UP", "AEP_DEX_UP", "AEP_SPEED_UP" ] }
+  },
+  {
+    "id": "cargo_boots",
+    "type": "ARMOR",
+    "name": { "str": "pair of cargo boots" },
+    "description": "Tough leather cargo boots. These boots have two pretty decently sized pockets on them. Very durable. Someone needs to stop letting the people make new items for sure.",
+    "weight": "1060 g",
+    "volume": "2500 ml",
+    "price": 10000,
+    "price_postapoc": 750,
+    "to_hit": -1,
+    "bashing": 1,
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "dress_shoes",
+    "color": "dark_gray",
+    "covers": [ "feet" ],
+    "coverage": 90,
+    "storage": "10 L",
+    "encumbrance": 12,
+    "warmth": 20,
+    "material_thickness": 2,
+    "environmental_protection": 2,
+    "flags": [ "VARSIZE", "WATERPROOF" ]
   }
 ]

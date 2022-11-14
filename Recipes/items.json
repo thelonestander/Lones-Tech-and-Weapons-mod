@@ -169,7 +169,7 @@
       [ [ "amplifier", 4 ] ],
       [ [ "e_scrap", 2 ] ],
       [ [ "scrap", 2 ] ]
-  ]
+    ]
   },
   {
     "result": "axe_bayonet_mod",
@@ -178,7 +178,7 @@
     "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
     "difficulty": 5,
-	"autolearn": true,
+    "autolearn": true,
     "skills_required": [ "rifle", 2 ],
     "time": 200000,
     "using": [ [ "welding_standard", 4 ], [ "steel_tiny", 2 ] ],
@@ -219,8 +219,20 @@
       [ [ "water_clean", 40 ], [ "water", 40 ] ],
       [ [ "chem_ethanol", 100 ], [ "chem_methanol", 100 ], [ "denat_alcohol", 100 ] ],
       [ [ "lye_powder", 20 ] ],
-	  [ [ "nuclear_waste", 10 ] ],
-	  [ [ "nanomaterial", 40 ] ]
+      [ [ "nuclear_waste", 10 ] ],
+      [ [ "nanomaterial", 40 ] ]
     ]
+  },
+  {
+    "result": "cargo_boots",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "35 m",
+    "autolearn": true,
+    "using": [ [ "sewing_standard", 10 ] ],
+    "components": [ [ [ "leather", 10 ], [ "leather_pouch", 2 ] ] ]
   }
-  ]
+]
