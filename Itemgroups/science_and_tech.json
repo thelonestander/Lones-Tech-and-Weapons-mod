@@ -23,8 +23,8 @@
       { "item": "bio_mono_whip", "prob": 5 },
       { "item": "cyber_power_mod", "prob": 5 },
       { "item": "bionic_medkit_box", "prob": 4 },
-	  { "item": "the_eliminator_rifle", "prob": 1 },
-	  { "item": "recipe_translocator_beacon", "prob": 5 }
+      { "item": "the_eliminator_rifle", "prob": 1 },
+      { "item": "recipe_translocator_beacon", "prob": 5 }
     ]
   }
 ]

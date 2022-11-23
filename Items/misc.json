@@ -116,7 +116,7 @@
     "volume": "250 ml",
     "price": 7500,
     "price_postapoc": 3000,
-	"repairs_like": "goggles_ir",
+    "repairs_like": "goggles_ir",
     "to_hit": -2,
     "material": [ "kevlar", "leather" ],
     "symbol": "[",

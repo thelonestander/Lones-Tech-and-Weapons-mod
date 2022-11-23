@@ -3,16 +3,12 @@
     "id": "vet_utility",
     "//": "for veterinarian",
     "type": "item_group",
-    "items": [
-      [ "large_pet_carrier", 10 ]
-    ]
+    "items": [ [ "large_pet_carrier", 10 ] ]
   },
   {
     "id": "vet_hardrug",
     "//": "for veterinarian",
     "type": "item_group",
-    "items": [
-      [ "large_pet_carrier", 10 ]
-    ]
+    "items": [ [ "large_pet_carrier", 10 ] ]
   }
 ]

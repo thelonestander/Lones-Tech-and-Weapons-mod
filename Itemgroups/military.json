@@ -26,7 +26,7 @@
       { "item": "XL_tactical_backpack", "prob": 5 },
       { "item": "dual_action_otf_blade", "prob": 5 },
       { "item": "miltary_aim_assist_goggles", "prob": 5 },
-	  { "item": "military_exo_suit", "prob": 5 }
+      { "item": "military_exo_suit", "prob": 5 }
     ]
   },
   {
@@ -46,8 +46,8 @@
       { "item": "Xm250", "prob": 10, "charges-min": 30, "charges-max": 200 },
       { "item": "double_m4a1", "prob": 20, "charges-min": 37, "charges-max": 60 },
       { "item": "Xm5", "prob": 10, "charges-min": 10, "charges-max": 20 },
-	  { "item": "beowolf_ar", "prob": 5, "charges-min": 20, "charges-max": 30 },
-	  { "item": "beowulf_mag", "prob": 5, "charges-min": 20, "charges-max": 30 }
+      { "item": "beowolf_ar", "prob": 5, "charges-min": 20, "charges-max": 30 },
+      { "item": "beowulf_mag", "prob": 5, "charges-min": 20, "charges-max": 30 }
     ]
   },
   {
