@@ -263,10 +263,9 @@
     "tools": [
       [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "68_51_casing", -1 ] ]
+      [ [ "swage", -1 ] ]
     ],
-    "components": [ [ [ "wire", 2 ], [ "6.8x51", 30 ] ] ]
+    "components": [ [ [ "6.8x51", 30 ] ] ]
   },
   {
     "result": "belt68_51_50",
@@ -283,10 +282,9 @@
     "tools": [
       [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "68_51_casing", -1 ] ]
+      [ [ "swage", -1 ] ]
     ],
-    "components": [ [ [ "wire", 2 ], [ "6.8x51", 50 ] ] ]
+    "components": [ [ [ "6.8x51", 50 ] ] ]
   },
   {
     "result": "belt68_51_100",
@@ -303,10 +301,9 @@
     "tools": [
       [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "68_51_casing", -1 ] ]
+      [ [ "swage", -1 ] ]
     ],
-    "components": [ [ [ "wire", 2 ], [ "6.8x51", 100 ] ] ]
+    "components": [ [ [ "6.8x51", 100 ] ] ]
   },
   {
     "result": "belt68_51_100",
@@ -323,10 +320,9 @@
     "tools": [
       [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "68_51_casing", -1 ] ]
+      [ [ "swage", -1 ] ]
     ],
-    "components": [ [ [ "wire", 2 ], [ "6.8x51", 100 ] ] ]
+    "components": [ [ [ "6.8x51", 100 ] ] ]
   },
   {
     "result": "belt68_51_200",
@@ -343,9 +339,8 @@
     "tools": [
       [ [ "welder", 20 ], [ "welder_crude", 40 ], [ "soldering_iron", 40 ], [ "toolset", 40 ] ],
       [ [ "small_repairkit", 60 ], [ "large_repairkit", 60 ] ],
-      [ [ "swage", -1 ] ],
-      [ [ "68_51_casing", -1 ] ]
+      [ [ "swage", -1 ] ]
     ],
-    "components": [ [ [ "wire", 2 ], [ "6.8x51", 200 ] ] ]
+    "components": [ [ [ "6.8x51", 200 ] ] ]
   }
 ]
