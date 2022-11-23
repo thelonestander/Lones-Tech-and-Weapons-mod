@@ -48,7 +48,7 @@
     "id": "atomic_arc_lightning_rifle",
     "type": "GUN",
     "name": { "str": "Atomic Arc lightning rifle" },
-    "description": "This gun is a further improved version of the original. This one runs on the power of the Atom but drains batteries quick! Be careful it can still hurt you too.",
+    "description": "This gun is a further improved version of the original. This one runs on the power of the Atom! Be careful it can still hurt you too.",
     "volume": "3 L",
     "price": 0,
     "material": [ "steel", "plastic" ],
