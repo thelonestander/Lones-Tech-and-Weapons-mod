@@ -1,0 +1,18 @@
+[
+  {
+    "type": "item_group",
+    "ammo": 25,
+    "magazine": 100,
+    "id": "consumer_electronics",
+    "items": [
+      [ "atomic_thermal_socks", 10 ],
+      [ "atomic_thermal_suit", 15 ],
+      [ "atomic_thermal_gloves", 18 ],
+      [ "atomic_thermal_mask", 10 ],
+      [ "atomic_electric_blanket", 10 ],
+      [ "atomic_flashlight", 5 ],
+      [ "atomic_hotplate", 16 ],
+      [ "atomic_water_purifier", 15 ]
+    ]
+  }
+]

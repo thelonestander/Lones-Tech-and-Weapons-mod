@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "lones atomic additions",
+    "name": "<color_cyan>Lones Atomic additions</color>",
+    "authors": [ "Thelonestander" ],
+    "maintainers": [ "Thelonestander" ],
+    "description": "Adds many new atomic gears to BN!",
+    "category": "content",
+    "dependencies": [ "bn" ]
+  }
+]
