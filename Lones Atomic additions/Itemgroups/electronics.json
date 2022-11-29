@@ -13,7 +13,8 @@
       [ "atomic_flashlight", 5 ],
       [ "atomic_hotplate", 16 ],
       [ "atomic_water_purifier", 15 ],
-      [ "atomic_jackhammer", 15 ]
+      [ "atomic_jackhammer", 15 ],
+	  [ "atomic_soldering_iron", 15 ]
     ]
   }
 ]

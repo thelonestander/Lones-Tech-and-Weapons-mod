@@ -245,5 +245,34 @@
     "color": "light_gray",
     "use_action": "JACKHAMMER",
     "flags": [ "STAB", "DIG_TOOL", "NO_UNLOAD", "NO_RELOAD" ]
+  },
+  {
+    "id": "atomic_soldering_iron",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "atomic soldering iron" },
+    "looks_like": "soldering_iron",
+    "description": "This is a device with a metal tip that can get very hot.  It is necessary for advanced electronics crafting.  You could also use it to cauterize wounds, if you had to. This one has an odd hum.",
+    "weight": "181 g",
+    "volume": "250 ml",
+    "price": 1000,
+    "price_postapoc": 100,
+    "bashing": 2,
+    "cutting": 6,
+    "material": "iron",
+    "symbol": ",",
+    "color": "light_gray",
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_metal",
+        "materials": [ "plastic", "lead", "tin", "zinc" ],
+        "skill": "fabrication",
+        "cost_scaling": 0.1,
+        "move_cost": 1500
+      },
+      { "flame": false, "type": "cauterize" }
+    ],
+    "flags": [ "SPEAR", "BELT_CLIP", "ALLOWS_REMOTE_USE" ]
   }
 ]
