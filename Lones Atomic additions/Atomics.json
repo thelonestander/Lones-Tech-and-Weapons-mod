@@ -225,5 +225,25 @@
     "color": "light_blue",
     "use_action": "WATER_PURIFIER",
     "flags": [ "ALLOWS_REMOTE_USE" ]
+  },
+  {
+    "id": "atomic_jackhammer",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "atomic jackhammer" },
+    "looks_like": "elec_jackhammer",
+    "description": "This is a construction tool for drilling through hard rock or other surfaces.  It runs on the power of the atom.  Use it to blast a hole in adjacent solid terrain.",
+    "weight": "40000 g",
+    "volume": "5 L",
+    "price": 40000,
+    "price_postapoc": 500,
+    "to_hit": -8,
+    "bashing": 14,
+    "cutting": 6,
+    "material": "steel",
+    "symbol": ";",
+    "color": "light_gray",
+    "use_action": "JACKHAMMER",
+    "flags": [ "STAB", "DIG_TOOL", "NO_UNLOAD", "NO_RELOAD" ]
   }
 ]
