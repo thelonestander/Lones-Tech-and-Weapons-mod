@@ -7,7 +7,7 @@
     "color": "light_gray",
     "name": { "str": "pair of atomic thermal socks", "str_pl": "pairs of atomic thermal socks" },
     "description": "This is a pair of socks with internal atomic battery-powered heating elements.  Use it to turn it on.",
-    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "LEAK_DAM" ],
     "price": 5000,
     "price_postapoc": 100,
     "material": [ "cotton" ],
@@ -26,7 +26,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "pair of thermal electric socks (on)", "str_pl": "pairs of thermal electric socks (on)" },
     "description": "This is a pair of socks with internal atomic battery-powered heating elements.  They are currently on, and continually draining batteries.  Use it to turn them off.",
-    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "LEAK_DAM" ],
     "revert_to": "atomic_thermal_socks",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "Your %s deactivates.", "target": "atomic_thermal_socks" },
     "warmth": 60
@@ -39,7 +39,7 @@
     "color": "light_gray",
     "name": { "str": "atomic thermal suit" },
     "description": "This is a full-body suit of thin thermal underwear equipped with internal atomic battery-powered heating elements.  Use it to turn it on.",
-    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "LEAK_DAM" ],
     "price": 15000,
     "price_postapoc": 500,
     "material": [ "cotton" ],
@@ -58,7 +58,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "atomic thermal suit (on)", "str_pl": "atomic thermal suits (on)" },
     "description": "This is a full-body suit of thin thermal underwear equipped with internal atomic battery-powered heating elements.  It is currently on, and continually draining batteries.  Use it to turn it off.",
-    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "LEAK_DAM" ],
     "revert_to": "atomic_thermal_suit",
     "warmth": 60,
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "Your %s deactivates.", "target": "atomic_thermal_suit" }
@@ -71,7 +71,7 @@
     "color": "light_gray",
     "name": { "str": "pair of atomic thermal gloves", "str_pl": "pairs of atomic thermal gloves" },
     "description": "This is a pair of gloves with internal atomic battery-powered heating elements.  Use it to turn it on.",
-    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "LEAK_DAM" ],
     "price": 5000,
     "price_postapoc": 100,
     "material": [ "cotton" ],
@@ -90,7 +90,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "pair of atomic thermal gloves (on)", "str_pl": "pairs of atomic thermal gloves (on)" },
     "description": "This is a pair of gloves with internal atomic battery-powered heating elements.  They are currently on, and continually draining batteries.  Use it to turn them off.",
-    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "LEAK_DAM" ],
     "revert_to": "atomic_thermal_gloves",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "Your %s deactivates.", "target": "thermal_gloves" },
     "warmth": 60
@@ -103,7 +103,7 @@
     "color": "light_gray",
     "name": { "str": "atomic thermal balaclava" },
     "description": "This is a snug cloth mask with internal atomic battery-powered heating elements.  Use it to turn it on.",
-    "flags": [ "VARSIZE", "SKINTIGHT" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "LEAK_DAM" ],
     "price": 5000,
     "price_postapoc": 250,
     "material": [ "cotton" ],
@@ -122,7 +122,7 @@
     "type": "TOOL_ARMOR",
     "name": { "str": "atomic thermal balaclava (on)", "str_pl": "atomic thermal balaclavas (on)" },
     "description": "This is a snug cloth mask with internal atomic battery-powered heating elements.  It is are currently on, and continually draining batteries.  Use it to turn it off.",
-    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID" ],
+    "flags": [ "VARSIZE", "SKINTIGHT", "TRADER_AVOID", "LEAK_DAM" ],
     "revert_to": "atomic_thermal_mask",
     "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "Your %s deactivates.", "target": "thermal_mask" },
     "warmth": 60
@@ -153,7 +153,7 @@
       "target": "atomic_electric_blanket_on",
       "active": true
     },
-    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS" ]
+    "flags": [ "OVERSIZE", "OUTER", "ALLOWS_NATURAL_ATTACKS", "LEAK_DAM" ]
   },
   {
     "id": "atomic_electric_blanket_on",
@@ -179,7 +179,7 @@
     "volume": "100 ml",
     "price": 500,
     "price_postapoc": 100,
-    "flags": [ "BELT_CLIP" ],
+    "flags": [ "BELT_CLIP", "LEAK_DAM" ],
     "use_action": { "type": "transform", "msg": "You turn the atomic flashlight on.", "target": "atomic_flashlight_on", "active": true }
   },
   {
@@ -189,7 +189,7 @@
     "name": { "str": "atomic flashlight (on)", "str_pl": "atomic flashlights (on)" },
     "revert_to": "atomic_flashlight",
     "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "atomic_flashlight" },
-    "flags": [ "LIGHT_300", "TRADER_AVOID", "BELT_CLIP" ]
+    "flags": [ "LIGHT_300", "TRADER_AVOID", "BELT_CLIP", "LEAK_DAM" ]
   },
   {
     "id": "atomic_hotplate",
@@ -224,7 +224,7 @@
     "symbol": ";",
     "color": "light_blue",
     "use_action": "WATER_PURIFIER",
-    "flags": [ "ALLOWS_REMOTE_USE" ]
+    "flags": [ "ALLOWS_REMOTE_USE", "LEAK_DAM" ]
   },
   {
     "id": "atomic_jackhammer",
@@ -244,7 +244,7 @@
     "symbol": ";",
     "color": "light_gray",
     "use_action": "JACKHAMMER",
-    "flags": [ "STAB", "DIG_TOOL", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [ "STAB", "DIG_TOOL", "NO_UNLOAD", "NO_RELOAD", "LEAK_DAM" ]
   },
   {
     "id": "atomic_soldering_iron",
@@ -273,6 +273,37 @@
       },
       { "flame": false, "type": "cauterize" }
     ],
-    "flags": [ "SPEAR", "BELT_CLIP", "ALLOWS_REMOTE_USE" ]
+    "flags": [ "SPEAR", "BELT_CLIP", "ALLOWS_REMOTE_USE", "LEAK_DAM" ]
+  },
+  {
+    "id": "atomic_electrohack",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "atomic electrohack" },
+    "description": "This device has many ports attached, allowing it to connect to almost any control panel or other electronic machine (but not computers).  With a little skill, it can be used to crack passwords and more.  It runs on the power of the atom!",
+    "weight": "114 g",
+    "volume": "500 ml",
+    "price": 40000,
+    "price_postapoc": 500,
+    "to_hit": 1,
+    "bashing": 5,
+    "material": [ "plastic", "aluminum" ],
+    "symbol": ",",
+    "color": "green"
+  },
+  {
+    "id": "atomic_vibrator",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "atomic vibrator" },
+    "description": "This atomic device is just the thing to knead the tension out and help you relax.  Use it to take a break and unwind. Lets hope this doesnt uhhh mutate your bits.",
+    "weight": "453 g",
+    "volume": "500 ml",
+    "price": 5500,
+    "price_postapoc": 100,
+    "material": [ "aluminum", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "use_action": "VIBE"
   }
 ]

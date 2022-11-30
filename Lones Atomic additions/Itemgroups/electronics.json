@@ -14,7 +14,9 @@
       [ "atomic_hotplate", 16 ],
       [ "atomic_water_purifier", 15 ],
       [ "atomic_jackhammer", 15 ],
-	  [ "atomic_soldering_iron", 15 ]
+      [ "atomic_soldering_iron", 15 ],
+      [ "atomic_electrohack", 15 ],
+      [ "atomic_vibrator", 15 ]
     ]
   }
 ]
