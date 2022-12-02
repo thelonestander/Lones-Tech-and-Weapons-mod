@@ -1,0 +1,32 @@
+[
+  {
+    "type": "profession",
+    "id": "lt_atomic_pitchman",
+    "name": { "male": "Atomic Pitchman", "female": "Atomic Pitchwoman" },
+    "description": "You were hired to market Rivtech's products through TV and were on your way to the studio when the bombs hit.  You enter now the end of the world with nothing but the snazzy clothes on your back and a bunch of plutonium-powered toys.",
+    "points": 3,
+    "skills": [ { "level": 1, "name": "speech" } ],
+    "items": {
+      "both": [
+        "dress_shirt",
+        "pants",
+        "dress_shoes",
+        "socks",
+        "mbag",
+        "afs_atomic_smartphone",
+        "atomic_light",
+        "atomic_coffeepot",
+        "atomic_lamp_off",
+        "afs_atompot",
+        "energy_drink_atomic",
+        "atomic_electric_blanket",
+        "atomic_flashlight",
+        "atomic_hotplate",
+        "atomic_soldering_iron",
+        "atomic_vibrator"
+      ],
+      "male": [ "briefs" ],
+      "female": [ "bra", "panties" ]
+    }
+  }
+]
