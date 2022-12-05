@@ -689,7 +689,7 @@
   {
     "id": "cbma_enhanced_helmet_ups",
     "type": "TOOL_ARMOR",
-    "name": { "str": "enhanced helmet (off) (UPS)" },
+    "name": { "str": "enhanced bionic helmet (off) (UPS)" },
     "description": "A tough and lightweight protective helmet that combines superalloys and Kevlar, it is a gem that should be called Survivor Power Armor. By activating various expansion systems installed inside, it is possible to operate under various environments. It has been modified so that the UPS can supply power.",
     "weight": "856 g",
     "volume": "2500 ml",
