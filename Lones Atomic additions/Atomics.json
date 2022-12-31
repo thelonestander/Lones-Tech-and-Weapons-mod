@@ -212,7 +212,7 @@
     "id": "atomic_water_purifier",
     "type": "TOOL",
     "category": "tools",
-    "name": { "str": "atomic_water purifier" },
+    "name": { "str": "atomic water purifier" },
     "description": "This is a atomic powered device designed to purify drinking water.  Using this item on a container full of water will purify the contents.  It could be useful for water taken from uncertain sources like a river, as it may be non-potable.",
     "weight": "1360 g",
     "volume": "3 L",
