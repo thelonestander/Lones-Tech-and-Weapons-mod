@@ -229,7 +229,7 @@
 	"artifact_data": { "charge_type": "ARTC_SOLAR" },
     "charges_per_use": 1,
     "use_action": "WATER_PURIFIER",
-    "flags": [ "ALLOWS_REMOTE_USE", "LEAK_DAM" ]
+  "flags": [ "ALLOWS_REMOTE_USE", "LEAK_DAM", "NO_RELOAD", "NO_UNLOAD" ]
   },
   {
     "id": "atomic_jackhammer",
