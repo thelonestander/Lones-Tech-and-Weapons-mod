@@ -21,8 +21,6 @@
         "energy_drink_atomic",
         "atomic_electric_blanket",
         "atomic_flashlight",
-        "atomic_hotplate",
-        "atomic_soldering_iron",
         "atomic_vibrator"
       ],
       "male": [ "briefs" ],
