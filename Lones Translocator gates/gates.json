@@ -123,7 +123,6 @@
     "type": "item_group",
     "id": "teleport",
     "items": [
-      [ "translocator_spawn", 5 ],
       [ "portable_translocator_gate", 20 ],
       [ "recipe_translocator_beacon", 10 ]
     ]
