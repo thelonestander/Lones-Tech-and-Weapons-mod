@@ -4,6 +4,6 @@
     "type": "item_group",
     "//": "clothing found in a man's wardrobe",
     "subtype": "collection",
-    "entries": [ { "item": "life_card", "prob": 5 }, { "item": "wearable_smart_phone", "prob": 5 } ]
+    "entries": [ { "item": "life_card", "prob": 5 } ]
   }
 ]

@@ -491,7 +491,7 @@
     "id": "electro_longsword_on",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "Electro longsword (on)", "str_p": "Electro longsword (on)" },
+    "name": { "str": "Electro longsword (on)", "str_pl": "Electro longsword (on)" },
     "description": "You feel the electricity hum through the blade.",
     "looks_like": "longsword",
     "symbol": "/",

@@ -1,8 +1,0 @@
-[
-  {
-    "type": "item_group",
-    "subtype": "distribution",
-    "id": "phones",
-    "items": [ { "item": "wearable_smart_phone", "prob": 3, "charges-min": 0, "charges-max": 15 } ]
-  }
-]
