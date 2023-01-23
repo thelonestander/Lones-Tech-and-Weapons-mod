@@ -295,7 +295,7 @@
     "id": "chain_sword_on",
     "type": "TOOL",
     "category": "weapons",
-    "name": { "str": "Chain sword (on)", "str_p": "Chain swords (on)" },
+    "name": { "str": "Chain sword (on)", "str_pl": "Chain swords (on)" },
     "description": "The chainsaw blades are on and are hungry!",
     "looks_like": "longsword",
     "weight": "2000 g",
