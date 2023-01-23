@@ -93,11 +93,11 @@
   {
     "type": "item_group",
     "id": "rare",
-    "//": "Items that should have very low frequencies and or few locations.",
-    "entries": [
-      { "item": "translocator", "prob": 5 },
-      { "item": "portable_translocator_gate", "prob": 10 },
-      { "item": "recipe_translocator_beacon", "prob": 10 }
+	"//": "Items that should have very low frequencies and or few locations.",
+    "items": [
+      [ "translocator", 5 ],
+      [ "portable_translocator_gate", 10 ],
+      [ "recipe_translocator_beacon", 10 ]
     ]
   },
   {

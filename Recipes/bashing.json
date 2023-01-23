@@ -28,7 +28,6 @@
   {
     "result": "dual_knife_trench",
     "type": "recipe",
-    "activity_level": "NO_EXERCISE",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
