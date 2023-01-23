@@ -103,24 +103,40 @@
   {
     "type": "item_group",
     "id": "nanofab_recipes",
-    "//": "Very rare high level loot. This list doesn't spawn anywhere directly, it is used to create the recipes inside nanofabricator templates. ",
-    "entries": [ { "item": "translocator", "prob": 5 }, { "item": "portable_translocator_gate", "prob": 10 } ]
+	"//": "Very rare high level loot. This list doesn't spawn anywhere directly, it is used to create the recipes inside nanofabricator templates. ",
+    "items": [
+      [ "translocator", 5 ],
+      [ "portable_translocator_gate", 10 ],
+      [ "recipe_translocator_beacon", 10 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "science",
-    "entries": [ { "item": "translocator", "prob": 1 }, { "item": "portable_translocator_gate", "prob": 2 } ]
+    "items": [
+      [ "translocator", 5 ],
+      [ "portable_translocator_gate", 10 ],
+      [ "recipe_translocator_beacon", 10 ]
+    ]
   },
   {
     "type": "item_group",
     "id": "teleport",
-    "entries": [ { "group": "translocator_spawn", "prob": 5 }, { "item": "portable_translocator_gate", "prob": 20 } ]
+    "items": [
+      [ "translocator_spawn", 5 ],
+      [ "portable_translocator_gate", 20 ],
+      [ "recipe_translocator_beacon", 10 ]
+    ]
   },
   {
     "type": "item_group",
-    "subtype": "collection",
+	"subtype": "collection",
     "id": "translocator_spawn",
-    "entries": [ { "item": "translocator", "prob": 100 }, { "item": "recipe_translocator_beacon", "prob": 100 } ]
+    "items": [
+      [ "translocator", 5 ],
+      [ "portable_translocator_gate", 20 ],
+      [ "recipe_translocator_beacon", 10 ]
+    ]
   },
   {
     "result": "portable_translocator_gate",
