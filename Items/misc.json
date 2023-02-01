@@ -131,5 +131,26 @@
     "qualities": [ [ "GLARE", 1 ] ],
     "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "VARSIZE", "STURDY" ],
     "artifact_data": { "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ] }
+  },
+  {
+    "id": "pro_oxy_torch",
+    "type": "TOOL",
+    "category": "tools",
+    "looks_like": "oxy_torch",
+    "name": { "str": "pro acetylene torch", "str_pl": "pro acetylene torches" },
+    "description": "A larger tool kit intended for welding and cutting metal, this somewhat portable oxyacetylene torch includes a torch handle and cutting attachment in an easy-to-carry tote.  It requires connecting to pressurized cylinders of an appropriate welding gas before use.  In addition to its metalworking uses, you can activate it in order to destroy metal barriers.",
+    "weight": "1600 g",
+    "volume": "1 L",
+    "price": 20000,
+    "price_postapoc": 750,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "red",
+    "ammo": "weldgas",
+    "charges_per_use": 4,
+    "use_action": "OXYTORCH",
+    "qualities": [ [ "WELD", 2 ] ],
+    "magazines": [ [ "weldgas", [ "weldtank", "tinyweldtank", "large_weldtank" ] ] ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

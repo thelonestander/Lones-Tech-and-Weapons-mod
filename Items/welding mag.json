@@ -1,0 +1,21 @@
+[
+  {
+    "id": "large_weldtank",
+    "looks_like": "pressurized_tank",
+    "type": "MAGAZINE",
+    "name": { "str": "large welding tank" },
+    "description": "A very large steel cylinder designed for holding pressurized welding gases.  It is marked with several faded and now unreadable symbols.",
+    "weight": "6000 g",
+    "volume": "3 L",
+    "price": 5600,
+    "price_postapoc": 100,
+    "material": "steel",
+    "symbol": "#",
+    "color": "brown",
+    "ammo_type": "weldgas",
+    "capacity": 440,
+    "count": 440,
+    "reliability": 10,
+    "flags": [ "NO_UNLOAD", "NO_RELOAD" ]
+  }
+]
