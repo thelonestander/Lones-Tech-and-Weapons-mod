@@ -134,7 +134,7 @@
     "name": { "str": "Imalent (on)", "str_pl": "Imalents (on)" },
     "power_draw": 25000,
     "revert_to": "imalentms18",
-    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "flashlight" },
+    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "imalentms18" },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
   },
   {
