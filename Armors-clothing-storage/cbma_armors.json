@@ -557,7 +557,18 @@
     "storage": "0 ml",
     "warmth": 0,
     "material_thickness": 1,
-    "flags": [ "WATERPROOF", "WATER_FRIENDLY", "STURDY", "RAINPROOF", "SKINTIGHT", "TRADER_AVOID", "NO_UNLOAD", "RAD_RESIST" ],
+    "flags": [
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "RAINPROOF",
+      "SKINTIGHT",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "RAD_RESIST",
+      "VARSIZE",
+      "OVERSIZE"
+    ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
@@ -599,7 +610,9 @@
       "NO_UNLOAD",
       "RAD_PROOF",
       "CLIMATE_CONTROL",
-      "STURDY"
+      "STURDY",
+      "VARSIZE",
+      "OVERSIZE"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }
