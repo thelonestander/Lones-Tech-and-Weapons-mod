@@ -598,5 +598,61 @@
     "bashing": 4,
     "cutting": 15,
     "thrown_damage": [ { "damage_type": "heat", "amount": 20, "armor_penetration": 10 } ]
+  },
+  {
+    "id": "power_gauntlet",
+    "type": "TOOL",
+    "category": "weapons",
+    "symbol": "/",
+    "color": "brown",
+    "looks_like": "gauntlets_chitin",
+    "name": { "str": "heated power fist" },
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. This version of the gauntlet takes heat from coils build into the glove to make a super heated blow.",
+    "weight": "2200 g",
+    "volume": "2 L",
+    "price": 3500,
+    "price_postapoc": 500,
+    "material": [ "steel" ],
+    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON" ],
+    "bashing": 15,
+    "ammo": "plutonium",
+    "max_charges": 5000,
+    "charges_per_use": 20,
+    "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_powerfist_heat",
+              "message": "heat seeps from your weapon.",
+              "npc_message": "Heat seeps from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
+    "use_action": [
+      {
+        "target": "electro_chainwhip_on",
+        "msg": "The %s sparks to life!",
+        "active": true,
+        "need_charges": 1,
+        "need_charges_msg": "The %s is out of juice!",
+        "type": "transform"
+      }
+    ]
+  },
+  {
+    "id": "power_gauntlet_on",
+    "copy-from": "power_gauntlet",
+    "type": "TOOL",
+    "name": { "str": "heated power gauntlet (on)", "str_pl": "heated power gauntlet (on)" },
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. This version of the gauntlet takes heat from coils build into the glove to make a super heated blow, now that its on you can feel the intense heat.",
+    "turns_per_charge": 20,
+    "revert_to": "power_gauntlet",
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "power_gauntlet" } ]
   }
 ]

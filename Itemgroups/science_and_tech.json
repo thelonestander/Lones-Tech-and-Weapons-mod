@@ -25,7 +25,8 @@
       { "item": "bionic_medkit_box", "prob": 4 },
       { "item": "the_eliminator_rifle", "prob": 1 },
       { "item": "recipe_translocator_beacon", "prob": 5 },
-      { "item": "plasma_throwing_knife", "prob": 4 }
+      { "item": "plasma_throwing_knife", "prob": 4 },
+	  { "item": "power_gauntlet", "prob": 3 }
     ]
   }
 ]
