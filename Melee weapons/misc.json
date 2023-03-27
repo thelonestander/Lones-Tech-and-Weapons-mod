@@ -30,7 +30,7 @@
     "max_charges": 6,
     "price": 20000,
     "bashing": 10,
-    "to_hit": 0,
+    "to_hit": 1,
     "symbol": "8",
     "flags": [ "UNARMED_WEAPON", "UNBREAKABLE_MELEE", "STAB" ],
     "techniques": [ "WBLOCK_2" ],
