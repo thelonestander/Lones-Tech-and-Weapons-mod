@@ -318,6 +318,7 @@
     "storage": "40 L",
     "warmth": 0,
     "material_thickness": 7,
+	"revert_to": "military_exo_suit",
     "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "military_exo_suit" },
     "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE", "AEP_STR_UP", "AEP_DEX_UP", "AEP_SPEED_UP" ] }
