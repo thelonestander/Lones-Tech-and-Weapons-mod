@@ -31,7 +31,7 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
-    "time": "0 m",
+    "time": "1 m",
     "reversible": true,
     "decomp_learn": 1,
     "autolearn": true,

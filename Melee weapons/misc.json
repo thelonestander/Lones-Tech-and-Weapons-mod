@@ -184,7 +184,7 @@
     "type": "TOOL",
     "id": "survival_spear",
     "name": "Survival Spear",
-    "description": "This is a survival spear, it has a shotgun built into it, holds eight shells. Quite hard to use",
+    "description": "This is a survival spear, it has a shotgun built into it that uses a tension system. One press of a button and a barrel folds out and a handle clicks into place, holds eight shells. Quite hard to use",
     "weight": 4000,
     "volume": 17,
     "price": "5500 USD",
@@ -213,7 +213,7 @@
     "name": "Survival shotgun",
     "symbol": "/",
     "color": "dark_gray",
-    "description": "A shotgun thats built into the spear",
+    "description": "A shotgun thats built into the spear, made with reinforced steel and built into a tension system for easy folding for spear mode.",
     "price": "5500 USD",
     "material": [ "steel", "superalloy" ],
     "skill": "shotgun",
@@ -636,8 +636,8 @@
     },
     "use_action": [
       {
-        "target": "electro_chainwhip_on",
-        "msg": "The %s sparks to life!",
+        "target": "power_gauntlet_on",
+        "msg": "The %s coils heats up and gets red!",
         "active": true,
         "need_charges": 1,
         "need_charges_msg": "The %s is out of juice!",
@@ -650,9 +650,9 @@
     "copy-from": "power_gauntlet",
     "type": "TOOL",
     "name": { "str": "heated power gauntlet (on)", "str_pl": "heated power gauntlet (on)" },
-    "description": "A huge, heavy metal gauntlet lined with tubing and gauges. This version of the gauntlet takes heat from coils build into the glove to make a super heated blow, now that its on you can feel the intense heat.",
+    "description": "A huge, heavy metal gauntlet lined with wires and a gauge. This version of the gauntlet takes heat from coils built into the glove to make a super heated blow, now that its on you can feel the intense heat.",
     "turns_per_charge": 20,
     "revert_to": "power_gauntlet",
-    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off.", "target": "power_gauntlet" } ]
+    "use_action": [ { "menu_text": "Turn off", "type": "transform", "msg": "The %s powers off and the coils cool down.", "target": "power_gauntlet" } ]
   }
 ]
