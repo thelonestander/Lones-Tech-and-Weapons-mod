@@ -6,7 +6,7 @@
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
     "description": "Adds various monsters, weapons, and tech to the game Bn.",
-    "dependencies": [ "bn", "Cata++", "aftershock" ],
+    "dependencies": [ "bn", "Cata++", "aftershock", "cbm_slots" ],
     "category": "content"
   }
 ]
