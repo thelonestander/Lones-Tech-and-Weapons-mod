@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "science",
+    "ammo": 50,
+    "magazine": 100,
+    "items": [
+      { "item": "atomic_jackhammer", "prob": 10 },
+      { "item": "atomic_electrohack", "prob": 10 }
+    ]
+  }
+]

@@ -11,8 +11,6 @@
       [ "atomic_thermal_mask", 10 ],
       [ "atomic_electric_blanket", 10 ],
       [ "atomic_flashlight", 5 ],
-      [ "atomic_jackhammer", 15 ],
-      [ "atomic_electrohack", 15 ],
       [ "atomic_vibrator", 15 ]
     ]
   }
