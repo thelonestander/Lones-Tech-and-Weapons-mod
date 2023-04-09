@@ -89,8 +89,7 @@
       "LEAK_DAM",
       "RADIOACTIVE",
       "BAROMETER",
-      "HYGROMETER",
-      "ROBOTCONTROL"
+      "HYGROMETER"
     ],
     "coverage": 15,
     "symbol": "[",
