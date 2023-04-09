@@ -34,7 +34,7 @@
     "type": "profession",
     "id": "cbma_bionic_cowboy",
     "name": "Bionic Cowboy",
-    "description": "You were once a cyber ghost town shootout outlaw, since the world has ended you took your cyber horse with no name, to get out fo the rain. To survive another day.",
+    "description": "You were once a cyber ghost town shootout outlaw, since the world has ended you took your cyber horse with no name, to get out of the rain. To survive another day.",
     "points": 8,
     "pets": [ { "name": "mon_cyber_horse", "amount": 1 } ],
     "items": {
