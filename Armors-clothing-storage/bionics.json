@@ -38,17 +38,6 @@
     "upgraded_bionic": "bio_reactor"
   },
   {
-    "id": "bio_plut_filter",
-    "type": "bionic",
-    "name": { "str": "Plutonium Filter" },
-    "description": "This set of tanks and filters allows you to extract plutonium from radioactive slurry.",
-    "occupied_bodyparts": [ [ "torso", 10 ] ],
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ],
-    "act_cost": 1,
-    "react_cost": 1,
-    "time": 12
-  },
-  {
     "id": "bio_plutdump",
     "type": "bionic",
     "name": { "str": "Plutonium Purger" },

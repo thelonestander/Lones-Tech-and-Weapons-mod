@@ -120,12 +120,6 @@
     ]
   },
   {
-    "result": "plutonium_cbm_kit_box",
-    "type": "uncraft",
-    "time": "30 s",
-    "components": [ [ [ "bio_advreactor", 1 ] ], [ [ "bio_plut_filter", 1 ] ] ]
-  },
-  {
     "result": "bionic_medkit_box",
     "type": "uncraft",
     "time": "30 s",
