@@ -15,8 +15,6 @@
       { "item": "temporal_shoes_off", "prob": 5 },
       { "item": "auto_safecracker", "prob": 5 },
       { "item": "double_plutonium_core", "prob": 2 },
-      { "item": "bio_advreactor", "prob": 1 },
-      { "item": "bio_reactor", "prob": 5 },
       { "item": "bio_furnace", "prob": 5 },
       { "item": "auto_lockpick", "prob": 5 },
       { "item": "bio_mono_whip", "prob": 5 },
