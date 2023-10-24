@@ -12,7 +12,7 @@
     "symbol": ":",
     "color": "green",
     "location": "magazine",
-    "mod_targets": [ "rifle" ],
+	"mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "SHOTGUNS" ], [ "MACHINE_GUNS" ] ],
     "acceptable_ammo": [ "223", "308", "50" ],
     "magazine_adaptor": [ [ "223", [ "belt223" ] ], [ "308", [ "belt308" ] ], [ "50", [ "belt50" ] ] ],
     "min_skills": [ [ "weapon", 4 ], [ "mechanics", 3 ] ],
