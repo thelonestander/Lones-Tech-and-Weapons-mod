@@ -241,8 +241,7 @@
     "material": [ "steel" ],
     "symbol": ";",
     "color": "light_gray",
-    "qualities": [ [ "LOCKPICK", 12 ] ],
-    "use_action": { "type": "picklock", "pick_quality": 12 }
+    "qualities": [ [ "LOCKPICK", 12 ] ]
   },
   {
     "id": "cyber_power_mod",
