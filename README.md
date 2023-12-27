@@ -22,7 +22,6 @@ Lones Wearable UPS,
 Lones Atomic additions
 Lones Flesh raptors,
 Lones Translocator gates
-Lones CBM slot rebalance
 
 ![Screenshot (1145)](https://user-images.githubusercontent.com/82045140/195093350-777326f0-fc6d-4f33-a681-97087313a820.png)
 
