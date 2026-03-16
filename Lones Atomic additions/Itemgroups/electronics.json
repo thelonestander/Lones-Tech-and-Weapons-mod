@@ -1,9 +1,9 @@
 [
   {
     "type": "item_group",
+    "id": "consumer_electronics",
     "ammo": 25,
     "magazine": 100,
-    "id": "consumer_electronics",
     "items": [
       [ "atomic_thermal_socks", 10 ],
       [ "atomic_thermal_suit", 15 ],
