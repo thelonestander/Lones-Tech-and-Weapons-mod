@@ -2,7 +2,7 @@
   {
     "type": "material",
     "id": "myomer",
-    "name": { "str": "myomer" },
+    "name": "myomer",
     "density": 6,
     "soft": true,
     "bash_resist": 2,
@@ -20,7 +20,7 @@
   {
     "type": "material",
     "id": "myomer_on",
-    "name": { "str": "myomer (powered)" },
+    "name": "myomer (powered)",
     "density": 6,
     "soft": true,
     "bash_resist": 12,
@@ -37,7 +37,7 @@
   {
     "type": "material",
     "id": "refinedalloy",
-    "name": { "str": "refined superalloy" },
+    "name": "refined superalloy",
     "density": 26,
     "bash_resist": 14,
     "cut_resist": 12,
