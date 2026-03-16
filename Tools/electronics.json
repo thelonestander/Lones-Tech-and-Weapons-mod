@@ -4,13 +4,13 @@
     "type": "TOOL_ARMOR",
     "category": "tools",
     "name": { "str": "Pip Pad" },
-    "description": "A rare wrist worn personal information processor, it has radio, picture taking abilites, and a light, also has map data you can access. Someone somwhere is missing this.",
+    "description": "A rare wrist-worn personal information processor. It has radio, picture-taking abilities, a light, and map data you can access. Someone somewhere is missing this.",
     "weight": "230 g",
     "volume": "100 ml",
     "ammo": "plutonium",
     "max_charges": 2500,
-    "price": 40000,
     "charges_per_use": 1,
+    "price": 40000,
     "price_postapoc": 200,
     "material": [ "plastic", "aluminum" ],
     "looks_like": "cell_phone",
@@ -23,30 +23,32 @@
     "use_action": [
       { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
       {
+        "type": "transform",
         "target": "pip_pad_flashlight",
         "msg": "You activate the flashlight app.",
         "active": true,
         "need_charges": 5,
-        "need_charges_msg": "The pip pads charge is too low.",
-        "type": "transform"
+        "need_charges_msg": "The pip pad's charge is too low."
       },
       "CAMERA",
       "MP3"
     ],
     "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "TWO_WAY_RADIO" ]
   },
+
   {
     "id": "pip_pad_music",
     "copy-from": "smartphone_music",
     "type": "TOOL",
     "name": { "str": "pip pad - music", "str_pl": "pip pad - music" },
-    "description": "This pip pad is playing music, steadily raising your morale.  You can't hear anything else while you're listening.",
+    "description": "This pip pad is playing music, steadily raising your morale. You can't hear anything else while you're listening.",
     "revert_to": "pip_pad",
     "power_draw": 4000,
     "use_action": "MP3_ON",
     "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ],
     "magazine_well": "250 ml"
   },
+
   {
     "id": "pip_pad_flashlight",
     "copy-from": "smart_phone_flashlight",
@@ -55,10 +57,10 @@
     "power_draw": 5000,
     "revert_to": "pip_pad",
     "use_action": {
+      "type": "transform",
       "target": "pip_pad",
       "msg": "You deactivate the flashlight app.",
-      "menu_text": "Turn off flashlight",
-      "type": "transform"
+      "menu_text": "Turn off flashlight"
     },
     "flags": [ "WATCH", "LIGHT_35", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ]
   },
@@ -68,7 +70,7 @@
     "id": "atomic_military_watch",
     "name": { "str": "Atomic military watch", "str_pl": "Atomic military watches" },
     "volume": "250 ml",
-    "description": "A waterproof military watch. It has reliable weather data, a compass, and acts as a communication device and runs on the power of the Atom! Has a feint hum and green glow.  Activate to use.",
+    "description": "A waterproof military watch. It has reliable weather data, a compass, and acts as a communication device, running on the power of the Atom! It has a faint hum and green glow. Activate to use.",
     "weight": "112 g",
     "to_hit": -1,
     "color": "light_gray",
@@ -95,12 +97,13 @@
     "symbol": "[",
     "use_action": [ "PORTABLE_GAME", "WEATHER_TOOL" ]
   },
+
   {
     "id": "imalentms18",
     "type": "TOOL",
     "category": "tools",
     "name": { "str": "Imalent (off)", "str_pl": "Imalents (off)" },
-    "description": "This is not your average flashlight. This one has 100,000 lumens, with this you can see god or a really far away zombie.",
+    "description": "This is not your average flashlight. This one has 100,000 lumens — with this you can see god or a really far away zombie.",
     "material": [ "plastic", "aluminum" ],
     "symbol": ";",
     "color": "blue",
@@ -122,11 +125,17 @@
     "magazines": [
       [
         "battery",
-        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+        [
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
+        ]
       ]
     ],
     "magazine_well": "250 ml"
   },
+
   {
     "id": "imalent_on",
     "copy-from": "flashlight",
@@ -134,7 +143,12 @@
     "name": { "str": "Imalent (on)", "str_pl": "Imalents (on)" },
     "power_draw": 25000,
     "revert_to": "imalentms18",
-    "use_action": { "menu_text": "Turn off", "type": "transform", "msg": "You turn the flashlight off.", "target": "imalentms18" },
+    "use_action": {
+      "menu_text": "Turn off",
+      "type": "transform",
+      "msg": "You turn the flashlight off.",
+      "target": "imalentms18"
+    },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
   },
   {
@@ -142,7 +156,7 @@
     "type": "TOOL",
     "category": "tools",
     "name": "Atomic laptop computer",
-    "description": "A laptop computer that runs on the power of the Atom! This one has a feint green glow and hums.",
+    "description": "A laptop computer that runs on the power of the Atom! This one has a faint green glow and hums.",
     "symbol": ",",
     "color": "dark_gray",
     "material": [ "plastic", "aluminum" ],
@@ -154,24 +168,36 @@
     "use_action": [
       "EINKTABLETPC",
       "PORTABLE_GAME",
-      { "target": "atomic_laptop_screen_lit", "msg": "You light up the screen.", "active": true, "type": "transform" }
+      {
+        "type": "transform",
+        "target": "atomic_laptop_screen_lit",
+        "msg": "You light up the screen.",
+        "active": true
+      }
     ],
     "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD" ]
   },
+
   {
     "id": "atomic_laptop_screen_lit",
     "copy-from": "atomic_laptop",
     "type": "TOOL",
     "name": { "str": "Atomic laptop computer - lit screen", "str_pl": "Atomic laptop computers - lit screen" },
     "revert_to": "atomic_laptop",
-    "use_action": { "target": "atomic_laptop", "msg": "You stop lighting up the screen.", "menu_text": "Turn off", "type": "transform" },
+    "use_action": {
+      "type": "transform",
+      "target": "atomic_laptop",
+      "msg": "You stop lighting up the screen.",
+      "menu_text": "Turn off"
+    },
     "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD" ]
   },
+
   {
     "id": "atomic_stealth_cloak_on",
     "type": "TOOL_ARMOR",
     "name": { "str": "Atomic stealth cloak" },
-    "description": "An experimental cloak that will render the user fully invisible.  This one is powered by built-in torsion atomic battery.  It is very difficult to move in this and will affect the wearer's strength, dexterity and movement speed.  This will also leak radiation when hit. Be careful!",
+    "description": "An experimental cloak that renders the user fully invisible. Powered by a built‑in torsion atomic battery. Very difficult to move in, reducing strength, dexterity, and speed. Leaks radiation when hit.",
     "weight": "1400 g",
     "volume": "3 L",
     "price": "100000 USD",
@@ -193,8 +219,14 @@
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "SPEED", "add": -20 }, { "value": "STRENGTH", "add": -4 }, { "value": "DEXTERITY", "add": -4 } ],
-          "ench_effects": [ { "effect": "invisibility", "intensity": 1 } ]
+          "values": [
+            { "value": "SPEED", "add": -20 },
+            { "value": "STRENGTH", "add": -4 },
+            { "value": "DEXTERITY", "add": -4 }
+          ],
+          "ench_effects": [
+            { "effect": "invisibility", "intensity": 1 }
+          ]
         }
       ]
     },
@@ -204,7 +236,7 @@
     "id": "auto_safecracker",
     "type": "TOOL",
     "name": { "str": "auto safecracker device" },
-    "description": "This is an mechanical assisted safecracking device. Place on the safe and use to unlock a safe!",
+    "description": "A mechanical assisted safecracking device. Place on a safe and use it to unlock the safe!",
     "weight": "350 g",
     "volume": "125 ml",
     "price": "15 USD",
@@ -214,12 +246,13 @@
     "color": "light_gray",
     "flags": [ "SAFECRACK" ]
   },
+
   {
     "id": "double_plutonium_core",
     "type": "TOOLMOD",
     "category": "spare_parts",
     "name": { "str": "reactor core expansion device" },
-    "description": "This is an expansion device for use on plutonium-powered equipment.  With enough electronics skill, you could attach this to an atomic tool to double the amount of plutonium it can hold.  Note that this device is incompatible with the atomic battery mod.",
+    "description": "An expansion device for plutonium‑powered equipment. With enough electronics skill, you can attach this to an atomic tool to double its plutonium capacity. Incompatible with the atomic battery mod.",
     "weight": "694 g",
     "volume": "750 ml",
     "price": 10000,
@@ -229,11 +262,12 @@
     "acceptable_ammo": [ "plutonium" ],
     "capacity_multiplier": 2.0
   },
+
   {
     "id": "auto_lockpick",
     "type": "TOOL",
     "name": { "str": "auto lockpick" },
-    "description": "This lockpick is equipped with spring-tensioned tumbler mechanisms to make lockpicking easier. Something out of a lab.",
+    "description": "A lab‑grade lockpick equipped with spring‑tensioned tumbler mechanisms to make lockpicking easier.",
     "weight": "23 g",
     "volume": "5 ml",
     "price": 10000,
@@ -241,15 +275,18 @@
     "material": [ "steel" ],
     "symbol": ";",
     "color": "light_gray",
-    "qualities": [ [ "LOCKPICK", 12 ] ]
+    "qualities": [
+      [ "LOCKPICK", 12 ]
+    ]
   },
+
   {
     "id": "cyber_power_mod",
     "copy-from": "mod_battery",
     "type": "TOOLMOD",
     "category": "spare_parts",
     "name": "cyber power mod",
-    "description": "This device has a port that interfaces into bionic implants.  When used, it will convert an item to run directly off of bionic power.",
+    "description": "A device with a port that interfaces with bionic implants. Converts an item to run directly off bionic power.",
     "ammo_modifier": "battery",
     "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]
   }

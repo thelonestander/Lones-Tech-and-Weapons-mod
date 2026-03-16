@@ -2,9 +2,15 @@
   {
     "type": "item_group",
     "id": "mischw",
-    "//": "A general hardware group for retail, workshops, etc., with an odd assortment of extra items.",
-    "//2": "often spawns a box to hold everything, sometimes a plastic sheet to cover it, and then some stuff in the box.",
+    "//": "General hardware assortment for retail and workshops.",
+    "//2": "Often spawns a box and miscellaneous tools.",
     "subtype": "collection",
-    "items": [ { "distribution": [ { "item": "imalentms18", "prob": 3 } ] } ]
+    "items": [
+      {
+        "distribution": [
+          { "item": "imalentms18", "prob": 3 }
+        ]
+      }
+    ]
   }
 ]

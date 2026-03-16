@@ -42,7 +42,18 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
@@ -74,7 +85,18 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "STURDY", "OVERSIZE", "TRADER_AVOID", "NO_UNLOAD" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "NO_UNLOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_armor" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
   },
@@ -164,7 +186,9 @@
       "SUN_GLASSES",
       "GAS_PROOF",
       "TRADER_AVOID",
-      "NO_UNLOAD"
+      "NO_UNLOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ]
   },
   {
@@ -206,7 +230,9 @@
       "FLASH_PROTECTION",
       "GAS_PROOF",
       "TRADER_AVOID",
-      "NO_UNLOAD"
+      "NO_UNLOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
   },
@@ -261,7 +287,16 @@
       "need_charges": 1,
       "need_charges_msg": "The system started for a moment... and then went silent."
     },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ]
   },
   {
     "id": "cbma_enhanced_gloves_on",
@@ -286,7 +321,16 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_gloves" },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ]
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ]
   },
   {
     "id": "cbma_bionic_boots",
@@ -333,7 +377,16 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
@@ -366,7 +419,16 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_boots" },
     "artifact_data": { "effects_worn": [ "AEP_DEX_UP" ] }
   },
@@ -426,7 +488,9 @@
       "RAINPROOF",
       "OUTER",
       "OVERSIZE",
-      "TRADER_AVOID"
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": {
       "type": "transform",
@@ -471,7 +535,9 @@
       "RAINPROOF",
       "OUTER",
       "OVERSIZE",
-      "TRADER_AVOID"
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_duster" },
     "artifact_data": { "effects_worn": [ "AEP_RESIST_ELECTRICITY" ] }
@@ -498,7 +564,17 @@
     "storage": "40 L",
     "warmth": 0,
     "material_thickness": 7,
-    "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
+    "flags": [
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_FRAME"
+    ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
@@ -531,7 +607,17 @@
     "storage": "40 L",
     "warmth": 0,
     "material_thickness": 7,
-    "flags": [ "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF", "OUTER", "OVERSIZE", "TRADER_AVOID" ],
+    "flags": [
+      "STURDY",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "RAINPROOF",
+      "OUTER",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_FRAME"
+    ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_carry_frame" },
     "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE" ] }
   },
@@ -567,7 +653,9 @@
       "NO_UNLOAD",
       "RAD_RESIST",
       "VARSIZE",
-      "OVERSIZE"
+      "OVERSIZE",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_UNDERLAY"
     ],
     "use_action": {
       "type": "transform",
@@ -612,7 +700,9 @@
       "CLIMATE_CONTROL",
       "STURDY",
       "VARSIZE",
-      "OVERSIZE"
+      "OVERSIZE",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_UNDERLAY"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }
@@ -650,7 +740,9 @@
       "TRADER_AVOID",
       "NO_UNLOAD",
       "USE_UPS",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": {
       "type": "transform",
@@ -694,7 +786,9 @@
       "TRADER_AVOID",
       "NO_UNLOAD",
       "USE_UPS",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_armor_ups" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP" ] }
@@ -745,7 +839,9 @@
       "TRADER_AVOID",
       "NO_UNLOAD",
       "USE_UPS",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ]
   },
   {
@@ -791,7 +887,9 @@
       "TRADER_AVOID",
       "NO_UNLOAD",
       "USE_UPS",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "artifact_data": { "effects_worn": [ "AEP_PER_UP" ] }
   },
@@ -826,7 +924,19 @@
       "need_charges": 1,
       "need_charges_msg": "The system started for a moment... and then went silent."
     },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ]
   },
   {
     "id": "cbma_enhanced_gloves_ups_on",
@@ -852,7 +962,19 @@
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_gloves_ups",
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_gloves_ups" },
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ]
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ]
   },
   {
     "id": "cbma_enhanced_boots_ups",
@@ -878,7 +1000,19 @@
     "warmth": 15,
     "material_thickness": 6,
     "environmental_protection": 15,
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": {
       "type": "transform",
       "msg": "You activate your %s.",
@@ -912,7 +1046,19 @@
     "material_thickness": 6,
     "environmental_protection": 15,
     "revert_to": "cbma_enhanced_boots_ups",
-    "flags": [ "VARSIZE", "WATERPROOF", "WATER_FRIENDLY", "STURDY", "OVERSIZE", "TRADER_AVOID", "USE_UPS", "NO_UNLOAD", "NO_RELOAD" ],
+    "flags": [
+      "VARSIZE",
+      "WATERPROOF",
+      "WATER_FRIENDLY",
+      "STURDY",
+      "OVERSIZE",
+      "TRADER_AVOID",
+      "USE_UPS",
+      "NO_UNLOAD",
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
+    ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_boots_ups" },
     "artifact_data": { "effects_worn": [ "AEP_DEX_UP" ] }
   },
@@ -954,7 +1100,9 @@
       "TRADER_AVOID",
       "USE_UPS",
       "NO_UNLOAD",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": {
       "type": "transform",
@@ -1003,7 +1151,9 @@
       "TRADER_AVOID",
       "USE_UPS",
       "NO_UNLOAD",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_MOD"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_enhanced_duster_ups" },
     "artifact_data": { "effects_worn": [ "AEP_RESIST_ELECTRICITY" ] }
@@ -1040,7 +1190,9 @@
       "NO_UNLOAD",
       "RAD_RESIST",
       "USE_UPS",
-      "NO_RELOAD"
+      "NO_RELOAD",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_UNDERLAY"
     ],
     "use_action": [
       {
@@ -1088,7 +1240,9 @@
       "CLIMATE_CONTROL",
       "USE_UPS",
       "NO_RELOAD",
-      "STURDY"
+      "STURDY",
+      "POWER_ARMOR_COMPATIBLE",
+      "POWER_ARMOR_UNDERLAY"
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite_ups" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }

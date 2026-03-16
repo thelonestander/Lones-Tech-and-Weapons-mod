@@ -1,14 +1,18 @@
 [
   {
     "id": "vet_utility",
-    "//": "for veterinarian",
+    "//": "Veterinarian utility items.",
     "type": "item_group",
-    "items": [ [ "large_pet_carrier", 10 ] ]
+    "items": [
+      [ "large_pet_carrier", 10 ]
+    ]
   },
   {
-    "id": "vet_hardrug",
-    "//": "for veterinarian",
+    "id": "vet_harddrug",
+    "//": "Veterinarian hard‑drug storage.",
     "type": "item_group",
-    "items": [ [ "large_pet_carrier", 10 ] ]
+    "items": [
+      [ "large_pet_carrier", 10 ]
+    ]
   }
 ]

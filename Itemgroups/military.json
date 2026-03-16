@@ -3,19 +3,26 @@
     "type": "item_group",
     "id": "military",
     "subtype": "distribution",
-    "entries": [ { "item": "beretta_93r", "prob": 5 } ]
+    "entries": [
+      { "item": "beretta_93r", "prob": 5 }
+    ]
   },
   {
     "type": "item_group",
     "id": "military_standard_assault_rifles",
     "subtype": "distribution",
-    "entries": [ { "item": "Xm5", "prob": 50, "charges": [ 0, 20 ] }, { "item": "folding_rifle_base", "prob": 10 } ]
+    "entries": [
+      { "item": "Xm5", "prob": 50, "charges": [ 0, 20 ] },
+      { "item": "folding_rifle_base", "prob": 10 }
+    ]
   },
   {
     "type": "item_group",
     "id": "military_standard_lmgs",
     "subtype": "distribution",
-    "entries": [ { "item": "Xm250", "prob": 50, "charges": [ 0, 100 ] } ]
+    "entries": [
+      { "item": "Xm250", "prob": 50, "charges": [ 0, 100 ] }
+    ]
   },
   {
     "type": "item_group",
@@ -32,7 +39,7 @@
   {
     "type": "item_group",
     "id": "guns_rifle_milspec",
-    "//": "Military specification rifles only ever found at military sites.",
+    "//": "Military specification rifles found only at military sites.",
     "items": [
       { "item": "gmglynx", "prob": 15, "charges-min": 0, "charges-max": 5 },
       { "item": "gmglynxmag", "prob": 15, "charges-min": 0, "charges-max": 5 },
@@ -56,13 +63,15 @@
   {
     "type": "item_group",
     "id": "guns_pistol_rare_display",
-    "//": "Empty uncommon pistols found exclusively at gun stores.",
-    "items": [ { "item": "modified_deagle_44", "prob": 20, "charges-min": 0, "charges-max": 0 } ]
+    "//": "Uncommon pistols found exclusively in gun stores.",
+    "items": [
+      { "item": "modified_deagle_44", "prob": 20, "charges-min": 0, "charges-max": 0 }
+    ]
   },
   {
     "type": "item_group",
     "id": "guns_energy",
-    "//": "Assorted factory crafted energy weapons.",
+    "//": "Assorted factory‑crafted energy weapons.",
     "items": [
       { "item": "archflash_emg", "prob": 10, "charges-min": 25, "charges-max": 50 },
       { "item": "arc_lightning_rifle", "prob": 10 }
@@ -72,19 +81,26 @@
     "type": "item_group",
     "id": "infantry_common_gear",
     "subtype": "collection",
-    "entries": [ { "item": "XL_tactical_backpack", "prob": 30 } ]
+    "entries": [
+      { "item": "XL_tactical_backpack", "prob": 30 }
+    ]
   },
   {
     "type": "item_group",
     "id": "guns_shotgun_common_display",
-    "//": "Shotguns commonly owned by citizens and found in gun stores.",
-    "items": [ { "item": "dx_12_punisher", "prob": 20, "charges-min": 0, "charges-max": 2 } ]
+    "//": "Shotguns commonly owned by civilians and found in gun stores.",
+    "items": [
+      { "item": "dx_12_punisher", "prob": 20, "charges-min": 0, "charges-max": 2 }
+    ]
   },
   {
     "type": "item_group",
     "id": "ammo_milspec",
-    "//": "Military specification ammo found at military sites.",
+    "//": "Military specification ammunition.",
     "subtype": "distribution",
-    "entries": [ { "item": "6.8x51", "prob": 50 }, { "item": "50_beowulf", "prob": 50 } ]
+    "entries": [
+      { "item": "6.8x51", "prob": 50 },
+      { "item": "50_beowulf", "prob": 50 }
+    ]
   }
 ]

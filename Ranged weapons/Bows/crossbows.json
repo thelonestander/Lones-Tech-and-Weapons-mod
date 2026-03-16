@@ -1,60 +1,51 @@
-[
-  {
-    "id": "auto_crossbow",
-    "looks_like": "crossbow",
-    "type": "GUN",
-    "reload_noise_volume": 10,
-    "symbol": "(",
-    "color": "green",
-    "name": { "str": "auto crossbow" },
-    "description": "A well made crossbow with a mechanism that loads and fires bolts in a single motion. Bolts fired from this weapon have a good chance of remaining intact for re-use.",
-    "price": 4000,
-    "material": [ "steel", "wood" ],
-    "flags": [ "FIRE_TWOHAND", "TRADER_AVOID", "CROSSBOW" ],
-    "skill": "smg",
-    "ammo": "bolt",
-    "weight": "3628 g",
-    "volume": "2500 ml",
-    "price_postapoc": 6000,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "BURST", "burst", 3 ] ],
-    "bashing": 13,
-    "to_hit": -1,
-    "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
-    "range": 12,
-    "dispersion": 500,
-    "recoil": 30,
-    "durability": 6,
-    "reload": 300,
-    "valid_mod_locations": [ [ "dampening", 1 ] ],
-    "magazines": [ [ "bolt", [ "crossbow_10mag" ] ] ]
-  },
-  {
-    "id": "plasma_longbow",
-    "type": "GUN",
-    "symbol": "(",
-    "looks_like": "afs_hardlight_longbow",
-    "color": "white",
-    "name": { "str": "Plasma longbow" },
-    "description": "A compact, stringless metal longbow constructed of atomic-age materials.  Rather than using ammunition, a series of mirrors create a super heated plasma arrow.  It runs off of UPS.",
-    "price": 2000000,
-    "price_postapoc": 30000,
-    "material": [ "carbide", "plastic" ],
-    "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
-    "skill": "archery",
-    "min_strength": 9,
-    "weight": "120 g",
-    "volume": "1500 ml",
-    "ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
-    "bashing": 8,
-    "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
-    "reload_noise_volume": 0,
-    "loudness": 0,
-    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 10 },
-    "range": 30,
-    "dispersion": 80,
-    "durability": 6,
-    "reload": 50,
-    "ups_charges": 25,
-    "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ] ]
-  }
-]
+{
+  "id": "auto_crossbow",
+  "type": "GUN",
+  "looks_like": "crossbow",
+
+  "name": { "str": "auto crossbow" },
+  "description": "A well‑made crossbow with a mechanism that loads and fires bolts in a single motion. Bolts fired from this weapon often remain intact for re‑use.",
+
+  "symbol": "(",
+  "color": "green",
+
+  "weight": "3628 g",
+  "volume": "2500 ml",
+  "price": 4000,
+  "price_postapoc": 6000,
+
+  "material": [ "steel", "wood" ],
+
+  "skill": "smg",
+  "ammo": "bolt",
+
+  "modes": [
+    [ "DEFAULT", "semi", 1 ],
+    [ "BURST", "burst", 3 ]
+  ],
+
+  "melee_damage": { "bash": 13 },
+  "to_hit": -1,
+
+  "ranged_damage": { "damage_type": "stab", "amount": 30, "armor_penetration": 15 },
+  "range": 12,
+  "dispersion": 500,
+  "recoil": 30,
+  "durability": 6,
+  "reload": 300,
+  "reload_noise_volume": 10,
+
+  "valid_mod_locations": [
+    [ "dampening", 1 ]
+  ],
+
+  "magazines": [
+    [ "bolt", [ "crossbow_10mag" ] ]
+  ],
+
+  "flags": [
+    "FIRE_TWOHAND",
+    "TRADER_AVOID",
+    "CROSSBOW"
+  ]
+}

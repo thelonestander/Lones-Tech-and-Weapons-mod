@@ -1,32 +1,56 @@
-[
-  {
-    "id": "m134m",
-    "looks_like": "m134",
-    "type": "GUN",
-    "reload_noise_volume": 10,
-    "name": { "str": "M134D-M Minigun" },
-    "description": "The M134D-M Mini mini gun is a much smaller versions of the standard M134  This version is for personal use and doesnt need to be mounted to work.",
-    "weight": "9895 g",
-    "volume": "4 L",
-    "price": 5500000,
-    "price_postapoc": 10000,
-    "to_hit": -4,
-    "bashing": 18,
-    "material": "hardsteel",
-    "symbol": "(",
-    "color": "dark_gray",
-    "ammo": "308",
-    "skill": "rifle",
-    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
-    "dispersion": 300,
-    "durability": 9,
-    "handling": 60,
-    "blackpowder_tolerance": 96,
-    "reload": 400,
-    "valid_mod_locations": [ [ "brass catcher", 1 ], [ "sling", 1 ], [ "rail mount", 1 ], [ "sights mount", 1 ] ],
-    "modes": [ [ "DEFAULT", "low auto", 6 ], [ "AUTO", "high auto", 12 ] ],
-    "faults": [ "fault_gun_blackpowder", "fault_gun_dirt" ],
-    "magazines": [ [ "308", [ "belt308s" ] ] ],
-    "flags": [ "NEVER_JAMS" ]
-  }
-]
+{
+  "id": "m134m",
+  "type": "GUN",
+  "looks_like": "m134",
+
+  "name": { "str": "M134D‑M minigun" },
+  "description": "A compact personal‑use variant of the M134 rotary machine gun. Smaller than the standard vehicle‑mounted model, but still capable of extreme rates of fire.",
+
+  "symbol": "(",
+  "color": "dark_gray",
+
+  "weight": "9895 g",
+  "volume": "4 L",
+  "price": 5500000,
+  "price_postapoc": 10000,
+
+  "material": [ "hardsteel" ],
+
+  "skill": "rifle",
+  "ammo": "308",
+
+  "melee_damage": { "bash": 18 },
+  "to_hit": -4,
+
+  "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+  "dispersion": 300,
+  "durability": 9,
+  "handling": 60,
+  "blackpowder_tolerance": 96,
+
+  "reload": 400,
+  "reload_noise_volume": 10,
+
+  "modes": [
+    [ "DEFAULT", "low auto", 6 ],
+    [ "AUTO", "high auto", 12 ]
+  ],
+
+  "valid_mod_locations": [
+    [ "brass catcher", 1 ],
+    [ "sling", 1 ],
+    [ "rail mount", 1 ],
+    [ "sights mount", 1 ]
+  ],
+
+  "faults": [
+    "fault_gun_blackpowder",
+    "fault_gun_dirt"
+  ],
+
+  "magazines": [
+    [ "308", [ "belt308s" ] ]
+  ],
+
+  "flags": [ "NEVER_JAMS" ]
+}

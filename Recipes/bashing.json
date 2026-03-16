@@ -8,10 +8,21 @@
     "difficulty": 6,
     "time": "30 m",
     "autolearn": true,
-    "using": [ [ "soldering_standard", 30 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "motor_micro", 1 ] ], [ [ "cable", 10 ] ], [ [ "scrap", 5 ] ], [ [ "chainwhip", 1 ] ] ]
+    "using": [
+      [ "soldering_standard", 30 ]
+    ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [
+      [ [ "motor_micro", 1 ] ],
+      [ [ "cable", 10 ] ],
+      [ [ "scrap", 5 ] ],
+      [ [ "chainwhip", 1 ] ]
+    ]
   },
+
   {
     "result": "chainwhip",
     "type": "recipe",
@@ -21,10 +32,18 @@
     "difficulty": 4,
     "time": "50 m",
     "autolearn": true,
-    "using": [ [ "soldering_standard", 50 ] ],
-    "qualities": [ { "id": "HAMMER", "level": 1 }, { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "chain", 3 ] ] ]
+    "using": [
+      [ "soldering_standard", 50 ]
+    ],
+    "qualities": [
+      { "id": "HAMMER", "level": 1 },
+      { "id": "CUT", "level": 1 }
+    ],
+    "components": [
+      [ [ "chain", 3 ] ]
+    ]
   },
+
   {
     "result": "dual_knife_trench",
     "type": "recipe",
@@ -35,6 +54,8 @@
     "reversible": true,
     "decomp_learn": 1,
     "autolearn": true,
-    "components": [ [ [ "knife_trench", 2 ] ] ]
+    "components": [
+      [ [ "knife_trench", 2 ] ]
+    ]
   }
 ]

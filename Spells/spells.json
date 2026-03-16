@@ -8,16 +8,17 @@
     "message": "",
     "flags": [ "SILENT", "RANDOM_DURATION", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
     "effect_str": "zapped",
+    "damage_type": "electric",
     "min_damage": 10,
     "max_damage": 20,
-    "damage_type": "electric",
     "min_range": 1,
     "max_range": 5,
-    "effect": "target_attack",
     "min_duration": 100,
     "max_duration": 500
   },
+
   {
     "id": "spell_powerfist_heat",
     "type": "SPELL",
@@ -27,11 +28,11 @@
     "message": "You feel the heat!",
     "flags": [ "SILENT", "RANDOM_DAMAGE" ],
     "valid_targets": [ "hostile" ],
+    "effect": "target_attack",
+    "damage_type": "fire",
     "min_damage": 10,
     "max_damage": 20,
-    "damage_type": "fire",
     "min_range": 1,
-    "max_range": 2,
-    "effect": "target_attack"
+    "max_range": 2
   }
 ]

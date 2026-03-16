@@ -2,11 +2,11 @@
   {
     "type": "MOD_INFO",
     "id": "lonestweaks",
-    "name": "<color_yellow>Lones Tweaks</color>",
+    "name": { "str": "Lones Tweaks" },
     "authors": [ "Thelonestander" ],
     "maintainers": [ "Thelonestander" ],
-    "description": "Adds various monsters, weapons, and tech to the game Bn.",
-    "dependencies": [ "bn", "Cata++", "aftershock" ],
-    "category": "content"
+    "description": "Adds new monsters, weapons, electronics, and experimental tech to Bright Nights.",
+    "category": "content",
+    "dependencies": [ "bn", "aftershock", "Cata++" ]
   }
 ]

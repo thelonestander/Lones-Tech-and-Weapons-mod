@@ -1,26 +1,35 @@
 [
   {
     "id": "x_12_pistol",
-    "looks_like": "glock_17",
     "type": "GUN",
-    "reload_noise_volume": 10,
-    "name": { "str_sp": "X-12 Shot Pistol" },
-    "description": "Something out of mad max the company that made this pistol went under not long after mass producing this firearm. A slightly bulky pistol but has a 12 round shotshell mag. Good for home defense.",
+    "looks_like": "glock_17",
+
+    "name": { "str": "X‑12 shot pistol" },
+    "description": "A bulky, post‑apocalyptic pistol reminiscent of something from Mad Max. The company that produced it folded shortly after release. Uses a 12‑round shotshell magazine and excels at close‑quarters defense.",
+
+    "symbol": "(",
+    "color": "light_gray",
+
     "weight": "1900 g",
     "volume": "750 ml",
     "price": 87500,
     "price_postapoc": 2750,
-    "to_hit": -1,
-    "bashing": 12,
+
     "material": [ "steel", "plastic" ],
-    "symbol": "(",
-    "color": "light_gray",
-    "ammo": "shot",
+
     "skill": "pistol",
+    "ammo": "shot",
+
+    "melee_damage": { "bash": 12 },
+    "to_hit": -1,
+
     "ranged_damage": { "damage_type": "bullet", "amount": 10 },
     "dispersion": 480,
     "durability": 7,
     "min_cycle_recoil": 1413,
+
+    "reload_noise_volume": 10,
+
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "barrel", 1 ],
@@ -34,21 +43,39 @@
       [ "stock", 1 ],
       [ "underbarrel", 1 ]
     ],
+
     "magazine_well": "250 ml",
-    "magazines": [ [ "shot", [ "x_12_shot_mag" ] ] ]
+    "magazines": [
+      [ "shot", [ "x_12_shot_mag" ] ]
+    ]
   },
+
   {
     "id": "dx_12_punisher",
+    "type": "GUN",
     "copy-from": "shotgun_base",
     "looks_like": "remington_870",
-    "type": "GUN",
-    "name": { "str": "Dx-12 Punisher" },
+
+    "name": { "str": "Dx‑12 Punisher" },
+    "description": "The Dx‑12 'Punisher' — a compact, concealable double‑barrel shotgun with a distinctive Glock‑inspired aesthetic. Designed to be hidden yet devastating at close range.",
+
     "ammo": "shot",
-    "description": "The Dx-12 'punisher' if glock ever made a shotgun this would be it. Unique design meant to be hidden.",
+
     "clip_size": 2,
-    "modes": [ [ "DEFAULT", "single", 1 ], [ "DOUBLE", "double", 2 ] ],
-    "relative": { "weight": 500, "volume": 5, "price": 5000 },
+
+    "modes": [
+      [ "DEFAULT", "single", 1 ],
+      [ "DOUBLE", "double", 2 ]
+    ],
+
+    "relative": {
+      "weight": 500,
+      "volume": 5,
+      "price": 5000
+    },
+
     "barrel_length": "72 ml",
+
     "valid_mod_locations": [
       [ "accessories", 2 ],
       [ "sling", 1 ],
@@ -59,6 +86,9 @@
       [ "sights mount", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "extend": { "flags": [ "RELOAD_ONE" ] }
+
+    "extend": {
+      "flags": [ "RELOAD_ONE" ]
+    }
   }
 ]

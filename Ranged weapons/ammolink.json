@@ -6,39 +6,40 @@
     "name": { "str": "ammo belt linkage" },
     "description": "A small metal linkage from a disintegrating ammo belt.",
     "weight": "2 g",
-    "volume": "2ml",
+    "volume": "2 ml",
     "stackable": true,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": "=",
     "color": "yellow",
     "damage_states": [ 0, 0 ]
   },
+
   {
-    "id": "ammolink6.8x51",
+    "id": "ammolink_68x51_200",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str": "6.8x51 ammo belt linkage" },
+    "name": { "str": "6.8×51mm ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt68_51_200" }
   },
   {
-    "id": "ammolink6.8x51",
+    "id": "ammolink_68x51_100",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str": "6.8x51 ammo belt linkage" },
+    "name": { "str": "6.8×51mm ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt68_51_100" }
   },
   {
-    "id": "ammolink6.8x51",
+    "id": "ammolink_68x51_50",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str": "6.8x51 ammo belt linkage" },
+    "name": { "str": "6.8×51mm ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt68_51_50" }
   },
   {
-    "id": "ammolink6.8x51",
+    "id": "ammolink_68x51_30",
     "copy-from": "ammolink",
     "type": "GENERIC",
-    "name": { "str": "6.8x51 ammo belt linkage" },
+    "name": { "str": "6.8×51mm ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt68_51_30" }
   }
 ]

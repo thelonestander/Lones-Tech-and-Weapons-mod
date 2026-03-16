@@ -3,9 +3,9 @@
     "id": "68_51_casing",
     "copy-from": "casing",
     "type": "GENERIC",
-    "name": { "str": "6.8x51 casing" },
-    "description": "An empty casing from a 6.8x51 round.",
+    "name": { "str": "6.8×51mm casing" },
+    "description": "An empty casing from a 6.8×51mm round.",
     "weight": "5 g",
-    "volume": "5ml"
+    "volume": "5 ml"
   }
 ]

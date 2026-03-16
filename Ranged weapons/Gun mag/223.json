@@ -1,14 +1,14 @@
 [
   {
     "id": "double_mag_60",
-    "looks_like": "stanag30",
     "type": "MAGAZINE",
     "name": { "str": "STANAG 60-round double magazine" },
-    "description": "A high-capacity 60-round double magazine for use with STANAG double barrel compatible rifles.",
+    "description": "A high-capacity 60-round double magazine for use with STANAG-compatible rifles.",
+    "looks_like": "stanag30",
     "weight": "181 g",
     "volume": "800 ml",
     "price": 12000,
-    "material": "aluminum",
+    "material": [ "aluminum" ],
     "symbol": "#",
     "color": "light_gray",
     "ammo_type": [ "223" ],

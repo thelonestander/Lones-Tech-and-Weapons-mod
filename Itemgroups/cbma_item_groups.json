@@ -15,6 +15,9 @@
   {
     "type": "item_group",
     "id": "mil_surplus",
-    "items": [ [ "cbma_mono_knife", 2 ], [ "cbma_monoblade_part", 5 ] ]
+    "items": [
+      [ "cbma_mono_knife", 2 ],
+      [ "cbma_monoblade_part", 5 ]
+    ]
   }
 ]

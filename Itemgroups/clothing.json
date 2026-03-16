@@ -4,6 +4,8 @@
     "type": "item_group",
     "//": "Clothes that hunters take on hunting trips.",
     "subtype": "distribution",
-    "entries": [ { "item": "cargo_boots", "prob": 15 } ]
+    "entries": [
+      { "item": "cargo_boots", "prob": 15 }
+    ]
   }
 ]

@@ -3,12 +3,15 @@
     "type": "item_group",
     "id": "cop_evidence",
     "subtype": "distribution",
-    "entries": [ { "item": "blackmarket_cbm_kit_box", "prob": 1 }, { "item": "military_cbm_kit_box", "prob": 5 } ]
+    "entries": [
+      { "item": "blackmarket_cbm_kit_box", "prob": 1 },
+      { "item": "military_cbm_kit_box", "prob": 5 }
+    ]
   },
   {
     "type": "item_group",
     "id": "vault_good",
-    "//": "Useful or good stuff for bank vaults.",
+    "//": "Useful or valuable items for bank vaults.",
     "items": [
       { "item": "arc_lightning_rifle", "prob": 1 },
       { "item": "atomic_military_watch", "prob": 5 },
@@ -17,3 +20,4 @@
     ]
   }
 ]
+

@@ -3,18 +3,18 @@
     "id": "wearable_folding_bicycle",
     "type": "TOOL_ARMOR",
     "category": "tools",
-    "name": { "str": "Wearable folding bicycle" },
-    "description": "This is a bicycle folded into a relatively portable package this one is wearable.",
+    "name": { "str": "wearable folding bicycle" },
+    "description": "A bicycle folded into a relatively portable package — this one is wearable.",
     "weight": "9071 g",
     "volume": "21500 ml",
     "encumbrance": 20,
     "coverage": 50,
     "covers": [ "torso" ],
-    "price": 35000,
-    "price_postapoc": 2000,
+    "price": "35000 USD",
+    "price_postapoc": "2000 USD",
     "to_hit": -5,
     "bashing": 10,
-    "material": "aluminum",
+    "material": [ "aluminum" ],
     "symbol": "0",
     "color": "light_gray",
     "use_action": {
@@ -24,6 +24,7 @@
       "moves": 500
     }
   },
+
   {
     "id": "temporal_shoes_off",
     "type": "TOOL_ARMOR",
@@ -31,7 +32,7 @@
     "symbol": "[",
     "color": "blue",
     "name": { "str": "temporal motor shoes" },
-    "description": "A pair of shoes with attached electric motors near the heels. When activated, the user can walk way faster than normal speeds. Ran on battery charge.",
+    "description": "Shoes with electric heel‑mounted motors. When activated, they allow the wearer to walk far faster than normal. Powered by battery charge.",
     "price": "250 USD",
     "price_postapoc": "250 USD",
     "material": [ "steel", "copper" ],
@@ -43,11 +44,11 @@
     "ammo": [ "battery" ],
     "use_action": {
       "type": "transform",
-      "msg": "You turn the temporal motor shoes.",
+      "msg": "You turn on the temporal motor shoes.",
       "target": "temporal_shoes_on",
       "active": true,
       "need_charges": 1,
-      "need_charges_msg": "The temporal motor shoes batteries are drained."
+      "need_charges_msg": "The temporal motor shoes' batteries are drained."
     },
     "covers": [ "feet" ],
     "encumbrance": 10,
@@ -56,48 +57,64 @@
     "magazines": [
       [
         "battery",
-        [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
+        [
+          "medium_battery_cell",
+          "medium_plus_battery_cell",
+          "medium_atomic_battery_cell",
+          "medium_disposable_cell"
+        ]
       ]
     ],
     "magazine_well": "250 ml"
   },
+
   {
     "id": "temporal_shoes_on",
     "copy-from": "temporal_shoes_off",
     "repairs_like": "temporal_shoes_off",
     "type": "TOOL_ARMOR",
     "name": { "str": "activated temporal motor shoes" },
-    "description": "A pair of shoes with attached electric motors near the heels. When activated, the user can walk far beyond normal speeds. They are on currently.",
+    "description": "Powered temporal motor shoes. The electric heel motors are active, greatly enhancing movement speed.",
     "flags": [ "REQUIRES_BALANCE", "STURDY", "ONLY_ONE" ],
     "relic_data": {
       "passive_effects": [
         {
           "has": "WORN",
           "condition": "ALWAYS",
-          "values": [ { "value": "MOVE_COST", "add": -20 }, { "value": "BONUS_DODGE", "add": 1 }, { "value": "SPEED", "add": 20 } ]
+          "values": [
+            { "value": "MOVE_COST", "add": -20 },
+            { "value": "BONUS_DODGE", "add": 1 },
+            { "value": "SPEED", "add": 20 }
+          ]
         }
       ]
     },
     "power_draw": 160000,
     "revert_to": "temporal_shoes_off",
-    "use_action": { "type": "transform", "menu_text": "Turn off", "msg": "The %s flicks off.", "target": "temporal_shoes_off" },
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "The %s flicks off.",
+      "target": "temporal_shoes_off"
+    },
     "covers": [ "feet" ],
     "encumbrance": 2,
     "coverage": 80,
     "material_thickness": 3,
     "magazine_well": "250 ml"
   },
+
   {
     "id": "large_pet_carrier",
     "type": "GENERIC",
     "category": "tools",
-    "name": { "str": "Large pet carrier" },
-    "description": "A plastic container meant to hold large pets for transport.  Use it on a suitable animal to capture, use it on an empty tile to release.",
+    "name": { "str": "large pet carrier" },
+    "description": "A plastic container meant to hold large pets for transport. Use it on a suitable animal to capture; use it on an empty tile to release.",
     "weight": "1000 g",
     "looks_like": "pet_carrier",
     "volume": "5 L",
-    "price": 1000,
-    "price_postapoc": 100,
+    "price": "1000 USD",
+    "price_postapoc": "100 USD",
     "bashing": 1,
     "cutting": 1,
     "material": [ "steel", "plastic" ],
@@ -107,15 +124,16 @@
     "use_action": "CAPTURE_MONSTER_ACT",
     "flags": [ "TRADER_AVOID" ]
   },
+
   {
     "id": "miltary_aim_assist_goggles",
     "type": "ARMOR",
     "name": { "str": "military aim assist goggles", "str_pl": "pairs of military aim assist goggles" },
-    "description": "A pair of armored goggles with unknown tech and tinted lenses. These offer the ability to see battlefield information, and help with aiming. You can even see through walls...slightly. Comfortable and built to last, they provide excellent protection from environmental dangers.",
+    "description": "Armored goggles with unknown tech and tinted lenses. They provide battlefield data overlays, aiming assistance, and slight clairvoyance. Durable and protective.",
     "weight": "212 g",
     "volume": "250 ml",
-    "price": 7500,
-    "price_postapoc": 3000,
+    "price": "7500 USD",
+    "price_postapoc": "3000 USD",
     "repairs_like": "goggles_ir",
     "to_hit": -2,
     "material": [ "kevlar", "leather" ],
@@ -130,19 +148,26 @@
     "environmental_protection": 15,
     "qualities": [ [ "GLARE", 1 ] ],
     "flags": [ "WATER_FRIENDLY", "SUN_GLASSES", "VARSIZE", "STURDY" ],
-    "artifact_data": { "effects_worn": [ "AEP_PER_UP", "AEP_CLAIRVOYANCE", "AEP_DEX_UP" ] }
+    "artifact_data": {
+      "effects_worn": [
+        "AEP_PER_UP",
+        "AEP_CLAIRVOYANCE",
+        "AEP_DEX_UP"
+      ]
+    }
   },
+
   {
     "id": "pro_oxy_torch",
     "type": "TOOL",
     "category": "tools",
     "looks_like": "oxy_torch",
     "name": { "str": "pro acetylene torch", "str_pl": "pro acetylene torches" },
-    "description": "A larger tool kit intended for welding and cutting metal, this somewhat portable oxyacetylene torch includes a torch handle and cutting attachment in an easy-to-carry tote.  It requires connecting to pressurized cylinders of an appropriate welding gas before use.  In addition to its metalworking uses, you can activate it in order to destroy metal barriers.",
+    "description": "A larger oxyacetylene torch kit for welding and cutting metal. Requires connection to pressurized welding gas cylinders. Can also destroy metal barriers.",
     "weight": "1800 g",
     "volume": "1 L",
-    "price": 40000,
-    "price_postapoc": 750,
+    "price": "40000 USD",
+    "price_postapoc": "750 USD",
     "material": [ "steel", "plastic" ],
     "symbol": ";",
     "color": "red",
@@ -150,7 +175,12 @@
     "charges_per_use": 2,
     "use_action": "OXYTORCH",
     "qualities": [ [ "WELD", 2 ] ],
-    "magazines": [ [ "weldgas", [ "weldtank", "tinyweldtank", "large_weldtank" ] ] ],
+    "magazines": [
+      [
+        "weldgas",
+        [ "weldtank", "tinyweldtank", "large_weldtank" ]
+      ]
+    ],
     "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

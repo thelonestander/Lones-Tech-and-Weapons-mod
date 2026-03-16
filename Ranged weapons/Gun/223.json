@@ -1,117 +1,149 @@
-[
-  {
-    "id": "folding_rifle_base",
-    "type": "TOOL",
-    "category": "weapons",
-    "name": { "str": "folding rifle base", "str_pl": "folding rifles base" },
-    "description": "This base does nothing on its own, activate to unfold the rifle.",
-    "color": "dark_gray",
-    "material": [ "brass" ],
-    "weight": "700 g",
-    "volume": "750 ml",
-    "price": 20000,
-    "bashing": 10,
-    "to_hit": 0,
-    "symbol": "8",
-    "use_action": { "type": "transform", "target": "folding_rifle_on", "active": false, "msg": "You unfold the M4A1." }
-  },
-  {
-    "id": "folding_rifle_on",
-    "copy-from": "rifle_auto",
-    "looks_like": "ar15",
-    "type": "GUN",
-    "name": { "str": "folding M4A1" },
-    "description": "This M4A1 has been modified to be foldable.  A nice rifle for CQB or longer range.",
-    "weight": "3160 g",
-    "volume": "1750 ml",
-    "price": 240000,
-    "price_postapoc": 5000,
-    "to_hit": -1,
-    "ascii_picture": "m4a1",
-    "bashing": 12,
-    "material": [ "steel", "plastic" ],
-    "symbol": "(",
-    "color": "dark_gray",
-    "ammo": "223",
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-    "dispersion": 180,
-    "durability": 6,
-    "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
-    "use_action": { "type": "transform", "target": "folding_rifle_base", "active": false, "msg": "You fold the M4A1." },
-    "magazines": [
-      [
-        "223",
-        [
-          "stanag30",
-          "stanag5",
-          "stanag10",
-          "stanag20",
-          "stanag40",
-          "stanag50",
-          "stanag60",
-          "stanag60drum",
-          "stanag90",
-          "stanag100",
-          "stanag100drum",
-          "stanag150",
-          "survivor223mag"
-        ]
-      ]
-    ]
-  },
-  {
-    "id": "double_m4a1",
-    "copy-from": "rifle_auto",
-    "type": "GUN",
-    "name": { "str": "Double Barrel M4A1" },
-    "looks_like": "ar15",
-    "description": "A double barrel M4A1 outfitted with heavier barrels to enable higher amounts of suppressive fire while retaining a good degree of mobility. Odd but a very effective in combat known to double tap.",
-    "weight": "3710 g",
-    "ammo": "223",
-    "modes": [ [ "DEFAULT", "double", 2 ], [ "BURST", "burst", 4 ], [ "AUTO", "auto", 8 ] ],
-    "magazines": [ [ "223", [ "double_mag_60" ] ] ],
-    "relative": { "ranged_damage": { "damage_type": "bullet", "amount": 1 }, "durability": 1 }
-  },
-  {
-    "id": "zombie_survival_m4a1",
-    "copy-from": "rifle_auto",
-    "type": "GUN",
-    "name": { "str": "Zombie survival M4A1" },
-    "description": "This carbine has been modified by someone, or some faction to kill zombies in melee and by shooting them. It has prongs under the barrel built in for easy zombie killing.",
-    "weight": "3160 g",
-    "volume": "1750 ml",
-    "price": 240000,
-    "price_postapoc": 5000,
-    "to_hit": 2,
-    "cutting": 30,
-    "material": [ "steel", "plastic" ],
-    "color": "dark_gray",
-    "ammo": "223",
-    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-    "dispersion": 180,
-    "durability": 6,
-    "min_cycle_recoil": 1350,
-    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
-    "magazines": [
-      [
-        "223",
-        [
-          "stanag30",
-          "stanag5",
-          "stanag10",
-          "stanag20",
-          "stanag40",
-          "stanag50",
-          "stanag60",
-          "stanag60drum",
-          "stanag90",
-          "stanag100",
-          "stanag100drum",
-          "stanag150",
-          "survivor223mag"
-        ]
-      ]
-    ]
+{
+  "id": "folding_rifle_base",
+  "type": "TOOL",
+  "category": "weapons",
+
+  "name": { "str": "folding rifle base" },
+  "description": "A compact rifle base. Activate to unfold into a functional M4A1.",
+
+  "symbol": "8",
+  "color": "dark_gray",
+
+  "material": [ "brass" ],
+  "weight": "700 g",
+  "volume": "750 ml",
+  "price": 20000,
+
+  "melee_damage": { "bash": 10 },
+  "to_hit": 0,
+
+  "use_action": {
+    "type": "transform",
+    "target": "folding_rifle_on",
+    "active": false,
+    "msg": "You unfold the M4A1."
   }
-]
+},
+{
+  "id": "folding_rifle_on",
+  "type": "GUN",
+  "copy-from": "rifle_auto",
+  "looks_like": "ar15",
+
+  "name": { "str": "folding M4A1" },
+  "description": "An M4A1 modified with a folding mechanism for compact carry.",
+
+  "symbol": "(",
+  "color": "dark_gray",
+
+  "weight": "3160 g",
+  "volume": "1750 ml",
+  "price": 240000,
+  "price_postapoc": 5000,
+
+  "material": [ "steel", "plastic" ],
+
+  "ammo": "223",
+  "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+  "dispersion": 180,
+  "durability": 6,
+  "min_cycle_recoil": 1350,
+
+  "modes": [
+    [ "DEFAULT", "semi", 1 ],
+    [ "AUTO", "auto", 4 ]
+  ],
+
+  "melee_damage": { "bash": 12 },
+  "to_hit": -1,
+
+  "use_action": {
+    "type": "transform",
+    "target": "folding_rifle_base",
+    "active": false,
+    "msg": "You fold the M4A1."
+  },
+
+  "magazines": [
+    [
+      "223",
+      [
+        "stanag30", "stanag5", "stanag10", "stanag20",
+        "stanag40", "stanag50", "stanag60", "stanag60drum",
+        "stanag90", "stanag100", "stanag100drum",
+        "stanag150", "survivor223mag"
+      ]
+    ]
+  ]
+},
+{
+  "id": "double_m4a1",
+  "type": "GUN",
+  "copy-from": "rifle_auto",
+
+  "name": { "str": "double barrel M4A1" },
+  "description": "A dual‑barrel M4A1 designed for extreme suppressive fire.",
+
+  "weight": "3710 g",
+  "ammo": "223",
+
+  "modes": [
+    [ "DEFAULT", "double", 2 ],
+    [ "BURST", "burst", 4 ],
+    [ "AUTO", "auto", 8 ]
+  ],
+
+  "magazines": [
+    [ "223", [ "double_mag_60" ] ]
+  ],
+
+  "relative": {
+    "ranged_damage": { "amount": 1 },
+    "durability": 1
+  }
+},
+{
+  "id": "zombie_survival_m4a1",
+  "type": "GUN",
+  "copy-from": "rifle_auto",
+
+  "name": { "str": "zombie survival M4A1" },
+  "description": "A modified M4A1 with integrated prongs for close‑quarters zombie killing.",
+
+  "weight": "3160 g",
+  "volume": "1750 ml",
+  "price": 240000,
+  "price_postapoc": 5000,
+
+  "material": [ "steel", "plastic" ],
+  "color": "dark_gray",
+
+  "ammo": "223",
+  "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+  "dispersion": 180,
+  "durability": 6,
+  "min_cycle_recoil": 1350,
+
+  "modes": [
+    [ "DEFAULT", "semi", 1 ],
+    [ "AUTO", "auto", 4 ]
+  ],
+
+  "melee_damage": { "cut": 30 },
+  "to_hit": 2,
+
+  "magazines": [
+    [
+      "223",
+      [
+        "stanag30", "stanag5", "stanag10", "stanag20",
+        "stanag40", "stanag50", "stanag60", "stanag60drum",
+        "stanag90", "stanag100", "stanag100drum",
+        "stanag150", "survivor223mag"
+      ]
+    ]
+  ]
+}
+
+
+

@@ -2,38 +2,58 @@
   {
     "id": "beltfeed",
     "type": "GUNMOD",
-    "name": { "str": "belt feed adapter" },
-    "description": "A kit providing the necessary parts for permanently converting a firearm from magazine to belt-feed.  Guaranteed to void your warranty.",
+    "name": { "str": "belt-feed adapter" },
+    "description": "A kit containing the parts needed to permanently convert a firearm from magazine-fed to belt-fed operation. Absolutely voids any warranty.",
     "weight": "950 g",
     "volume": "750 ml",
     "integral_volume": "250 ml",
     "price": 32000,
-    "material": "steel",
+    "material": [ "steel" ],
     "symbol": ":",
     "color": "green",
     "location": "magazine",
-	"mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "SHOTGUNS" ], [ "MACHINE_GUNS" ] ],
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "SHOTGUNS" ],
+      [ "MACHINE_GUNS" ]
+    ],
     "acceptable_ammo": [ "223", "308", "50" ],
-    "magazine_adaptor": [ [ "223", [ "belt223" ] ], [ "308", [ "belt308" ] ], [ "50", [ "belt50" ] ] ],
-    "min_skills": [ [ "weapon", 4 ], [ "mechanics", 3 ] ],
+    "magazine_adaptor": [
+      [ "223", [ "belt223" ] ],
+      [ "308", [ "belt308" ] ],
+      [ "50",  [ "belt50"  ] ]
+    ],
+    "min_skills": [
+      [ "weapon", 4 ],
+      [ "mechanics", 3 ]
+    ],
     "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
   },
+
   {
     "id": "acid_shot",
     "type": "GUNMOD",
-    "name": { "str": "Acid Barrel mod" },
-    "description": "A new type of weapon mod that mixes the bullet and laces it in acid, creating an acid field where the bullet hits.",
+    "name": { "str": "acid barrel mod" },
+    "description": "A specialized barrel modification that injects acid into each fired projectile, creating an acid field on impact.",
     "weight": "540 g",
     "volume": "1500 ml",
     "integral_volume": "150 ml",
-    "price": "900 USD",
-    "price_postapoc": "90 USD",
+    "price": 90000,
+    "price_postapoc": 9000,
     "material": [ "steel" ],
     "looks_like": "high_density_capacitor",
     "symbol": ":",
     "color": "light_gray",
     "location": "barrel",
-    "mod_target_category": [ [ "SUBMACHINE_GUNS" ], [ "RIFLES" ], [ "SHOTGUNS" ], [ "MACHINE_GUNS" ], [ "PISTOLS" ], [ "REVOLVERS" ] ],
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "SHOTGUNS" ],
+      [ "MACHINE_GUNS" ],
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ]
+    ],
     "install_time": "45 m",
     "handling_modifier": -2,
     "range_modifier": -5,
@@ -42,7 +62,11 @@
     "damage_modifier": { "damage_type": "bullet", "amount": 50 },
     "ups_charges_modifier": 100,
     "ammo_effects": [ "ACIDBOMB" ],
-    "min_skills": [ [ "weapon", 4 ], [ "fabrication", 6 ], [ "electronics", 5 ] ],
+    "min_skills": [
+      [ "weapon", 4 ],
+      [ "fabrication", 6 ],
+      [ "electronics", 5 ]
+    ],
     "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
   }
 ]

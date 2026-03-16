@@ -2,10 +2,21 @@
   {
     "type": "profession",
     "id": "cbma_test_prof",
-    "name": "Bionic Dog Trainer",
-    "description": "You were training the newest cyberdogs to be used as a last resort, now the world has ended you get to keep them! Geared up with bionic armor your ready to fight.",
+    "name": { "str": "Bionic Dog Trainer" },
+    "description": "You trained the newest cyberdogs as a last‑resort military asset. Now that the world has ended, you get to keep them. Equipped with prototype bionic armor, you're ready to fight.",
     "points": 8,
-    "pets": [ { "name": "mon_cyber_german", "amount": 2 } ],
+
+    "skills": [
+      { "name": "survival", "level": 2 },
+      { "name": "fabrication", "level": 1 },
+      { "name": "electronics", "level": 2 },
+      { "name": "melee", "level": 2 }
+    ],
+
+    "pets": [
+      { "name": "mon_cyber_german", "amount": 2 }
+    ],
+
     "items": {
       "both": {
         "items": [
@@ -30,13 +41,25 @@
       }
     }
   },
+
   {
     "type": "profession",
     "id": "cbma_bionic_cowboy",
-    "name": "Bionic Cowboy",
-    "description": "You were once a cyber ghost town shootout outlaw, since the world has ended you took your cyber horse with no name, to get out of the rain. To survive another day.",
+    "name": { "str": "Bionic Cowboy" },
+    "description": "Once a cyber‑augmented outlaw in a ghost‑town shootout circuit, you rode the wastes with your cyber horse. Now the world has ended, and the two of you ride on to survive another day.",
     "points": 8,
-    "pets": [ { "name": "mon_cyber_horse", "amount": 1 } ],
+
+    "skills": [
+      { "name": "gun", "level": 2 },
+      { "name": "pistol", "level": 2 },
+      { "name": "melee", "level": 1 },
+      { "name": "survival", "level": 1 }
+    ],
+
+    "pets": [
+      { "name": "mon_cyber_horse", "amount": 1 }
+    ],
+
     "items": {
       "both": {
         "items": [
@@ -51,7 +74,9 @@
           "rope_6",
           "horse_tack"
         ],
-        "entries": [ { "item": "44army", "charges": 60 } ]
+        "entries": [
+          { "item": "44army", "charges": 60 }
+        ]
       }
     }
   }

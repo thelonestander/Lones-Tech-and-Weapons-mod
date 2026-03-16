@@ -14,7 +14,11 @@
     "ammo": "plutonium",
     "max_charges": 400,
     "charges_per_use": 5,
-    "qualities": [ [ "CUT", 1 ], [ "CUT_FINE", 3 ], [ "SEW", 1 ] ],
+    "qualities": [
+      [ "CUT", 1 ],
+      [ "CUT_FINE", 3 ],
+      [ "SEW", 1 ]
+    ],
     "use_action": {
       "type": "repair_item",
       "item_action_type": "repair_myomer",
@@ -25,6 +29,7 @@
       "move_cost": 750
     }
   },
+
   {
     "id": "cbma_myomer_fiber_dupe",
     "type": "TOOL",
@@ -38,14 +43,15 @@
     "color": "dark_gray",
     "looks_like": "flask_glass",
     "use_action": {
+      "type": "delayed_transform",
       "target": "cbma_myomer_fiber_dupe_done",
       "msg": "It seems that the culture of myomer fibers is complete.",
+      "not_ready_msg": "It does not seem to be completed yet.",
       "moves": 150,
-      "type": "delayed_transform",
-      "transform_age": 14400,
-      "not_ready_msg": "It does not seem to be completed yet."
+      "transform_age": 14400
     }
   },
+
   {
     "id": "cbma_myomer_fiber_dupe_done",
     "type": "GENERIC",
@@ -59,9 +65,10 @@
     "color": "dark_gray",
     "looks_like": "flask_glass"
   },
+
   {
-    "type": "GENERIC",
     "id": "cbma_myomer_fiber",
+    "type": "GENERIC",
     "symbol": ",",
     "color": "brown",
     "looks_like": "sinew",
