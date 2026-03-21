@@ -1,71 +1,5 @@
 [
   {
-    "id": "pip_pad",
-    "type": "TOOL_ARMOR",
-    "category": "tools",
-    "name": { "str": "Pip Pad" },
-    "description": "A rare wrist-worn personal information processor. It has radio, picture-taking abilities, a light, and map data you can access. Someone somewhere is missing this.",
-    "weight": "230 g",
-    "volume": "100 ml",
-    "ammo": "plutonium",
-    "max_charges": 2500,
-    "charges_per_use": 1,
-    "price": 40000,
-    "price_postapoc": 200,
-    "material": [ "plastic", "aluminum" ],
-    "looks_like": "cell_phone",
-    "symbol": ";",
-    "color": "light_gray",
-    "encumbrance": 5,
-    "coverage": 5,
-    "covers": [ "arm_either" ],
-    "artifact_data": { "charge_type": "ARTC_SOLAR" },
-    "use_action": [
-      { "type": "cast_spell", "spell_id": "c_topographical_scan", "no_fail": true, "level": 0 },
-      {
-        "type": "transform",
-        "target": "pip_pad_flashlight",
-        "msg": "You activate the flashlight app.",
-        "active": true,
-        "need_charges": 5,
-        "need_charges_msg": "The pip pad's charge is too low."
-      },
-      "CAMERA",
-      "MP3"
-    ],
-    "flags": [ "WATCH", "ALARMCLOCK", "NO_UNLOAD", "TWO_WAY_RADIO" ]
-  },
-
-  {
-    "id": "pip_pad_music",
-    "copy-from": "smartphone_music",
-    "type": "TOOL",
-    "name": { "str": "pip pad - music", "str_pl": "pip pad - music" },
-    "description": "This pip pad is playing music, steadily raising your morale. You can't hear anything else while you're listening.",
-    "revert_to": "pip_pad",
-    "power_draw": 4000,
-    "use_action": "MP3_ON",
-    "flags": [ "WATCH", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ],
-    "magazine_well": "250 ml"
-  },
-
-  {
-    "id": "pip_pad_flashlight",
-    "copy-from": "smart_phone_flashlight",
-    "type": "TOOL",
-    "name": { "str": "Wearable pip pad - Flashlight", "str_pl": "Wearable pip pad - Flashlight" },
-    "power_draw": 5000,
-    "revert_to": "pip_pad",
-    "use_action": {
-      "type": "transform",
-      "target": "pip_pad",
-      "msg": "You deactivate the flashlight app.",
-      "menu_text": "Turn off flashlight"
-    },
-    "flags": [ "WATCH", "LIGHT_35", "TRADER_AVOID", "ALARMCLOCK", "NO_UNLOAD" ]
-  },
- 
-  {
     "id": "imalentms18",
     "type": "TOOL",
     "category": "tools",
@@ -118,48 +52,6 @@
     },
     "flags": [ "LIGHT_1000", "TRADER_AVOID", "BELT_CLIP" ]
   },
-  {
-    "id": "atomic_laptop",
-    "type": "TOOL",
-    "category": "tools",
-    "name": "Atomic laptop computer",
-    "description": "A laptop computer that runs on the power of the Atom! This one has a faint green glow and hums.",
-    "symbol": ",",
-    "color": "dark_gray",
-    "material": [ "plastic", "aluminum" ],
-    "weight": "2721 g",
-    "volume": "2500 ml",
-    "price": 75000,
-    "price_postapoc": 250,
-    "bashing": 6,
-    "use_action": [
-      "EINKTABLETPC",
-      "PORTABLE_GAME",
-      {
-        "type": "transform",
-        "target": "atomic_laptop_screen_lit",
-        "msg": "You light up the screen.",
-        "active": true
-      }
-    ],
-    "flags": [ "WATCH", "NO_UNLOAD", "NO_RELOAD" ]
-  },
-
-  {
-    "id": "atomic_laptop_screen_lit",
-    "copy-from": "atomic_laptop",
-    "type": "TOOL",
-    "name": { "str": "Atomic laptop computer - lit screen", "str_pl": "Atomic laptop computers - lit screen" },
-    "revert_to": "atomic_laptop",
-    "use_action": {
-      "type": "transform",
-      "target": "atomic_laptop",
-      "msg": "You stop lighting up the screen.",
-      "menu_text": "Turn off"
-    },
-    "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD" ]
-  },
-
   {
     "id": "atomic_stealth_cloak_on",
     "type": "TOOL_ARMOR",
