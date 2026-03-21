@@ -13,7 +13,6 @@
     "id": "vault_good",
     "//": "Useful or valuable items for bank vaults.",
     "items": [
-      { "item": "arc_lightning_rifle", "prob": 1 },
       { "item": "x_12_pistol", "prob": 5 },
       { "item": "x_12_shot_mag", "prob": 10 }
     ]

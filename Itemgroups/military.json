@@ -74,7 +74,6 @@
     "//": "Assorted factory‑crafted energy weapons.",
     "items": [
       { "item": "archflash_emg", "prob": 10, "charges-min": 25, "charges-max": 50 },
-      { "item": "arc_lightning_rifle", "prob": 10 }
     ]
   },
   {
