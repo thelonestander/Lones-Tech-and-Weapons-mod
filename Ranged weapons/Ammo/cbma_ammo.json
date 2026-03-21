@@ -1,7 +1,7 @@
 [
   {
-    "id": "cbma_pile_ammo",
     "type": "AMMO",
+    "id": "cbma_pile_ammo",
     "name": { "str": "molded glaze" },
     "description": "A molded glaze charge used for firing the glaze hammer. The steel exterior deforms on launch and cannot be reused.",
     "weight": "30 g",
@@ -11,20 +11,20 @@
     "symbol": "=",
     "color": "dark_gray",
     "looks_like": "unfinished_charcoal",
-    "count": 6,
-    "stack_size": 6,
     "ammo_type": "cbma_ammo_pile",
     "range": 0,
     "damage": { "damage_type": "stab", "amount": 0, "armor_penetration": 0 },
     "dispersion": 0,
     "recoil": 19800,
     "loudness": 325,
+    "count": 6,
+    "stack_size": 6,
     "effects": [ "NEVER_MISFIRES", "COOKOFF", "MUZZLE_SMOKE", "WIDE" ]
   },
 
   {
-    "id": "cbma_em_rail_iron",
     "type": "AMMO",
+    "id": "cbma_em_rail_iron",
     "name": { "str": "iron electromagnetic projectile", "str_pl": "iron electromagnetic projectiles" },
     "description": "A simple iron rod used as ammunition for electromagnetic projectile weapons. Cheap and easy to make, but fragile and less stable in flight.",
     "weight": "15 g",
@@ -34,48 +34,46 @@
     "symbol": "=",
     "color": "dark_gray",
     "looks_like": "arrow_metal_sharpened_fletched",
-    "count": 10,
-    "stack_size": 10,
     "ammo_type": "cbma_em_rail",
     "range": 45,
     "damage": { "damage_type": "stab", "amount": 65, "armor_penetration": 10 },
     "dispersion": 30,
     "recoil": 0,
     "loudness": 25,
+    "count": 10,
+    "stack_size": 10,
     "effects": [ "NEVER_MISFIRES" ]
   },
 
   {
+    "type": "AMMO",
     "id": "cbma_em_rail_steel",
     "copy-from": "cbma_em_rail_iron",
-    "type": "AMMO",
     "name": { "str": "steel electromagnetic projectile", "str_pl": "steel electromagnetic projectiles" },
     "description": "A steel rod used as ammunition for electromagnetic projectile weapons. More stable and reliable than iron.",
     "material": [ "steel" ],
-    "relative": {
-      "damage": { "amount": 15, "armor_penetration": 5 },
-      "range": 5,
-      "dispersion": -15
-    }
+	"damage": { "damage_type": "bullet", "amount": 15 },
+    "range": 5,
+    "dispersion": -15
+    
   },
 
   {
+    "type": "AMMO",
     "id": "cbma_em_rail_alloy",
     "copy-from": "cbma_em_rail_iron",
-    "type": "AMMO",
     "name": { "str": "superalloy electromagnetic projectile", "str_pl": "superalloy electromagnetic projectiles" },
     "description": "A superalloy rod designed for electromagnetic projectile weapons. Exceptional electrical and structural properties make it extremely effective.",
     "material": [ "superalloy" ],
-    "relative": {
-      "damage": { "amount": 55, "armor_penetration": 30 },
-      "range": 15,
-      "dispersion": -30
-    }
+    "damage": { "damage_type": "bullet", "amount": 55 },
+    "range": 15,
+    "dispersion": -30
+    
   },
 
   {
-    "id": "cbma_em_railmag",
     "type": "MAGAZINE",
+    "id": "cbma_em_railmag",
     "name": { "str": "electromagnetic projectile magazine", "str_pl": "electromagnetic projectile magazines" },
     "description": "A specialized magazine for electromagnetic projectile weapons. Holds up to 20 rods.",
     "weight": "150 g",
@@ -92,3 +90,4 @@
     "flags": [ "MAG_BULKY" ]
   }
 ]
+

@@ -1,3 +1,4 @@
+[
 {
   "id": "mon_cyber_german_pup",
   "type": "MONSTER",
@@ -32,6 +33,11 @@
 
   "vision_night": 5,
   "harvest": "mammal_tiny",
+   "petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
 
   "path_settings": { "max_dist": 10 },
 
@@ -49,7 +55,6 @@
 
   "flags": [
     "ANIMAL",
-    "DOGFOOD",
     "HEARS",
     "KEENNOSE",
     "PATH_AVOID_DANGER_1",
@@ -79,6 +84,11 @@
   "material": [ "flesh" ],
   "symbol": "c",
   "color": "light_gray",
+   "petfood": {
+      "food": [ "CATFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
 
   "melee_cut": 6,
   "dodge": 14,
@@ -104,7 +114,6 @@
     "GOODHEARING",
     "SMELLS",
     "ANIMAL",
-    "CATFOOD",
     "PATH_AVOID_DANGER_1",
     "WARM",
     "HIT_AND_RUN"
@@ -135,6 +144,11 @@
 
   "aggression": -99,
   "morale": 8,
+   "petfood": {
+      "food": [ "CATFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
 
   "melee_skill": 8,
   "melee_dice": 2,
@@ -166,7 +180,6 @@
     "GOODHEARING",
     "SMELLS",
     "ANIMAL",
-    "CATFOOD",
     "CLIMBS",
     "PATH_AVOID_DANGER_1",
     "WARM",
@@ -205,6 +218,7 @@
   "dodge": 4,
 
   "armor_bash": 2,
+  "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you! It lets you pat its head and seems friendly." },
 
   "anger_triggers": [ "FRIEND_ATTACKED" ],
   "fear_triggers": [ "PLAYER_CLOSE" ],
@@ -222,13 +236,13 @@
     "HEARS",
     "SMELLS",
     "ANIMAL",
-    "CATTLEFODDER",
     "PET_WONT_FOLLOW",
     "PET_MOUNTABLE",
     "PATH_AVOID_DANGER_1",
     "WARM"
   ]
 }
+]
 
 
 

@@ -19,7 +19,7 @@
   "skill": "rifle",
   "ammo": "308",
 
-  "melee_damage": { "bash": 18 },
+  "bashing": 18,
   "to_hit": -4,
 
   "ranged_damage": { "damage_type": "bullet", "amount": -1 },

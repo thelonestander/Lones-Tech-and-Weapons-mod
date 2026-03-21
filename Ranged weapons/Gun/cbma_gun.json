@@ -9,7 +9,7 @@
     "price": 16500,
     "to_hit": -4,
 
-    "melee_damage": { "bash": 12 },
+    "bashing": 12,
     "material": [ "steel", "superalloy" ],
 
     "skill": "rifle",
@@ -52,7 +52,7 @@
     "price": 16500,
     "to_hit": -4,
 
-    "melee_damage": { "bash": 12 },
+    "bashing": 12,
     "material": [ "steel", "superalloy" ],
 
     "skill": "rifle",
@@ -103,7 +103,8 @@
     "price": 16500,
     "to_hit": 1,
 
-    "melee_damage": { "bash": 12, "cut": 24 },
+    "bashing": 12,
+	"cutting": 24,
     "material": [ "steel", "superalloy" ],
 
     "symbol": "|",
@@ -141,7 +142,8 @@
     "price": 16500,
     "to_hit": 1,
 
-    "melee_damage": { "bash": 12, "cut": 24 },
+    "bashing": 12,
+	"cutting": 24,
     "material": [ "steel", "superalloy" ],
 
     "symbol": "|",

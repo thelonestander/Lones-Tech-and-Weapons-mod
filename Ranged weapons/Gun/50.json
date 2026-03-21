@@ -1,3 +1,4 @@
+[
 {
   "id": "gmglynx",
   "type": "GUN",
@@ -15,7 +16,7 @@
   "material": [ "steel" ],
   "ammo": "50",
 
-  "melee_damage": { "bash": 12 },
+  "bashing": 12,
   "to_hit": -1,
 
   "range": 100,
@@ -63,4 +64,5 @@
     [ "50_beowulf", [ "beowulf_mag" ] ]
   ]
 }
+]
 

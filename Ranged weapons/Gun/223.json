@@ -1,3 +1,4 @@
+[
 {
   "id": "folding_rifle_base",
   "type": "TOOL",
@@ -14,7 +15,7 @@
   "volume": "750 ml",
   "price": 20000,
 
-  "melee_damage": { "bash": 10 },
+  "bashing": 10,
   "to_hit": 0,
 
   "use_action": {
@@ -54,7 +55,7 @@
     [ "AUTO", "auto", 4 ]
   ],
 
-  "melee_damage": { "bash": 12 },
+  "bashing": 12,
   "to_hit": -1,
 
   "use_action": {
@@ -97,10 +98,8 @@
     [ "223", [ "double_mag_60" ] ]
   ],
 
-  "relative": {
-    "ranged_damage": { "amount": 1 },
+    "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "durability": 1
-  }
 },
 {
   "id": "zombie_survival_m4a1",
@@ -128,8 +127,7 @@
     [ "DEFAULT", "semi", 1 ],
     [ "AUTO", "auto", 4 ]
   ],
-
-  "melee_damage": { "cut": 30 },
+  "cutting": 30,
   "to_hit": 2,
 
   "magazines": [
@@ -144,6 +142,6 @@
     ]
   ]
 }
-
+]
 
 

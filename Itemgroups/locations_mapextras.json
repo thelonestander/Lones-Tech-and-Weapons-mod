@@ -2,7 +2,7 @@
   {
     "type": "item_group",
     "id": "drugdealer",
-	"extend": true,
+	"subtype": "collection",
     "items": [
       [ "electric_cbm_kit_box", 10 ],
       [ "armor_cbm_kit_box", 5 ],
