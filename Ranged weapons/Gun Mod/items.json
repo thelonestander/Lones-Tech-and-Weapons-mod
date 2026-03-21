@@ -1,37 +1,5 @@
 [
   {
-    "id": "beltfeed",
-    "type": "GUNMOD",
-    "name": { "str": "belt-feed adapter" },
-    "description": "A kit containing the parts needed to permanently convert a firearm from magazine-fed to belt-fed operation. Absolutely voids any warranty.",
-    "weight": "950 g",
-    "volume": "750 ml",
-    "integral_volume": "250 ml",
-    "price": 32000,
-    "material": [ "steel" ],
-    "symbol": ":",
-    "color": "green",
-    "location": "magazine",
-    "mod_target_category": [
-      [ "SUBMACHINE_GUNS" ],
-      [ "RIFLES" ],
-      [ "SHOTGUNS" ],
-      [ "MACHINE_GUNS" ]
-    ],
-    "acceptable_ammo": [ "223", "308", "50" ],
-    "magazine_adaptor": [
-      [ "223", [ "belt223" ] ],
-      [ "308", [ "belt308" ] ],
-      [ "50",  [ "belt50"  ] ]
-    ],
-    "min_skills": [
-      [ "weapon", 4 ],
-      [ "mechanics", 3 ]
-    ],
-    "flags": [ "INSTALL_DIFFICULT", "IRREMOVABLE" ]
-  },
-
-  {
     "id": "acid_shot",
     "type": "GUNMOD",
     "name": { "str": "acid barrel mod" },
