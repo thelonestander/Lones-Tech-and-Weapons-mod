@@ -190,46 +190,6 @@
     "description": "A device with a port that interfaces with bionic implants. Converts an item to run directly off bionic power.",
     "ammo_modifier": "battery",
     "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]
-  },
-  {
-  "id": "wrist_hacking_device",
-  "type": "TOOL_ARMOR",
-  "category": "tools",
-  "name": { "str": "wrist-mounted hacking device" },
-  "description": "A compact, ruggedized wrist computer designed for remote robot command and electronic intrusion. Its ultra-high-frequency transmitter is built into a reinforced forearm bracer, allowing hands-free operation.",
-  "weight": "950 g",
-  "volume": "750 ml",
-  "price": 15000,
-  "price_postapoc": 9000,
-  "material": [ "plastic", "aluminum" ],
-  "symbol": "[",
-  "color": "light_blue",
-
-  "ammo": [ "battery" ],
-  "charges_per_use": 2,
-
-  "use_action": [ "ROBOTCONTROL" ],
-
-  "magazines": [
-    [
-      "battery",
-      [ "medium_battery_cell", "medium_plus_battery_cell", "medium_atomic_battery_cell", "medium_disposable_cell" ]
-    ]
-  ],
-  "magazine_well": 1,
-
-  "covers": [ "hand_either" ],
-  "coverage": 20,
-  "encumbrance": 6,
-  "material_thickness": 1,
-
-  "flags": [
-    "WATCH",
-    "BELTED",
-    "WATER_FRIENDLY",
-    "STURDY",
-    "ALLOWS_NATURAL_ATTACKS"
-  ]
-}
+  }
 
 ]
