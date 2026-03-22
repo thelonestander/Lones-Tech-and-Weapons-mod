@@ -1,4 +1,4 @@
-# Lones Tech and Weapon mod!
+# Lones Augmented Arsenal!
 
  Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
  
