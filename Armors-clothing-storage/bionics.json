@@ -46,28 +46,5 @@
     "description": "When this bionic is active, you can burn nearly any organic material as fuel (use 'E'), recharging your power level. Some materials will burn better than others.",
     "occupied_bodyparts": [ [ "torso", 30 ] ],
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
-  },
-
-  {
-    "id": "bio_mono_whip",
-    "copy-from": "bionic_general_npc_usable",
-    "type": "BIONIC_ITEM",
-    "name": { "str": "Monomolecular Whip CBM" },
-    "looks_like": "bio_int_enhancer",
-    "description": "A long monomolecular wire made from high-tech alloy and nanocrystals. This is incredibly dangerous and should not be used unless trained. It is installed inside the forearm, capable of being extended through the back of the user's wrist at the cost of a small amount of power.",
-    "price": "8000 USD",
-    "weight": "250 g",
-    "difficulty": 8
-  },
-
-  {
-    "id": "bio_mono_whip",
-    "type": "bionic",
-    "name": { "str": "Monomolecular Whip" },
-    "description": "A long monomolecular wire made from high-tech alloy and nanocrystals. This is incredibly dangerous and should not be used unless trained. It is installed inside the forearm, capable of being extended through the back of the user's wrist at the cost of a small amount of power.",
-    "occupied_bodyparts": [ [ "arm_r", 5 ], [ "hand_r", 2 ] ],
-    "act_cost": "50 J",
-    "fake_item": "bio_mono_whip_item",
-    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "BIONIC_NPC_USABLE" ]
   }
 ]

@@ -1,248 +1,258 @@
 [
-{
-  "id": "mon_cyber_german_pup",
-  "type": "MONSTER",
-
-  "name": { "str": "Cyber German Shepherd puppy", "str_pl": "Cyber German Shepherd puppies" },
-  "description": "A defenseless Cyber German Shepherd puppy. Its bionics are implanted but not yet fully developed.",
-
-  "default_faction": "PrepNet",
-  "bodytype": "quadruped",
-  "looks_like": "afs_mon_cyber_mastiff_pup",
-
-  "categories": [ "WILDLIFE" ],
-  "species": [ "MAMMAL" ],
-
-  "volume": "750 ml",
-  "weight": "1 kg",
-
-  "hp": 100,
-  "speed": 65,
-  "material": [ "flesh" ],
-  "symbol": "d",
-  "color": "light_gray",
-
-  "aggression": -12,
-  "morale": 5,
-
-  "melee_skill": 2,
-  "melee_dice": 1,
-  "melee_dice_sides": 1,
-  "melee_cut": 10,
-  "dodge": 10,
-
-  "vision_night": 5,
-  "harvest": "mammal_tiny",
-   "petfood": {
+  {
+    "id": "mon_cyber_german",
+    "copy-from": "mon_dog",
+    "type": "MONSTER",
+    "name": { "str": "German shepherd" },
+    "description": "The original K-9 breed.  An easy to train and great attack dog that will also defend its owner to the death, however they don't work well in packs.",
+    "volume": "35000 ml",
+    "weight": "35 kg",
+    "hp": 190,
+    "aggression": 2,
+    "morale": 10,
+    "melee_cut": 8,
+    "vision_night": 6,
+    "special_attacks": [ [ "LUNGE", 5 ] ],
+    "reproduction": { "baby_monster": "mon_cyber_german_pup", "baby_count": 7, "baby_timer": 300 },
+    "//": "1-7 puppies & 300-320 days per-litter for size medium canines",
+    "petfood": {
       "food": [ "DOGFOOD" ],
       "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
       "pet": "The %s happily wags its tail while you pat their head."
     },
-
-  "path_settings": { "max_dist": 10 },
-
-  "upgrades": {
-    "age_grow": 42,
-    "into": "mon_cyber_german"
+    "flags": [ "ANIMAL", "CANPLAY", "PET_MOUNTABLE", "HEARS", "KEENNOSE", "PATH_AVOID_DANGER_1", "SEES", "SMELLS", "WARM" ]
   },
+  {
+    "id": "mon_cyber_german_pup",
+    "type": "MONSTER",
+    "name": { "str": "German shepherd puppy", "str_pl": "German shepherd puppies" },
+    "description": "A defenseless Cyber German Shepherd puppy. Its bionics are implanted but not yet fully developed.",
+    "default_faction": "PrepNet",
+    "bodytype": "quadruped",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
+    "volume": "750 ml",
+    "weight": "1 kg",
+    "hp": 100,
+    "speed": 90,
+    "material": [ "flesh" ],
+    "symbol": "d",
+    "color": "light_gray",
+    "aggression": -12,
+    "morale": 5,
+    "melee_skill": 4,
+    "melee_dice": 1,
+    "melee_dice_sides": 1,
+    "melee_cut": 6,
+    "dodge": 2,
+    "vision_night": 5,
+    "harvest": "mammal_tiny",
+    "path_settings": { "max_dist": 10 },
+    "upgrades": { "age_grow": 42, "into": "mon_cyber_german" },
+    "fear_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
+    "death_function": [ "NORMAL" ],
+    "special_attacks": [ [ "EAT_FOOD", 12000 ] ],
+    "petfood": {
+      "food": [ "DOGFOOD" ],
+      "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
+      "pet": "The %s happily wags its tail while you pat their head."
+    },
+    "flags": [ "ANIMAL", "CANPLAY", "HEARS", "KEENNOSE", "PATH_AVOID_DANGER_1", "SEES", "SMELLS", "WARM" ]
+  },
+  {
+    "id": "mon_cyber_cat_kitten",
+    "type": "MONSTER",
+    "copy-from": "mon_cat",
 
-  "fear_triggers": [ "FRIEND_ATTACKED", "FRIEND_DIED", "HURT" ],
-  "death_function": [ "NORMAL" ],
+    "name": { "str": "Cyber shorthair kitten" },
+    "description": "A cuddly kitten with early-stage cybernetic implants. Not combat-ready, but surprisingly resilient.",
 
-  "special_attacks": [
-    [ "EAT_FOOD", 100 ]
-  ],
+    "default_faction": "cat",
+    "bodytype": "quadruped",
 
-  "flags": [
-    "ANIMAL",
-    "HEARS",
-    "KEENNOSE",
-    "PATH_AVOID_DANGER_1",
-    "SEES",
-    "SMELLS",
-    "WARM"
-  ]
-},
-{
-  "id": "mon_cyber_cat_kitten",
-  "type": "MONSTER",
-  "copy-from": "mon_cat",
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
 
-  "name": { "str": "Cyber shorthair kitten" },
-  "description": "A cuddly kitten with early-stage cybernetic implants. Not combat-ready, but surprisingly resilient.",
+    "volume": "1000 ml",
+    "weight": "1 kg",
 
-  "default_faction": "cat",
-  "bodytype": "quadruped",
+    "hp": 50,
+    "material": [ "flesh" ],
+    "symbol": "c",
+    "color": "light_gray",
 
-  "categories": [ "WILDLIFE" ],
-  "species": [ "MAMMAL" ],
-
-  "volume": "1000 ml",
-  "weight": "1 kg",
-
-  "hp": 50,
-  "material": [ "flesh" ],
-  "symbol": "c",
-  "color": "light_gray",
-   "petfood": {
+    "petfood": {
       "food": [ "CATFOOD" ],
       "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
       "pet": "The %s happily wags its tail while you pat their head."
     },
 
-  "melee_cut": 6,
-  "dodge": 14,
+    "melee_cut": 6,
+    "dodge": 14,
 
-  "special_attacks": [
-    [ "scratch", 15 ]
-  ],
+    "special_attacks": [
+      {
+        "id": "scratch",
+        "cooldown": 15
+      }
+    ],
 
-  "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
-  "placate_triggers": [ "MEAT" ],
+    "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "placate_triggers": [ "MEAT" ],
 
-  "death_function": [ "NORMAL" ],
-  "harvest": "mammal_tiny",
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_tiny",
 
-  "upgrades": {
-    "age_grow": 120,
-    "into": "mon_cyber_cat"
+    "upgrades": {
+      "age_grow": 120,
+      "into": "mon_cyber_cat"
+    },
+
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "ANIMAL",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "HIT_AND_RUN"
+    ]
   },
 
-  "flags": [
-    "SEES",
-    "HEARS",
-    "GOODHEARING",
-    "SMELLS",
-    "ANIMAL",
-    "PATH_AVOID_DANGER_1",
-    "WARM",
-    "HIT_AND_RUN"
-  ]
-},
-{
-  "id": "mon_cyber_cat",
-  "type": "MONSTER",
+  {
+    "id": "mon_cyber_cat",
+    "type": "MONSTER",
 
-  "name": { "str": "Cyber shorthair cat" },
-  "description": "A small predator enhanced with cybernetics. This one is confident, fast, and unafraid of humans.",
+    "name": { "str": "Cyber shorthair cat" },
+    "description": "A small predator enhanced with cybernetics. This one is confident, fast, and unafraid of humans.",
 
-  "default_faction": "cat",
-  "looks_like": "mon_cat",
-  "bodytype": "quadruped",
+    "default_faction": "cat",
+    "looks_like": "mon_cat",
+    "bodytype": "quadruped",
 
-  "categories": [ "WILDLIFE" ],
-  "species": [ "MAMMAL" ],
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
 
-  "volume": "4000 ml",
-  "weight": "4 kg",
+    "volume": "4000 ml",
+    "weight": "4 kg",
 
-  "hp": 100,
-  "speed": 150,
-  "material": [ "flesh" ],
-  "symbol": "c",
-  "color": "light_gray",
+    "hp": 100,
+    "speed": 150,
+    "material": [ "flesh" ],
+    "symbol": "c",
+    "color": "light_gray",
 
-  "aggression": -99,
-  "morale": 8,
-   "petfood": {
+    "aggression": -99,
+    "morale": 8,
+
+    "petfood": {
       "food": [ "CATFOOD" ],
       "feed": "The %s seems to like you!  It lets you pat its head and seems friendly.",
       "pet": "The %s happily wags its tail while you pat their head."
     },
 
-  "melee_skill": 8,
-  "melee_dice": 2,
-  "melee_dice_sides": 4,
-  "melee_cut": 12,
-  "dodge": 12,
+    "melee_skill": 8,
+    "melee_dice": 2,
+    "melee_dice_sides": 4,
+    "melee_cut": 12,
+    "dodge": 12,
 
-  "vision_night": 20,
+    "vision_night": 20,
 
-  "special_attacks": [
-    [ "scratch", 25 ]
-  ],
+    "special_attacks": [
+      {
+        "id": "scratch",
+        "cooldown": 25
+      }
+    ],
 
-  "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
-  "placate_triggers": [ "MEAT" ],
+    "fear_triggers": [ "SOUND", "PLAYER_CLOSE", "FRIEND_ATTACKED" ],
+    "placate_triggers": [ "MEAT" ],
 
-  "death_function": [ "NORMAL" ],
-  "harvest": "mammal_tiny",
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_tiny",
 
-  "reproduction": {
-    "baby_monster": "mon_cyber_cat_kitten",
-    "baby_count": 4,
-    "baby_timer": 60
+    "reproduction": {
+      "baby_monster": "mon_cyber_cat_kitten",
+      "baby_count": 4,
+      "baby_timer": 60
+    },
+
+    "flags": [
+      "SEES",
+      "HEARS",
+      "GOODHEARING",
+      "SMELLS",
+      "ANIMAL",
+      "CLIMBS",
+      "PATH_AVOID_DANGER_1",
+      "WARM",
+      "HIT_AND_RUN"
+    ]
   },
 
-  "flags": [
-    "SEES",
-    "HEARS",
-    "GOODHEARING",
-    "SMELLS",
-    "ANIMAL",
-    "CLIMBS",
-    "PATH_AVOID_DANGER_1",
-    "WARM",
-    "HIT_AND_RUN"
-  ]
-},
-{
-  "id": "mon_cyber_horse",
-  "type": "MONSTER",
+  {
+    "id": "mon_cyber_horse",
+    "type": "MONSTER",
 
-  "name": { "str": "cyber horse" },
-  "description": "A powerful horse augmented with integrated CBMs. Strong, fast, and capable of devastating kicks.",
+    "name": { "str": "cyber horse" },
+    "description": "A powerful horse augmented with integrated CBMs. Strong, fast, and capable of devastating kicks.",
 
-  "default_faction": "herbivore",
-  "looks_like": "mon_horse",
-  "bodytype": "quadruped",
+    "default_faction": "herbivore",
+    "looks_like": "mon_horse",
+    "bodytype": "quadruped",
 
-  "categories": [ "WILDLIFE" ],
-  "species": [ "MAMMAL" ],
+    "categories": [ "WILDLIFE" ],
+    "species": [ "MAMMAL" ],
 
-  "volume": "550000 ml",
-  "weight": "550 kg",
+    "volume": "550000 ml",
+    "weight": "550 kg",
 
-  "hp": 350,
-  "speed": 500,
-  "material": [ "flesh" ],
-  "symbol": "H",
-  "color": "brown",
+    "hp": 350,
+    "speed": 500,
+    "material": [ "flesh" ],
+    "symbol": "H",
+    "color": "brown",
 
-  "morale": 20,
+    "morale": 20,
 
-  "melee_skill": 6,
-  "melee_dice": 2,
-  "melee_dice_sides": 12,
-  "melee_cut": 0,
-  "dodge": 4,
+    "melee_skill": 6,
+    "melee_dice": 2,
+    "melee_dice_sides": 12,
+    "melee_cut": 0,
+    "dodge": 4,
 
-  "armor_bash": 2,
-  "petfood": { "food": [ "CATTLEFOOD" ], "feed": "The %s seems to like you! It lets you pat its head and seems friendly." },
+    "armor_bash": 2,
 
-  "anger_triggers": [ "FRIEND_ATTACKED" ],
-  "fear_triggers": [ "PLAYER_CLOSE" ],
-  "placate_triggers": [ "PLAYER_WEAK" ],
+    "petfood": {
+      "food": [ "CATTLEFOOD" ],
+      "feed": "The %s seems to like you! It lets you pat its head and seems friendly."
+    },
 
-  "death_function": [ "NORMAL" ],
-  "harvest": "mammal_large_leather",
+    "anger_triggers": [ "FRIEND_ATTACKED" ],
+    "fear_triggers": [ "PLAYER_CLOSE" ],
+    "placate_triggers": [ "PLAYER_WEAK" ],
 
-  "special_attacks": [
-    [ "EAT_CROP", 60 ]
-  ],
+    "death_function": [ "NORMAL" ],
+    "harvest": "mammal_large_leather",
 
-  "flags": [
-    "SEES",
-    "HEARS",
-    "SMELLS",
-    "ANIMAL",
-    "PET_WONT_FOLLOW",
-    "PET_MOUNTABLE",
-    "PATH_AVOID_DANGER_1",
-    "WARM"
-  ]
-}
+    "special_attacks": [
+      {
+        "id": "EAT_CROP",
+        "cooldown": 60
+      }
+    ],
+
+    "flags": [
+      "SEES",
+      "HEARS",
+      "SMELLS",
+      "ANIMAL",
+      "PET_WONT_FOLLOW",
+      "PET_MOUNTABLE",
+      "PATH_AVOID_DANGER_1",
+      "WARM"
+    ]
+  }
 ]
-
-
-

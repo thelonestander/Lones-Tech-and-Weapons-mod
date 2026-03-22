@@ -5,21 +5,15 @@
     "ammo": 50,
     "magazine": 100,
     "items": [
-      { "item": "archflash_emg", "prob": 5 },
       { "item": "bio_lightning_emitter", "prob": 3 },
-      { "item": "plasma_longbow", "prob": 2 },
       { "item": "acid_shot", "prob": 5 },
       { "item": "temporal_shoes_off", "prob": 5 },
       { "item": "auto_safecracker", "prob": 5 },
       { "item": "double_plutonium_core", "prob": 2 },
       { "item": "bio_furnace", "prob": 5 },
       { "item": "auto_lockpick", "prob": 5 },
-      { "item": "bio_mono_whip", "prob": 5 },
       { "item": "cyber_power_mod", "prob": 5 },
-      { "item": "bionic_medkit_box", "prob": 4 },
-      { "item": "the_eliminator_rifle", "prob": 1 },
-      { "item": "plasma_throwing_knife", "prob": 4 },
-      { "item": "power_gauntlet", "prob": 3 }
+      { "item": "bionic_medkit_box", "prob": 4 }
     ]
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
-    "result": "electro_chainwhip",
     "type": "recipe",
+    "result": "electro_chainwhip",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
@@ -24,8 +24,8 @@
   },
 
   {
-    "result": "chainwhip",
     "type": "recipe",
+    "result": "chainwhip",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
@@ -45,11 +45,12 @@
   },
 
   {
-    "result": "dual_knife_trench",
     "type": "recipe",
+    "result": "dual_knife_trench",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
+    "difficulty": 1,
     "time": "1 m",
     "reversible": true,
     "decomp_learn": 1,

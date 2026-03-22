@@ -1,7 +1,7 @@
 [
   {
-    "result": "cbma_mono_cutter",
     "type": "recipe",
+    "result": "cbma_mono_cutter",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -36,8 +36,8 @@
   },
 
   {
-    "result": "cbma_mono_knife",
     "type": "recipe",
+    "result": "cbma_mono_knife",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -67,8 +67,8 @@
   },
 
   {
-    "result": "cbma_mono_sword",
     "type": "recipe",
+    "result": "cbma_mono_sword",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
@@ -96,10 +96,10 @@
       ]
     ]
   },
-
+  
   {
-    "result": "cbma_mono_spear",
     "type": "recipe",
+    "result": "cbma_mono_spear",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_PIERCING",
     "skill_used": "fabrication",
@@ -130,10 +130,10 @@
       ]
     ]
   },
-
+  
   {
-    "result": "cbma_alloy_pile",
     "type": "recipe",
+    "result": "cbma_alloy_pile",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_BASHING",
     "skill_used": "fabrication",
@@ -154,10 +154,10 @@
       ]
     ]
   },
-
+  
   {
-    "result": "cbma_em_railrifle",
     "type": "recipe",
+    "result": "cbma_em_railrifle",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -196,9 +196,9 @@
   },
 
   {
+    "type": "recipe",
     "result": "cbma_em_railrifle_as",
     "id_suffix": "from_components",
-    "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -237,9 +237,9 @@
   },
 
   {
+    "type": "recipe",
     "result": "cbma_em_railrifle_as",
     "id_suffix": "from_guns",
-    "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_RANGED",
     "skill_used": "fabrication",
@@ -270,8 +270,33 @@
   },
 
   {
-    "result": "cbma_em_rail_iron",
     "type": "recipe",
+    "result": "cbma_mono_throw_dagger",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_RANGED",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [
+      [ "throw", 3 ]
+    ],
+    "book_learn": [
+      [ "recipe_mil_augs", 6 ]
+    ],
+    "time": "10 m",
+    "autolearn": true,
+    "using": [
+      [ "cbma_req_qualities", 1 ],
+      [ "cbma_req_tool_weapon_melee", 1 ]
+    ],
+    "components": [
+      [ [ "cbma_monoblade_part", 1 ] ],
+      [ [ "steel_chunk", 1 ] ]
+    ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "cbma_em_rail_iron",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
@@ -296,8 +321,8 @@
   },
 
   {
-    "result": "cbma_em_rail_steel",
     "type": "recipe",
+    "result": "cbma_em_rail_steel",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
@@ -322,8 +347,8 @@
   },
 
   {
-    "result": "cbma_em_rail_alloy",
     "type": "recipe",
+    "result": "cbma_em_rail_alloy",
     "category": "CC_AMMO",
     "subcategory": "CSC_AMMO_OTHER",
     "skill_used": "fabrication",
@@ -350,8 +375,36 @@
   },
 
   {
-    "result": "cbma_em_railmag",
     "type": "recipe",
+    "result": "cbma_pile_ammo",
+    "category": "CC_AMMO",
+    "subcategory": "CSC_AMMO_OTHER",
+    "skill_used": "fabrication",
+    "difficulty": 6,
+    "skills_required": [
+      [ "gun", 4 ]
+    ],
+    "book_learn": [
+      [ "recipe_mil_augs", 4 ]
+    ],
+    "time": "5 m",
+    "autolearn": true,
+    "using": [
+      [ "cbma_req_tool_ammo", 10 ]
+    ],
+    "components": [
+      [
+        [ "chem_rdx", 1 ],
+        [ "gunpowder", 800 ]
+      ],
+      [ [ "chem_hmtd", 1 ] ],
+      [ [ "steel_chunk", 1 ] ]
+    ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "cbma_em_railmag",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -396,10 +449,10 @@
       ]
     ]
   },
-
+  
   {
-    "result": "cbma_pilehammer_exp",
     "type": "recipe",
+    "result": "cbma_pilehammer_exp",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_OTHER",
     "skill_used": "fabrication",
@@ -438,8 +491,8 @@
   },
 
   {
-    "result": "cbma_pilehammer_emp",
     "type": "recipe",
+    "result": "cbma_pilehammer_emp",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_OTHER",
     "skill_used": "fabrication",
@@ -482,58 +535,10 @@
         [ "alloy_plate", 7 ]
       ]
     ]
-  },
-
-  {
-    "result": "cbma_pile_ammo",
-    "type": "recipe",
-    "category": "CC_AMMO",
-    "subcategory": "CSC_AMMO_OTHER",
-    "skill_used": "fabrication",
-    "difficulty": 6,
-    "skills_required": [
-      [ "gun", 4 ]
-    ],
-    "book_learn": [
-      [ "recipe_mil_augs", 4 ]
-    ],
-    "time": "5 m",
-    "autolearn": true,
-    "using": [
-      [ "cbma_req_tool_ammo", 10 ]
-    ],
-    "components": [
-      [
-        [ "chem_rdx", 1 ],
-        [ "gunpowder", 800 ]
-      ],
-      [ [ "chem_hmtd", 1 ] ],
-      [ [ "steel_chunk", 1 ] ]
-    ]
-  },
-
-  {
-    "result": "cbma_mono_throw_dagger",
-    "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_RANGED",
-    "skill_used": "fabrication",
-    "difficulty": 8,
-    "skills_required": [
-      [ "throw", 3 ]
-    ],
-    "book_learn": [
-      [ "recipe_mil_augs", 6 ]
-    ],
-    "time": "10 m",
-    "autolearn": true,
-    "using": [
-      [ "cbma_req_qualities", 1 ],
-      [ "cbma_req_tool_weapon_melee", 1 ]
-    ],
-    "components": [
-      [ [ "cbma_monoblade_part", 1 ] ],
-      [ [ "steel_chunk", 1 ] ]
-    ]
   }
 ]
+
+
+
+
+

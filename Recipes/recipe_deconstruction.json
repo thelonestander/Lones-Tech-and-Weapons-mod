@@ -138,7 +138,6 @@
     "type": "uncraft",
     "time": "30 s",
     "components": [
-      [ [ "afs_complete_bionic_toolkit", 1 ] ],
       [ [ "adrenaline_injector", 1 ] ],
       [ [ "bandages", 6 ] ],
       [ [ "morphine", 4 ] ],

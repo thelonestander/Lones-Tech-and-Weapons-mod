@@ -5,9 +5,10 @@
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "fabrication",
+    "difficulty": 0,
     "time": "10 m",
-    "reversible": true,
     "autolearn": true,
+    "reversible": true,
     "components": [
       [ [ "superglue", 5 ] ],
       [ [ "blade", 1 ] ],
@@ -16,45 +17,6 @@
   },
 
   {
-    "result": "cargo_socks",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": "1 h",
-    "autolearn": true,
-    "using": [
-      [ "sewing_standard", 20 ]
-    ],
-    "components": [
-      [
-        [ "rag", 20 ],
-        [ "leather_pouch", 2 ]
-      ]
-    ]
-  },
-
-  {
-    "result": "thigh_high_cargo_socks",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "time": "1 h",
-    "autolearn": true,
-    "using": [
-      [ "sewing_standard", 35 ]
-    ],
-    "components": [
-      [
-        [ "rag", 35 ],
-        [ "leather_pouch", 4 ]
-      ]
-    ]
-  },
-  {
     "type": "recipe",
     "result": "flamekatana_off",
     "category": "CC_WEAPON",
@@ -62,6 +24,7 @@
     "skill_used": "mechanics",
     "difficulty": 5,
     "time": "30 m",
+    "autolearn": false,
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [
@@ -88,6 +51,7 @@
     "skill_used": "mechanics",
     "difficulty": 5,
     "time": "30 m",
+    "autolearn": false,
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [
@@ -108,48 +72,62 @@
 
   {
     "type": "recipe",
-    "result": "electric_longsword",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_CUTTING",
-    "skill_used": "mechanics",
-    "difficulty": 7,
-    "time": "30 m",
-    "reversible": true,
-    "decomp_learn": 4,
-    "book_learn": [
-      [ "welding_book", 8 ],
-      [ "book_icef", 4 ]
-    ],
-    "using": [
-      [ "welding_standard", 3 ]
-    ],
-    "components": [
-      [ [ "leather", 5 ] ],
-      [ [ "longsword", 1 ] ],
-      [ [ "duct_tape", 50 ] ],
-      [ [ "cable", 1 ] ],
-      [ [ "circuit", 1 ] ],
-      [ [ "amplifier", 1 ] ]
-    ]
-  },
-
-  {
-    "type": "recipe",
     "result": "wearable_folding_bicycle",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_CUTTING",
     "skill_used": "mechanics",
-    "autolearn": true,
     "difficulty": 0,
     "time": "1 m",
+    "autolearn": true,
     "reversible": true,
     "components": [
       [ [ "folding_bicycle", 1 ] ]
     ]
   },
+  
   {
-    "result": "miltary_aim_assist_goggles",
     "type": "recipe",
+    "result": "cargo_socks",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "1 h",
+    "autolearn": true,
+    "using": [
+      [ "sewing_standard", 20 ]
+    ],
+    "components": [
+      [
+        [ "rag", 20 ],
+        [ "leather_pouch", 2 ]
+      ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "thigh_high_cargo_socks",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 4,
+    "time": "1 h",
+    "autolearn": true,
+    "using": [
+      [ "sewing_standard", 35 ]
+    ],
+    "components": [
+      [
+        [ "rag", 35 ],
+        [ "leather_pouch", 4 ]
+      ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "miltary_aim_assist_goggles",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "electronics",
@@ -158,6 +136,7 @@
       [ "tailor", 1 ]
     ],
     "time": "40 m",
+    "autolearn": false,
     "reversible": true,
     "decomp_learn": 4,
     "book_learn": [
@@ -178,30 +157,25 @@
   },
 
   {
-    "result": "axe_bayonet_mod",
     "type": "recipe",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MODS",
-    "skill_used": "fabrication",
-    "difficulty": 5,
+    "result": "cargo_boots",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_FEET",
+    "skill_used": "tailor",
+    "difficulty": 2,
+    "time": "35 m",
     "autolearn": true,
-    "skills_required": [
-      [ "rifle", 2 ]
-    ],
-    "time": 200000,
     "using": [
-      [ "welding_standard", 4 ],
-      [ "steel_tiny", 2 ]
-    ],
-    "qualities": [
-      { "id": "HAMMER", "level": 2 },
-      { "id": "SAW_M", "level": 1 }
+      [ "sewing_standard", 10 ]
     ],
     "components": [
-      [ [ "axe_bayonet", 1 ] ]
+      [
+        [ "leather", 10 ],
+        [ "leather_pouch", 2 ]
+      ]
     ]
   },
-
+  
   {
     "type": "recipe",
     "result": "ammolink6.8x51",
@@ -222,12 +196,12 @@
     "book_learn": [
       [ "recipe_bullets", 4 ]
     ],
+    "using": [
+      [ "forging_standard", 4 ]
+    ],
     "tools": [
       [ [ "swage", -1 ] ],
       [ [ "tongs", -1 ] ]
-    ],
-    "using": [
-      [ "forging_standard", 4 ]
     ],
     "components": [
       [
@@ -238,87 +212,8 @@
   },
 
   {
-    "result": "plut_cell",
     "type": "recipe",
-    "category": "CC_CHEM",
-    "subcategory": "CSC_CHEM_FUEL",
-    "skill_used": "cooking",
-    "difficulty": 8,
-    "result_mult": 40,
-    "time": "120 m",
-    "book_learn": [
-      [ "recipe_labchem", 5 ]
-    ],
-    "batch_time_factors": [ 83, 5 ],
-    "qualities": [
-      { "id": "CHEM", "level": 2 }
-    ],
-    "tools": [
-      [ [ "surface_heat", 100, "LIST" ] ]
-    ],
-    "components": [
-      [
-        [ "water_clean", 40 ],
-        [ "water", 40 ]
-      ],
-      [
-        [ "chem_ethanol", 100 ],
-        [ "chem_methanol", 100 ],
-        [ "denat_alcohol", 100 ]
-      ],
-      [ [ "lye_powder", 20 ] ],
-      [ [ "nuclear_waste", 10 ] ],
-      [ [ "nanomaterial", 40 ] ]
-    ]
-  },
-
-  {
-    "result": "cargo_boots",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": "35 m",
-    "autolearn": true,
-    "using": [
-      [ "sewing_standard", 10 ]
-    ],
-    "components": [
-      [
-        [ "leather", 10 ],
-        [ "leather_pouch", 2 ]
-      ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "axe_bayonet",
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MODS",
-    "skill_used": "fabrication",
-    "difficulty": 7,
-    "time": "3 h",
-    "book_learn": [
-      [ "textbook_weapwest", 8 ],
-      [ "recipe_melee", 7 ],
-      [ "scots_cookbook", 9 ]
-    ],
-    "using": [
-      [ "blacksmithing_standard", 6 ],
-      [ "steel_standard", 2 ]
-    ],
-    "qualities": [
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [
-      [ [ "swage", -1 ] ]
-    ]
-  },
-
-  {
     "result": "belt68_51_30",
-    "type": "recipe",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -328,10 +223,7 @@
     ],
     "time": "30 m",
     "book_learn": [
-      [ "recipe_surv", 4 ],
-      [ "recipe_bullets", 5 ],
-      [ "manual_rifle", 6 ],
-      [ "mag_rifle", 7 ]
+      [ "recipe_bullets", 5 ]
     ],
     "using": [
       [ "sewing_standard", 120 ],
@@ -360,8 +252,8 @@
   },
 
   {
-    "result": "belt68_51_50",
     "type": "recipe",
+    "result": "belt68_51_50",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -371,10 +263,7 @@
     ],
     "time": "30 m",
     "book_learn": [
-      [ "recipe_surv", 4 ],
-      [ "recipe_bullets", 5 ],
-      [ "manual_rifle", 6 ],
-      [ "mag_rifle", 7 ]
+      [ "recipe_bullets", 5 ]
     ],
     "using": [
       [ "sewing_standard", 120 ],
@@ -403,8 +292,8 @@
   },
 
   {
-    "result": "belt68_51_100",
     "type": "recipe",
+    "result": "belt68_51_100",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -414,10 +303,7 @@
     ],
     "time": "30 m",
     "book_learn": [
-      [ "recipe_surv", 4 ],
-      [ "recipe_bullets", 5 ],
-      [ "manual_rifle", 6 ],
-      [ "mag_rifle", 7 ]
+      [ "recipe_bullets", 5 ]
     ],
     "using": [
       [ "sewing_standard", 120 ],
@@ -446,8 +332,8 @@
   },
 
   {
-    "result": "belt68_51_200",
     "type": "recipe",
+    "result": "belt68_51_200",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -457,10 +343,7 @@
     ],
     "time": "30 m",
     "book_learn": [
-      [ "recipe_surv", 4 ],
-      [ "recipe_bullets", 5 ],
-      [ "manual_rifle", 6 ],
-      [ "mag_rifle", 7 ]
+      [ "recipe_bullets", 5 ]
     ],
     "using": [
       [ "sewing_standard", 120 ],
@@ -489,8 +372,8 @@
   },
 
   {
-    "result": "belt308s",
     "type": "recipe",
+    "result": "belt308s",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
     "skill_used": "fabrication",
@@ -500,10 +383,7 @@
     ],
     "time": "30 m",
     "book_learn": [
-      [ "recipe_surv", 4 ],
-      [ "recipe_bullets", 5 ],
-      [ "manual_rifle", 6 ],
-      [ "mag_rifle", 7 ]
+      [ "recipe_bullets", 5 ]
     ],
     "using": [
       [ "sewing_standard", 120 ],
@@ -528,6 +408,41 @@
     ],
     "components": [
       [ [ "762_51", 250 ] ]
+    ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "plut_cell",
+    "result_mult": 40,
+    "category": "CC_CHEM",
+    "subcategory": "CSC_CHEM_FUEL",
+    "skill_used": "cooking",
+    "difficulty": 8,
+    "time": "120 m",
+    "book_learn": [
+      [ "recipe_labchem", 5 ]
+    ],
+    "batch_time_factors": [ 83, 5 ],
+    "qualities": [
+      { "id": "CHEM", "level": 2 }
+    ],
+    "tools": [
+      [ [ "surface_heat", 100, "LIST" ] ]
+    ],
+    "components": [
+      [
+        [ "water_clean", 40 ],
+        [ "water", 40 ]
+      ],
+      [
+        [ "chem_ethanol", 100 ],
+        [ "chem_methanol", 100 ],
+        [ "denat_alcohol", 100 ]
+      ],
+      [ [ "lye_powder", 20 ] ],
+      [ [ "nuclear_waste", 10 ] ],
+      [ [ "nanomaterial", 40 ] ]
     ]
   }
 ]

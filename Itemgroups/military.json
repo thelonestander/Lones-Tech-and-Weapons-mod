@@ -29,11 +29,9 @@
     "id": "army_personal_locker",
     "subtype": "distribution",
     "entries": [
-      { "item": "atomic_military_watch", "prob": 5 },
       { "item": "XL_tactical_backpack", "prob": 5 },
       { "item": "dual_action_otf_blade", "prob": 5 },
-      { "item": "miltary_aim_assist_goggles", "prob": 5 },
-      { "item": "military_exo_suit", "prob": 5 }
+      { "item": "miltary_aim_assist_goggles", "prob": 5 }
     ]
   },
   {
@@ -55,7 +53,6 @@
       { "item": "Xm5", "prob": 10, "charges-min": 10, "charges-max": 20 },
       { "item": "beowolf_ar", "prob": 5, "charges-min": 20, "charges-max": 30 },
       { "item": "beowulf_mag", "prob": 5, "charges-min": 20, "charges-max": 30 },
-      { "item": "military_sword", "prob": 5 },
       { "item": "rm277", "prob": 5, "charges-min": 40, "charges-max": 50 },
       { "item": "rm277mag", "prob": 5, "charges-min": 40, "charges-max": 50 }
     ]
@@ -66,14 +63,6 @@
     "//": "Uncommon pistols found exclusively in gun stores.",
     "items": [
       { "item": "modified_deagle_44", "prob": 20, "charges-min": 0, "charges-max": 0 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "guns_energy",
-    "//": "Assorted factory‑crafted energy weapons.",
-    "items": [
-      { "item": "archflash_emg", "prob": 10, "charges-min": 25, "charges-max": 50 },
     ]
   },
   {

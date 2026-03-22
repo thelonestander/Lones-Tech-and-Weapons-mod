@@ -1,7 +1,7 @@
 [
   {
-    "result": "cbma_bionic_armor",
     "type": "recipe",
+    "result": "cbma_bionic_armor",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "fabrication",
@@ -65,9 +65,10 @@
       ]
     ]
   },
+
   {
-    "result": "cbma_enhanced_armor",
     "type": "recipe",
+    "result": "cbma_enhanced_armor",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "fabrication",
@@ -104,8 +105,8 @@
   },
 
   {
-    "result": "cbma_enhanced_armor_ups",
     "type": "recipe",
+    "result": "cbma_enhanced_armor_ups",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_SUIT",
     "skill_used": "fabrication",
@@ -131,9 +132,110 @@
       [ [ "solder_wire", 200 ] ]
     ]
   },
+
   {
-    "result": "cbma_bionic_helmet",
     "type": "recipe",
+    "result": "cbma_bionic_duster",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "skills_required": [
+      [ "electronics", 8 ],
+      [ "mechanics", 8 ],
+      [ "tailor", 8 ]
+    ],
+    "book_learn": [
+      [ "recipe_mil_augs", 6 ]
+    ],
+    "time": "41 m",
+    "autolearn": true,
+    "using": [
+      [ "cbma_req_qualities", 1 ],
+      [ "filament", 200 ],
+      [ "cbma_req_tool_armor", 1 ]
+    ],
+    "components": [
+      [ [ "trenchcoat_survivor", 1 ], [ "duster_survivor", 1 ] ],
+      [
+        [ "kevlar", 1 ],
+        [ "modularvest", 1 ],
+        [ "swat_armor", 1 ],
+        [ "kevlar_plate", 24 ]
+      ],
+      [ [ "bio_carbon", 1 ] ],
+      [ [ "duct_tape", 100 ] ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "cbma_enhanced_duster",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [
+      [ "electronics", 9 ],
+      [ "mechanics", 9 ],
+      [ "tailor", 9 ]
+    ],
+    "book_learn": [
+      [ "recipe_mil_augs", 7 ]
+    ],
+    "time": "1 h 20 m",
+    "autolearn": true,
+    "using": [
+      [ "cbma_req_qualities", 1 ],
+      [ "filament", 200 ],
+      [ "cbma_req_tool_armor", 1 ]
+    ],
+    "components": [
+      [ [ "cbma_bionic_duster", 1 ] ],
+      [ [ "bio_ads", 1 ] ],
+      [ [ "bio_chain_lightning", 1 ] ],
+      [ [ "bio_emp", 1 ] ],
+      [ [ "bio_faraday", 1 ] ],
+      [ [ "minireactor", 1 ] ],
+      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "solder_wire", 200 ] ],
+      [ [ "cable", 200 ] ],
+      [ [ "alloy_sheet", 2 ] ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "cbma_enhanced_duster_ups",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_TORSO",
+    "skill_used": "fabrication",
+    "difficulty": 10,
+    "skills_required": [
+      [ "electronics", 10 ],
+      [ "mechanics", 9 ],
+      [ "tailor", 9 ]
+    ],
+    "book_learn": [
+      [ "recipe_mil_augs", 8 ]
+    ],
+    "time": "10 m",
+    "autolearn": true,
+    "using": [
+      [ "cbma_req_qualities", 1 ],
+      [ "filament", 200 ],
+      [ "cbma_req_tool_armor", 1 ]
+    ],
+    "components": [
+      [ [ "cbma_enhanced_duster", 1 ] ],
+      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
+      [ [ "solder_wire", 200 ] ]
+    ]
+  },
+  
+  {
+    "type": "recipe",
+    "result": "cbma_bionic_helmet",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "fabrication",
@@ -183,9 +285,10 @@
       ]
     ]
   },
+
   {
-    "result": "cbma_bionic_mask",
     "type": "recipe",
+    "result": "cbma_bionic_mask",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "fabrication",
@@ -216,9 +319,10 @@
       ]
     ]
   },
-    {
-    "result": "cbma_enhanced_helmet",
+
+  {
     "type": "recipe",
+    "result": "cbma_enhanced_helmet",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "fabrication",
@@ -256,8 +360,8 @@
   },
 
   {
-    "result": "cbma_enhanced_helmet_ups",
     "type": "recipe",
+    "result": "cbma_enhanced_helmet_ups",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HEAD",
     "skill_used": "fabrication",
@@ -283,9 +387,10 @@
       [ [ "solder_wire", 200 ] ]
     ]
   },
+  
   {
-    "result": "cbma_bionic_gloves",
     "type": "recipe",
+    "result": "cbma_bionic_gloves",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "fabrication",
@@ -325,9 +430,10 @@
       ]
     ]
   },
-    {
-    "result": "cbma_enhanced_gloves",
+
+  {
     "type": "recipe",
+    "result": "cbma_enhanced_gloves",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "fabrication",
@@ -360,8 +466,8 @@
   },
 
   {
-    "result": "cbma_enhanced_gloves_ups",
     "type": "recipe",
+    "result": "cbma_enhanced_gloves_ups",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_HANDS",
     "skill_used": "fabrication",
@@ -389,8 +495,8 @@
   },
 
   {
-    "result": "cbma_bionic_boots",
     "type": "recipe",
+    "result": "cbma_bionic_boots",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "fabrication",
@@ -430,9 +536,10 @@
       ]
     ]
   },
+
   {
-    "result": "cbma_enhanced_boots",
     "type": "recipe",
+    "result": "cbma_enhanced_boots",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "fabrication",
@@ -465,8 +572,8 @@
   },
 
   {
-    "result": "cbma_enhanced_boots_ups",
     "type": "recipe",
+    "result": "cbma_enhanced_boots_ups",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_FEET",
     "skill_used": "fabrication",
@@ -492,107 +599,10 @@
       [ [ "solder_wire", 200 ] ]
     ]
   },
-  {
-    "result": "cbma_bionic_duster",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "fabrication",
-    "difficulty": 9,
-    "skills_required": [
-      [ "electronics", 8 ],
-      [ "mechanics", 8 ],
-      [ "tailor", 8 ]
-    ],
-    "book_learn": [
-      [ "recipe_mil_augs", 6 ]
-    ],
-    "time": "41 m",
-    "autolearn": true,
-    "using": [
-      [ "cbma_req_qualities", 1 ],
-      [ "filament", 200 ],
-      [ "cbma_req_tool_armor", 1 ]
-    ],
-    "components": [
-      [ [ "trenchcoat_survivor", 1 ], [ "duster_survivor", 1 ] ],
-      [
-        [ "kevlar", 1 ],
-        [ "modularvest", 1 ],
-        [ "swat_armor", 1 ],
-        [ "kevlar_plate", 24 ]
-      ],
-      [ [ "bio_carbon", 1 ] ],
-      [ [ "duct_tape", 100 ] ]
-    ]
-  },
-  {
-    "result": "cbma_enhanced_duster",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "fabrication",
-    "difficulty": 10,
-    "skills_required": [
-      [ "electronics", 9 ],
-      [ "mechanics", 9 ],
-      [ "tailor", 9 ]
-    ],
-    "book_learn": [
-      [ "recipe_mil_augs", 7 ]
-    ],
-    "time": "1 h 20 m",
-    "autolearn": true,
-    "using": [
-      [ "cbma_req_qualities", 1 ],
-      [ "filament", 200 ],
-      [ "cbma_req_tool_armor", 1 ]
-    ],
-    "components": [
-      [ [ "cbma_bionic_duster", 1 ] ],
-      [ [ "bio_ads", 1 ] ],
-      [ [ "bio_chain_lightning", 1 ] ],
-      [ [ "bio_emp", 1 ] ],
-      [ [ "bio_faraday", 1 ] ],
-      [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
-      [ [ "solder_wire", 200 ] ],
-      [ [ "cable", 200 ] ],
-      [ [ "alloy_sheet", 2 ] ]
-    ]
-  },
 
   {
-    "result": "cbma_enhanced_duster_ups",
     "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "fabrication",
-    "difficulty": 10,
-    "skills_required": [
-      [ "electronics", 10 ],
-      [ "mechanics", 9 ],
-      [ "tailor", 9 ]
-    ],
-    "book_learn": [
-      [ "recipe_mil_augs", 8 ]
-    ],
-    "time": "10 m",
-    "autolearn": true,
-    "using": [
-      [ "cbma_req_qualities", 1 ],
-      [ "filament", 200 ],
-      [ "cbma_req_tool_armor", 1 ]
-    ],
-    "components": [
-      [ [ "cbma_enhanced_duster", 1 ] ],
-      [ [ "bio_ups", 1 ], [ "adv_UPS_off", 1 ] ],
-      [ [ "solder_wire", 200 ] ]
-    ]
-  },
-  {
     "result": "cbma_carry_frame",
-    "type": "recipe",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
@@ -621,9 +631,10 @@
       [ [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
     ]
   },
+
   {
-    "result": "cbma_inner_suite",
     "type": "recipe",
+    "result": "cbma_inner_suite",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
@@ -656,9 +667,10 @@
       [ [ "cable", 200 ] ]
     ]
   },
+
   {
-    "result": "cbma_inner_suite_ups",
     "type": "recipe",
+    "result": "cbma_inner_suite_ups",
     "category": "CC_ARMOR",
     "subcategory": "CSC_ARMOR_OTHER",
     "skill_used": "fabrication",
@@ -685,3 +697,5 @@
     ]
   }
 ]
+
+

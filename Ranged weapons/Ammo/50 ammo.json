@@ -14,7 +14,7 @@
     "count": 30,
     "stack_size": 30,
     "ammo_type": "50_beowulf",
-    "casing": "500_casing",
+    "casing": "50_casing",
     "range": 30,
     "damage": { "damage_type": "bullet", "amount": 100, "armor_penetration": 10 },
     "dispersion": 35,
