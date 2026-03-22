@@ -7,6 +7,6 @@
     "maintainers": [ "Thelonestander" ],
     "description": "Adds many new atomic gears to BN!",
     "category": "content",
-    "dependencies": [ "bn" ]
+    "dependencies": [ "bn", "Aftershock", "Cata++" ]
   }
 ]
