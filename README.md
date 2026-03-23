@@ -7,7 +7,7 @@
 ![Pic for readme](https://user-images.githubusercontent.com/82045140/195094313-2bec28c2-9dab-4e1c-b0b5-91cdcf32fd48.png)
 ![123](https://user-images.githubusercontent.com/82045140/195094332-4e323f70-d90b-42c5-8d59-aa5acaf84777.png)
 
-Lones Tech & Weapons Mod — for Cataclysm: Bright Nights
+Lones Augmented Arsenal — for Cataclysm: Bright Nights
 A modular, customizable tech expansion for BN.
 
 Bright Nights fits the vision of the game I enjoy — a world where high‑tech prototypes, experimental weapons, and cybernetics feel right at home. This mod expands that world with new tools, weapons, CBMs, creatures, and quality‑of‑life upgrades, all designed to be modular, transparent, and easy to customize.
