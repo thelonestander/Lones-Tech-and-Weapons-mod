@@ -12,10 +12,6 @@ A modular, customizable tech expansion for BN.
 
 Bright Nights fits the vision of the game I enjoy — a world where high‑tech prototypes, experimental weapons, and cybernetics feel right at home. This mod expands that world with new tools, weapons, CBMs, creatures, and quality‑of‑life upgrades, all designed to be modular, transparent, and easy to customize.
 
-If you don’t want a feature?
-Just delete the folder or disable the sub‑mod in worldgen.
-
-
 What’s Inside the mod? 
 
 Weapons & Combat Gear: 
