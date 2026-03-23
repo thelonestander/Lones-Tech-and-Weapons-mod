@@ -1,3 +1,4 @@
+[
 {
   "id": "auto_crossbow",
   "type": "GUN",
@@ -48,4 +49,34 @@
     "TRADER_AVOID",
     "CROSSBOW"
   ]
-}
+},
+{
+    "id": "plasma_longbow",
+    "type": "GUN",
+    "symbol": "(",
+    "looks_like": "afs_hardlight_longbow",
+    "color": "white",
+    "name": { "str": "Plasma longbow" },
+    "description": "A compact, stringless metal longbow constructed of atomic-age materials.  Rather than using ammunition, a series of mirrors create a super heated plasma arrow.  It runs off of UPS.",
+    "price": 2000000,
+    "price_postapoc": 30000,
+    "material": [ "carbide", "plastic" ],
+    "flags": [ "FIRE_TWOHAND", "STR_DRAW", "PRIMITIVE_RANGED_WEAPON", "BELTED", "NO_UNLOAD" ],
+    "skill": "archery",
+    "min_strength": 9,
+    "weight": "120 g",
+    "volume": "1500 ml",
+    "ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
+    "bashing": 15,
+    "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
+    "reload_noise_volume": 0,
+    "loudness": 0,
+    "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 10 },
+    "range": 30,
+    "dispersion": 80,
+    "durability": 6,
+    "reload": 50,
+    "ups_charges": 25,
+    "valid_mod_locations": [ [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "stabilizer", 1 ] ]
+  }
+]
