@@ -178,7 +178,7 @@
   
   {
     "type": "recipe",
-    "result": "ammolink6.8x51",
+    "result": "6.8x51",
     "charges": 10,
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MAGAZINES",
