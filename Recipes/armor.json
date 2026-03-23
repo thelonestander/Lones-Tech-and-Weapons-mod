@@ -1,0 +1,32 @@
+[
+  {
+    "result": "rm13_bionic_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 9,
+    "skills_required": [ "electronics", 9, "fabrication", 10 ],
+    "time": "3 h 40 m",
+    "reversible": true,
+    "decomp_learn": 7,
+    "book_learn": [ [ "recipe_caseless", 9 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "HAMMER", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 200, "LIST" ] ], [ [ "welding_standard", 200, "LIST" ] ] ],
+    "components": [
+      [ [ "powered_flight_wings", 1 ] ],
+      [ [ "steel_tiny", 10, "LIST" ] ],
+      [ [ "kevlar", 10 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 50 ] ],
+      [ [ "duct_tape", 600 ] ],
+      [ [ "power_supply", 16 ] ],
+      [ [ "amplifier", 12 ] ],
+      [ [ "medium_battery_cell", 1 ] ],
+      [ [ "motor_tiny", 8 ], [ "motor_small", 4 ] ],
+      [ [ "cable", 100 ] ],
+	  [ [ "bio_armor_arms", 1 ] ],
+	  [ [ "bio_armor_legs", 1 ] ],
+	  [ [ "bio_cloak", 1 ] ],
+	  [ [ "rm13_armor", 1 ] ]
+    ]
+  }
+]
