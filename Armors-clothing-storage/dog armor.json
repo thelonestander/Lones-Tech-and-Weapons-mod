@@ -1,0 +1,54 @@
+[
+{
+  "type": "PET_ARMOR",
+  "id": "kevlar_pa_small_quadruped",
+  "copy-from": "small_quadruped_armor",
+
+  "name": { "str": "Power‑armor animal harness (small quadruped)" },
+  "description": "A rigid, Kevlar‑reinforced exoskeletal harness designed to function like miniature power armor for a small quadruped. It locks into place, fully enclosing the torso in composite plates and preventing any other armor from being worn underneath.",
+
+  "color": "yellow",
+
+  "price": "1200 USD",
+  "price_postapoc": "120 USD",
+
+  "material": [ "carbide", "kevlar", "kevlar_rigid" ],
+  "material_thickness": 18,
+
+  "weight": "1000 g",
+  "volume": "1200 ml",
+
+  "environmental_protection": 8,
+  "flags": [
+    "IS_PET_ARMOR",
+    "STURDY",
+    "OVERSIZE"
+  ]
+},
+{
+  "type": "PET_ARMOR",
+  "id": "kevlar_pa_medium_quadruped",
+  "copy-from": "medium_quadruped_armor",
+
+  "name": { "str": "Power‑armor animal harness (medium quadruped)" },
+  "description": "A rigid, Kevlar‑reinforced exoskeletal harness designed to function like miniature power armor for a medium quadruped. Composite plates lock together to fully enclose the torso, preventing any other armor from being worn underneath.",
+
+  "color": "yellow",
+
+  "price": "1800 USD",
+  "price_postapoc": "180 USD",
+
+  "material": [ "carbide", "kevlar", "kevlar_rigid" ],
+  "material_thickness": 20,
+
+  "weight": "7000 g",
+  "volume": "18000 ml",
+
+  "environmental_protection": 10,
+  "flags": [
+    "IS_PET_ARMOR",
+    "STURDY",
+    "OVERSIZE"
+  ]
+}
+]

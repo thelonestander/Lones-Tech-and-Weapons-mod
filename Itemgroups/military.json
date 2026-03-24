@@ -31,7 +31,9 @@
     "entries": [
       { "item": "XL_tactical_backpack", "prob": 5 },
       { "item": "dual_action_otf_blade", "prob": 5 },
-      { "item": "miltary_aim_assist_goggles", "prob": 5 }
+      { "item": "miltary_aim_assist_goggles", "prob": 5 },
+	  { "item": "kevlar_pa_small_quadruped", "prob": 2 },
+      { "item": "kevlar_pa_medium_quadruped", "prob": 1 }
     ]
   },
   {
