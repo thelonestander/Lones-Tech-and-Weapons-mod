@@ -36,5 +36,38 @@
       [ "electronics", 5 ]
     ],
     "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
+  },
+  {
+    "id": "tri_blade_bayonet",
+    "type": "GUNMOD",
+    "name": { "str": "tri blade bayonet" },
+    "description": "Three sharp blades afixed on the end of any rifle, does very good in melee. Can be put on any gun or bow",
+    "weight": "122 g",
+    "volume": "250 ml",
+    "price": "40 USD",
+    "price_postapoc": "10 USD",
+    "to_hit": -1,
+    "cutting": 15,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "muzzle",
+	"mod_target_category": [
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ],
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "MACHINE_GUNS" ],
+      [ "GATLING_GUNS" ],
+      [ "SHOTGUNS" ],
+      [ "S_XBOWS" ],
+      [ "M_XBOWS" ],
+      [ "GRENADE_LAUNCHERS" ],
+      [ "ROCKET_LAUNCHERS" ],
+      [ "FLAMETHROWERS" ],
+      [ "SPRAY_GUNS" ]
+    ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
+    "flags": [ "STAB", "MELEE_GUNMOD" ]
   }
 ]
