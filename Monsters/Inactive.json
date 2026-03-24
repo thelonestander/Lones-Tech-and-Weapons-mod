@@ -1,0 +1,24 @@
+[
+    {
+    "id": "combat_bionic_mech",
+    "copy-from": "bot_mech_recon",
+    "type": "TOOL",
+    "name": { "str": "inactive X-02: Custom 'Bionic' Combat Mech" },
+    "description": "A pilotable CMES (Combat Mechanical Exoskeleton Suit), or it used to be anyway. This is heavily modded to access functions from CBMs how neat! Due to how you built it, it is heavily protected and even more deadly..",
+    "volume": "250 L",
+    "weight": "1480388 g",
+    "bashing": 8,
+    "color": "red",
+    "looks_like": "mon_mech_combat",
+    "use_action": {
+      "type": "place_monster",
+      "monster_id": "combat_bionic_mech",
+      "friendly_msg": "The Mech whirs into life and opens its restraints to accept a pilot.",
+      "hostile_msg": "The Mech unfolds but remains unresponsive.",
+      "difficulty": 10,
+      "moves": 400,
+      "is_pet": true,
+      "skills": [ "electronics", "computer" ]
+    }
+  }
+]
