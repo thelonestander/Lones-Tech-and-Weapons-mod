@@ -78,5 +78,44 @@
         ]
       }
     }
+  },
+  {
+    "type": "profession",
+    "id": "cbma_bionic_expert_trainer",
+    "name": { "str": "Bionic Master Trainer" },
+    "description": "You were a cyber‑augmented animal trainer for the military. Top of the line armor, and animals and you may just have the last three. ",
+    "points": 8,
+
+    "skills": [
+      { "name": "gun", "level": 2 },
+      { "name": "pistol", "level": 2 },
+      { "name": "melee", "level": 1 },
+      { "name": "survival", "level": 1 }
+    ],
+
+    "pets": [
+      { "name": "mon_cyber_german", "amount": 1 },
+	  { "name": "mon_cyber_cat", "amount": 1 },
+	  { "name": "mon_cyber_horse", "amount": 1 }
+    ],
+
+    "items": {
+      "both": {
+        "items": [
+          "cbma_bionic_armor",
+          "cbma_bionic_gloves",
+          "cbma_bionic_boots",
+          "holster",
+          "colt_army",
+          "rope_6",
+          "rope_6",
+		  "rope_6",
+          "horse_tack"
+        ],
+        "entries": [
+          { "item": "44army", "charges": 60 }
+        ]
+      }
+    }
   }
 ]
