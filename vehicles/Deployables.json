@@ -1,7 +1,7 @@
 [
 {
   "id": "folded_helicopter_gyro",
-  "type": "TOOL",
+  "type": "TOOL_ARMOR",
   "category": "deployables",
   "name": { "str": "folded gyrocopter" },
   "description": "A compact, folded gyrocopter ready to be deployed.",
