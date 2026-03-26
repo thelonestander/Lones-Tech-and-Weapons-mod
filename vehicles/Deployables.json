@@ -1,0 +1,25 @@
+[
+{
+  "id": "folded_helicopter_gyro",
+  "type": "TOOL",
+  "category": "deployables",
+  "name": { "str": "folded gyrocopter" },
+  "description": "A compact, folded gyrocopter ready to be deployed.",
+  "weight": "30000 g",
+  "volume": "40 L",
+  "price": "350 USD",
+  "price_postapoc": "20 USD",
+  "to_hit": -5,
+  "bashing": 10,
+  "material": "aluminum",
+  "symbol": "0",
+  "color": "light_gray",
+  "use_action": {
+    "type": "unfold_vehicle",
+    "vehicle_name": "folding_helicopter_gyro",
+	"unfold_msg": "You unfold the compact gyrocopter.",
+	"moves": 500
+  },
+  "flags": [ "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
+}
+]

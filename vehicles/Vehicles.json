@@ -1,0 +1,40 @@
+[
+{
+    "id": "folding_helicopter_gyro",
+    "type": "vehicle",
+    "name": "Foldable Gyrocopter",
+    "blueprint": [ [ "-X#" ] ],
+    "parts": [
+      { "x": -2, "y": 0, "parts": [ "xlframe_vertical" ] },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [
+          "xlframe_cross",
+          "seat",
+          "seatbelt",
+          { "part": "tank", "fuel": "gasoline" },
+          "controls",
+          "dashboard",
+          "wheel_mount_light_steerable",
+          "wheel_motorbike"
+        ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [
+          "xlframe_vertical",
+          "stowboard_vertical",
+          "engine_inline4",
+          "alternator_car",
+          "battery_car",
+          "gyrocopter_rotors",
+          "wheel_mount_light",
+          "wheel_motorbike_rear"
+        ]
+      }
+    ],
+    "items": [  ]
+  }
+]

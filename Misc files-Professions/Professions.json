@@ -125,5 +125,71 @@
         ]
       }
     }
+  },
+  {
+    "type": "profession",
+    "id": "bionic_long_range_recon",
+    "name": "Long Range Bionic Recon",
+    "description": "Long‑Range Bionic Recon operatives are elite scouts who specialize in deep‑zone intelligence gathering far beyond the reach of conventional patrols. LRBR units operate alone for days or weeks at a time, slipping through infested territory with precision and purpose. Their signature tool is the foldable gyrocopter—a lightweight, bionic‑synced aircraft that packs down into a deployable rucksack frame. When assembled, it provides silent‑running lift, rapid exfiltration, and the ability to traverse terrain that would stop ground teams cold..except now your out of fuel.",
+    "points": 4,
+    "CBMs": [
+      "bio_fingerhack",
+      "bio_lockpick",
+      "bio_face_mask",
+      "bio_alarm",
+	  "bio_lightning_emitter",
+      "bio_night_vision",
+      "bio_batteries",
+      "bio_infolink",
+      "bio_power_storage_mkII"
+    ],
+	 "skills": [
+      { "level": 3, "name": "gun" },
+      { "level": 3, "name": "pistol" },
+      { "level": 2, "name": "melee" },
+      { "level": 4, "name": "survival" },
+	  { "level": 3, "name": "swimming" },
+      { "level": 2, "name": "dodge" }
+    ],
+    "items": {
+      "both": {
+        "items": [
+          "winter_pants_army",
+          "tshirt",
+          "winter_jacket_army",
+          "winter_gloves_army",
+          "rucksack",
+          "mask_ski",
+          "tac_helmet",
+		  "cloak_wool",
+          "socks",
+          "boots_combat",
+          "canteen",
+          "wristwatch",
+          "tent_kit",
+          "rollmat",
+          "e_tool",
+          "knife_hunting",
+		  "folded_helicopter_gyro"
+        ],
+        "entries": [
+          { "item": "medium_plus_battery_cell", "ammo-item": "battery", "charges": 750, "container-item": "mil_mess_kit" },
+          { "group": "charged_two_way_radio" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          {
+            "item": "rm11b_sniper_rifle",
+            "ammo-item": "8mm_caseless",
+            "charges": 10,
+            "contents-item": [ "shoulder_strap", "bipod" ]
+          },
+          { "item": "usp_45", "ammo-item": "45_acp", "charges": 12, "container-item": "holster" },
+          { "item": "legpouch_large", "contents-group": "army_mags_usp45" },
+          { "item": "tacvest", "contents-group": [ "army_mags_rm11b" ] }
+        ]
+      },
+      "male": [ "boxer_shorts" ],
+      "female": [ "sports_bra", "boxer_shorts" ]
+    }
   }
 ]
