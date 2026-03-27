@@ -130,7 +130,7 @@
     "type": "profession",
     "id": "bionic_long_range_recon",
     "name": "Long Range Bionic Recon",
-    "description": "Long‑Range Bionic Recon operatives are elite scouts who specialize in deep‑zone intelligence gathering far beyond the reach of conventional patrols. LRBR units operate alone for days or weeks at a time, slipping through infested territory with precision and purpose. Their signature tool is the foldable gyrocopter—a lightweight, bionic‑synced aircraft that packs down into a deployable rucksack frame. When assembled, it provides silent‑running lift, rapid exfiltration, and the ability to traverse terrain that would stop ground teams cold..except now your out of fuel.",
+    "description": "Long‑Range Bionic Recon operatives are elite scouts who specialize in deep‑zone intelligence gathering far beyond the reach of conventional patrols. Outfitted with advanced sensory implants, skeletal reinforcement, and neural‑linked navigation suites, LRBR units operate alone for days or weeks at a time, slipping through infested territory with precision and purpose. Their signature tool is the foldable gyrocopter—a lightweight, bionic‑synced aircraft that packs down into a deployable rucksack frame. When assembled, it provides silent‑running lift, rapid exfiltration, and the ability to traverse terrain that would stop ground teams cold. When folded, it becomes just another piece of gear, allowing operatives to move on foot, infiltrate structures, or disappear into the underbrush.",
     "points": 4,
     "CBMs": [
       "bio_fingerhack",
@@ -170,7 +170,10 @@
           "tent_kit",
           "rollmat",
           "e_tool",
+		  "jumper_cable",
+		  "jerrycan_big",
           "knife_hunting",
+		  "folded_solar_cart",
 		  "folded_helicopter_gyro"
         ],
         "entries": [

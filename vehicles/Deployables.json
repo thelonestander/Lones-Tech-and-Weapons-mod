@@ -21,5 +21,28 @@
 	"moves": 500
   },
   "flags": [ "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
+},
+{
+  "id": "folded_solar_cart",
+  "type": "TOOL",
+  "category": "deployables",
+  "name": { "str": "folded solar cart" },
+  "description": "A compact, folded cart. For troops on long missions that need to charge vehicles.",
+  "weight": "30000 g",
+  "volume": "40 L",
+  "price": "350 USD",
+  "price_postapoc": "20 USD",
+  "to_hit": -5,
+  "bashing": 10,
+  "material": "aluminum",
+  "symbol": "0",
+  "color": "light_gray",
+  "use_action": {
+    "type": "unfold_vehicle",
+    "vehicle_name": "solar_charging_cart",
+	"unfold_msg": "You unfold the solar charging cart.",
+	"moves": 500
+  },
+  "flags": [ "ALLOWS_REMOTE_USE", "DESTROY_ON_DECHARGE" ]
 }
 ]
