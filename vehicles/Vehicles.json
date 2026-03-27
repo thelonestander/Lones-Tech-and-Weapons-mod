@@ -42,6 +42,6 @@
     "type": "vehicle",
     "name": "Solar Charging Cart",
     "blueprint": [ "&" ],
-    "parts": [ { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "wheel_caster", "small_storage_battery", "cargo_space", "solar_panel" ] } ],
+    "parts": [ { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "wheel_caster", "small_storage_battery", "cargo_space", "solar_panel", "recharge_station" ] } ],
   }
 ]
