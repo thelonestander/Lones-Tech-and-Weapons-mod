@@ -136,6 +136,7 @@
       "bio_fingerhack",
       "bio_lockpick",
       "bio_face_mask",
+	  "bio_cable",
       "bio_alarm",
 	  "bio_lightning_emitter",
       "bio_night_vision",
