@@ -2,7 +2,8 @@
 
  Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
  
- <img width="1024" height="1536" alt="Lones Augmented Arsenal" src="https://github.com/user-attachments/assets/b8aa8715-bbb9-4c7c-9e36-d43c34170df1" />
+ <img width="1536" height="1024" alt="BCO 17d7e21b-7557-410c-a1f3-d8a3ff21d1f9" src="https://github.com/user-attachments/assets/e8860d01-abb7-498a-af5f-a7d5f7ab69a4" />
+
  Photo made by AI. 
 
  
