@@ -2,7 +2,7 @@
 
  Tweaks for the game Bright Nights! Why Bn and not DDA? Bright nights fits the vision of the game I enjoy. 
  
- <img width="1536" height="1024" alt="BCO 17d7e21b-7557-410c-a1f3-d8a3ff21d1f9" src="https://github.com/user-attachments/assets/e8860d01-abb7-498a-af5f-a7d5f7ab69a4" />
+ <img width="1536" height="1024" alt="Copilot_20260328_151640" src="https://github.com/user-attachments/assets/c30c0d6f-646d-4db4-84b6-af462315234a" />
 
  Photo made by AI. 
 
