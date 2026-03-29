@@ -31,15 +31,6 @@
   },
 
   {
-    "id": "bio_plutdump",
-    "type": "bionic",
-    "name": { "str": "Plutonium Purger" },
-    "included": true,
-    "description": "Triggers an emergency reactor fuel purge that ejects all fuel from your reactor.",
-    "act_cost": 1
-  },
-
-  {
     "id": "bio_furnace",
     "type": "bionic",
     "name": { "str": "Internal Furnace" },
