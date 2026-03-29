@@ -93,46 +93,6 @@
     },
     "flags": [ "WATCH", "LIGHT_20", "TRADER_AVOID", "NO_UNLOAD", "NO_RELOAD" ]
   },
-
-  {
-    "id": "atomic_stealth_cloak_on",
-    "type": "TOOL_ARMOR",
-    "name": { "str": "Atomic stealth cloak" },
-    "description": "An experimental cloak that renders the user fully invisible. Powered by a built‑in torsion atomic battery. Very difficult to move in, reducing strength, dexterity, and speed. Leaks radiation when hit.",
-    "weight": "1400 g",
-    "volume": "3 L",
-    "price": "100000 USD",
-    "price_postapoc": "1 USD",
-    "to_hit": -1,
-    "phase": "solid",
-    "material": [ "superalloy", "plastic" ],
-    "symbol": "[",
-    "looks_like": "optical_cloak",
-    "color": "light_gray",
-    "covers": [ "torso", "head", "arms", "legs" ],
-    "coverage": 75,
-    "encumbrance": 15,
-    "warmth": 20,
-    "material_thickness": 2,
-    "environmental_protection": 4,
-    "relic_data": {
-      "passive_effects": [
-        {
-          "has": "WORN",
-          "condition": "ALWAYS",
-          "values": [
-            { "value": "SPEED", "add": -20 },
-            { "value": "STRENGTH", "add": -4 },
-            { "value": "DEXTERITY", "add": -4 }
-          ],
-          "ench_effects": [
-            { "effect": "invisibility", "intensity": 1 }
-          ]
-        }
-      ]
-    },
-    "flags": [ "OVERSIZE", "HOOD", "WATERPROOF", "OUTER", "VARSIZE", "LEAK_DAM" ]
-  },
   {
     "id": "auto_safecracker",
     "type": "TOOL",
