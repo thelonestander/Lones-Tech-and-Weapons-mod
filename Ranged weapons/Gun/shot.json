@@ -90,5 +90,32 @@
     "extend": {
       "flags": [ "RELOAD_ONE" ]
     }
+  },
+  {
+    "id": "aa_12",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+    "name": { "str": "AA 12 shotgun" },
+    "description": "The AA-12 (Auto Assault - 12), originally designed and known as the Atchisson Assault Shotgun, is a fully automatic combat shotgun developed in 1972 by Maxwell Atchisson. However, the original development by Atchisson seems to have produced only a few guns at prototype-level, with the development that ultimately led to the gun entering the market being done later by Military Police Systems, Inc.",
+    "weight": "5200 g",
+    "volume": "2750 ml",
+    "price": "1890 USD",
+    "price_postapoc": "45 USD",
+    "material": [ "steel", "plastic" ],
+    "dispersion": 395,
+    "durability": 7,
+	"modes": [ [ "DEFAULT", "single", 1 ], [ "AUTO", "3 rd.", 3 ] ],
+    "barrel_volume": "250 ml",
+    "magazine_well": "250 ml",
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "mechanism", 4 ],
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ]
+    ],
+    "blackpowder_tolerance": 24,
+    "magazines": [ [ "shot", [ "aa_12_mag", "aa_12_30rd" ] ] ]
   }
 ]
