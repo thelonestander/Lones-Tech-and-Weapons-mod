@@ -11,14 +11,20 @@
 ![Pic for readme](https://user-images.githubusercontent.com/82045140/195094313-2bec28c2-9dab-4e1c-b0b5-91cdcf32fd48.png)
 ![123](https://user-images.githubusercontent.com/82045140/195094332-4e323f70-d90b-42c5-8d59-aa5acaf84777.png)
 
-Lones Augmented Arsenal — for Cataclysm: Bright Nights
-A modular, customizable tech expansion for BN.
+Lone’s Augmented Arsenal
+A modular high‑tech expansion for Cataclysm: Bright Nights
 
-Bright Nights fits the vision of the game I enjoy — a world where high‑tech prototypes, experimental weapons, and cybernetics feel right at home. This mod expands that world with new tools, weapons, CBMs, creatures, and quality‑of‑life upgrades, all designed to be modular, transparent, and easy to customize.
+Lone’s Augmented Arsenal is a comprehensive tech, weapons, and cybernetics expansion designed specifically for Cataclysm: Bright Nights. It embraces BN’s vision of a world where experimental prototypes, cybernetics, and advanced gear feel natural — and pushes that vision further with modular systems, bionic‑powered equipment, new professions, cyber‑animals, and a massive arsenal of weapons and tools.
 
-What’s Inside the mod? 
+This mod is built to be transparent, customizable, and future‑proof, with clean JSON structure and modular categories for easy editing.
 
-Weapons & Combat Gear: 
+🌐 Why Bright Nights?
+Bright Nights fits the tone I enjoy — a world where high‑tech gear, experimental weapons, and cybernetics feel integrated rather than out of place.
+This mod is designed for BN specifically and takes advantage of its mechanics, pacing, and lore direction. 
+
+⚙️ Features Overview
+🔫 Weapons & Combat Gear
+A huge arsenal ranging from practical survival tools to exotic prototypes:
 
 Eliminator plasma rifle
 
@@ -30,65 +36,45 @@ Modified Desert Eagle
 
 GMG Lynx
 
-Double‑barrel AR‑15
-
-Folding rifle
-
 Mini‑minigun
 
 Four‑barrel flintlock
 
-X12 pistol
-
 DX‑12 Punisher
 
-Survival spear
+Zombie‑survival M4A1
 
-Dual trench knives
-
-Bat‑chete
-
-Chainwhip & Electro‑chainwhip
-
-Dual‑action OTF blade
-
-Chainsword & Electrosword
-
-Zombie survival M4A1
-
-.50 Beowulf round + AR‑15 variant
+.50 Beowulf AR variant
 
 New military rifles: XM5 & XM250
 
+Dual trench knives, chainwhips, electroswords, and more
 
-Tools & Tech:
+🧰 Tools, Utility & Tech
+Quality‑of‑life upgrades and advanced gadgets:
 
 Wearable smartphone
 
 Imalent MS18 flashlight
 
-Auto‑lockpick
-
-Auto‑safecracker
+Auto‑lockpick & auto‑safecracker
 
 Cargo socks & thigh‑high cargo socks
 
-XL tactical backpack
-
-Cargo duffel bag
+XL tactical backpack & cargo duffel
 
 Larger dog crates
 
+New solar cart for charging the gyrocopter
 
-Cybernetics & Bionics:
+Tool‑power integration (use bionic power to run tools)
+
+🧬 Cybernetics & Bionics
+A major focus of the mod — expanding BN’s cybernetic ecosystem:
 
 Lightning Emitter CBM
 
 Internal Furnace CBM (restored)
-
-Mini‑reactor CBM + upgrade
-
-Cybernetic tool‑power integration (tools can use bionic power)
 
 Bionic armor sets
 
@@ -96,13 +82,16 @@ Bionic weapon systems
 
 Plutonium upgrade kit
 
-New recipe for plutonium cells
+New plutonium cell recipe
 
 Bionic medkit
 
-CBM kits (electric, armor, military, everyday, medical, black‑market)
+CBM kits: electric, armor, military, everyday, medical, black‑market
 
-Cyber Animals:
+Modular bionic‑powered equipment that frees up CBM slots
+
+🐾 Cyber‑Animals
+Fully integrated cybernetic companions:
 
 Cyber German Shepherds (pups + adults)
 
@@ -110,20 +99,47 @@ Cyber cats (kittens + adults)
 
 Cyber horses
 
-New profession: Bionic Cowboy
+🤠 New Profession
+Bionic Cowboy — a thematic, high‑tech frontier survivor with unique gear and flavor.
 
-![Screenshot (1145)](https://user-images.githubusercontent.com/82045140/195093350-777326f0-fc6d-4f33-a681-97087313a820.png)
+Bionic Dog trainer - A high-tech dog trainer, with your two beloved pups
 
-I added colors to each mod in my pack to easily show you. See screenshot above. 
+Bionic master trainer - A high-tech animal trainer that train each cyber animal the military was using! 
 
+Long Range Bionic Recon - A lone military soldier with a set up meant for exploration and long term survival! With a folding gyrocopter!
 
-My discord - https://discord.gg/qGYXst4eND
-Bn discord - https://discord.gg/ph2mWSqu7U
+📦 Installation
+Download the latest release from the GitHub Releases page.
 
-Thanks to the many people that have helped me with making the items in this mod. 
+Drop the folder into your BN mods/ directory.
 
-Chaovolt for helping me with code stuff for real. 
-Kenan for ideas, and also helping me with code.
-SzQ for ideas 
-The BN community for being so supportive and helpful. For real you guys are awesome. 
-and more!
+Enable Lone’s Augmented Arsenal in your world’s mod list.
+
+Load order: place it after content mods and before total conversions.
+
+🧪 Compatibility
+Bright Nights only — not compatible with DDA.
+
+Requires Cata++, and Aftershock
+
+Designed to work cleanly with large modlists.
+
+JSON structure is BN‑native and future‑proofed.
+
+No hard overwrites; most content is additive.
+
+🖼️ Color‑Coded Mod Pack
+Each submodule in my mod pack uses color‑coding for easy identification (see screenshot on GitHub). 
+
+🤝 Credits
+Huge thanks to everyone who helped bring this mod to life:
+
+Chaovolt — code assistance
+
+Kenan — ideas + code help
+
+SzQ — ideas
+
+The BN community — support, feedback, and encouragement
+
+And everyone else who contributed inspiration or testing
