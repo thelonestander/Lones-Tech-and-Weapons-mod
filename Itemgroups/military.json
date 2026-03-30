@@ -80,7 +80,7 @@
     "id": "guns_shotgun_common_display",
     "//": "Shotguns commonly owned by civilians and found in gun stores.",
     "items": [
-      { "item": "dx_12_punisher", "prob": 20, "charges-min": 0, "charges-max": 2 }
+      { "item": "dx_12_punisher", "prob": 10, "charges-min": 0, "charges-max": 2 }
     ]
   },
   {
