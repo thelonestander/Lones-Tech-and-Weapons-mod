@@ -43,6 +43,19 @@
   "price_postapoc": 5000,
 
   "material": [ "steel", "plastic" ],
+  "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+	  ],
 
   "ammo": "223",
   "ranged_damage": { "damage_type": "bullet", "amount": -2 },
@@ -82,11 +95,24 @@
   "type": "GUN",
   "copy-from": "rifle_auto",
 
-  "name": { "str": "double barrel M4A1" },
+  "name": { "str": "Double barrel M4A1" },
   "description": "A dual‑barrel M4A1 designed for extreme suppressive fire.",
 
   "weight": "3710 g",
   "ammo": "223",
+  "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+	  ],
 
   "modes": [
     [ "DEFAULT", "double", 2 ],
@@ -106,7 +132,7 @@
   "type": "GUN",
   "copy-from": "rifle_auto",
 
-  "name": { "str": "zombie survival M4A1" },
+  "name": { "str": "Zombie survival M4A1" },
   "description": "A modified M4A1 with integrated prongs for close‑quarters zombie killing.",
 
   "weight": "3160 g",
@@ -122,6 +148,18 @@
   "dispersion": 180,
   "durability": 6,
   "min_cycle_recoil": 1350,
+  "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "magazine", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+],
 
   "modes": [
     [ "DEFAULT", "semi", 1 ],

@@ -14,7 +14,8 @@
       { "item": "auto_lockpick", "prob": 5 },
       { "item": "cyber_power_mod", "prob": 5 },
 	  { "item": "plasma_longbow", "prob": 5 },
-      { "item": "bionic_medkit_box", "prob": 4 }
+      { "item": "bionic_medkit_box", "prob": 4 },
+	  { "item": "plasma_emitter_rifle", "prob": 5 },
     ]
   }
 ]

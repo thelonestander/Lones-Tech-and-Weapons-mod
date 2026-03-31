@@ -1,0 +1,31 @@
+[
+  {
+    "id": "plasma_emitter_rifle",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": { "str": "Cbm-P Lasma Rifle" },
+    "description": "A state-of-the-art plasma rifle, made from state of the art materials. Shoots super heated plasma that creates a small explosion on hit. You dont even know how this is made.",
+    "weight": "2950 g",
+    "volume": "3 L",
+    "price": "16 kUSD",
+    "price_postapoc": "75 USD",
+    "material": [ "carbide", "plastic" ],
+    "color": "yellow",
+    "range": 30,
+    "ranged_damage": { "damage_type": "heat", "amount": 35, "armor_penetration": 15 },
+    "dispersion": 10,
+	"valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 1 ]
+	  ],
+    "modes": [ [ "DEFAULT", "semi", 1 ], [ "AUTO", "auto", 4 ] ],
+    "loudness": 12,
+    "ups_charges": 40,
+    "ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ]
+  }
+]
