@@ -492,7 +492,6 @@
     "price_postapoc": "200 USD",
     "material": [ "hardsteel" ],
     "symbol": "[",
-    "looks_like": "gauntlets_chitin",
     "color": "light_gray",
     "bashing": 60,
     "to_hit": -2,
