@@ -449,7 +449,7 @@
     "type": "recipe",
     "result": "tri_blade_bayonet",
     "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_CUTTING",
+    "subcategory": "CSC_WEAPON_MODS",
     "skill_used": "fabrication",
 	"skills_required": [ "gun", 3 ],
     "difficulty": 5,
