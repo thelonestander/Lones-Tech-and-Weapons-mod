@@ -46,7 +46,6 @@
       "NO_BREATHE",
       "RIDEABLE_MECH",
       "MECH_DEFENSIVE",
-	  "MILITARY_MECH",
 	  "PUSH_MON",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
