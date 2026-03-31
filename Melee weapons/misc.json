@@ -478,5 +478,25 @@
     "WATER_EXTINGUISH",
     "ALWAYS_TWOHAND"
   ]
-}
+},
+{
+    "id": "crackle_hydraulic_gauntlet",
+    "type": "GENERIC",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Electric hydraulic gauntlet" },
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges.  Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively.  Thanks to an internal microreactor, it doesn't require power of its own. Modified with two tesla coils.",
+    "weight": "3778 g",
+    "volume": "2 L",
+    "price": "100 kUSD",
+	"looks_like": "afs_hydraulic_gauntlet",
+    "price_postapoc": "200 USD",
+    "material": [ "hardsteel" ],
+    "symbol": "[",
+    "looks_like": "gauntlets_chitin",
+    "color": "light_gray",
+    "bashing": 60,
+    "to_hit": -2,
+    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "SHOCKING" ],
+    "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ]
+  }
 ]
