@@ -42,14 +42,18 @@
       "FIREPROOF",
       "COLDPROOF",
       "NOHEAD",
-	  "CAN_OPEN_DOORS",
       "NO_BREATHE",
       "RIDEABLE_MECH",
       "MECH_DEFENSIVE",
 	  "PUSH_MON",
       "PRIORITIZE_TARGETS",
       "PATH_AVOID_DANGER_2",
-      "LOUDMOVES"
+      "LOUDMOVES",
+	  "MOUNTABLE_STAIRS",
+      "MOUNTABLE_LADDER",
+      "MOUNTABLE_OBSTACLES",
+      "MOUNTABLE_DOORS",
+      "MOUNTABLE_LEDGE"
     ]
   }
 ]

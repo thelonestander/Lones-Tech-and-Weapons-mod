@@ -150,6 +150,76 @@
     "description": "A device with a port that interfaces with bionic implants. Converts an item to run directly off bionic power.",
     "ammo_modifier": "battery",
     "flags": [ "USES_BIONIC_POWER", "NO_UNLOAD", "NO_RELOAD" ]
-  }
+  },
+  {
+  "type": "GUN",
+  "reload_noise_volume": 10,
+  "name": {
+    "str": "Shoulder mounted machine gun"
+  },
+  "symbol": "(",
+  "durability": 8,
+  "to_hit": -2,
+  "color": "dark_gray",
+  "handling": 5,
+  "copy-from": "rifle_auto",
+  "weapon_category": [
+    "RIFLES",
+    "AUTOLOADING"
+  ],
+  "bashing": 5,
 
+  "skill": "rifle",
+  "valid_mod_locations": [],
+  "id": "mollee_gunpack",
+  "description": "This is a foldable m4a1 inside a MOLLE pack, it has a built in system to flip up and you can shoot it while in combat. You still have to reload it though, accepts drum mags.",
+  "weight": "3570 g",
+  "volume": "15 L",
+  "price": "4800 USD",
+  "price_postapoc": "50 USD",
+  "material": [
+    "steel",
+    "kevlar"
+  ],
+  "ammo": "223",
+  "ranged_damage": {
+    "damage_type": "bullet",
+    "amount": 0
+  },
+  "dispersion": 520,
+  "min_cycle_recoil": 450,
+  "blackpowder_tolerance": 24,
+  "modes": [
+    [ "DEFAULT", "semi", 1 ],
+    [ "BURST", "burst", 3 ],
+    [ "AUTO", "auto", 4 ]
+  ],
+  "magazines": [
+    [
+      "223",
+      [
+        "stanag150",
+        "stanag100drum",
+        "stanag100"
+      ]
+    ]
+  ],
+  "built_in_mods": [
+    "folding_stock",
+    "grip"
+  ],
+  "sight_dispersion": 100,
+  "armor_data": {
+    "covers": [ "torso" ],
+    "coverage": 10,
+    "encumbrance": 30,
+    "material_thickness": 2
+  },
+  "flags": [
+    "OVERSIZE",
+    "RELOAD_EJECT",
+    "BELTED",
+	"WORN_GUN"
+  ]
+}
 ]
