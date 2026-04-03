@@ -3,6 +3,7 @@
     "id": "mon_cyber_german",
     "copy-from": "mon_dog",
     "type": "MONSTER",
+	"looks_like": "mon_dog_gshepherd",
     "name": { "str": "Cyber German shepherd" },
     "description": "The original K-9 breed. Modified by the military for bionic soldiers to use. Has quiet a few bionics installed making this truly mans best friend.",
     "volume": "35000 ml",
@@ -25,6 +26,7 @@
   {
     "id": "mon_cyber_german_pup",
     "type": "MONSTER",
+	"looks_like": "mon_dog_gshepherd_pup",
     "name": { "str": "Cyber German shepherd puppy", "str_pl": "Cyber German shepherd puppies" },
     "description": "A defenseless Cyber German Shepherd puppy. Its bionics are implanted but not yet fully developed.",
     "default_faction": "PrepNet",
