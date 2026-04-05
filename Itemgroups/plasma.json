@@ -1,0 +1,17 @@
+
+  [
+  {
+    "id": "afs_weapons_rare",
+    "type": "item_group",
+    "items": [
+      [ "plasma_emitter_rifle", 3 ],
+      [ "plasma_emitter_carbine", 5 ],
+      [ "plasma_emitter_heavy", 2 ],
+      [ "plasma_emitter_suppressed", 3 ],
+      [ "plasma_emitter_assault", 3 ],
+      [ "plasma_emitter_sniper", 3 ],
+      [ "plasma_emitter_thrower", 2 ],
+	  [ "cbmp_plasma_sword_off", 3 ]
+    ]
+  }
+]
