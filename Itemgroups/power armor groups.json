@@ -1,0 +1,9 @@
+[
+  {
+    "type": "item_group",
+    "id": "pwr_armor_acc",
+    "items": [
+      [ "backpack_pa_tactical_large", 25 ]
+    ]
+  }
+]

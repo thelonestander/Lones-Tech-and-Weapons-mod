@@ -1,0 +1,16 @@
+[
+{
+    "id": "military helipad",
+    "type": "item_group",
+    "items": [
+      { "item": "jp8", "container-item": "55gal_drum", "charges": [ 1, 130000 ], "prob": 8 }
+    ]
+  },
+  {
+    "id": "civilian_helicopter_parts",
+    "type": "item_group",
+    "items": [
+      { "item": "jp8", "container-item": "55gal_drum", "charges": [ 1, 130000 ], "prob": 8 }
+    ]
+  }
+  ]
