@@ -1,0 +1,64 @@
+[
+  {
+    "id": "powered_flight_wings",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "powered flight wings" },
+    "description": "A pair of articulated composite wings made from carbon fiber, aluminum struts, and high‑tension synthetic membranes. A compact electric motor assembly provides lift and thrust, allowing short‑to‑medium duration powered flight without stamina use. Designed as a wearable harness, not a bionic.",
+    "weight": "6500 g",
+    "volume": "12 L",
+    "price": 120000,
+    "material": [ "aluminum", "carbon_fiber" ],
+    "symbol": "[",
+    "color": "light_gray",
+
+    "covers": [ "torso", "arms" ],
+    "coverage": 60,
+    "encumbrance": 25,
+    "warmth": 5,
+    "environmental_protection": 2,
+    "material_thickness": 2,
+
+    "use_action": {
+      "type": "transform",
+      "msg": "You activate the powered wings. The motors whir to life.",
+      "target": "powered_flight_wings_on",
+      "need_charges": 5,
+      "need_charges_msg": "The wings' battery is dead.",
+      "active": true
+    },
+
+    "ammo": [ "battery" ],
+    "charges_per_use": 10,
+    "max_charges": 1000,
+
+    "flags": [
+      "OUTER",
+      "STURDY",
+      "POWERED",
+      "ALLOWS_FLIGHT"
+    ]
+  },
+
+  {
+    "id": "powered_flight_wings_on",
+    "type": "TOOL_ARMOR",
+    "copy-from": "powered_flight_wings",
+    "name": { "str": "powered flight wings (on)" },
+
+    "use_action": {
+      "type": "transform",
+      "msg": "You deactivate the powered wings. The motors wind down.",
+      "target": "powered_flight_wings"
+    },
+
+    "power_draw": 30000,
+
+    "flags": [
+      "OUTER",
+      "STURDY",
+      "POWERED",
+      "ALLOWS_FLIGHT"
+    ]
+  }
+]
+

@@ -1,0 +1,10 @@
+[
+ {
+  "type": "item_group",
+  "id": "military",
+  "items": [
+    { "item": "powered_flight_wings", "prob": 5 }
+  ]
+}
+
+  ]

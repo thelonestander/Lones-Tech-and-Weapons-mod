@@ -7,6 +7,6 @@
     "maintainers": [ "Thelonestander" ],
     "description": "Adds many new atomic gears to BN!",
     "category": "content",
-    "dependencies": [ "bn", "aftershock", "Cata++", "powered_flight_wings_mod" ]
+    "dependencies": [ "bn", "aftershock", "Cata++" ]
   }
 ]
