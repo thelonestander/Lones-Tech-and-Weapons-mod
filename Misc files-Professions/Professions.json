@@ -2,8 +2,8 @@
   {
     "type": "profession",
     "id": "cbma_test_prof",
-    "name": { "str": "Bionic Dog Trainer" },
-    "description": "You trained the newest cyberdogs as a last‑resort military asset. Now that the world has ended, you get to keep them. Equipped with prototype bionic armor, you're ready to fight.",
+    "name": { "str": "Prototype Bionic Soldier" },
+    "description": "You trained the newest cyberdogs as a last‑resort military asset. Now that the world has ended, you get to keep one. Equipped with prototype bionic armor, you're ready to fight.",
     "points": 8,
 	"CBMs": [ "bio_lightning_emitter", "bio_flashlight", "bio_chain_lightning", "bio_power_storage_mkII" ],
 
@@ -15,7 +15,7 @@
     ],
 
     "pets": [
-      { "name": "mon_cyber_german", "amount": 2 }
+      { "name": "mon_cyber_german", "amount": 1 }
     ],
 
     "items": {
@@ -28,17 +28,13 @@
           "cbma_bionic_duster",
           "cbma_inner_suite",
           "rope_6",
-          "rope_6",
-		  "kevlar_pa_medium_quadruped",
-		  "kevlar_pa_medium_quadruped"
+		  "kevlar_pa_small_quadruped"
         ],
         "entries": [
           { "item": "cbma_carry_frame", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cbma_em_railrifle", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "cbma_mono_knife", "custom-flags": [ "no_auto_equip" ] },
           { "item": "cbma_mono_sword", "custom-flags": [ "no_auto_equip" ] },
-          { "item": "cbma_em_rail_iron", "charges": 50 },
-          { "item": "cbma_em_rail_steel", "charges": 50 },
+          { "item": "cbma_em_rail_steel", "charges": 150 },
           { "item": "plut_cell", "charges": 100 }
         ]
       }
