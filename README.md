@@ -104,7 +104,7 @@ Cyber horses
 🤠 New Profession
 Bionic Cowboy — a thematic, high‑tech frontier survivor with unique gear and flavor.
 
-Bionic Dog trainer - A high-tech dog trainer, with your two beloved pups
+Bionic prototype soldier - A high-tech bionic soldier, using prototype armors, and using a prototype power armor armor for your animal. Should be fun!
 
 Bionic master trainer - A high-tech animal trainer that train each cyber animal the military was using! 
 
