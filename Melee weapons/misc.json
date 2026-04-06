@@ -514,7 +514,7 @@
     "color": "light_gray",
     "bashing": 60,
     "to_hit": -2,
-    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "SHOCKING" ],
+    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "FLAMING" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
 	"relic_data": {
       "passive_effects": [
@@ -524,6 +524,40 @@
           "hit_you_effect": [
             {
               "id": "spell_powerfist_heat",
+              "message": "You feel intense heat from your weapon.",
+              "npc_message": "Flames leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "acid_hydraulic_gauntlet",
+    "type": "GENERIC",
+    "weapon_category": [ "FIST_WEAPONS" ],
+    "name": { "str": "Acid hydraulic gauntlet" },
+    "description": "A huge, heavy metal gauntlet lined with tubing and gauges.  Slow and unwieldy, it uses internal pressure to deliver devastating blows, but takes tremendous strength to use effectively.  Thanks to an internal microreactor, it doesn't require power of its own. Modified with an acid container.",
+    "weight": "3778 g",
+    "volume": "2 L",
+    "price": "100 kUSD",
+	"looks_like": "afs_hydraulic_gauntlet",
+    "price_postapoc": "200 USD",
+    "material": [ "hardsteel" ],
+    "symbol": "[",
+    "color": "light_gray",
+    "bashing": 60,
+    "to_hit": -2,
+    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "ACID", "ACID_BARF" ],
+    "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
+	"relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ACTIVE",
+          "hit_you_effect": [
+            {
+              "id": "spell_powerfist_acid",
               "message": "You feel intense heat from your weapon.",
               "npc_message": "Flames leap from %1$s's weapon."
             }
