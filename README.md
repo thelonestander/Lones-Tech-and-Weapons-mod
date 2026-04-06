@@ -28,6 +28,8 @@ A huge arsenal ranging from practical survival tools to exotic prototypes:
 
 Eliminator plasma rifle
 
+A whole new line of plasma weapons, and a new plasma bow!
+
 Apache knuckleduster
 
 Flaming katana & flaming zweihander
