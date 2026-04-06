@@ -548,7 +548,7 @@
     "color": "light_gray",
     "bashing": 60,
     "to_hit": -2,
-    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "ACID", "ACID_BARF" ],
+    "flags": [ "NO_REPAIR", "NONCONDUCTIVE", "SLOW_WIELD", "DURABLE_MELEE", "LEAK_DAM", "UNARMED_WEAPON", "ACID" ],
     "techniques": [ "BRUTAL", "AFS_PRESSURE_CRUNCH" ],
 	"relic_data": {
       "passive_effects": [
