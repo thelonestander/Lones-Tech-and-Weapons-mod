@@ -527,5 +527,28 @@
       [ [ "power_supply", 5 ] ],
       [ [ "afs_hydraulic_gauntlet", 3 ] ]
     ]
+  },
+   {
+    "type": "recipe",
+    "result": "thermal_hydraulic_gauntlet",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_BASHING",
+    "skill_used": "fabrication",
+	"skills_required": [ "gun", 3 ],
+    "difficulty": 5,
+    "time": "30 m",
+    "autolearn": false,
+    "reversible": true,
+    "decomp_learn": 2,
+    "book_learn": [
+      [ "mag_guns", 8 ]
+    ],
+    "using": [
+      [ "welding_standard", 2 ]
+    ],
+    "components": [
+      [ [ "element", 5 ] ],
+      [ [ "afs_hydraulic_gauntlet", 3 ] ]
+    ]
   }
 ]
