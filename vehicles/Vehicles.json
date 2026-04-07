@@ -43,5 +43,387 @@
     "name": "Solar Charging Cart",
     "blueprint": [ "&" ],
     "parts": [ { "x": 0, "y": 0, "parts": [ "xlframe_vertical_2", "wheel_caster", "small_storage_battery", "cargo_space", "solar_panel", "recharge_station" ] } ],
+  },
+  {
+    "id": "survivor_bus",
+    "type": "vehicle",
+    "name": "Survivor Bus",
+    "parts": [
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "halfboard_horizontal_2", "headlight" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "aisle_vertical", "roof", "reinforced_solar_panel" ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 2,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw", "wheel_mount_medium_steerable", "wheel_wide" ]
+      },
+      {
+        "x": -10,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "craft_rig", "tank", "water_purifier" ]
+      },
+      {
+        "x": -6,
+        "y": 3,
+        "parts": [ "frame_horizontal", "wheel_mount_medium", "wheel_wide", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -8,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "freezer" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "stowboard_horizontal" ]
+      },
+      {
+        "x": -7,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "aisle_vertical", "roof" ]
+      },
+      {
+        "x": -11,
+        "y": -1,
+        "parts": [ "frame_horizontal", "board_sw", "aisle_curtain", "door_motor" ]
+      },
+      {
+        "x": -8,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "afs_roof_external_tank", "cargo_space" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor", "omnicam" ]
+      },
+      {
+        "x": -9,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "fridge" ]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "afs_roof_external_tank", "bed" ]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "turret_mount", { "part": "m249", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "cargo_space", "turret_autoloader", "controls_turret" ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "seat", "controls", "vehicle_clock", "vehicle_alarm", "horn_car", "roof", "afs_control_station" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "halfboard_horizontal_2", "headlight" ]
+      },
+      {
+        "x": -7,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "stowboard_horizontal" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "trunk_floor", "roof", "reinforced_solar_panel" ]
+      },
+      {
+        "x": -7,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -7,
+        "y": 3,
+        "parts": [ "frame_vertical", "door", "door_lock", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -9,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [ "frame_vertical", "door", "door_lock", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -11,
+        "y": 3,
+        "parts": [ "frame_horizontal", "board_se", "aisle_curtain", "door_motor" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "aisle_vertical", "roof", "floodlight" ]
+      },
+      {
+        "x": -11,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor", "bike_rack" ]
+      },
+      {
+        "x": -11,
+        "y": 2,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor", "bike_rack" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "animal_compartment" ]
+      },
+      {
+        "x": -8,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -9,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "turret_mount", { "part": "m249", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "turret_autoloader", "controls_turret", "trunk_floor", "atomic_lamp" ]
+      },
+      {
+        "x": -11,
+        "y": 1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor", "bike_rack", "omnicam" ]
+      },
+      {
+        "x": -7,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -6,
+        "y": -1,
+        "parts": [ "frame_horizontal", "wheel_mount_medium", "wheel_wide", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -10,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -9,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical_2", "aisle_horizontal", "roof" ]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor", "omnicam" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "board_vertical", "aisle_curtain", "door_motor" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "turret_mount", { "part": "m249", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "cargo_space", "turret_autoloader", "controls_turret" ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "frame_vertical", { "part": "tank", "fuel": "diesel" }, "door_motor", "board_vertical" ]
+      },
+      {
+        "x": -10,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "survivors_workbench", "floodlight" ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", { "part": "tank", "fuel": "diesel" }, "v_curtain", "door_motor" ]
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "parts": [ "frame_ne", "halfboard_ne", "wheel_mount_medium_steerable", "wheel_wide" ]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor", "omnicam" ]
+      },
+      {
+        "x": -10,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -8,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space", "recharge_station" ]
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "storage_battery", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -8,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "stowboard_horizontal" ]
+      },
+      {
+        "x": -9,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": [ "frame_vertical_2", "roof", "storage_battery", "trunk_floor", "reinforced_solar_panel" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "frame_cover", "halfboard_cover", "diesel_engine_v6", "alternator_truck", "battery_car" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_horizontal", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [ "frame_horizontal_2", "roof", "cargo_space" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield", "v_curtain", "door_motor" ]
+      },
+      {
+        "x": -10,
+        "y": 0,
+        "parts": [ "frame_horizontal_2", "roof", "chemlab" ]
+      },
+      {
+        "x": 3,
+        "y": -1,
+        "part": "spike"
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "part": "spike"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "part": "spike"
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "part": "spike"
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "part": "spike"
+      }
+    ]
   }
 ]

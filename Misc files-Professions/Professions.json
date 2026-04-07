@@ -191,5 +191,47 @@
       "male": [ "boxer_shorts" ],
       "female": [ "sports_bra", "boxer_shorts" ]
     }
+  },
+  {
+    "type": "profession",
+    "id": "bionic_survivor_nomad",
+    "name": { "str": "Bionic Nomad Survivor" },
+    "description": "You have your cyber pup, and a bus. The world is your oyster.",
+    "points": 8,
+	"CBMs": [ "bio_lightning_emitter", "bio_flashlight", "bio_chain_lightning", "bio_power_storage_mkII" ],
+
+    "skills": [
+      { "name": "survival", "level": 3 },
+      { "name": "fabrication", "level": 3 },
+      { "name": "electronics", "level": 2 },
+      { "name": "melee", "level": 2 },
+	  { "name": "driving", "level": 3 }
+    ],
+	"vehicle": "survivor_bus",
+
+    "pets": [
+      { "name": "mon_cyber_german", "amount": 1 }
+    ],
+
+    "items": {
+      "both": {
+        "items": [
+          "cbma_bionic_armor",
+          "cbma_bionic_gloves",
+          "cbma_bionic_boots",
+          "cbma_bionic_duster",
+          "cbma_inner_suite",
+          "rope_6",
+		  "kevlar_pa_small_quadruped",
+		  "adv_UPS_off",
+		  "adv_UPS_off"
+        ],
+        "entries": [
+          { "item": "plasma_emitter_carbine", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "cbma_mono_knife", "custom-flags": [ "no_auto_equip" ] },
+          { "item": "plut_cell", "charges": 100 }
+        ]
+      }
+    }
   }
 ]
