@@ -20,12 +20,22 @@
     "storage": "65 L",
     "warmth": 10,
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_MOD" ]
+    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_MOD" ],
+	"use_action": {
+      "type": "holster",
+      "holster_prompt": "Holster weapon",
+      "holster_msg": "You holster your %s",
+      "min_volume": "250 ml",
+      "max_volume": "3000 ml",
+      "multi": 2,
+      "draw_cost": 3,
+      "skills": [ "smg", "shotgun", "rifle", "launcher" ]
+    }
   },
   {
     "id": "bigback",
     "type": "ARMOR",
-    "name": { "str": "high-volume rucksack" },
+    "name": { "str": "high-volume PA  rucksack" },
     "description": "Also known as a \"bigpack\", this rucksack is prized by pack rats but may lead to a bad back but thankfully you have power armor, and a big ole strap.",
     "weight": "3539 g",
     "volume": "21 L",
@@ -43,7 +53,16 @@
     "storage": "80 L",
     "warmth": 10,
     "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_MOD" ]
+    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "POWERARMOR_MOD" ],
+	"use_action": {
+      "type": "holster",
+      "holster_prompt": "Holster weapon",
+      "holster_msg": "You holster your %s",
+      "min_volume": "250 ml",
+      "max_volume": "3000 ml",
+      "multi": 2,
+      "draw_cost": 3,
+      "skills": [ "smg", "shotgun", "rifle", "launcher" ]
+    }
   }
-  
   ]
