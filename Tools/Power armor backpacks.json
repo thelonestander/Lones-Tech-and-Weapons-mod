@@ -33,7 +33,7 @@
     }
   },
   {
-    "id": "bigback",
+    "id": "pa_bigback",
     "type": "ARMOR",
     "name": { "str": "high-volume PA  rucksack" },
     "description": "Also known as a \"bigpack\", this rucksack is prized by pack rats but may lead to a bad back but thankfully you have power armor, and a big ole strap.",
