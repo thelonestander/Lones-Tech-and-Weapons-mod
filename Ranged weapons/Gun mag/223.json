@@ -15,5 +15,22 @@
     "capacity": 60,
     "reliability": 7,
     "flags": [ "MAG_COMPACT" ]
+  },
+  {
+    "id": "double_mag_120",
+    "type": "MAGAZINE",
+    "name": { "str": "STANAG 120-round double magazine" },
+    "description": "A high-capacity 120-round double magazine for use with STANAG-compatible rifles.",
+    "looks_like": "stanag100",
+    "weight": "231 g",
+    "volume": "800 ml",
+    "price": 12000,
+    "material": [ "aluminum" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": [ "223" ],
+    "capacity": 120,
+    "reliability": 7,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]
