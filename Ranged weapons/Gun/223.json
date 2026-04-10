@@ -121,7 +121,7 @@
   ],
 
   "magazines": [
-    [ "223", [ "double_mag_60", "double_mag_120" ] ]
+    [ "223", [ "double_mag_60" ] ]
   ],
 
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
@@ -163,6 +163,7 @@
 
   "modes": [
     [ "DEFAULT", "semi", 1 ],
+	[ "BURST", "burst", 3 ],
     [ "AUTO", "auto", 4 ]
   ],
   "cutting": 30,

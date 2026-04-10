@@ -22,7 +22,8 @@
 
   "modes": [
     [ "DEFAULT", "semi", 1 ],
-    [ "AUTO", "auto", 4 ]
+    [ "AUTO", "auto", 4 ],
+	[ "BURST", "burst", 3 ]
   ],
 
   "dispersion": 480,
