@@ -233,5 +233,25 @@
         ]
       }
     }
+  },
+  {
+    "type": "profession",
+    "id": "aug_planar_frontiersman",
+    "name": { "male": "Succeeded Planar Frontiersman", "female": "Succeeded Planar Frontierswoman" },
+    "description": "When the Cataclysm came, you were getting into your gear, prepared for the first manned entrance through a stabilized portal in the lab - just a quick five-minute scouting trip.  You were the last one left in the room when the portal snapped shut and all hell broke loose. You actually reached through the portal and grabed a strange key. What is it?",
+    "points": 4,
+    "items": {
+      "both": {
+        "items": [ "socks", "mollee_gunpack", "afs_atomic_smartphone", "undershirt", "dump_pouch", "house_dimension_key" ],
+        "entries": [
+          { "item": "water_clean", "container-item": "camelbak" },
+          { "item": "crowbar", "custom-flags": [ "auto_wield" ] },
+          { "item": "phase_immersion_suit", "ammo-item": "heavy_atomic_battery_cell", "charges": 10000 },
+          { "item": "dimensional_anchor", "ammo-item": "medium_atomic_battery_cell", "charges": 5000 }
+        ]
+      },
+      "male": [ "briefs" ],
+      "female": [ "boy_shorts" ]
+    }
   }
 ]

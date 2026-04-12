@@ -575,5 +575,29 @@
 	  [ [ "chem_muriatic_acid", 2 ] ],
       [ [ "afs_hydraulic_gauntlet", 3 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "house_dimension_key",
+    "category": "CC_ELECTRONIC",
+    "subcategory": "CSC_ELECTRONIC_TOOLS",
+    "skill_used": "electronics",
+    "skills_required": [ "computer", 9 ],
+    "difficulty": 7,
+    "time": "2 h",
+    "reversible": true,
+    "autolearn": true,
+    "book_learn": [ [ "recipe_lab_elec", 5 ], [ "recipe_labchem", 5 ] ],
+    "using": [ [ "soldering_standard", 14 ] ],
+    "qualities": [ { "id": "SCREW", "level": 1 } ],
+    "components": [
+      [ [ "e_scrap", 5 ] ],
+      [ [ "amplifier", 4 ] ],
+      [ [ "receiver", 2 ] ],
+      [ [ "antenna", 1 ] ],
+      [ [ "processor", 2 ] ],
+      [ [ "RAM", 1 ] ],
+      [ [ "plut_cell", 5 ] ]
+    ]
   }
 ]
