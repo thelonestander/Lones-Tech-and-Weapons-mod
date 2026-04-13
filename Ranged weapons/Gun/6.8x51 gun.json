@@ -3,7 +3,7 @@
   "id": "Xm250",
   "type": "GUN",
   "copy-from": "rifle_auto",
-  "looks_like": "ar15",
+  "looks_like": "m249",
 
   "name": { "str": "XM250 LMG" },
   "description": "A belt‑fed 6.8×51mm light machine gun developed for the U.S. Army's NGSW program.",
