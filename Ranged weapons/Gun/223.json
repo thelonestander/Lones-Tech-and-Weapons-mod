@@ -126,60 +126,6 @@
 
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "durability": 1
-},
-{
-  "id": "zombie_survival_m4a1",
-  "type": "GUN",
-  "copy-from": "rifle_auto",
-
-  "name": { "str": "Zombie survival M4A1" },
-  "description": "A modified M4A1 with integrated prongs for close‑quarters zombie killing.",
-
-  "weight": "3160 g",
-  "volume": "1750 ml",
-  "price": 240000,
-  "price_postapoc": 5000,
-
-  "material": [ "steel", "plastic" ],
-  "color": "dark_gray",
-
-  "ammo": "223",
-  "ranged_damage": { "damage_type": "bullet", "amount": -2 },
-  "dispersion": 180,
-  "durability": 6,
-  "min_cycle_recoil": 1350,
-  "valid_mod_locations": [
-      [ "accessories", 4 ],
-      [ "barrel", 1 ],
-      [ "bore", 1 ],
-      [ "brass catcher", 1 ],
-      [ "grip", 1 ],
-      [ "mechanism", 4 ],
-      [ "magazine", 1 ],
-      [ "sights", 1 ],
-      [ "sling", 1 ],
-      [ "underbarrel", 1 ]
-],
-
-  "modes": [
-    [ "DEFAULT", "semi", 1 ],
-	[ "BURST", "burst", 3 ],
-    [ "AUTO", "auto", 4 ]
-  ],
-  "cutting": 30,
-  "to_hit": 2,
-
-  "magazines": [
-    [
-      "223",
-      [
-        "stanag30", "stanag5", "stanag10", "stanag20",
-        "stanag40", "stanag50", "stanag60", "stanag60drum",
-        "stanag90", "stanag100", "stanag100drum",
-        "stanag150", "survivor223mag"
-      ]
-    ]
-  ]
 }
 ]
 

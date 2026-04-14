@@ -16,7 +16,6 @@
     "items": [
       { "item": "x_12_pistol", "prob": 5 },
       { "item": "x_12_shot_mag", "prob": 5 },
-      { "item": "zombie_survival_m4a1", "prob": 5 },
 	   { "item": "wrist_mounted_9mm", "prob": 5 }
     ]
   }
