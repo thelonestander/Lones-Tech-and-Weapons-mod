@@ -1,0 +1,26 @@
+
+  [
+  {
+    "id": "we23s_drum_1200",
+    "type": "MAGAZINE",
+
+    "name": { "str": "WE23‑S 1200‑round drum" },
+    "description": "A massive 1200‑round drum magazine designed for the WE23‑S rotary minigun. Lightweight polymer housing with internal feed assist to keep up with the gun's extreme rate of fire.",
+
+    "symbol": ",",
+    "color": "dark_gray",
+
+    "weight": "1850 g",
+    "volume": "3500 ml",
+    "price": 120000,
+    "price_postapoc": 800,
+
+    "material": [ "plastic", "aluminum" ],
+
+    "ammo_type": [ "6mm" ],
+    "capacity": 1200,
+
+    "reliability": 9,
+    "flags": [ "MAG_BULKY" ]
+  }
+]

@@ -63,7 +63,9 @@
       { "item": "rm277mag", "prob": 5, "charges-min": 40, "charges-max": 50 },
 	  { "item": "aa_12_mag", "prob": 5, "charges-min": 5, "charges-max": 8 },
       { "item": "aa_12_30rd", "prob": 5, "charges-min": 16, "charges-max": 20 },
-      { "item": "aa_12", "prob": 5, "charges-min": 8, "charges-max": 20 }
+      { "item": "aa_12", "prob": 5, "charges-min": 8, "charges-max": 20 },
+	  { "item": "we23s_minigun", "prob": 3, "charges-min": 0, "charges-max": 1200 },
+      { "item": "we23s_drum_1200", "prob": 3, "charges-min": 0, "charges-max": 1200 }
     ]
   },
   {

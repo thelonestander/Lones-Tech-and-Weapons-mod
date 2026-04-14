@@ -1,0 +1,61 @@
+
+  [
+  {
+    "id": "we23s_minigun",
+    "type": "GUN",
+    "looks_like": "v29",
+
+    "name": { "str": "WE23‑S rotary minigun" },
+    "description": "A compact five‑barrel rotary minigun based on the WE23‑S airsoft design. Lightweight polymer body, aluminum barrels, and an electrically‑driven Gatling mechanism capable of extreme rates of fire.",
+
+    "symbol": "(",
+    "color": "dark_gray",
+
+    "weight": "3390 g",
+    "volume": "6500 ml",
+    "price": 699000,
+    "price_postapoc": 1500,
+
+    "material": [ "plastic", "aluminum" ],
+
+    "skill": "rifle",
+    "ammo": "6mm",
+
+    "bashing": 10,
+    "to_hit": -3,
+
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "dispersion": 420,
+    "durability": 7,
+    "handling": 70,
+    "blackpowder_tolerance": 96,
+
+    "reload": 400,
+    "reload_noise_volume": 10,
+
+    "modes": [
+      [ "DEFAULT", "low auto", 6 ],
+      [ "AUTO", "high auto", 18 ]
+    ],
+
+    "valid_mod_locations": [
+      [ "brass catcher", 1 ],
+      [ "sling", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights mount", 1 ]
+    ],
+
+    "faults": [
+      "fault_gun_blackpowder",
+      "fault_gun_dirt"
+    ],
+
+    "magazines": [
+      [ "6mm", [ "we23s_drum_1200" ] ]
+    ],
+
+    "flags": [
+      "NEVER_JAMS"
+    ]
+  }
+]

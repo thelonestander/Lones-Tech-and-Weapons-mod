@@ -10,5 +10,11 @@
     "type": "ammunition_type",
     "name": ".50 Beowulf",
     "default": "50_beowulf"
+  },
+  {
+    "id": "6mm",
+    "type": "ammunition_type",
+    "name": "6mm",
+    "default": "6mm"
   }
 ]

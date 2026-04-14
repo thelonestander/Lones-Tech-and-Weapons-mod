@@ -1,0 +1,24 @@
+[
+  {
+    "id": "6mm",
+    "type": "AMMO",
+    "name": { "str": "6mm" },
+    "description": "The .25 ACP (6.35mm Browning) was designed as a .25-inch diameter caliber due to .25 inches being the smallest diameter caliber that John Browning could possibly configure while still retaining a centerfire primer pocket. This provided for a more reliable ignition than a rimfire primer. As such, the .25 ACP enabled the creation of some of the earliest, reliable, compact lightweight semi-automatic pocket pistol designs.",
+    "weight": "10 g",
+    "volume": "250 ml",
+    "price": 120,
+    "price_postapoc": 900,
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 30,
+    "stack_size": 20,
+    "ammo_type": "6mm",
+    "casing": "6mm_casing",
+    "range": 30,
+    "damage": { "damage_type": "bullet", "amount": 25, "armor_penetration": 5 },
+    "dispersion": 35,
+    "recoil": 1000,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
+  }
+]

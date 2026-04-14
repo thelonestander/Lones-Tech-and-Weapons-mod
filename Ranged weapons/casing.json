@@ -7,5 +7,14 @@
     "description": "An empty casing from a 6.8×51mm round.",
     "weight": "5 g",
     "volume": "5 ml"
+  },
+  {
+    "id": "6mm_casing",
+    "copy-from": "casing",
+    "type": "GENERIC",
+    "name": { "str": "6mm casing" },
+    "description": "An empty casing from a 6mm round.",
+    "weight": "5 g",
+    "volume": "5 ml"
   }
 ]
