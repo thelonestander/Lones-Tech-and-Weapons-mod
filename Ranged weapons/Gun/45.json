@@ -1,0 +1,28 @@
+[
+{
+    "id": "AF2011A1",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str": "AF2011A1" },
+	"looks_like": "m1911",
+    "description": "The AF2011-A1 Double Barrel Pistol comes actually as the very first industrial double barrel semiautomatic pistol of all time. The original idea came about ten years back to Swiss armourer Vivian Mueller, who at the time experienced cutting and welding together multiple parts of the famous Sig P210: the result was a long slide, double barrel 9mm, highly decorated collector piece, which indeed shot very well..",
+    "weight": "1320 g",
+    "volume": "500 ml",
+    "price": "800 USD",
+    "price_postapoc": "25 USD",
+    "to_hit": -2,
+    "ascii_picture": "m1911",
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "color": "light_gray",
+    "ammo": "45",
+    "durability": 7,
+    "min_cycle_recoil": 540,
+    "blackpowder_tolerance": 24,
+    "magazine_well": "250 ml",
+    "magazines": [ [ "45", [ "af2011_mag", "af2011_bigmag" ] ] ],
+	"modes": [
+    [ "DEFAULT", "double", 2 ]
+  ],
+  }
+  ]

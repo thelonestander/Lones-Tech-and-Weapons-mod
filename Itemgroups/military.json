@@ -65,7 +65,10 @@
       { "item": "aa_12_30rd", "prob": 5, "charges-min": 16, "charges-max": 20 },
       { "item": "aa_12", "prob": 5, "charges-min": 8, "charges-max": 20 },
 	  { "item": "we23s_minigun", "prob": 3, "charges-min": 0, "charges-max": 1200 },
-      { "item": "we23s_drum_1200", "prob": 3, "charges-min": 0, "charges-max": 1200 }
+      { "item": "we23s_drum_1200", "prob": 3, "charges-min": 0, "charges-max": 1200 },
+	  { "item": "AF2011A1", "prob": 5, "charges-min": 7, "charges-max": 14 },
+	  { "item": "af2011_mag", "prob": 5, "charges-min": 0, "charges-max": 14 },
+      { "item": "af2011_bigmag", "prob": 5, "charges-min": 0, "charges-max": 20 }
     ]
   },
   {
@@ -99,7 +102,8 @@
     "subtype": "distribution",
     "entries": [
       { "item": "6.8x51", "prob": 50 },
-      { "item": "50_beowulf", "prob": 50 }
+      { "item": "50_beowulf", "prob": 50 },
+	  { "item": "6mm", "prob": 50 }
     ]
   }
 ]
