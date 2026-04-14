@@ -69,5 +69,43 @@
     ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
     "flags": [ "STAB", "MELEE_GUNMOD" ]
+  },
+  {
+    "id": "plasma_shot",
+    "type": "GUNMOD",
+    "name": { "str": "plasma barrel mod" },
+    "description": "A specialized barrel modification that injects acid into each fired projectile, creating an acid field on impact.",
+    "weight": "540 g",
+    "volume": "1500 ml",
+    "integral_volume": "150 ml",
+    "price": 90000,
+    "price_postapoc": 9000,
+    "material": [ "steel" ],
+    "looks_like": "high_density_capacitor",
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "barrel",
+    "mod_target_category": [
+      [ "SUBMACHINE_GUNS" ],
+      [ "RIFLES" ],
+      [ "SHOTGUNS" ],
+      [ "MACHINE_GUNS" ],
+      [ "PISTOLS" ],
+      [ "REVOLVERS" ]
+    ],
+    "install_time": "45 m",
+    "handling_modifier": -2,
+    "range_modifier": -5,
+    "dispersion_modifier": 90,
+    "loudness_modifier": 10,
+    "damage_modifier": { "damage_type": "heat", "amount": 50 },
+    "ups_charges_modifier": 100,
+    "ammo_effects": [ "PLASMA" ],
+    "min_skills": [
+      [ "weapon", 4 ],
+      [ "fabrication", 6 ],
+      [ "electronics", 5 ]
+    ],
+    "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
   }
 ]

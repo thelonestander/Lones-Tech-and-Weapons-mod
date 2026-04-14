@@ -11,6 +11,7 @@
       { "item": "auto_safecracker", "prob": 5 },
       { "item": "double_plutonium_core", "prob": 2 },
       { "item": "bio_furnace", "prob": 5 },
+	  { "item": "plasma_shot", "prob": 5 },
       { "item": "auto_lockpick", "prob": 5 },
       { "item": "cyber_power_mod", "prob": 5 },
 	  { "item": "plasma_longbow", "prob": 5 },
