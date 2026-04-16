@@ -203,12 +203,7 @@
       [ [ "swage", -1 ] ],
       [ [ "tongs", -1 ] ]
     ],
-    "components": [
-      [
-        [ "sheet_metal", 1 ],
-        [ "sheet_metal_small", 24 ]
-      ]
-    ]
+	"components": [ [ [ "68_51_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ] ]
   },
 
   {
