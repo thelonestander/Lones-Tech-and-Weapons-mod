@@ -42,15 +42,20 @@
       [ [ "cbma_mono_cutter", -1 ] ]
     ]
   },
-  {
-    "type": "requirement",
-    "id": "cbma_req_tool_ammo",
-    "qualities": [
-      { "id": "HAMMER_FINE", "level": 1 },
-      { "id": "SAW_M_FINE", "level": 1 },
-      { "id": "GLARE", "level": 2 },
-      { "id": "CHISEL", "level": 3 }
-    ],
-    "tools": [ [ [ "tongs", -1 ] ], [ [ "anvil", -1 ] ], [ [ "swage", -1 ] ], [ [ "forge", 10 ], [ "oxy_torch", 2 ] ] ]
-  }
+ {
+  "type": "requirement",
+  "id": "cbma_req_tool_ammo",
+  "qualities": [
+    { "id": "HAMMER_FINE", "level": 1 },
+    { "id": "SAW_M_FINE", "level": 1 },
+    { "id": "GLARE", "level": 2 },
+    { "id": "CHISEL", "level": 3 }
+  ],
+  "tools": [
+    [ [ "tongs", -1 ] ],
+    [ [ "anvil", -1 ], [ "anvil_bronze", -1 ] ],
+    [ [ "swage", -1 ] ],
+    [ [ "forge", 10 ], [ "oxy_torch", 2 ] ]
+  ]
+}
 ]
