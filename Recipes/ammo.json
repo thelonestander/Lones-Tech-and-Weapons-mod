@@ -14,5 +14,5 @@
     "reversible": true,
     "using": [ [ "rifle_bullet_forming", 4 ], [ "ammo_bullet", 3 ] ],
     "components": [ [ [ "68_51_casing", 1 ] ], [ [ "smrifle_primer", 1 ] ], [ [ "gunpowder", 4 ] ], [ [ "copper", 1 ] ] ]
-  },
+  }
 ]
