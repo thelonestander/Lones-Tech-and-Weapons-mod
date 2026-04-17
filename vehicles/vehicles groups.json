@@ -1,0 +1,16 @@
+[
+{
+    "type": "vehicle_group",
+    "id": "military_vehicles",
+    "vehicles": [
+      [ "hover_motorcycle_enduro", 300 ]
+    ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "mil_helicopters",
+    "vehicles": [
+      [ "the_bug", 200 ]
+    ]
+  }
+]

@@ -425,5 +425,349 @@
         "part": "spike"
       }
     ]
+  },
+  {
+    "id": "hover_motorcycle_enduro",
+    "type": "vehicle",
+    "name": "Military hover bike",
+    "parts": [
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "turret_mount", { "part": "m249", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "turret_autoloader", "reinforced_windshield" ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical", "horn_car", "controls", "controls_electronic", "diesel_engine_v8", "battery_car", { "part": "tank", "fuel": "diesel" }, "seat", "seatbelt" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_vertical", "vtol_thruster" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_vertical", "vtol_thruster" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical", "cargo_space" ]
+      }
+    ]
+  },
+  {
+    "id": "the_bug",
+    "type": "vehicle",
+    "name": "G59-The Bug",
+    "parts": [
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_cross", "aisle_vertical", "roof" ]
+      },
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_cross", "roof", "aisle_horizontal" ]
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "parts": [ "frame_ne", "halfboard_ne" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "controls", "roof", "NBC_seal", "seatbelt", "afs_control_station" ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [ "frame_ne", "halfboard_ne" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_se", "board_se" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "roof", "NBC_seal", "door_sliding" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_cross", "roof", "NBC_seal", "alternator_car", "engine_turbine_large", "seat", "generator_electric" ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "frame_vertical", "roof", "NBC_seal", "door_sliding" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [ "frame_vertical", "halfboard_vertical_right" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_cross", "roof", "NBC_seal", "alternator_car", "engine_turbine_large", "seat", "generator_electric" ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_cross", "seat", "controls", "roof", "NBC_seal", "seatbelt", "afs_control_station" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_nw", "halfboard_nw" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "roof", "aisle_horizontal" ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_cross", "aisle_vertical", "aisle_lights", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_cross", "medium_storage_battery", "roof", "cargo_space", "recharge_station" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_cross", "roof", "aisle_horizontal" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "parts": [ "frame_horizontal", "halfboard_horizontal" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_nw", "halfboard_nw" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_sw", "board_sw" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_vertical", "halfboard_vertical_left" ]
+      },
+      {
+        "x": -4,
+        "y": 3,
+        "parts": [ "frame_vertical", "board_vertical" ]
+      },
+      {
+        "x": -5,
+        "y": 3,
+        "parts": [ "frame_vertical", "board_se" ]
+      },
+      {
+        "x": -5,
+        "y": 2,
+        "parts": [ "frame_horizontal", { "part": "tank_55gal_drum", "fuel": "jp8" }, "halfboard_horizontal" ]
+      },
+      {
+        "x": -5,
+        "y": 1,
+        "parts": [ "frame_horizontal", { "part": "tank_55gal_drum", "fuel": "jp8" }, "halfboard_horizontal", "vtol_thruster" ]
+      },
+      {
+        "x": -5,
+        "y": 0,
+        "parts": [ "frame_horizontal", "tank_55gal_drum", "halfboard_horizontal" ]
+      },
+      {
+        "x": -5,
+        "y": -1,
+        "parts": [ "frame_sw", "board_sw" ]
+      },
+      {
+        "x": -4,
+        "y": -1,
+        "parts": [ "frame_vertical", "board_vertical" ]
+      },
+      {
+        "x": -6,
+        "y": 1,
+        "parts": [ "frame_vertical", "halfboard_vertical" ]
+      },
+      {
+        "x": -3,
+        "y": 4,
+        "parts": [ "frame_horizontal", "halfboard_horizontal", "vtol_thruster" ]
+      },
+      {
+        "x": -3,
+        "y": 5,
+        "parts": [ "frame_horizontal", "board_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": 6,
+        "parts": [ "frame_ne", "turret_mount", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "turret_autoloader", "board_ne" ]
+      },
+      {
+        "x": -4,
+        "y": 6,
+        "parts": [ "frame_vertical", "turret_mount", { "part": "tow_launcher", "ammo": 50, "ammo_qty": [ 0, 1 ] }, "turret_autoloader", "halfboard_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": -2,
+        "parts": [ "frame_horizontal", "halfboard_horizontal", "vtol_thruster" ]
+      },
+      {
+        "x": -3,
+        "y": -3,
+        "parts": [ "frame_horizontal", "board_horizontal" ]
+      },
+      {
+        "x": -3,
+        "y": -4,
+        "parts": [ "frame_nw", "turret_mount", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] }, "turret_autoloader", "board_nw" ]
+      },
+      {
+        "x": -4,
+        "y": -4,
+        "parts": [ "frame_vertical", "halfboard_horizontal", "turret_mount", { "part": "tow_launcher", "ammo": 50, "ammo_qty": [ 0, 1 ] }, "turret_autoloader" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_cross", "seat", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": 0,
+        "parts": [ "frame_cross", "seat", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -4,
+        "y": 1,
+        "parts": [ "frame_cross", "cargo_space", "roof", "bomber controls" ]
+      },
+      {
+        "x": -4,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_cross", "seat", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": -2,
+        "y": -4,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": -2,
+        "y": 6,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": -6,
+        "y": 0,
+        "parts": [ "frame_sw", "board_sw" ]
+      },
+      {
+        "x": -6,
+        "y": 2,
+        "parts": [ "frame_se", "board_se" ]
+      },
+      {
+        "x": 0,
+        "y": -2,
+        "part": "hdframe_horizontal"
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "part": "hdframe_horizontal"
+      },
+      {
+        "x": 0,
+        "y": -3,
+        "part": "hdframe_sw"
+      },
+      {
+        "x": 1,
+        "y": -3,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": 0,
+        "y": 5,
+        "part": "hdframe_se"
+      },
+      {
+        "x": 1,
+        "y": 5,
+        "part": "hdframe_vertical"
+      },
+      {
+        "x": 2,
+        "y": 5,
+        "parts": [ "hdframe_vertical", "turret_mount", "turret_autoloader", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      },
+      {
+        "x": 2,
+        "y": -3,
+        "parts": [ "hdframe_vertical", "turret_mount", "turret_autoloader", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
+      }
+    ]
   }
 ]
