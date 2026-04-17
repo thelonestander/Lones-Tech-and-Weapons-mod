@@ -444,12 +444,12 @@
       {
         "x": 2,
         "y": 0,
-        "parts": [ "frame_vertical", "vtol_thruster" ]
+        "parts": [ "frame_vertical", "hover_repulsor" ]
       },
       {
         "x": -2,
         "y": 0,
-        "parts": [ "frame_vertical", "vtol_thruster" ]
+        "parts": [ "frame_vertical", "hover_repulsor" ]
       },
       {
         "x": -1,
@@ -838,7 +838,7 @@
       {
         "x": -1,
         "y": 2,
-        "parts": [ "frame_vertical", "roof", "NBC_seal", "aisle_horizontal", "vtol_thruster" ]
+        "parts": [ "frame_vertical", "roof", "NBC_seal", "aisle_horizontal", "hover_repulsor" ]
       },
       {
         "x": 1,
