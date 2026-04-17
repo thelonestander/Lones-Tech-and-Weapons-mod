@@ -12,5 +12,13 @@
     "vehicles": [
       [ "the_bug", 200 ]
     ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "runway",
+    "//": "Lower chance of wrecked helis, include planes and other aircraft",
+    "vehicles": [
+      [ "the_observer", 500 ]
+    ]
   }
 ]

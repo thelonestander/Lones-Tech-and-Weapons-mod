@@ -769,5 +769,137 @@
         "parts": [ "hdframe_vertical", "turret_mount", "turret_autoloader", { "part": "mounted_m134", "ammo": 50, "ammo_qty": [ 0, 0 ] } ]
       }
     ]
+  },
+  {
+    "id": "the_observer",
+    "type": "vehicle",
+    "name": "The Observer",
+    "parts": [
+      {
+        "x": -1,
+        "y": 1,
+        "parts": [ "frame_cross", "roof", "NBC_seal", "medium_storage_battery", "aisle_horizontal", "solar_panel_v3" ]
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "parts": [ "frame_vertical", "seat", "seatbelt", "roof", "NBC_seal" ]
+      },
+      {
+        "x": -1,
+        "y": -1,
+        "parts": [ "frame_vertical", "roof", "NBC_seal", "door" ]
+      },
+      {
+        "x": -2,
+        "y": 2,
+        "parts": [ "frame_se", "engine_turbine_small", "alternator_car", "seat", "seatbelt", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield" ]
+      },
+      {
+        "x": -2,
+        "y": 0,
+        "parts": [ "frame_horizontal", "seat", "seatbelt", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_cross", "reclining_seat", "controls", "dashboard", "seatbelt", "roof", "NBC_seal", "tank_30gal_drum", "cam_control" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_cross", "aisle_vertical", "roof", "NBC_seal", { "part": "tank_30gal_drum", "fuel": "jp8" } ]
+      },
+      {
+        "x": -2,
+        "y": 1,
+        "parts": [ "frame_horizontal", "cargo_space", "roof", "NBC_seal" ]
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "parts": [ "frame_cross", "roof", "NBC_seal", "cargo_space" ]
+      },
+      {
+        "x": 0,
+        "y": -1,
+        "parts": [ "frame_vertical", "windshield" ]
+      },
+      {
+        "x": -1,
+        "y": 2,
+        "parts": [ "frame_vertical", "roof", "NBC_seal", "aisle_horizontal", "vtol_thruster" ]
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "parts": [ "frame_ne", "windshield_horizontal_front" ]
+      },
+      {
+        "x": 1,
+        "y": -1,
+        "parts": [ "frame_nw", "board_nw", "omnicam" ]
+      },
+      {
+        "x": -2,
+        "y": -1,
+        "parts": [ "frame_sw", "engine_turbine_small", "alternator_car", "black_box", "windshield" ]
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "parts": [ "frame_horizontal", "board_ne", "omnicam" ]
+      },
+      {
+        "x": -2,
+        "y": 3,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": -3,
+        "y": 3,
+        "parts": [ "frame_se", "board_se", "omnicam" ]
+      },
+      {
+        "x": -3,
+        "y": 2,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": -3,
+        "y": 1,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": -3,
+        "y": 0,
+        "parts": [ "frame_horizontal", "windshield_horizontal_front" ]
+      },
+      {
+        "x": -3,
+        "y": -1,
+        "parts": [ "frame_horizontal", "board_sw", "omnicam" ]
+      },
+      {
+        "x": -1,
+        "y": 3,
+        "parts": [ "frame_vertical", "door" ]
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "parts": [ "frame_vertical", "windshield_horizontal_front" ]
+      }
+    ]
   }
 ]
