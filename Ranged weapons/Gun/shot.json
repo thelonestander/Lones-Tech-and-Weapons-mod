@@ -117,5 +117,40 @@
     ],
     "blackpowder_tolerance": 24,
     "magazines": [ [ "shot", [ "aa_12_mag", "aa_12_30rd" ] ] ]
+  },
+  {
+    "id": "kf2_doomstick",
+    "copy-from": "shotgun_base",
+    "type": "GUN",
+    "name": { "str": "KF2 Doomstick" },
+    "description": " Quad barrel eight round capacity, doubleshot or full auto? What more could you want? This shotgun is of unknown orgins but damn it packs a punch.",
+    "weight": "3402 g",
+    "volume": "2623 ml",
+    "looks_like": "m1014",
+    "price": "600 USD",
+    "price_postapoc": "2250 cent",
+    "material": [ "steel", "aluminum", "plastic" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 345,
+    "durability": 7,
+	 "modes": [
+    [ "DEFAULT", "double", 2 ],
+    [ "AUTO", "auto", 4 ]
+  ],
+    "clip_size": 8,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "sling", 1 ],
+      [ "barrel", 1 ],
+      [ "grip", 1 ],
+      [ "stock", 1 ],
+      [ "rail", 1 ],
+      [ "loading port", 1 ],
+      [ "brass catcher", 1 ],
+      [ "mechanism", 4 ],
+      [ "sights", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "extend": { "flags": [ "RELOAD_ONE" ] }
   }
 ]
