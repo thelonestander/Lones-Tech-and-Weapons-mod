@@ -20,5 +20,12 @@
     "vehicles": [
       [ "the_observer", 500 ]
     ]
+  },
+  {
+    "type": "vehicle_group",
+    "id": "city_vehicles",
+    "vehicles": [
+      [ "hover_superbike", 400 ]
+    ]
   }
 ]

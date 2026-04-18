@@ -901,5 +901,32 @@
         "parts": [ "frame_vertical", "windshield_horizontal_front" ]
       }
     ]
+  },
+  {
+    "id": "hover_superbike",
+    "type": "vehicle",
+    "name": "Hover Super Bike",
+    "parts": [
+      {
+        "x": 0,
+        "y": 0,
+        "parts": [ "frame_vertical_2", "saddle_motor", "motorcycle_kickstand", "controls", "controls_electronic", "vehicle_alarm", "horn_car", "engine_inline4", "alternator_motorbike" ]
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "parts": [ "frame_handle", { "part": "tank_small", "fuel": "gasoline" }, "headlight", "battery_car" ]
+      },
+      {
+        "x": -1,
+        "y": 0,
+        "parts": [ "frame_vertical", "muffler", "hover_repulsor" ]
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "parts": [ "frame_vertical", "hover_repulsor" ]
+      }
+    ]
   }
 ]
