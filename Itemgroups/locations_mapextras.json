@@ -4,11 +4,11 @@
     "id": "drugdealer",
 	"subtype": "collection",
     "items": [
-      [ "electric_cbm_kit_box", 10 ],
-      [ "armor_cbm_kit_box", 5 ],
-      [ "military_cbm_kit_box", 5 ],
-      [ "everyday_cbm_kit_box", 30 ],
-      [ "medical_cbm_kit_box", 10 ],
+      [ "electric_cbm_kit_box", 4 ],
+      [ "armor_cbm_kit_box", 3 ],
+      [ "military_cbm_kit_box", 2 ],
+      [ "everyday_cbm_kit_box", 10 ],
+      [ "medical_cbm_kit_box", 3 ],
       [ "blackmarket_cbm_kit_box", 1 ]
     ]
   }

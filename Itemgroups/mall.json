@@ -1,0 +1,9 @@
+[
+  {
+    "id": "cell_shop",
+    "type": "item_group",
+    "items": [
+      [ "electric_cbm_kit_box", 6 ]
+    ]
+  }
+]
