@@ -1,3 +1,4 @@
+[
 {
   "id": "beretta_93r",
   "type": "GUN",
@@ -34,4 +35,95 @@
   "magazines": [
     [ "9mm", [ "m9mag", "m9bigmag" ] ]
   ]
+},
+{
+  "id": "folding_glock_base",
+  "type": "TOOL",
+  "category": "weapons",
+
+  "name": { "str": "folding glock base" },
+  "description": "A compact glock base. Activate to unfold into a functional Glock 19.",
+
+  "symbol": "8",
+  "color": "dark_gray",
+
+  "material": [ "brass" ],
+  "weight": "600 g",
+  "volume": "300 ml",
+  "price": 20000,
+
+  "bashing": 5,
+  "to_hit": 0,
+
+  "use_action": {
+    "type": "transform",
+    "target": "folding_glock_on",
+    "active": false,
+    "msg": "You unfold the Glock 19."
+  }
+},
+{
+  "id": "folding_glock_on",
+  "type": "GUN",
+  "copy-from": "pistol_base",
+  "looks_like": "glock_19",
+
+  "name": { "str": "folding Glock 19" },
+  "description": "A Glock 19 modified with a folding mechanism for compact carry.",
+
+  "symbol": "(",
+  "color": "dark_gray",
+
+  "weight": "600 g",
+  "volume": "500 ml",
+  "price": 240000,
+  "price_postapoc": 5000,
+
+  "material": [ "steel", "plastic" ],
+  "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "sights", 1 ]
+	  ],
+
+  "ammo": "9mm",
+  "ranged_damage": { "damage_type": "bullet", "amount": -2 },
+  "dispersion": 180,
+  "durability": 6,
+  "blackpowder_tolerance": 24,
+  "min_cycle_recoil": 380,
+  "magazine_well": "250 ml",
+  "modes": [
+    [ "DEFAULT", "semi", 1 ]
+  ],
+
+  "bashing": 12,
+  "to_hit": -1,
+
+  "use_action": {
+    "type": "transform",
+    "target": "folding_glock_base",
+    "active": false,
+    "msg": "You fold the Glock 19."
+  },
+  "magazines": [
+      [
+        "9mm",
+        [
+          "glockmag",
+          "glockbigmag",
+          "glock17_17",
+          "glock17_22",
+          "glock_drum_50rd",
+          "glock_drum_100rd",
+          "kriss_vector_9mm_mag"
+        ]
+      ]
+    ]
 }
+]
