@@ -565,5 +565,52 @@
         }
       ]
     }
+  },
+   {
+    "id": "folding_axe",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "folding axe base" },
+    "description": "An axe whose blade deploys at the touch of a button.",
+    "weight": "114 g",
+    "volume": "50 ml",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": -2,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+    "flags": [ "SHEATH_AXE" ],
+    "use_action": {
+      "type": "transform",
+      "target": "folding_axe_on",
+      "active": false,
+      "msg": "You switch the axe blade out"
+    }
+  },
+  {
+    "id": "folding_axe_on",
+    "type": "TOOL",
+    "category": "tools",
+    "name": { "str": "foldable axe" },
+    "description": "A deployed folding axe base.",
+    "weight": "114 g",
+    "volume": "56 ml",
+    "price": 2000,
+    "price_postapoc": 50,
+    "to_hit": 1,
+    "cutting": 15,
+    "material": [ "steel", "plastic" ],
+    "symbol": ";",
+    "color": "dark_gray",
+	"techniques": [ "WBLOCK_1", "BRUTAL", "SWEEP" ],
+    "qualities": [ [ "AXE", 2 ], [ "BUTCHER", -20 ] ],
+    "flags": [ "DURABLE_MELEE", "NONCONDUCTIVE", "SHEATH_AXE" ],
+    "use_action": {
+      "type": "transform",
+      "target": "folding_axe",
+      "active": false,
+      "msg": "You switch the axe blade down"
+    }
   }
 ]
