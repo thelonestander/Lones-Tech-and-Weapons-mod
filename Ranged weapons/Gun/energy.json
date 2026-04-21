@@ -274,5 +274,34 @@
     "target": "cbmp_plasma_sword_off",
     "msg": "The plasma blade collapses into a swirl of dissipating ionized gas."
   },
+},
+{
+  "id": "plasma_emitter_double_assault",
+  "copy-from": "rifle_energy",
+  "type": "GUN",
+  "name": { "str": "Cbm-P Double Barrel Stormline Assault Rifle" },
+  "description": "A military-pattern plasma rifle with reinforced cycling coils, two barrels, allowing stable automatic fire. A favorite among pre-Cataclysm security forces.",
+  "weight": "3300 g",
+  "volume": "3 L",
+  "price": "19 kUSD",
+  "price_postapoc": "90 USD",
+  "material": [ "carbide", "plastic" ],
+  "color": "blue",
+  "range": 30,
+  "ranged_damage": { "damage_type": "heat", "amount": 33, "armor_penetration": 14 },
+  "dispersion": 10,
+  "valid_mod_locations": [
+    [ "accessories", 4 ],
+    [ "barrel", 1 ],
+    [ "grip", 1 ],
+    [ "muzzle", 1 ],
+    [ "sights", 1 ],
+    [ "sling", 1 ],
+    [ "underbarrel", 1 ]
+  ],
+  "modes": [ [ "DEFAULT", "double", 2 ], [ "AUTO", "auto", 4 ] ],
+  "loudness": 13,
+  "ups_charges": 42,
+  "ammo_effects": [ "PLASMA", "EMP", "AMMO_ANOMALY_PLASMA" ]
 }
 ]
