@@ -107,5 +107,25 @@
       [ "electronics", 5 ]
     ],
     "flags": [ "INSTALL_DIFFICULT", "PYROMANIAC_WEAPON" ]
+  },
+  {
+    "id": "axe_bayonet",
+    "type": "GUNMOD",
+    "name": { "str": "axe bayonet" },
+    "description": "This is an axe bayonet afixed to the underbarrel of a firearm.",
+    "weight": "4 g",
+    "volume": "250 ml",
+    "price": "40 USD",
+    "price_postapoc": "5 USD",
+    "to_hit": -1,
+    "cutting": 15,
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "underbarrel",
+    "mod_target_category": [ [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "SHOTGUNS" ] ],
+    "mode_modifier": [ [ "REACH", "bayonet", 2, [ "MELEE", "REACH_ATTACK" ] ] ],
+    "qualities": [ [ "CUT", 1 ], [ "COOK", 1 ], [ "BUTCHER", -18 ] ],
+    "flags": [ "SLOW_WIELD", "STAB" ]
   }
 ]

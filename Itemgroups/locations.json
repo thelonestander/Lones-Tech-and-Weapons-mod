@@ -5,7 +5,8 @@
     "subtype": "distribution",
     "entries": [
       { "item": "blackmarket_cbm_kit_box", "prob": 1 },
-      { "item": "military_cbm_kit_box", "prob": 5 }
+      { "item": "military_cbm_kit_box", "prob": 5 },
+	  { "item": "axe_bayonet", "prob": 10 }
     ]
   },
   {
@@ -14,7 +15,8 @@
     "//": "Useful or valuable items for bank vaults.",
     "items": [
       { "item": "x_12_pistol", "prob": 5 },
-      { "item": "x_12_shot_mag", "prob": 10 }
+      { "item": "x_12_shot_mag", "prob": 10 },
+	  { "item": "axe_bayonet", "prob": 10 }
     ]
   }
 ]
