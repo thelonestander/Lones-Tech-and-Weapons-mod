@@ -126,7 +126,65 @@
 
     "ranged_damage": { "damage_type": "bullet", "amount": -2 },
     "durability": 1
-}
+},
+{
+    "id": "double_m249",
+    "copy-from": "mg_base",
+    "type": "GUN",
+    "name": { "str": "Double barrel M249" },
+    "description": "The M249 is a mountable machine gun used by the US military and SWAT teams. This one is a double barrel model that has a unique firing modes. Two barrels are supposed to help mitigate heat buildup.",
+    "weight": "7330 g",
+    "volume": "3 L",
+    "barrel_volume": "250 ml",
+    "price": "7500 USD",
+    "price_postapoc": "80 USD",
+    "ascii_picture": "m249_saw",
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "dispersion": 200,
+    "durability": 7,
+    "min_cycle_recoil": 1350,
+    "modes": [
+    [ "DEFAULT", "double", 2 ],
+    [ "BURST", "burst", 4 ],
+    [ "AUTO", "auto", 8 ]
+  ],
+    "built_in_mods": [ "bipod" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [
+      [
+        "223",
+        [
+          "belt223",
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag100",
+          "stanag100drum",
+          "carbonmag_223",
+          "survivor223mag"
+        ]
+      ]
+    ]
+  }
 ]
 
 

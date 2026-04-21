@@ -69,7 +69,8 @@
 	  { "item": "AF2011A1", "prob": 5, "charges-min": 7, "charges-max": 14 },
 	  { "item": "af2011_mag", "prob": 5, "charges-min": 0, "charges-max": 14 },
       { "item": "af2011_bigmag", "prob": 5, "charges-min": 0, "charges-max": 20 },
-	  { "item": "kf2_doomstick", "prob": 5, "charges-min": 0, "charges-max": 8 }
+	  { "item": "kf2_doomstick", "prob": 5, "charges-min": 0, "charges-max": 8 },
+	  { "item": "double_m249", "prob": 15, "charges-min": 0, "charges-max": 0 }
     ]
   },
   {
