@@ -1,0 +1,20 @@
+[
+   {
+    "name": "GROUP_ANIMALPOUND_CATS",
+    "type": "monstergroup",
+    "default": "mon_null",
+    "monsters": [
+      { "monster": "mon_cyber_cat", "freq": 50, "cost_multiplier": 0 },
+      { "monster": "mon_cyber_cat_kitten", "freq": 50, "cost_multiplier": 0 }
+    ]
+  },
+  {
+    "name": "GROUP_ANIMALPOUND_DOGS",
+    "type": "monstergroup",
+    "default": "mon_dog_zombie_rot",
+    "monsters": [
+      { "monster": "mon_cyber_german", "freq": 75, "cost_multiplier": 0 },
+      { "monster": "mon_cyber_german_pup", "freq": 75, "cost_multiplier": 0 }
+    ]
+  }
+  ]
