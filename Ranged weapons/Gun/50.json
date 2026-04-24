@@ -63,6 +63,40 @@
   "magazines": [
     [ "50_beowulf", [ "beowulf_mag" ] ]
   ]
-}
+},
+{
+    "id": "deagle_50ae",
+    "copy-from": "pistol_base",
+    "type": "GUN",
+    "name": { "str_sp": "Desert Eagle .50AE" },
+    "description": "One of the most recognizable handguns due to its popularity in movies and video games, the Desert Eagle is better known for its menacing appearance than its performance.  It's a large pistol, but its heavy weight reduces recoil.",
+    "weight": "1700 g",
+    "volume": "750 ml",
+    "price": "875 USD",
+    "price_postapoc": "2750 cent",
+    "to_hit": -2,
+    "bashing": 12,
+    "material": [ "steel", "plastic" ],
+    "color": "light_gray",
+    "ammo": "50ae",
+    "ranged_damage": { "damage_type": "bullet", "amount": -1 },
+    "durability": 7,
+    "min_cycle_recoil": 1413,
+    "valid_mod_locations": [
+      [ "accessories", 2 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "stock", 1 ],
+      [ "underbarrel", 1 ]
+    ],
+    "magazine_well": "250 ml",
+    "magazines": [ [ "50ae", [ "deaglemag_50ae" ] ] ]
+  }
 ]
 

@@ -16,5 +16,14 @@
     "description": "An empty casing from a 6mm round.",
     "weight": "5 g",
     "volume": "5 ml"
+  },
+  {
+    "id": "50ae_casing",
+    "copy-from": "casing",
+    "type": "GENERIC",
+    "name": { "str": "50AE casing" },
+    "description": "An empty casing from a .50ae round.",
+    "weight": "5 g",
+    "volume": "5 ml"
   }
 ]

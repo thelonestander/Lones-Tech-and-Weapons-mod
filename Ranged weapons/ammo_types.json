@@ -16,5 +16,11 @@
     "type": "ammunition_type",
     "name": "6mm",
     "default": "6mm"
+  },
+  {
+    "id": "50ae",
+    "type": "ammunition_type",
+    "name": "50ae",
+    "default": "50ae"
   }
 ]

@@ -20,5 +20,27 @@
     "dispersion": 35,
     "recoil": 2036,
     "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
+  },
+  {
+    "id": "50ae",
+    "type": "AMMO",
+    "name": { "str": ".50 AE" },
+    "description": "The .50 Action Express (AE) (12.7×33mmRB) is a large-caliber handgun cartridge, best known for its usage in the Desert Eagle. Developed in 1988 by American Evan Whildin of Action Arms, the .50 AE is one of the most powerful pistol cartridges in production.",
+    "weight": "16 g",
+    "volume": "250 ml",
+    "price": 120,
+    "price_postapoc": 900,
+    "material": [ "steel", "powder" ],
+    "symbol": "=",
+    "color": "dark_gray",
+    "count": 30,
+    "stack_size": 30,
+    "ammo_type": "50ae",
+    "casing": "50ae_casing",
+    "range": 30,
+    "damage": { "damage_type": "bullet", "amount": 100, "armor_penetration": 10 },
+    "dispersion": 35,
+    "recoil": 2036,
+    "effects": [ "COOKOFF", "NEVER_MISFIRES" ]
   }
 ]

@@ -37,5 +37,23 @@
     "reliability": 9,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
+  },
+  {
+    "id": "deaglemag_50ae",
+    "looks_like": "glock17_17",
+    "type": "MAGAZINE",
+    "name": { "str": "Desert Eagle magazine .50AE" },
+    "description": "A standard 7-round steel box magazine for use with the .50ae Desert Eagle.",
+    "weight": "90 g",
+    "volume": "250 ml",
+    "price": "6750 cent",
+    "price_postapoc": "1 USD",
+    "material": "steel",
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "50ae",
+    "capacity": 8,
+    "reliability": 8,
+    "flags": [ "MAG_COMPACT" ]
   }
 ]
