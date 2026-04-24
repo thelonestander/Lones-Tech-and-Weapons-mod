@@ -702,5 +702,35 @@
     "components": [
       [ [ "shot_00", 200 ] ]
     ]
+  },
+  {
+    "type": "recipe",
+    "result": "leather_soaked_in_blob",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "10 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "leather", 1 ] ],
+      [ [ "slime_scrap", 1 ] ]
+    ]
+  },
+  {
+    "type": "recipe",
+    "result": "blob_tailors_kit",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_CUTTING",
+    "skill_used": "fabrication",
+    "difficulty": 0,
+    "time": "10 m",
+    "autolearn": true,
+    "reversible": true,
+    "components": [
+      [ [ "tailors_kit", 1 ] ],
+      [ [ "slime_scrap", 5 ] ]
+    ]
   }
 ]

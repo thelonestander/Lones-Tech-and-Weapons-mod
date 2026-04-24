@@ -276,5 +276,47 @@
         "persistent": true
       }
     ]
+  },
+{
+    "id": "blob_tailors_kit",
+    "type": "TOOL",
+    "category": "tools_workshop",
+    "name": { "str": "blob tailor's kit" },
+    "description": "This is a high quality kit consisting of a variety of needles, some plastic spools for thread, some small scissors, and an awl. Soaked in blob. Using your tailoring skill, this kit can customize your clothing and armor, whether up-armoring them or altering some items to fit mutant wearers.",
+    "weight": "100 g",
+    "volume": "500 ml",
+    "price": 1000,
+    "price_postapoc": 1000,
+    "to_hit": -2,
+    "material": [ "plastic", "steel" ],
+    "symbol": ";",
+    "color": "red",
+    "ammo": "thread",
+    "sub": "sewing_kit",
+    "initial_charges": 50,
+    "max_charges": 600,
+    "charges_per_use": 1,
+    "qualities": [ [ "SEW", 4 ], [ "SEW_CURVED", 1 ], [ "KNIT", 1 ], [ "LEATHER_AWL", 2 ], [ "CUT", 1 ] ],
+    "use_action": [
+      {
+        "type": "repair_item",
+        "item_action_type": "repair_fabric",
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "scute" ],
+        "skill": "tailor",
+        "tool_quality": 3,
+        "cost_scaling": 0.1,
+        "move_cost": 800
+      },
+      {
+        "type": "sew_advanced",
+        "materials": [ "cotton", "leather", "nylon", "wool", "fur", "faux_fur", "nomex", "kevlar", "neoprene", "gutskin", "scute" ],
+        "skill": "tailor",
+        "clothing_mods": [
+          "blob_pocketed",
+          "blob_leather_padded"
+        ]
+      }
+    ],
+    "flags": [ "ALLOWS_REMOTE_USE" ]
   }
 ]

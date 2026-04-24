@@ -1,0 +1,21 @@
+[
+  {
+    "type": "GENERIC",
+    "id": "leather_soaked_in_blob",
+    "symbol": ",",
+    "color": "brown",
+    "name": { "str": "leather blob patch", "str_pl": "leather blob patches" },
+    "description": "A smallish patch of leather, soaked in blob. Could be used to make tough clothing.",
+    "price": "20 USD",
+    "price_postapoc": "10 cent",
+    "material": [ "leather" ],
+    "flags": [ "NO_SALVAGE" ],
+    "weight": "100 g",
+    "volume": "250 ml",
+    "category": "scrap_fabric",
+    "to_hit": -1,
+    "stackable": true
+  }
+]
+
+
