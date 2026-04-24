@@ -623,5 +623,84 @@
       [ [ "tongs", -1 ] ]
     ],
 	"components": [ [ [ "6mm_casing", 1 ] ], [ [ "smpistol_primer", 1 ] ], [ [ "chem_black_powder", 4 ] ], [ [ "copper", 1 ] ] ]
+  },
+  {
+    "type": "recipe",
+    "result": "belt_shot_100",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [
+      [ "gun", 2 ]
+    ],
+    "time": "30 m",
+    "book_learn": [
+      [ "recipe_bullets", 5 ]
+    ],
+    "using": [
+      [ "sewing_standard", 120 ],
+      [ "fabric_standard", 6 ]
+    ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER_FINE", "level": 1 }
+    ],
+    "tools": [
+      [
+        [ "welder", 20 ],
+        [ "welder_crude", 40 ],
+        [ "soldering_iron", 40 ],
+        [ "toolset", 40 ]
+      ],
+      [
+        [ "small_repairkit", 60 ],
+        [ "large_repairkit", 60 ]
+      ],
+      [ [ "swage", -1 ] ]
+    ],
+    "components": [
+      [ [ "shot_00", 100 ] ]
+    ]
+  },
+
+  {
+    "type": "recipe",
+    "result": "belt_shot_200",
+    "category": "CC_WEAPON",
+    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "skill_used": "fabrication",
+    "difficulty": 5,
+    "skills_required": [
+      [ "gun", 2 ]
+    ],
+    "time": "30 m",
+    "book_learn": [
+      [ "recipe_bullets", 5 ]
+    ],
+    "using": [
+      [ "sewing_standard", 120 ],
+      [ "fabric_standard", 6 ]
+    ],
+    "qualities": [
+      { "id": "SAW_M_FINE", "level": 1 },
+      { "id": "HAMMER_FINE", "level": 1 }
+    ],
+    "tools": [
+      [
+        [ "welder", 20 ],
+        [ "welder_crude", 40 ],
+        [ "soldering_iron", 40 ],
+        [ "toolset", 40 ]
+      ],
+      [
+        [ "small_repairkit", 60 ],
+        [ "large_repairkit", 60 ]
+      ],
+      [ [ "swage", -1 ] ]
+    ],
+    "components": [
+      [ [ "shot_00", 200 ] ]
+    ]
   }
 ]
