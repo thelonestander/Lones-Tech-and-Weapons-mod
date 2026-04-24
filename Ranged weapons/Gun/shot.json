@@ -160,6 +160,7 @@
     "name": { "str": "M95 Tactical Assault Shotgun" },
     "description": "The M95 is a belt fed shotgun that does immesnse crowd control. Quite inaccurate and difficult to control, but man does it kill well.",
     "weight": "7330 g",
+	"looks_like": "m249",
     "volume": "3 L",
     "barrel_volume": "250 ml",
     "price": "7500 USD",
