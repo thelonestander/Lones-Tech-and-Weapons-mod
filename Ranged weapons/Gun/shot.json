@@ -152,5 +152,47 @@
       [ "underbarrel", 1 ]
     ],
     "extend": { "flags": [ "RELOAD_ONE" ] }
-  }
+  },
+  {
+    "id": "m95_tact_shotgun",
+    "copy-from": "mg_base",
+    "type": "GUN",
+    "name": { "str": "M95 Tactical Assault Shotgun" },
+    "description": "The M95 is a belt fed shotgun that does immesnse crowd control. Quite inaccurate and difficult to control, but man does it kill well.",
+    "weight": "7330 g",
+    "volume": "3 L",
+    "barrel_volume": "250 ml",
+    "price": "7500 USD",
+    "price_postapoc": "80 USD",
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "ammo": "shot",
+    "dispersion": 200,
+    "durability": 7,
+    "min_cycle_recoil": 1350,
+    "modes": [ [ "DEFAULT", "burst", 4 ] ],
+    "built_in_mods": [ "bipod" ],
+    "valid_mod_locations": [
+      [ "accessories", 4 ],
+      [ "barrel", 1 ],
+      [ "bore", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip", 1 ],
+      [ "mechanism", 4 ],
+      [ "muzzle", 1 ],
+      [ "rail", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "stock", 1 ]
+    ],
+    "magazines": [
+      [
+        "shot",
+        [
+          "belt_shot_200",
+		  "belt_shot_100"
+        ]
+      ]
+    ]
+  },
 ]

@@ -41,5 +41,19 @@
     "type": "GENERIC",
     "name": { "str": "6.8×51mm ammo belt linkage" },
     "use_action": { "type": "ammobelt", "belt": "belt68_51_30" }
+  },
+   {
+    "id": "ammolink_shot_200",
+    "copy-from": "ammolink",
+    "type": "GENERIC",
+    "name": { "str": "shotshell ammo belt linkage" },
+    "use_action": { "type": "ammobelt", "belt": "belt_shot_200" }
+  },
+  {
+    "id": "ammolink_shot_100",
+    "copy-from": "ammolink",
+    "type": "GENERIC",
+    "name": { "str": "shotshell ammo belt linkage" },
+    "use_action": { "type": "ammobelt", "belt": "belt_shot_100" }
   }
 ]

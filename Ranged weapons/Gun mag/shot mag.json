@@ -52,5 +52,27 @@
     "reliability": 8,
     "reload_time": 130,
     "flags": [ "MAG_BULKY" ]
+  },
+   {
+    "id": "belt_shot_200",
+    "copy-from": "magazine_belt",
+    "type": "MAGAZINE",
+    "name": { "str": "200-round shotshell ammo pouch" },
+    "looks_like": "stanag30",
+    "ammo_type": [ "shot" ],
+    "capacity": 200,
+    "default_ammo": "shot_00",
+    "linkage": "ammolink223"
+  },
+  {
+    "id": "belt_shot_100",
+    "copy-from": "magazine_belt",
+    "type": "MAGAZINE",
+    "name": { "str": "100-round shotshell ammo pouch" },
+    "looks_like": "stanag30",
+    "ammo_type": [ "shot" ],
+    "capacity": 100,
+    "default_ammo": "shot_00",
+    "linkage": "ammolink223"
   }
 ]
