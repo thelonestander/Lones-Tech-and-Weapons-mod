@@ -73,7 +73,8 @@
 	  { "item": "double_m249", "prob": 15, "charges-min": 0, "charges-max": 0 },
 	  { "item": "belt_shot_200", "prob": 20, "charges-min": 100, "charges-max": 200 },
       { "item": "belt_shot_100", "prob": 15, "charges-min": 72, "charges-max": 100 },
-	  { "item": "deaglemag_50ae", "prob": 7, "charges-min": 0, "charges-max": 7 }
+	  { "item": "deaglemag_50ae", "prob": 7, "charges-min": 0, "charges-max": 7 },
+	  { "item": "deagle_50ae", "prob": 7, "charges-min": 0, "charges-max": 7 }
     ]
   },
   {
