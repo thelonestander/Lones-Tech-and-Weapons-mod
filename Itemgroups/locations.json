@@ -5,8 +5,12 @@
     "subtype": "distribution",
     "entries": [
       { "item": "blackmarket_cbm_kit_box", "prob": 1 },
-      { "item": "military_cbm_kit_box", "prob": 5 },
-	  { "item": "axe_bayonet", "prob": 10 }
+      { "item": "military_cbm_kit_box", "prob": 2 },
+	  { "item": "axe_bayonet", "prob": 10 },
+	  { "item": "armor_cbm_kit_box", "prob": 3 },
+	  { "item": "everyday_cbm_kit_box", "prob": 5 },
+	  { "item": "medical_cbm_kit_box", "prob": 4 }
+	  
     ]
   },
   {
