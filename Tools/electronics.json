@@ -199,12 +199,12 @@
   ],
   "bashing": 5,
 
-  "skill": "rifle",
+  "skill": "pistol",
   "valid_mod_locations": [],
   "id": "wrist_mounted_9mm",
   "description": "A compact Glock 19 modified into a forearm‑mounted emergency sidearm. The pistol is secured in a rigid wrist brace with a stripped‑down frame and a simple firing linkage, allowing the user to fire while keeping both hands free. Accuracy suffers and reloading is awkward, but the setup provides a reliable close‑quarters option when mobility or multitasking matters more than precision.",
   "weight": "200 g",
-  "volume": "500 L",
+  "volume": "500 ml",
   "price": "4800 USD",
   "price_postapoc": "50 USD",
   "material": [
