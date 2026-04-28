@@ -1,0 +1,21 @@
+ [
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "vending_bionics",
+    "entries": [
+      { "group": "bionics_common", "prob": 100 }
+    ]
+  },
+  {
+    "id": "bionics_common",
+    "type": "item_group",
+    "items": [
+      [ "blackmarket_cbm_kit_box", 1 ],
+      [ "military_cbm_kit_box", 2 ],
+      [ "armor_cbm_kit_box", 4 ],
+      [ "everyday_cbm_kit_box", 5 ],
+      [ "medical_cbm_kit_box", 4 ]
+    ]
+  }
+]
