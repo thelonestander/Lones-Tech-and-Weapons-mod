@@ -321,7 +321,7 @@
     "dispersion": 10,
     "modes": [ [ "DEFAULT", "double", 2 ], [ "AUTO", "auto", 4 ] ],
     "loudness": 12,
-    "ups_charges": 40,
+    "ups_charges": 50,
     "ammo_effects": [ "LASER", "INCENDIARY" ]
   }
 ]
