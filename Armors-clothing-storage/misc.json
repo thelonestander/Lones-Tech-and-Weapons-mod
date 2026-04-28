@@ -156,33 +156,6 @@
       ]
     }
   },
-
-  {
-    "id": "pro_oxy_torch",
-    "type": "TOOL",
-    "category": "tools",
-    "looks_like": "oxy_torch",
-    "name": { "str": "pro acetylene torch", "str_pl": "pro acetylene torches" },
-    "description": "A larger oxyacetylene torch kit for welding and cutting metal. Requires connection to pressurized welding gas cylinders. Can also destroy metal barriers.",
-    "weight": "1800 g",
-    "volume": "1 L",
-    "price": "40000 USD",
-    "price_postapoc": "750 USD",
-    "material": [ "steel", "plastic" ],
-    "symbol": ";",
-    "color": "red",
-    "ammo": "weldgas",
-    "charges_per_use": 2,
-    "use_action": "OXYTORCH",
-    "qualities": [ [ "WELD", 2 ] ],
-    "magazines": [
-      [
-        "weldgas",
-        [ "weldtank", "tinyweldtank", "large_weldtank" ]
-      ]
-    ],
-    "flags": [ "ALLOWS_REMOTE_USE" ]
-  },
   {
     "id": "rm13_bionic_armor",
     "type": "TOOL_ARMOR",
