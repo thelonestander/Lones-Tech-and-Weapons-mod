@@ -1,74 +1,5 @@
 [
-  {
-    "id": "XL_tactical_backpack",
-    "type": "ARMOR",
-    "name": { "str": "XL tactical backpack" },
-    "description": "An extra large tactical multi-compartment backpack with ample storage and a mag compartment. Designed to maximize capacity without excessive encumbrance.",
-    "weight": "2400 g",
-    "volume": "15 L",
-    "price": "9000 USD",
-    "price_postapoc": "1250 USD",
-    "repairs_like": "backpack_tactical_large",
-    "material": [ "leather", "kevlar" ],
-    "symbol": "[",
-    "looks_like": "backpack",
-    "color": "green",
-    "covers": [ "torso" ],
-    "coverage": 35,
-    "rigid": true,
-    "encumbrance": 13,
-    "max_encumbrance": 60,
-    "storage": "80 L",
-    "warmth": 10,
-    "material_thickness": 2,
-    "flags": [ "BELTED", "WATERPROOF", "ONLY_ONE", "OVERSIZE", "STURDY" ],
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Holster weapon",
-      "holster_msg": "You holster your %s",
-      "min_volume": "250 ml",
-      "max_volume": "3000 ml",
-      "multi": 2,
-      "draw_cost": 3,
-      "skills": [ "smg", "shotgun", "rifle", "launcher" ]
-    }
-  },
-
-  {
-    "id": "cargo_duffel_bag",
-    "type": "ARMOR",
-    "name": { "str": "cargo duffel bag" },
-    "description": "A custom-built heavy duffel bag with extra straps and pouches for expanded storage.",
-    "weight": "1000 g",
-    "volume": "7500 ml",
-    "price": "30000 USD",
-    "price_postapoc": "4250 USD",
-    "repairs_like": "duffelbag",
-    "material": [ "leather", "kevlar" ],
-    "symbol": "[",
-    "looks_like": "rucksack",
-    "color": "dark_gray",
-    "covers": [ "torso" ],
-    "coverage": 20,
-    "rigid": true,
-    "encumbrance": 10,
-    "max_encumbrance": 50,
-    "storage": "70 L",
-    "material_thickness": 4,
-    "flags": [ "WATER_FRIENDLY", "STURDY", "BELTED", "OVERSIZE" ],
-    "use_action": {
-      "type": "holster",
-      "holster_prompt": "Holster weapon",
-      "holster_msg": "You holster your %s",
-      "min_volume": "250 ml",
-      "max_volume": "2000 ml",
-      "multi": 2,
-      "draw_cost": 3,
-      "skills": [ "smg", "rifle" ]
-    }
-  },
-
-  {
+{
     "id": "mre_box_small",
     "type": "CONTAINER",
     "category": "container",
@@ -85,7 +16,6 @@
     "contains": "1 L",
     "use_action": "DISASSEMBLE"
   },
-
   {
     "id": "mre_box_medium",
     "type": "CONTAINER",
@@ -246,30 +176,5 @@
     "color": "brown",
     "contains": "3 L",
     "use_action": "DISASSEMBLE"
-  },
-
-  {
-    "id": "cargo_boots",
-    "type": "ARMOR",
-    "name": { "str": "pair of cargo boots" },
-    "description": "Tough leather cargo boots with two decently sized pockets. Durable and questionably necessary.",
-    "weight": "1060 g",
-    "volume": "2500 ml",
-    "price": "10000 USD",
-    "price_postapoc": "750 USD",
-    "to_hit": -1,
-    "bashing": 1,
-    "material": [ "leather" ],
-    "symbol": "[",
-    "looks_like": "dress_shoes",
-    "color": "dark_gray",
-    "covers": [ "feet" ],
-    "coverage": 90,
-    "storage": "10 L",
-    "encumbrance": 12,
-    "warmth": 20,
-    "material_thickness": 2,
-    "environmental_protection": 2,
-    "flags": [ "VARSIZE", "WATERPROOF" ]
   }
 ]
