@@ -16,7 +16,8 @@
       { "item": "cyber_power_mod", "prob": 5 },
 	  { "item": "plasma_longbow", "prob": 5 },
       { "item": "bionic_medkit_box", "prob": 4 },
-	  { "item": "plasma_emitter_rifle", "prob": 5 }
+	  { "item": "plasma_emitter_rifle", "prob": 5 },
+	  { "item": "double_laser_rifle", "prob": 5 }
     ]
   }
 ]

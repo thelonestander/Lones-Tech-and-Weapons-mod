@@ -303,5 +303,25 @@
   "loudness": 13,
   "ups_charges": 42,
   "ammo_effects": [ "PLASMA", "EMP", "AMMO_ANOMALY_PLASMA" ]
-}
+},
+ {
+    "id": "double_laser_rifle",
+    "copy-from": "rifle_energy",
+    "type": "GUN",
+    "name": { "str": "A7 double laser rifle" },
+    "description": "A state-of-the-art laser rifle developed by the R&D outfit \"Aerial Labs\". This one has two barrels.  Though the Cataclysm put that on the ash heap of history, this weapon can still do the same to your foes..twice.",
+    "weight": "3000 g",
+    "volume": "3 L",
+    "price": "16 kUSD",
+    "price_postapoc": "75 USD",
+    "material": [ "steel", "plastic" ],
+    "color": "yellow",
+    "range": 30,
+    "ranged_damage": { "damage_type": "heat", "amount": 25, "armor_penetration": 4 },
+    "dispersion": 10,
+    "modes": [ [ "DEFAULT", "double", 2 ], [ "AUTO", "auto", 4 ] ],
+    "loudness": 12,
+    "ups_charges": 40,
+    "ammo_effects": [ "LASER", "INCENDIARY" ]
+  }
 ]
