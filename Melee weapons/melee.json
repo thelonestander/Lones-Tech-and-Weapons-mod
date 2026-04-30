@@ -612,5 +612,76 @@
       "active": false,
       "msg": "You switch the axe blade down"
     }
+  },
+   {
+    "id": "gun_sword_metal",
+    "type": "GENERIC",
+    "category": "weapons",
+    "weapon_category": [ "2H_SWORDS", "MEDIEVAL_SWORDS" ],
+    "symbol": "!",
+    "color": "light_gray",
+    "name": { "str": "forged gun sword" },
+    "description": "A simple, handmade sword, you built an ultralight mechanism for firing 556. Very deadly but you already knew that.",
+    "looks_like": "longsword",
+    "material": [ "steel" ],
+    "volume": "2500 ml",
+    "weight": "1500 g",
+    "bashing": 14,
+    "cutting": 28,
+    "to_hit": 1,
+    "price_postapoc": "25 USD",
+    "flags": [ "SHEATH_SWORD", "NONCONDUCTIVE" ],
+    "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 7 ] ],
+    "techniques": [ "WBLOCK_2" ],
+	 "use_action": {
+      "type": "transform",
+      "msg": "You open the mechanism, and ready yourself to fire.",
+      "target": "sword_ar15"
+    }
+  },
+  {
+    "id": "sword_ar15",
+    "copy-from": "rifle_semi",
+    "type": "GUN",
+	"looks_like": "ar15",
+    "name": { "str": "Gun sword AR" },
+    "description": "This ubiquitous rifle is the forefather of M16 rifle series.  It is lightweight and accurate, stripped and afixed to a blade for an awesome survival weapon.",
+    "weight": "3500 g",
+    "volume": "2 L",
+    "barrel_volume": "250 ml",
+    "price": "1250 USD",
+    "price_postapoc": "40 USD",
+    "material": [ "steel", "plastic" ],
+    "color": "dark_gray",
+    "ammo": "223",
+    "dispersion": 150,
+    "durability": 7,
+    "min_cycle_recoil": 1350,
+    "magazines": [
+      [
+        "223",
+        [
+          "stanag30",
+          "stanag5",
+          "stanag10",
+          "stanag20",
+          "stanag40",
+          "stanag50",
+          "stanag60",
+          "stanag60drum",
+          "stanag90",
+          "stanag100",
+          "stanag100drum",
+          "stanag150",
+          "carbonmag_223",
+          "survivor223mag"
+        ]
+      ]
+    ],
+	"use_action": {
+      "type": "transform",
+      "msg": "You fold the ar back into its mechanism and ready your blade.",
+      "target": "gun_sword_metal"
+    }
   }
 ]
