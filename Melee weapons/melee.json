@@ -643,7 +643,7 @@
     "id": "sword_ar15",
     "copy-from": "rifle_semi",
     "type": "GUN",
-	"looks_like": "ar15",
+	"looks_like": "longsword",
     "name": { "str": "Gun sword AR" },
     "description": "This ubiquitous rifle is the forefather of M16 rifle series.  It is lightweight and accurate, stripped and afixed to a blade for an awesome survival weapon.",
     "weight": "3500 g",
