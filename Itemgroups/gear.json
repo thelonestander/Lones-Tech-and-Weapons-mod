@@ -6,5 +6,12 @@
     "items": [
       { "item": "cargo_duffel_bag", "prob": 60 }
     ]
+  },
+   {
+    "type": "item_group",
+    "id": "survival_armor",
+    "items": [
+      [ "holdout_holster", 5 ]
+    ]
   }
 ]

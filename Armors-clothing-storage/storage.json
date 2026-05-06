@@ -176,5 +176,34 @@
     "color": "brown",
     "contains": "3 L",
     "use_action": "DISASSEMBLE"
+  },
+  {
+    "id": "holdout_holster",
+    "type": "ARMOR",
+    "name": { "str": "holdout holster" },
+    "description": "A holster for a pistol that also has a space for a mag.",
+    "weight": "220 g",
+    "volume": "500 ml",
+    "price": "90 USD",
+    "price_postapoc": "5 USD",
+    "material": [ "leather" ],
+    "symbol": "[",
+    "looks_like": "sheath",
+    "color": "light_gray",
+    "covers": [ "torso" ],
+    "coverage": 2,
+    "encumbrance": 2,
+    "material_thickness": 1,
+    "use_action": {
+      "type": "holster",
+	  "holster_prompt": "Stash gun or ammo?",
+      "holster_msg": "You stash your %s.",
+      "max_volume": "1 L",
+      "min_volume": "450 ml",
+      "skills": [ "pistol" ],
+	   "multi": 2,
+      "flags": [ "HOLSTER_PISTOL", "MAG_COMPACT", "MAG_BULKY", "MAG_BELT", "SPEEDLOADER" ]
+    },
+    "flags": [ "WAIST", "COMPACT", "OVERSIZE", "ALLOWS_TAIL_SNAKE" ]
   }
 ]
