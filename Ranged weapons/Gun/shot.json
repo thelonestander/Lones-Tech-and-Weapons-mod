@@ -196,4 +196,39 @@
       ]
     ]
   },
+  {
+  "id": "cindy_suppressed_12g",
+  "type": "GUN",
+  "name": { "str": "Cindy integrally-suppressed shotgun" },
+  "description": "A compact, integrally-suppressed 12-gauge shotgun. The long internal baffle stack drastically reduces report and recoil, making it ideal for stealthy close-quarters work. Its shortened barrel slightly reduces pellet velocity.",
+  "weight": "3500 g",
+  "volume": "3500 ml",
+  "looks_like": "mossberg_500",
+  "price": 120000,
+  "price_postapoc": 8000,
+  "material": [ "steel", "plastic" ],
+  "symbol": "/",
+  "color": "dark_gray",
+  "skill": "shotgun",
+  "ammo": [ "shot" ],
+  "range": 12,
+  "ranged_damage": { "damage_type": "bullet", "amount": 0 },
+  "dispersion": 450,
+  "durability": 8,
+  "clip_size": 5,
+  "reload": 200,
+  "barrel_length": "200 ml",
+  "valid_mod_locations": [
+    [ "sling", 1 ],
+    [ "stock", 1 ],
+    [ "sights", 1 ]
+  ],
+  "flags": [ "NEVER_JAMS", "RELOAD_ONE", "PUMP_ACTION" ],
+  "loudness": 38,
+  "recoil": 120,
+  "modes": [
+    [ "DEFAULT", "pump", 1 ]
+  ],
+  "built_in_mods": [ "shot_suppressor" ]
+  }
 ]

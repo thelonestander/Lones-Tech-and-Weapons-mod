@@ -20,5 +20,13 @@
       { "item": "x_12_shot_mag", "prob": 5 },
 	   { "item": "wrist_mounted_9mm", "prob": 5 }
     ]
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common_display",
+    "//": "Shotguns commonly owned by citizens and found in gun stores.",
+    "items": [
+      { "item": "cindy_suppressed_12g", "prob": 4, "charges-min": 0, "charges-max": 5 }
+    ]
   }
 ]
