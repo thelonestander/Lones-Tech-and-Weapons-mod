@@ -52,5 +52,35 @@
     "time": 1,
     "points": 1,
     "flags": [ "BIONIC_POWER_SOURCE", "BIONIC_TOGGLED", "BIONIC_NPC_USABLE" ]
+  },
+  {
+    "id": "bio_power_storage_mkIII",
+    "type": "bionic",
+    "name": { "str": "Power Storage mkIII" },
+    "capacity": "500 kJ",
+    "description": "A Compact Bionics Module that increases your power capacity by 500 kJ.  Having at least one of these is a prerequisite to using powered bionics.  You will also need a power supply, found in various CBMs.",
+    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL", "BIONIC_SHOCKPROOF" ],
+    "starting_bionic": true,
+    "points": 5
+  },
+  {
+    "id": "bio_power_storage_mkIV",
+    "type": "bionic",
+    "name": { "str": "Power Storage mkIV" },
+    "capacity": "750 kJ",
+    "description": "A Compact Bionics Module that increases your power capacity by 750 kJ.  Having at least one of these is a prerequisite to using powered bionics.  You will also need a power supply, found in various CBMs.",
+    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL", "BIONIC_SHOCKPROOF" ],
+    "starting_bionic": true,
+    "points": 7
+  },
+  {
+    "id": "arc_bio_power_storage",
+    "type": "bionic",
+    "name": { "str": "Arc Power Storage" },
+    "capacity": "2000 kJ",
+    "description": "A Compact Bionics Module that increases your power capacity by 2000 kJ.  Having at least one of these is a prerequisite to using powered bionics.  You will also need a power supply, found in various CBMs.",
+    "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL", "BIONIC_SHOCKPROOF" ],
+    "starting_bionic": false,
+    "points": 10
   }
 ]

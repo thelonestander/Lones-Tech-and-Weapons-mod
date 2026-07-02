@@ -17,7 +17,10 @@
       [ "everyday_cbm_kit_box", 5 ],
       [ "medical_cbm_kit_box", 4 ],
 	  [ "bn_bio_arc_reactor", 1 ],
-	  [ "arc_lightning_rifle", 3 ]
+	  [ "arc_lightning_rifle", 3 ],
+	  [ "bio_power_storage_mkIII", 5 ],
+	  [ "bio_power_storage_mkIV", 5 ],
+	  [ "arc_bio_power_storage", 3 ]
     ]
   }
 ]

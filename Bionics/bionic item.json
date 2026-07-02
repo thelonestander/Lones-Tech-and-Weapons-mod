@@ -7,5 +7,38 @@
     "description": "Installed in your chest is an arc reactor that produces a large amount of power, forever!",
     "price": "10000 kUSD",
     "difficulty": 11
+  },
+   {
+    "id": "bio_power_storage_mkIII",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Power Storage CBM Mk. III" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A Compact Bionics Module that upgrades the user's power capacity by 500 units.  Having at least one of these is a prerequisite to using powered bionics.  The user will also need a power supply, found in various CBMs.",
+    "price": "6800 USD",
+    "weight": "80 g",
+    "difficulty": 1
+  },
+  {
+    "id": "bio_power_storage_mkIV",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str_sp": "Power Storage CBM Mk. IV" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A Compact Bionics Module developed at DoubleTech Industries as a replacement for the highly successful Power Storage CBM.  Increases the user's power capacity by 750 units.",
+    "price": "10000 USD",
+    "weight": "90 g",
+    "difficulty": 1
+  },
+  {
+    "id": "arc_bio_power_storage",
+    "copy-from": "bionic_general_npc_usable",
+    "type": "BIONIC_ITEM",
+    "name": { "str_sp": " Arc power Storage CBM" },
+    "looks_like": "bio_int_enhancer",
+    "description": "A Compact Bionics Module developed at DoubleTech Industries as a replacement for the highly successful Power Storage CBM.  Increases the user's power capacity by 2000 units.",
+    "price": "20000 USD",
+    "weight": "50 g",
+    "difficulty": 2
   }
 ]
