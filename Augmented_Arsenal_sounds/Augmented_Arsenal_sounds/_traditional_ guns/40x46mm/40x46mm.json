@@ -1,0 +1,33 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "double_mgl",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "double_mgl",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "double_mgl",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_med.ogg"
+        ]
+    }
+]

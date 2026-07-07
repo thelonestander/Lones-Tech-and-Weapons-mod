@@ -1,0 +1,138 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "cbma_em_railrifle",
+        "files" : [
+            "AA_ham-ranged-weapon_railrifle-shoot1.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot2.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "cbma_em_railrifle",
+        "files" : [
+            "AA_ham-ranged-weapon_railrifle-shoot1.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot2.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "cbma_em_railrifle",
+        "files" : [
+            "bionic-weapon_reloadA.ogg",
+            "bionic-weapon_reloadB.ogg",
+            "bionic-weapon_reloadC.ogg",
+            "bionic-weapon_reloadD.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "cbma_em_railrifle_as",
+        "files" : [
+            "AA_ham-ranged-weapon_railrifle-shoot1.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot2.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "cbma_em_railrifle_as",
+        "files" : [
+            "AA_ham-ranged-weapon_railrifle-shoot1.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot2.ogg",
+            "AA_ham-ranged-weapon_railrifle-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "cbma_em_railrifle_as",
+        "files" : [
+            "bionic-weapon_reloadA.ogg",
+            "bionic-weapon_reloadB.ogg",
+            "bionic-weapon_reloadC.ogg",
+            "bionic-weapon_reloadD.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "cbma_pilehammer_exp",
+        "files" : [
+            "AA_ham-ranged-weapon_pilehammer-shoot1.ogg",
+            "AA_ham-ranged-weapon_pilehammer-shoot2.ogg",
+            "AA_ham-ranged-weapon_pilehammer-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "cbma_pilehammer_exp",
+        "files" : [
+            "AA_ham-ranged-weapon_pilehammer-shoot1.ogg",
+            "AA_ham-ranged-weapon_pilehammer-shoot2.ogg",
+            "AA_ham-ranged-weapon_pilehammer-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "cbma_pilehammer_exp",
+        "files" : [
+            "bionic-weapon_reloadA.ogg",
+            "bionic-weapon_reloadB.ogg",
+            "bionic-weapon_reloadC.ogg",
+            "bionic-weapon_reloadD.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "cbma_pilehammer_emp",
+        "files" : [
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot1.ogg",
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot2.ogg",
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "cbma_pilehammer_emp",
+        "files" : [
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot1.ogg",
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot2.ogg",
+            "AA_ham-ranged-weapon_pilehammerEMP-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "cbma_pilehammer_emp",
+        "files" : [
+            "bionic-weapon_reloadA.ogg",
+            "bionic-weapon_reloadB.ogg",
+            "bionic-weapon_reloadC.ogg",
+            "bionic-weapon_reloadD.ogg"
+        ]
+    }
+]

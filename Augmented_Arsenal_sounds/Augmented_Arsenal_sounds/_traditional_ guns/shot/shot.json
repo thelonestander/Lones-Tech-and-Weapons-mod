@@ -1,0 +1,184 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "dx_12_punisher",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "dx_12_punisher",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "dx_12_punisher",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_small.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "x_12_pistol",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "x_12_pistol",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "x_12_pistol",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_small.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "Augmented_Arsenal_sounds/sounds/AA_12",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "Augmented_Arsenal_sounds/sounds/AA_12",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "Augmented_Arsenal_sounds/sounds/AA_12",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_med.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "kf2_doomstick",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "kf2_doomstick",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "kf2_doomstick",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_med.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "m95_tact_shotgun",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "m95_tact_shotgun",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "m95_tact_shotgun",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_large.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "cindy_suppressed_12g",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "cindy_suppressed_12g",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "cindy_suppressed_12g",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_large.ogg"
+        ]
+    }
+]

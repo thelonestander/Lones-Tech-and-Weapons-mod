@@ -1,0 +1,192 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_heavy",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_heavy",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_thrower",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_thrower",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_rifle",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_rifle",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_carbine",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_carbine",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_suppressed",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_suppressed",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/laser_energy-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_assault",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_assault",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_sniper",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_sniper",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-plasma_emitter_thrower-shoot3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_emitter_double_assault",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_double-energy_shoot.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_emitter_double_assault",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_double-energy_shoot.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "double_laser_rifle",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_double-energy_shoot.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "double_laser_rifle",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds4/AA_ham-ranged-weapon_double-energy_shoot.ogg"
+        ]
+    }
+]

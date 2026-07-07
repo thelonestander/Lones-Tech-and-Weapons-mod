@@ -1,0 +1,126 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "auto_crossbow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot3.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot4.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot5.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot6.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "auto_crossbow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot3.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot4.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot5.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-shoot6.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "auto_crossbow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_xbow-reload1.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "plasma_longbow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot3.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot4.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot5.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot6.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "plasma_longbow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot1.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot2.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot3.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot4.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot5.ogg",
+            "Augmented_Arsenal_sounds/sounds2/AA_ham-ranged-weapon_plasmabow-shoot6.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 30,
+        "variant" : "machine_bow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_1.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_2.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_3.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_4.ogg",
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_5.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_6.ogg",
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_7.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 15,
+        "variant" : "machine_bow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_1.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_2.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_3.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_4.ogg",
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_5.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_6.ogg",
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBow_7.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "machine_bow",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machBowReload.wav"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 36,
+        "variant" : "mb_aux_shotgun",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machShot.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machShot_2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 18,
+        "variant" : "mb_aux_shotgun",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds3/ham_cata_machShot.ogg",
+			"Augmented_Arsenal_sounds/sounds3/ham_cata_machShot_2.ogg"
+        ]
+    }
+]

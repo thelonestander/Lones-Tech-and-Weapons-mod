@@ -1,0 +1,5 @@
+First you will see the new SOUNDS folder made by the wonderful Ham Attack! 
+
+All you need to do is copy the whole folder and put it in your otopack folder and you will now have sounds for Augmented Arsenal! File path should be BN/data/sound/otopack then place the sound folder here!
+
+Make sure you delete the soundpack.txt in MY sounds folder before you play! 

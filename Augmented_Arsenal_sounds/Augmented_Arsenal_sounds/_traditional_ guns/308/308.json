@@ -1,0 +1,31 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "m134m",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "m134m",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_burst2.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "m134m",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_large.ogg"
+        ]
+    }
+]

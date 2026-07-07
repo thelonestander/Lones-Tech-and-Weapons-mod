@@ -1,0 +1,29 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "life_card",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-cardgun.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 25,
+        "variant" : "life_card",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-cardgun.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "life_card",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_small.ogg"
+        ]
+    }
+]

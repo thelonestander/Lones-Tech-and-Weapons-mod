@@ -1,0 +1,60 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 55,
+        "variant" : "four_barrel_pistol_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-ranged-weapon_flintlock-shoot1.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 30,
+        "variant" : "four_barrel_pistol_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-ranged-weapon_flintlock-shoot1.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "four_barrel_pistol_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 55,
+        "variant" : "axe_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-ranged-weapon_flintlock-shoot1.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 30,
+        "variant" : "axe_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-ranged-weapon_flintlock-shoot1.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "axe_flintlock",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-flintlock-reload3.ogg"
+        ]
+    }
+]
