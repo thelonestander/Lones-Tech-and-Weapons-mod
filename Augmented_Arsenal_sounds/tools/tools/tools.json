@@ -1,0 +1,64 @@
+[
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "mollee_gunpack",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 20,
+        "variant" : "mollee_gunpack",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "mollee_gunpack",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_large.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun",
+        "volume" : 45,
+        "variant" : "wrist_mounted_9mm",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "fire_gun_distant",
+        "volume" : 20,
+        "variant" : "wrist_mounted_9mm",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single1.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single2.ogg",
+            "Augmented_Arsenal_sounds/sounds/AA_ham-gunshot_classic_single3.ogg"
+        ]
+    },
+    {
+        "type": "sound_effect",
+        "id" : "reload",
+        "volume" : 65,
+        "variant" : "wrist_mounted_9mm",
+        "files" : [
+            "Augmented_Arsenal_sounds/sounds/reloadgun_small.ogg"
+        ]
+    }
+]
