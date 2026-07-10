@@ -28,7 +28,7 @@
     "durability": 7,
     "min_cycle_recoil": 1413,
 
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
 
     "valid_mod_locations": [
       [ "accessories", 2 ],

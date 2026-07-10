@@ -162,7 +162,7 @@
 
   {
     "type": "GUN",
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
     "name": { "str": "Wrist mounted Glock" },
     "symbol": "(",
     "durability": 8,

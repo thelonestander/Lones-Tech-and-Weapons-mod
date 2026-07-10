@@ -28,7 +28,7 @@
 
     "clip_size": 8,
     "reload": 120,
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
 
     "valid_mod_locations": [
       [ "accessories", 4 ],
