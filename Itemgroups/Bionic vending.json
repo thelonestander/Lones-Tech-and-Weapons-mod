@@ -20,7 +20,8 @@
 	  [ "arc_lightning_rifle", 3 ],
 	  [ "bio_power_storage_mkIII", 5 ],
 	  [ "bio_power_storage_mkIV", 5 ],
-	  [ "arc_bio_power_storage", 3 ]
+	  [ "arc_bio_power_storage", 3 ],
+	  [ "bio_arm_rifle", 5 ]
     ]
   }
 ]

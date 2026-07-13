@@ -252,5 +252,20 @@
     "mod_target_category": [ [ "PISTOLS" ], [ "REVOLVERS" ] ],
     "qualities": [ [ "CUT", 1 ], [ "BUTCHER", 15 ] ],
     "flags": [ "STAB", "MELEE_GUNMOD" ]
+  },
+  {
+    "id": "nano_suppressor",
+    "copy-from": "suppressor",
+    "type": "GUNMOD",
+    "name": { "str": "nanno suppressor" },
+    "description": "A suppressor that in theory gets rid of all the noise a gun will make using nanotech.",
+    "weight": "0 g",
+    "volume": "0 ml",
+    "price": "0 cent",
+    "price_postapoc": "15 USD",
+    "material": [ "superalloy", "ceramic" ],
+    "mod_target_category": [ [ "RIFLES" ], [ "MACHINE_GUNS" ], [ "GATLING_GUNS" ], [ "SHOTGUNS" ], [ "SUBMACHINE_GUNS" ], [ "PISTOLS" ] ],
+    "handling_modifier": 5,
+    "loudness_modifier": -100
   }
 ]

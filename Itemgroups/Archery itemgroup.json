@@ -19,7 +19,7 @@
     "type": "item_group",
     "id": "rare",
     "subtype": "distribution",
-    "entries": [ { "item": "machine_bow", "prob": 10 } ]
+    "entries": [ { "item": "machine_bow", "prob": 10 }, { "item": "bladed_crossbow_gauntlet", "prob": 5 } ]
   },
   {
     "type": "item_group",

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "bio_556_rifle",
+    "looks_like": "m16a4",
+    "type": "GUN",
+    "name": { "str": "bionic rifle" },
+    "description": "Bionic .556 rifle integrated into your arm.",
+    "volume": "80 ml",
+    "price": "0 cent",
+    "to_hit": -2,
+    "bashing": 6,
+    "material": [ "superalloy", "plastic" ],
+    "symbol": "(",
+    "color": "magenta",
+    "skill": "rifle",
+    "ammo": [ "223" ],
+    "ranged_damage": { "damage_type": "stab", "amount": -8 },
+    "dispersion": 855,
+    "durability": 6,
+    "clip_size": 30,
+    "reload": 60,
+	"built_in_mods": [  "laser_sight", "tri_blade_bayonet", "plasma_shot" ],
+    "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "NO_UNWIELD", "TRADER_AVOID", "USES_BIONIC_POWER" ]
+  }
+]

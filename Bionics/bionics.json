@@ -82,5 +82,18 @@
     "flags": [ "BIONIC_NPC_USABLE", "MULTIINSTALL", "BIONIC_SHOCKPROOF" ],
     "starting_bionic": false,
     "points": 10
+  },
+  {
+    "type": "bionic",
+    "id": "bio_arm_rifle",
+    "name": { "str": "Arm Rifle CBM" },
+    "description": "Concealed in your arm is a rifle chambered in .556. The rifle has no brand or anything, but does have a really cool HUD red dot to aid in shooting and goes away when your not aiming. Has a small hopper on the top to quickload loose rounds easily. Activate the bionic to fire and reload the arm rifle.",
+    "occupied_bodyparts": [ [ "arm_r", 3 ] ],
+    "encumbrance": [ [ "arm_r", 5 ] ],
+    "act_cost": "35 J",
+    "fake_item": "bio_556_rifle",
+    "points": 6,
+    "flags": [ "BIONIC_TOGGLED", "BIONIC_WEAPON", "NO_UNWIELD", "USES_BIONIC_POWER" ],
+    "stat_bonus": [ [ "PER", 3 ] ]
   }
 ]

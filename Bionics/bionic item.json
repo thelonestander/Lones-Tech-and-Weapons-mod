@@ -40,5 +40,16 @@
     "price": "20000 USD",
     "weight": "50 g",
     "difficulty": 2
+  },
+  {
+    "id": "bio_arm_rifle",
+    "copy-from": "bionic_general",
+    "type": "BIONIC_ITEM",
+    "name": { "str": "Arm Rifle CBM" },
+    "description": "Concealed in your arm is a rifle chambered in .556. The rifle has no brand or anything, but does have a really cool HUD red hot to aid in shooting and goes away when your not aiming. Has a small hopper on the top to quickload loose rounds easily.  Activate the bionic to fire and reload the arm rifle.",
+    "price": "9800 USD",
+	"flags": "USES_BIONIC_POWER",
+    "price_postapoc": "9800 USD",
+    "difficulty": 16
   }
 ]
