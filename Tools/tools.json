@@ -114,7 +114,7 @@
 
   {
     "type": "GUN",
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
     "name": { "str": "Shoulder mounted machine gun" },
     "symbol": "(",
     "durability": 8,
