@@ -9,6 +9,7 @@
     "price": "0 cent",
     "to_hit": -2,
     "bashing": 6,
+	"range": 10,
     "material": [ "superalloy", "plastic" ],
     "symbol": "(",
     "color": "magenta",
