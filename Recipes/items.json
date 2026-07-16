@@ -588,5 +588,37 @@
     "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SAW_M_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 }, { "id": "WRENCH_FINE", "level": 1 } ],
     "using": [ [ "welding_standard", 15 ] ],
     "components": [ [ [ "processor", 1 ] ], [ [ "motor_tiny", 1 ] ], [ [ "spring", 2 ] ], [ [ "steel_chunk", 3 ] ], [ [ "scrap", 3 ] ], [ [ "alloy_sheet", 3 ] ], [ [ "solder_wire", 4 ] ], [ [ "wire", 2 ] ] ]
+  },
+  {
+    "result": "bionic_power_armor",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+    "skills_required": [ "tailor", 7 ],
+	"autolearn": true,
+    "time": "6 h 40 m",
+	"reversible": true,
+	"book_learn": [ [ "recipe_lab_elec", 5 ] ],
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 160, "LIST" ], [ "surface_heat", 160, "LIST" ] ] ],
+    "components": [ [ [ "cbma_enhanced_armor", 1 ] ], [ [ "cbma_enhanced_gloves", 1 ] ], [ [ "cbma_enhanced_boots", 1 ] ], [ [ "cbma_inner_suite", 1 ] ] ]
+  },
+  {
+    "result": "bionic_power_armor_helmet",
+    "type": "recipe",
+    "category": "CC_ARMOR",
+    "subcategory": "CSC_ARMOR_SUIT",
+    "skill_used": "fabrication",
+    "difficulty": 8,
+	"book_learn": [ [ "recipe_lab_elec", 5 ] ],
+    "skills_required": [ "tailor", 7 ],
+	"autolearn": true,
+    "time": "3 h 40 m",
+	"reversible": true,
+    "qualities": [ { "id": "CUT", "level": 1 } ],
+    "tools": [ [ [ "soldering_standard", 160, "LIST" ], [ "surface_heat", 160, "LIST" ] ] ],
+	"components": [ [ [ "cbma_bionic_mask", 1 ] ], [ [ "cbma_enhanced_helmet", 1 ] ] ]
   }
   ]

@@ -1117,5 +1117,142 @@
     ],
     "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_inner_suite_ups" },
     "artifact_data": { "effects_worn": [ "AEP_STR_UP", "AEP_DEX_UP", "AEP_PER_UP", "AEP_SPEED_UP" ] }
+  },
+  {
+    "id": "bionic_power_armor",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "bionic power armor", "str_pl": "suits of bionic power armor" },
+    "description": "Built to be used by bionic soldiers this armor is extremly protective. It connects to the user via a bionic interface that uses the users bionic power reserves.",
+    "weight": "50 kg",
+    "volume": "80 L",
+	"item_vars": {
+      "tint_color": "Cataclysm Red",
+      "tint_color_fg": "Cataclysm Red",
+      "tint_color_bg": "Cataclysm Red"
+    },
+    "price": "115 kUSD",
+    "price_postapoc": "400 USD",
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "hardsteel", "carbide", "superalloy" ],
+    "symbol": "[",
+    "looks_like": "power_armor_basic",
+    "color": "dark_gray",
+    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
+    "qualities": [ [ "HV_INSULATION", 1 ] ],
+    "coverage": 100,
+    "encumbrance": 50,
+    "storage": "4 L",
+    "warmth": 60,
+    "material_thickness": 12,
+    "environmental_protection": 10,
+    "valid_mods": [ "steel_padded", "hard_steel_padded", "alloy_padded", "resized_large", "resized_small" ],
+    "use_action": {
+      "type": "transform",
+      "msg": "The %s engages.",
+      "target": "bionic_power_armor_on",
+      "active": true,
+    },
+    "flags": [ "WATERPROOF", "STURDY", "ELECTRIC_IMMUNE", "COMBAT_NPC_USE", "USES_BIONIC_POWER" ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WORN",
+          "condition": "ACTIVE",
+          "values": [ { "value": "STRENGTH", "add": 6 }, { "value": "CLIMATE_CONTROL", "add": 2000 } ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "bionic_power_armor_on",
+    "copy-from": "bionic_power_armor",
+    "repairs_like": "power_armor_heavy",
+    "looks_like": "power_armor_heavy",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "bionic power armor (active)", "str_pl": "suits of bionic power armor (active)" },
+    "description": "Built to be used by bionic soldiers this armor is extremly protective. It connects to the user via a bionic interface that uses the users bionic power reserves.",
+	"extend": { "flags": [ "HEAVY_WEAPON_SUPPORT", "TRADER_AVOID", "COMBAT_NPC_ON", "ALLOWS_FLIGHT", "USES_BIONIC_POWER" ] },
+    "power_draw": 1000000,
+    "revert_to": "bionic_power_armor",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "The %s disengages.",
+      "target": "bionic_power_armor"
+    },
+    "covers": [ "torso", "arms", "hands", "legs", "feet" ],
+    "encumbrance": 20,
+    "environmental_protection": 16,
+    "weight_capacity_bonus": "100 kg"
+  },
+  {
+    "id": "bionic_power_armor_helmet",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "bionic power armor helmet" },
+    "description": "When paired with the bionic power armor, you will be fully enclosed in some of the best protective armor. Allows the user to see through walls.",
+    "weight": "6 kg",
+    "volume": "9 L",
+	"item_vars": {
+      "tint_color": "Cataclysm Red",
+      "tint_color_fg": "Cataclysm Red",
+      "tint_color_bg": "Cataclysm Red"
+    },
+    "price": "37500 USD",
+    "price_postapoc": "100 USD",
+    "to_hit": 1,
+    "bashing": 1,
+    "material": [ "hardsteel", "carbide", "superalloy" ],
+    "symbol": "[",
+    "looks_like": "power_armor_helmet_basic",
+    "color": "dark_gray",
+    "covers": [ "head", "eyes", "mouth" ],
+    "coverage": 100,
+    "encumbrance": 60,
+    "warmth": 60,
+    "material_thickness": 12,
+    "environmental_protection": 10,
+    "qualities": [ [ "GLARE", 2 ] ],
+    "use_action": {
+      "type": "transform",
+      "msg": "The %s seals shut and beeps once.",
+      "target": "bionic_power_armor_helmet_on",
+      "active": true
+    },
+    "valid_mods": [ "steel_padded", "hard_steel_padded", "alloy_padded", "resized_large", "resized_small" ],
+    "flags": [ "USES_BIONIC_POWER", "WATERPROOF", "STURDY", "SUN_GLASSES", "WATCH", "DRONE_CAM" ],
+    "hearing_protection": 80
+  },
+  {
+    "id": "bionic_power_armor_helmet_on",
+    "copy-from": "bionic_power_armor_helmet",
+    "repairs_like": "power_armor_helmet_heavy",
+    "looks_like": "power_armor_helmet_heavy",
+    "type": "TOOL_ARMOR",
+    "name": { "str": "bionic power armor helmet (active)", "str_pl": "bionic power armor helmets (active)" },
+    "description": "When paired with the bionic power armor, you will be fully enclosed in some of the best protective armor. Allows the user to see through walls.",
+    "extend": { "flags": [ "THERMOMETER", "RECON_VISION", "TRADER_AVOID", "USES_BIONIC_POWER" ] },
+    "power_draw": 350000,
+    "qualities": [ [ "GLARE", 2 ] ],
+    "revert_to": "bionic_power_armor_helmet",
+    "use_action": {
+      "type": "transform",
+      "menu_text": "Turn off",
+      "msg": "The %s powers down.",
+      "target": "bionic_power_armor_helmet"
+    },
+    "covers": [ "head", "eyes", "mouth" ],
+    "encumbrance": 20,
+    "environmental_protection": 16,
+    "weight_capacity_bonus": "7500 g",
+    "adv_hearing_protection": 80,
+    "hearing_protection": 0,
+	"artifact_data": {
+      "effects_worn": [
+        "AEP_PER_UP",
+        "AEP_CLAIRVOYANCE",
+        "AEP_DEX_UP"
+      ]
+    },
   }
 ]
