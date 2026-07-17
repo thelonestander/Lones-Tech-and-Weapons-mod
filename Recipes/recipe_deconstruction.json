@@ -97,8 +97,7 @@
       [ [ "bio_lighter", 1 ] ],
       [ [ "bio_lockpick", 1 ] ],
       [ [ "bio_sunglasses", 1 ] ],
-      [ [ "bio_tools", 1 ] ],
-      [ [ "bio_watch", 1 ] ]
+      [ [ "bio_tools", 1 ] ]
     ]
   },
 
