@@ -560,8 +560,8 @@
           "hit_you_effect": [
             {
               "id": "spell_powerfist_acid",
-              "message": "You feel intense heat from your weapon.",
-              "npc_message": "Flames leap from %1$s's weapon."
+              "message": "You feel smell sulfur from your weapon.",
+              "npc_message": "Acid drips from %1$s's weapon."
             }
           ]
         }
