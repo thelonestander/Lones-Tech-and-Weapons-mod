@@ -12,14 +12,14 @@
     "id": "archery_ammo",
     "subtype": "distribution",
     "entries": [
-      { "item": "crossbow_10mag", "prob": 15 }
+      { "item": "crossbow_10mag", "prob": 15 }, { "item": "smart_arrow", "prob": 5 }
     ]
   },
   {
     "type": "item_group",
     "id": "rare",
     "subtype": "distribution",
-    "entries": [ { "item": "machine_bow", "prob": 10 }, { "item": "bladed_crossbow_gauntlet", "prob": 5 } ]
+    "entries": [ { "item": "machine_bow", "prob": 10 }, { "item": "bladed_crossbow_gauntlet", "prob": 5 }, { "item": "smart_arrow", "prob": 5 } ]
   },
   {
     "type": "item_group",
