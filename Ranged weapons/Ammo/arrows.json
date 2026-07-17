@@ -3,7 +3,7 @@
       "type" : "AMMO",
       "id" : "smart_arrow",
       "price" : "200000 USD",
-	  "looks like": "arrow_metal_sharpened_fletched",
+	  "looks_like": "arrow_metal_sharpened_fletched",
       "name" : "experimental smart arrow",
       "symbol" : "=",
       "color" : "green",
