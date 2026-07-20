@@ -2,7 +2,6 @@
 {
       "type" : "AMMO",
       "id" : "smart_arrow",
-      "price" : "200000 USD",
 	  "looks_like": "arrow_metal_sharpened_fletched",
       "name" : "experimental smart arrow",
       "symbol" : "=",
@@ -12,7 +11,6 @@
       "volume" : "1 ml",
       "weight" : "60 g",
 	  "price" : "1300 USD",
-	  "price_postapoc": "1300 USD",
       "bashing" : 3,
       "cutting" : 5,
       "ammo_type" : "arrow",
