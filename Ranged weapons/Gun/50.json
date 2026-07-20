@@ -109,6 +109,7 @@
   {
     "id": "experimental_.50",
     "copy-from": "rifle_manual",
+	"looks_like": "rm11b_sniper_rifle",
     "type": "GUN",
     "name": { "str": ".50 terminator" },
     "description": "A single-shot, bolt-action rifle made by an unknown company. Its made or superalloy, and uses a special ammo that returns to the shooter once shot.",
