@@ -179,8 +179,8 @@
           { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] },
           { "item": "knife_hunting", "container-item": "sheath" },
           {
-            "item": "rm11b_sniper_rifle",
-            "ammo-item": "8mm_caseless",
+            "item": "experimental_.50",
+            "ammo-item": "50exp",
             "charges": 10,
             "contents-item": [ "shoulder_strap", "bipod" ]
           },

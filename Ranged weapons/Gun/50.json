@@ -105,5 +105,25 @@
     "magazines": [
       [ "50ae", [ "deaglemag_50ae" ] ]
     ]
+  },
+  {
+    "id": "experimental_.50",
+    "copy-from": "rifle_manual",
+    "type": "GUN",
+    "name": { "str": ".50 terminator" },
+    "description": "A single-shot, bolt-action rifle made by an unknown company. Its made or superalloy, and uses a special ammo that returns to the shooter once shot.",
+    "weight": "8144 g",
+    "volume": "1387 ml",
+    "price": "2395 USD",
+    "price_postapoc": "10000 USD",
+    "material": "superalloy",
+    "ammo": "50exp",
+    "range": 45,
+    "ranged_damage": { "damage_type": "bullet", "amount": -5 },
+    "dispersion": 110,
+    "barrel_volume": "1250 ml",
+    "default_mods": [ "rifle_scope", "muzzle_brake" ],
+    "clip_size": 1,
+    "flags": [ "NEVER_JAMS", "RELOAD_ONE" ]
   }
 ]

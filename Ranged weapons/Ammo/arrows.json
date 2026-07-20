@@ -11,6 +11,8 @@
       "material" : [ "superalloy", "ceramic" ],
       "volume" : "1 ml",
       "weight" : "60 g",
+	  "price" : "1300 USD",
+	  "price_postapoc": "1300 USD",
       "bashing" : 3,
       "cutting" : 5,
       "ammo_type" : "arrow",

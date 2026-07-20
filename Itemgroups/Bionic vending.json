@@ -23,5 +23,31 @@
 	  [ "arc_bio_power_storage", 3 ],
 	  [ "bio_arm_rifle", 5 ]
     ]
+  },
+  {
+    "type": "item_group",
+    "subtype": "collection",
+    "id": "vending_ammo",
+    "entries": [
+      { "group": "lones_ammo", "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "lones_ammo",
+    "//": "Ammo commonly used in lones mods, for vending machines.",
+    "subtype": "distribution",
+    "entries": [
+      { "item": "50_beowulf", "prob": 20 },
+      { "item": "50ae", "prob": 35 },
+      { "item": "50exp", "prob": 5 },
+      { "item": "6mm", "prob": 20 },
+	  { "item": "smart_arrow", "prob": 5 },
+	  { "item": "cbma_pile_ammo", "prob": 10 },
+	  { "item": "cbma_em_rail_iron", "prob": 10 },
+	  { "item": "cbma_em_rail_steel", "prob": 10 },
+	  { "item": "cbma_em_rail_alloy", "prob": 10 },
+	  { "item": "cbma_em_railmag", "prob": 10 }
+    ]
   }
 ]

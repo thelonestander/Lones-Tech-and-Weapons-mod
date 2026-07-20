@@ -16,5 +16,11 @@
     "type": "ammunition_type",
     "name": "50ae",
     "default": "50ae"
+  },
+  {
+    "id": "50exp",
+    "type": "ammunition_type",
+    "name": "50exp",
+    "default": "50exp"
   }
 ]
