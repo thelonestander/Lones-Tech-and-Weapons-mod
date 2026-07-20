@@ -3,7 +3,6 @@
     "id": "gatling_bionic_plasma",
     "copy-from": "gatling_energy",
     "type": "GUN",
-    "reload_noise_volume": "20 dB",
     "name": { "str": "Custom Built Plasma Cannon" },
     "description": "This is the integral weapon system, well it was anyway. This version is made with CBMs and utilizes UPS to superheat plasma",
     "weight": "39500 g",
