@@ -34,7 +34,7 @@
     "recoil": 30,
     "durability": 6,
     "reload": 300,
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
 
     "valid_mod_locations": [
       [ "dampening", 1 ]
@@ -72,7 +72,7 @@
     "ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
     "bashing": 15,
     "armor_data": { "covers": [ "torso" ], "coverage": 5, "material_thickness": 1, "encumbrance": 7 },
-    "reload_noise_volume": 0,
+    "reload_noise_volume": "5 dB",
     "loudness": 0,
     "ranged_damage": { "damage_type": "heat", "amount": 20, "armor_penetration": 10 },
     "range": 30,
@@ -111,7 +111,7 @@
 
     "armor_data": { "covers": [ "torso" ], "encumbrance": 28 },
     "bashing": 16,
-    "reload_noise_volume": 1,
+    "reload_noise_volume": "1 dB",
     "ranged_damage": { "damage_type": "bullet", "amount": -2, "armor_penetration": 3 },
     "range": -6,
     "dispersion": 775,
@@ -147,7 +147,7 @@
   },
   {
     "type": "GUN",
-    "reload_noise_volume": 10,
+    "reload_noise_volume": "10 dB",
     "name": { "str": "bladed crossbow gauntlet" },
     "symbol": "(",
     "durability": 8,
