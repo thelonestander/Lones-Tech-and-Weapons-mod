@@ -484,7 +484,7 @@
     "id": "cbma_carry_frame",
     "type": "TOOL_ARMOR",
     "name": { "str": "bionic transport frame (off)" },
-    "description": "It is a modified version of the transport frame for Power Armor so that it can be used alone. It is currently without power.",
+    "description": "It is a modified version of the transport frame for Power Armor so that it can be used alone. It even has a built in plasma rifle! It is currently without power.",
     "weight": "2500 g",
     "volume": "7 L",
     "price": "400 USD",
