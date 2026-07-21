@@ -47,7 +47,8 @@
 	  { "item": "cbma_em_rail_iron", "prob": 10 },
 	  { "item": "cbma_em_rail_steel", "prob": 10 },
 	  { "item": "cbma_em_rail_alloy", "prob": 10 },
-	  { "item": "cbma_em_railmag", "prob": 10 }
+	  { "item": "cbma_em_railmag", "prob": 10 },
+	  { "item": "smart_bolt", "prob": 10 }
     ]
   }
 ]
