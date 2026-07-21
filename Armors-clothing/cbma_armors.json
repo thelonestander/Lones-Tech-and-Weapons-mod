@@ -521,7 +521,7 @@
     "id": "cbma_carry_frame_on",
     "type": "TOOL_ARMOR",
     "name": { "str": "bionic transport frame (on)" },
-    "description": "It is a modified version of the transport frame for Power Armor so that it can be used alone.",
+    "description": "A modified transport frame for Power Armor. Its integrated plasma rifle system draws directly from your bionic power.",
     "weight": "2500 g",
     "volume": "7 L",
     "turns_per_charge": 20,
@@ -531,24 +531,52 @@
     "symbol": "[",
     "color": "light_gray",
     "looks_like": "power_armor_frame",
-	"armor_portion_data": [ { "covers": [ "torso" ], "coverage": 75, "encumbrance": 5 }, { "covers": [ "arms" ], "coverage": 50, "encumbrance": 5 }, { "covers": [ "hands" ], "coverage": 30, "encumbrance": 5 }, { "covers": [ "legs" ], "coverage": 30, "encumbrance": 5 }, { "covers": [ "feet" ], "coverage": 10, "encumbrance": 5 } ],
+
+    "armor_portion_data": [
+        { "covers": [ "torso" ], "coverage": 75, "encumbrance": 5 },
+        { "covers": [ "arms" ], "coverage": 50, "encumbrance": 5 },
+        { "covers": [ "hands" ], "coverage": 30, "encumbrance": 5 },
+        { "covers": [ "legs" ], "coverage": 30, "encumbrance": 5 },
+        { "covers": [ "feet" ], "coverage": 10, "encumbrance": 5 }
+    ],
+
     "storage": "60 L",
     "warmth": 0,
     "material_thickness": 7,
+
     "flags": [
-      "STURDY",
-      "WATERPROOF",
-      "WATER_FRIENDLY",
-      "RAINPROOF",
-      "OUTER",
-      "OVERSIZE",
-      "TRADER_AVOID",
-	  "USES_BIONIC_POWER"
+        "STURDY", "WATERPROOF", "WATER_FRIENDLY", "RAINPROOF",
+        "OUTER", "OVERSIZE", "TRADER_AVOID", "USES_BIONIC_POWER", "WORN_GUN"
     ],
-    "use_action": { "type": "transform", "msg": "Your %s deactivates.", "target": "cbma_carry_frame" },
-	"revert_to": "cbma_carry_frame",
-    "artifact_data": { "effects_worn": [ "AEP_CARRY_MORE" ] }
-  },
+
+    "gun_data": {
+        "ammo": "plasma",
+		"ammo_effects": [ "PLASMA", "EMP", "EXPLOSIVE_SMALL", "AMMO_ANOMALY_PLASMA" ],
+        "skill": "rifle",
+
+        "range": 30,
+        "ranged_damage": { "damage_type": "heat", "amount": 45 },
+        "dispersion": 110,
+
+        "clip_size": 45,
+        "reload": 2,
+        "loudness": 12,
+        "durability": 8
+    },
+
+    "use_action": {
+        "type": "transform",
+        "msg": "Your %s deactivates.",
+        "target": "cbma_carry_frame"
+    },
+
+    "revert_to": "cbma_carry_frame",
+
+    "artifact_data": {
+        "effects_worn": [ "AEP_CARRY_MORE" ]
+    }
+},
+
   {
     "id": "cbma_inner_suite",
     "type": "TOOL_ARMOR",
