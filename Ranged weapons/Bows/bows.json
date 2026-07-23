@@ -111,5 +111,60 @@
     "built_in_mods": [ "mach_bow_arrowrest", "mach_bow_sight", "mach_bow_silencer", "mb_aux_shotgun" ],
     "valid_mod_locations": [ [ "rail", 1 ], [ "underbarrel", 1 ], [ "sights", 1 ], [ "accessories", 2 ], [ "brass catcher", 1 ], [ "stabilizer", 1 ], [ "dampening", 1 ] ],
     "magazines": [ [ "223", [ "stanag30", "stanag5", "stanag10", "stanag20" ] ] ]
-  }
+  },
+  {
+    "id": "mag_fed_bow",
+    "type": "GUN",
+    "copy-from": "compbow",
+    "name": { "str": "mag fed compound bow" },
+    "description": "This is a compound bow that uses mags to feed arrows to the bow. Pretty nice considering all the ways it could go bad.",
+    "looks_like": "compositebow",
+    "weapon_category": [ "BOWS" ],
+    "symbol": "(",
+    "skill": "archery",
+    "flags": [
+        "BELTED",
+        "COMPACT",
+        "WATER_FRIENDLY",
+        "WATERPROOF_GUN",
+        "FIRE_TWOHAND",
+        "NEVER_JAMS",
+        "STR_DRAW",
+        "ALLOWS_WINGS"
+    ],
+    "ammo_effects": [ "NEVER_MISFIRES", "NON_FOULING" ],
+    "color": "dark_gray",
+    "price": "20 USD",
+    "material": [ "steel", "superalloy" ],
+    "min_strength": 9,
+    "weight": "1400 g",
+    "volume": "3750 ml",
+    "price_postapoc": "80 USD",
+    "armor_data": { "covers": [ "torso" ], "encumbrance": 28 },
+    "bashing": 18,
+    "reload_noise_volume": "1 dB",
+    "ranged_damage": { "damage_type": "stab", "amount": 50, "armor_penetration": 15 },
+    "range": 45,
+    "dispersion": 775,
+    "durability": 9,
+    "loudness": -80,
+    "modes": [
+        [ "DEFAULT", "semi", 1 ],
+        [ "AUTO", "auto", 2 ]
+    ],
+    "ammo": "arrow",
+    "magazine_well": "250 ml",
+    "valid_mod_locations": [
+        [ "rail", 1 ],
+        [ "underbarrel", 1 ],
+        [ "sights", 1 ],
+        [ "accessories", 2 ],
+        [ "stabilizer", 1 ],
+        [ "dampening", 1 ]
+    ],
+    "magazines": [
+        [ "arrow", [ "bow_mag_30", "bow_mag_45" ] ]
+    ]
+}
+
 ]

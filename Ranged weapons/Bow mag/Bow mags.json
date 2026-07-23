@@ -18,5 +18,37 @@
 
     "ammo_type": "bolt",
     "capacity": 10
-  }
+  },
+  {
+    "id": "bow_mag_30",
+    "type": "MAGAZINE",
+    "looks_like": "38_speedloader",
+    "name": { "str": "arrow mag 30" },
+    "description": "A compact magazine that holds thirty arrows for the mag fed compound bow.",
+    "weight": "100 g",
+    "volume": "250 ml",
+    "price": "2200 USD",
+    "price_postapoc": "1000 USD",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "arrow",
+    "capacity": 30
+},
+{
+    "id": "bow_mag_45",
+    "type": "MAGAZINE",
+    "looks_like": "38_speedloader",
+    "name": { "str": "arrow mag 45" },
+    "description": "A compact magazine that holds forty five arrows for the mag fed compound bow.",
+    "weight": "125 g",
+    "volume": "250 ml",
+    "price": "2600 USD",
+    "price_postapoc": "1000 USD",
+    "material": [ "steel" ],
+    "symbol": "#",
+    "color": "light_gray",
+    "ammo_type": "arrow",
+    "capacity": 45
+}
 ]
