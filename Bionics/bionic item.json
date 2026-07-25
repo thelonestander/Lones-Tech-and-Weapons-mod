@@ -34,7 +34,7 @@
     "id": "arc_bio_power_storage",
     "copy-from": "bionic_general_npc_usable",
     "type": "BIONIC_ITEM",
-    "name": { "str_sp": " Arc power Storage CBM" },
+    "name": { "str_sp": "Arc power Storage CBM" },
     "looks_like": "bio_int_enhancer",
     "description": "A Compact Bionics Module developed at DoubleTech Industries as a replacement for the highly successful Power Storage CBM.  Increases the user's power capacity by 2000 units.",
     "price": "20000 USD",
