@@ -139,7 +139,8 @@
       "bio_night_vision",
       "bio_batteries",
       "bio_infolink",
-      "bio_power_storage_mkII"
+      "bio_power_storage_mkII",
+	  "bio_faraday"
     ],
 	 "skills": [
       { "level": 3, "name": "gun" },
@@ -169,7 +170,6 @@
           "e_tool",
 		  "jumper_cable",
 		  "jerrycan_big",
-          "knife_hunting",
 		  "folded_solar_cart",
 		  "folded_helicopter_gyro"
         ],
