@@ -329,7 +329,7 @@
     ],
     "components": [
       [ [ "power_supply", 5 ] ],
-      [ [ "afs_hydraulic_gauntlet", 3 ] ]
+      [ [ "afs_hydraulic_gauntlet", 1 ] ]
     ]
   },
    {
@@ -352,7 +352,7 @@
     ],
     "components": [
       [ [ "element", 5 ] ],
-      [ [ "afs_hydraulic_gauntlet", 3 ] ]
+      [ [ "afs_hydraulic_gauntlet", 1 ] ]
     ]
   },
   {
@@ -377,7 +377,7 @@
       [ [ "chem_nitric_acid", 1 ] ],
 	  [ [ "chem_sulphuric_acid", 2 ] ],
 	  [ [ "chem_muriatic_acid", 2 ] ],
-      [ [ "afs_hydraulic_gauntlet", 3 ] ]
+      [ [ "afs_hydraulic_gauntlet", 1 ] ]
     ]
   },
   {
@@ -408,8 +408,7 @@
     "type": "recipe",
     "result": "6mm",
     "charges": 10,
-    "category": "CC_WEAPON",
-    "subcategory": "CSC_WEAPON_MAGAZINES",
+    "category": "CC_AMMO",
     "skill_used": "fabrication",
     "difficulty": 4,
     "skills_required": [
