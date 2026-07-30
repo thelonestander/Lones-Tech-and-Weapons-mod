@@ -177,14 +177,14 @@
       [ "cbma_req_tool_weapon_ranged", 1 ]
     ],
     "components": [
-      [ [ "bio_railgun", 2 ] ],
+      [ [ "bio_railgun", 1 ] ],
       [ [ "bio_chain_lightning", 2 ] ],
       [ [ "bio_targeting", 1 ] ],
-      [ [ "bio_heatsink", 2 ] ],
+      [ [ "bio_heatsink", 1 ] ],
       [ [ "minireactor", 1 ] ],
       [
-        [ "bio_power_storage_mkII", 10 ],
-        [ "bio_power_storage", 20 ]
+        [ "bio_power_storage_mkII", 4 ],
+        [ "bio_power_storage", 4 ]
       ],
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ],
@@ -218,11 +218,11 @@
       [ "cbma_req_tool_weapon_ranged", 1 ]
     ],
     "components": [
-      [ [ "bio_railgun", 8 ] ],
-      [ [ "bio_chain_lightning", 8 ] ],
+      [ [ "bio_railgun", 1 ] ],
+      [ [ "bio_chain_lightning", 1 ] ],
       [ [ "bio_targeting", 1 ] ],
-      [ [ "bio_heatsink", 4 ] ],
-      [ [ "minireactor", 4 ] ],
+      [ [ "bio_heatsink", 1 ] ],
+      [ [ "minireactor", 1 ] ],
       [
         [ "bio_power_storage_mkII", 24 ],
         [ "bio_power_storage", 48 ]
@@ -259,7 +259,7 @@
       [ "cbma_req_tool_weapon_ranged", 1 ]
     ],
     "components": [
-      [ [ "cbma_em_railrifle", 4 ] ],
+      [ [ "cbma_em_railrifle", 1 ] ],
       [ [ "solder_wire", 250 ] ],
       [ [ "cable", 400 ] ],
       [
@@ -524,11 +524,11 @@
       ],
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ],
-      [ [ "bio_railgun", 4 ] ],
+      [ [ "bio_railgun", 1 ] ],
       [ [ "minireactor", 1 ] ],
       [
-        [ "bio_power_storage_mkII", 10 ],
-        [ "bio_power_storage", 20 ]
+        [ "bio_power_storage_mkII", 4 ],
+        [ "bio_power_storage", 4 ]
       ],
       [
         [ "alloy_sheet", 28 ],

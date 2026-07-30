@@ -44,7 +44,7 @@
         [ "kevlar_plate", 24 ]
       ],
       [
-        [ "bio_armor_torso", 2 ],
+        [ "bio_armor_torso", 1 ],
         [ "alloy_sheet", 8 ],
         [ "alloy_plate", 2 ]
       ],
@@ -61,7 +61,7 @@
       [
         [ "bio_carbon", 1 ],
         [ "cbma_myomer_fiber", 8 ],
-        [ "bio_str_enhancer", 4 ]
+        [ "bio_str_enhancer", 2 ]
       ]
     ]
   },
@@ -98,7 +98,7 @@
       [ [ "bio_speed", 1 ] ],
       [ [ "bio_teleport", 1 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "alloy_sheet", 8 ], [ "alloy_plate", 2 ] ]
     ]
@@ -197,7 +197,7 @@
       [ [ "bio_emp", 1 ] ],
       [ [ "bio_faraday", 1 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
@@ -353,7 +353,7 @@
       [ [ "bio_eye_optic", 1 ] ],
       [ [ "bio_gills", 1 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 100 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
@@ -459,7 +459,7 @@
       [ [ "bio_cqb", 1 ] ],
       [ [ "bio_hydraulics", 1 ], [ "bio_str_enhancer", 1 ], [ "cbma_myomer_fiber", 2 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
@@ -565,7 +565,7 @@
       [ [ "bio_time_freeze", 1 ] ],
       [ [ "bio_uncanny_dodge", 1 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "alloy_sheet", 2 ] ]
     ]
@@ -625,7 +625,7 @@
       [ [ "power_armor_frame", 1 ] ],
       [ [ "bio_hydraulics", 2 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 12 ], [ "bio_power_storage", 24 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ],
       [ [ "alloy_sheet", 4 ], [ "alloy_plate", 1 ] ]
@@ -662,7 +662,7 @@
       [ [ "bio_ods", 1 ] ],
       [ [ "bio_cqb", 1 ] ],
       [ [ "minireactor", 1 ] ],
-      [ [ "bio_power_storage_mkII", 10 ], [ "bio_power_storage", 20 ] ],
+      [ [ "bio_power_storage_mkII", 4 ], [ "bio_power_storage", 6 ] ],
       [ [ "solder_wire", 200 ] ],
       [ [ "cable", 200 ] ]
     ]
