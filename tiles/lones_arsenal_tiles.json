@@ -1,0 +1,443 @@
+[
+  {
+    "type": "mod_tileset",
+    "compatibility": [ "UNDEAD_PEOPLE_BASE", "UNDEAD_PEOPLE", "MshockRealXotto", "MSX++DEAD_PEOPLE" ],
+    "tiles-new": [
+      {
+        "file": "tiles/lones_arsenal_tiles.png",
+        "tiles": [
+          
+
+          { "id": "rm13_bionic_armor", "fg": 1, "rotates": false },
+          { "id": "overlay_wielded_rm13_bionic_armor", "fg": 1, "rotates": false },
+          { "id": "overlay_worn_rm13_bionic_armor", "fg": 2, "rotates": false },
+          { "id": "rm13_bionic_armor_on", "fg": 3, "rotates": false },
+          { "id": "overlay_wielded_rm13_bionic_armor_on", "fg": 3, "rotates": false },
+          { "id": "overlay_worn_rm13_bionic_armor_on", "fg": 4, "rotates": false },
+
+ 
+          { "id": "bionic_power_armor", "fg": 5, "rotates": false },
+          { "id": "overlay_wielded_bionic_power_armor", "fg": 5, "rotates": false },
+          { "id": "overlay_worn_bionic_power_armor", "fg": 6, "rotates": false },
+          { "id": "bionic_power_armor_on", "fg": 7, "rotates": false },
+          { "id": "overlay_wielded_bionic_power_armor_on", "fg": 7, "rotates": false },
+          { "id": "overlay_worn_bionic_power_armor_on", "fg": 8, "rotates": false },
+
+
+          { "id": "bionic_power_armor_helmet", "fg": 9, "rotates": false },
+          { "id": "overlay_wielded_bionic_power_armor_helmet", "fg": 9, "rotates": false },
+          { "id": "overlay_worn_bionic_power_armor_helmet", "fg": 10, "rotates": false },
+          { "id": "bionic_power_armor_helmet_on", "fg": 11, "rotates": false },
+          { "id": "overlay_wielded_bionic_power_armor_helmet_on", "fg": 11, "rotates": false },
+          { "id": "overlay_worn_bionic_power_armor_helmet_on", "fg": 12, "rotates": false },
+
+
+          { "id": "armored_nanotech_cloak", "fg": 13, "rotates": false },
+          { "id": "overlay_wielded_armored_nanotech_cloak", "fg": 13, "rotates": false },
+          { "id": "overlay_worn_armored_nanotech_cloak", "fg": 14, "rotates": false },
+          { "id": "nano_whip", "fg": 15, "rotates": false },
+          { "id": "overlay_wielded_nano_whip", "fg": 16, "rotates": false },
+
+
+          { "id": "armored_nanotech_backpack", "fg": 17, "rotates": false },
+          { "id": "overlay_wielded_armored_nanotech_backpack", "fg": 17, "rotates": false },
+          { "id": "overlay_worn_armored_nanotech_backpack", "fg": 18, "rotates": false },
+          { "id": "nano_glock", "fg": 19, "rotates": false },
+          { "id": "overlay_wielded_nano_glock", "fg": 20, "rotates": false },
+
+
+          { "id": "atomic_watch_mark_l", "fg": 21, "rotates": false },
+          { "id": "overlay_wielded_atomic_watch_mark_l", "fg": 21, "rotates": false },
+          { "id": "overlay_worn_atomic_watch_mark_l", "fg": 22, "rotates": false },
+          { "id": "mark_l_armor_on", "fg": 23, "rotates": false },
+          { "id": "overlay_wielded_mark_l_armor_on", "fg": 23, "rotates": false },
+          { "id": "overlay_worn_mark_l_armor_on", "fg": 24, "rotates": false },
+
+
+          { "id": "cbma_bionic_armor", "fg": 25, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_armor", "fg": 25, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_armor", "fg": 26, "rotates": false },
+
+
+          { "id": "cbma_enhanced_armor", "fg": 27, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_armor", "fg": 27, "rotates": false },
+          { "id": "cbma_enhanced_armor_ups", "fg": 27, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_armor_ups", "fg": 27, "rotates": false },
+          
+          { "id": "overlay_worn_cbma_enhanced_armor", "fg": 28, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_armor_ups", "fg": 28, "rotates": false },
+
+          { "id": "cbma_enhanced_armor_on", "fg": 29, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_armor_on", "fg": 29, "rotates": false },
+          { "id": "cbma_enhanced_armor_ups_on", "fg": 29, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_armor_ups_on", "fg": 29, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_armor_on", "fg": 30, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_armor_ups_on", "fg": 30, "rotates": false },
+
+
+          { "id": "cbma_inner_suite", "fg": 31, "rotates": false },
+          { "id": "overlay_wielded_cbma_inner_suite", "fg": 31, "rotates": false },
+          { "id": "cbma_inner_suite_ups", "fg": 31, "rotates": false },
+          { "id": "overlay_wielded_cbma_inner_suite_ups", "fg": 31, "rotates": false },
+
+          { "id": "overlay_female_worn_cbma_inner_suite", "fg": 32, "rotates": false },
+          { "id": "overlay_female_worn_cbma_inner_suite_ups", "fg": 32, "rotates": false },
+          { "id": "overlay_male_worn_cbma_inner_suite", "fg": 33, "rotates": false },
+          { "id": "overlay_male_worn_cbma_inner_suite_ups", "fg": 33, "rotates": false },
+
+          { "id": "cbma_inner_suite_on", "fg": 34, "rotates": false },
+          { "id": "overlay_wielded_cbma_inner_suite_on", "fg": 34, "rotates": false },
+          { "id": "cbma_inner_suite_ups_on", "fg": 34, "rotates": false },
+          { "id": "overlay_wielded_cbma_inner_suite_ups_on", "fg": 34, "rotates": false },
+
+          { "id": "overlay_female_worn_cbma_inner_suite_on", "fg": 35, "rotates": false },
+          { "id": "overlay_female_worn_cbma_inner_suite_ups_on", "fg": 35, "rotates": false },
+          { "id": "overlay_male_worn_cbma_inner_suite_on", "fg": 36, "rotates": false },
+          { "id": "overlay_male_worn_cbma_inner_suite_ups_on", "fg": 36, "rotates": false },
+
+
+          { "id": "cbma_bionic_helmet", "fg": 37, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_helmet", "fg": 37, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_helmet", "fg": 38, "rotates": false },
+
+
+          { "id": "cbma_enhanced_helmet", "fg": 39, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_helmet", "fg": 39, "rotates": false },
+          { "id": "cbma_enhanced_helmet_ups", "fg": 39, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_helmet_ups", "fg": 39, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_helmet", "fg": 40, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_helmet_ups", "fg": 40, "rotates": false },
+
+          { "id": "cbma_enhanced_helmet_on", "fg": 41, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_helmet_on", "fg": 41, "rotates": false },
+          { "id": "cbma_enhanced_helmet_ups_on", "fg": 41, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_helmet_ups_on", "fg": 41, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_helmet_on", "fg": 42, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_helmet_ups_on", "fg": 42, "rotates": false },
+
+          { "id": "cbma_bionic_mask", "fg": 43, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_mask", "fg": 43, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_mask", "fg": 44, "rotates": false },
+
+
+          { "id": "cbma_bionic_gloves", "fg": 45, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_gloves", "fg": 45, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_gloves", "fg": 46, "rotates": false },
+
+          { "id": "cbma_enhanced_gloves", "fg": 47, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_gloves", "fg": 47, "rotates": false },
+          { "id": "cbma_enhanced_gloves_ups", "fg": 47, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_gloves_ups", "fg": 47, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_gloves", "fg": 48, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_gloves_ups", "fg": 48, "rotates": false },
+
+          { "id": "cbma_enhanced_gloves_on", "fg": 49, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_gloves_on", "fg": 49, "rotates": false },
+          { "id": "cbma_enhanced_gloves_ups_on", "fg": 49, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_gloves_ups_on", "fg": 49, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_gloves_on", "fg": 50, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_gloves_ups_on", "fg": 50, "rotates": false },
+
+
+          { "id": "cbma_bionic_boots", "fg": 51, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_boots", "fg": 51, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_boots", "fg": 52, "rotates": false },
+
+          { "id": "cbma_enhanced_boots", "fg": 53, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_boots", "fg": 53, "rotates": false },
+          { "id": "cbma_enhanced_boots_ups", "fg": 53, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_boots_ups", "fg": 53, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_boots", "fg": 54, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_boots_ups", "fg": 54, "rotates": false },
+
+          { "id": "cbma_enhanced_boots_on", "fg": 55, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_boots_on", "fg": 55, "rotates": false },
+          { "id": "cbma_enhanced_boots_ups_on", "fg": 55, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_boots_ups_on", "fg": 55, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_boots_on", "fg": 56, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_boots_ups_on", "fg": 56, "rotates": false },
+
+
+          { "id": "cbma_bionic_duster", "fg": 57, "rotates": false },
+          { "id": "overlay_wielded_cbma_bionic_duster", "fg": 57, "rotates": false },
+          { "id": "overlay_worn_cbma_bionic_duster", "fg": 58, "rotates": false },
+
+          { "id": "cbma_enhanced_duster", "fg": 59, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_duster", "fg": 59, "rotates": false },
+          { "id": "cbma_enhanced_duster_ups", "fg": 59, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_duster_ups", "fg": 59, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_duster", "fg": 60, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_duster_ups", "fg": 60, "rotates": false },
+
+          { "id": "cbma_enhanced_duster_on", "fg": 61, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_duster_on", "fg": 61, "rotates": false },
+          { "id": "cbma_enhanced_duster_ups_on", "fg": 61, "rotates": false },
+          { "id": "overlay_wielded_cbma_enhanced_duster_ups_on", "fg": 61, "rotates": false },
+
+          { "id": "overlay_worn_cbma_enhanced_duster_on", "fg": 62, "rotates": false },
+          { "id": "overlay_worn_cbma_enhanced_duster_ups_on", "fg": 62, "rotates": false },
+
+
+          { "id": "cbma_carry_frame", "fg": 63, "rotates": false },
+          { "id": "overlay_wielded_cbma_carry_frame", "fg": 63, "rotates": false },
+          { "id": "overlay_worn_cbma_carry_frame", "fg": 64, "rotates": false },
+          { "id": "cbma_carry_frame_on", "fg": 65, "rotates": false },
+          { "id": "overlay_wielded_cbma_carry_frame_on", "fg": 65, "rotates": false },
+          { "id": "overlay_worn_cbma_carry_frame_on", "fg": 66, "rotates": false },
+
+
+          { "id": "cargo_socks", "fg": 67, "rotates": false },
+          { "id": "overlay_worn_cargo_socks", "fg": 68, "rotates": false },
+          { "id": "thigh_high_cargo_socks", "fg": 69, "rotates": false },
+          { "id": "overlay_worn_thigh_high_cargo_socks", "fg": 70, "rotates": false },
+          { "id": "cargo_boots", "fg": 71, "rotates": false },
+          { "id": "overlay_wielded_cargo_boots", "fg": 71, "rotates": false },
+          { "id": "overlay_worn_cargo_boots", "fg": 72, "rotates": false },
+          { "id": "miltary_aim_assist_goggles", "fg": 73, "rotates": false },
+          { "id": "overlay_worn_miltary_aim_assist_goggles", "fg": 74, "rotates": false },
+          { "id": "temporal_shoes_off", "fg": 75, "rotates": false },
+          { "id": "overlay_worn_temporal_shoes_off", "fg": 76, "rotates": false },
+          { "id": "temporal_shoes_on", "fg": 77, "rotates": false },
+          { "id": "overlay_worn_temporal_shoes_on", "fg": 78, "rotates": false },
+          { "id": "holdout_holster", "fg": 79, "rotates": false },
+          { "id": "overlay_worn_holdout_holster", "fg": 80, "rotates": false },
+          { "id": "wearable_folding_bicycle", "fg": 81, "rotates": false },
+          { "id": "overlay_wielded_wearable_folding_bicycle", "fg": 81, "rotates": false },
+          { "id": "overlay_worn_wearable_folding_bicycle", "fg": 82, "rotates": false },
+
+
+          { "id": "XL_tactical_backpack", "fg": 83, "rotates": false },
+          { "id": "overlay_wielded_XL_tactical_backpack", "fg": 83, "rotates": false },
+          { "id": "overlay_worn_XL_tactical_backpack", "fg": 84, "rotates": false },
+          { "id": "cargo_duffel_bag", "fg": 85, "rotates": false },
+          { "id": "overlay_wielded_cargo_duffel_bag", "fg": 85, "rotates": false },
+          { "id": "overlay_worn_cargo_duffel_bag", "fg": 86, "rotates": false },
+
+
+          { "id": "kevlar_pa_small_quadruped", "fg": 87, "rotates": false },
+          { "id": "kevlar_pa_medium_quadruped", "fg": 88, "rotates": false },
+
+
+          { "id": "mre_box_small", "fg": 89, "rotates": false },
+          { "id": "mre_box_medium", "fg": 90, "rotates": false },
+          { "id": "mre_box_large", "fg": 91, "rotates": false },
+          { "id": "electric_cbm_kit_box", "fg": 92, "rotates": false },
+          { "id": "armor_cbm_kit_box", "fg": 93, "rotates": false },
+          { "id": "military_cbm_kit_box", "fg": 94, "rotates": false },
+          { "id": "everyday_cbm_kit_box", "fg": 95, "rotates": false },
+          { "id": "medical_cbm_kit_box", "fg": 96, "rotates": false },
+          { "id": "blackmarket_cbm_kit_box", "fg": 97, "rotates": false },
+          { "id": "bionic_medkit_box", "fg": 98, "rotates": false },
+
+
+          { "id": "crackle_hydraulic_gauntlet", "fg": 99, "rotates": false },
+          { "id": "overlay_wielded_crackle_hydraulic_gauntlet", "fg": 100, "rotates": false },
+          { "id": "thermal_hydraulic_gauntlet", "fg": 101, "rotates": false },
+          { "id": "overlay_wielded_thermal_hydraulic_gauntlet", "fg": 102, "rotates": false },
+          { "id": "acid_hydraulic_gauntlet", "fg": 103, "rotates": false },
+          { "id": "overlay_wielded_acid_hydraulic_gauntlet", "fg": 104, "rotates": false },
+          { "id": "chainwhip", "fg": 105, "rotates": false },
+          { "id": "overlay_wielded_chainwhip", "fg": 106, "rotates": false },
+          { "id": "electro_chainwhip", "fg": 107, "rotates": false },
+          { "id": "overlay_wielded_electro_chainwhip", "fg": 108, "rotates": false },
+          { "id": "electro_chainwhip_on", "fg": 109, "rotates": false },
+          { "id": "overlay_wielded_electro_chainwhip_on", "fg": 110, "rotates": false },
+          { "id": "chain_sword", "fg": 111, "rotates": false },
+          { "id": "overlay_wielded_chain_sword", "fg": 112, "rotates": false },
+          { "id": "chain_sword_on", "fg": 113, "rotates": false },
+          { "id": "overlay_wielded_chain_sword_on", "fg": 114, "rotates": false },
+          { "id": "flamekatana_off", "fg": 115, "rotates": false },
+          { "id": "overlay_wielded_flamekatana_off", "fg": 116, "rotates": false },
+          { "id": "flamekatana_on", "fg": 117, "rotates": false },
+          { "id": "overlay_wielded_flamekatana_on", "fg": 118, "rotates": false },
+          { "id": "zweifire_off", "fg": 119, "rotates": false },
+          { "id": "overlay_wielded_zweifire_off", "fg": 120, "rotates": false },
+          { "id": "zweifire_on", "fg": 121, "rotates": false },
+          { "id": "overlay_wielded_zweifire_on", "fg": 122, "rotates": false },
+          { "id": "folding_axe", "fg": 123, "rotates": false },
+          { "id": "overlay_wielded_folding_axe", "fg": 124, "rotates": false },
+          { "id": "folding_axe_on", "fg": 125, "rotates": false },
+          { "id": "overlay_wielded_folding_axe_on", "fg": 126, "rotates": false },
+          { "id": "dual_action_otf_blade", "fg": 127, "rotates": false },
+          { "id": "overlay_wielded_dual_action_otf_blade", "fg": 128, "rotates": false },
+          { "id": "dual_action_otf_blade_on", "fg": 129, "rotates": false },
+          { "id": "overlay_wielded_dual_action_otf_blade_on", "fg": 130, "rotates": false },
+
+
+          { "id": "apache_knuckleduster", "fg": 131, "rotates": false },
+          { "id": "overlay_wielded_apache_knuckleduster", "fg": 132, "rotates": false },
+          { "id": "apache_knuckleduster_gun_on", "fg": 133, "rotates": false },
+          { "id": "overlay_wielded_apache_knuckleduster_gun_on", "fg": 134, "rotates": false },
+          { "id": "m22_knifegun", "fg": 135, "rotates": false },
+          { "id": "overlay_wielded_m22_knifegun", "fg": 136, "rotates": false },
+          { "id": "m22_knifegun_on", "fg": 137, "rotates": false },
+          { "id": "overlay_wielded_m22_knifegun_on", "fg": 138, "rotates": false },
+          { "id": "gun_sword_metal", "fg": 139, "rotates": false },
+          { "id": "overlay_wielded_gun_sword_metal", "fg": 140, "rotates": false },
+          { "id": "sword_ar15", "fg": 141, "rotates": false },
+          { "id": "overlay_wielded_sword_ar15", "fg": 142, "rotates": false },
+          { "id": "survival_spear", "fg": 143, "rotates": false },
+          { "id": "overlay_wielded_survival_spear", "fg": 144, "rotates": false },
+          { "id": "survival_shotgun", "fg": 145, "rotates": false },
+          { "id": "overlay_wielded_survival_shotgun", "fg": 146, "rotates": false },
+          
+
+          { "id": "bat_chete", "fg": 147, "rotates": false },
+          { "id": "overlay_wielded_bat_chete", "fg": 148, "rotates": false },
+          { "id": "dual_knife_trench", "fg": 149, "rotates": false },
+          { "id": "overlay_wielded_dual_knife_trench", "fg": 150, "rotates": false },
+
+
+          { "id": "cbma_monoblade_part", "fg": 151, "rotates": false },
+          { "id": "cbma_mono_cutter", "fg": 152, "rotates": false },
+          { "id": "overlay_wielded_cbma_mono_cutter", "fg": 153, "rotates": false },
+          { "id": "cbma_mono_knife", "fg": 154, "rotates": false },
+          { "id": "overlay_wielded_cbma_mono_knife", "fg": 155, "rotates": false },
+          { "id": "cbma_mono_sword", "fg": 156, "rotates": false },
+          { "id": "overlay_wielded_cbma_mono_sword", "fg": 157, "rotates": false },
+          { "id": "cbma_mono_spear", "fg": 158, "rotates": false },
+          { "id": "overlay_wielded_cbma_mono_spear", "fg": 159, "rotates": false },
+          { "id": "cbma_alloy_pile", "fg": 160, "rotates": false },
+          { "id": "overlay_wielded_cbma_alloy_pile", "fg": 161, "rotates": false },
+          { "id": "cbma_mono_throw_dagger", "fg": 162, "rotates": false },
+          { "id": "overlay_wielded_cbma_mono_throw_dagger", "fg": 163, "rotates": false },
+
+
+          { "id": "nano_spear", "fg": 164, "rotates": false },
+          { "id": "overlay_wielded_nano_spear", "fg": 165, "rotates": false },
+          { "id": "nano_knife", "fg": 166, "rotates": false },
+          { "id": "overlay_wielded_nano_knife", "fg": 167, "rotates": false },
+
+
+          { "id": "auto_crossbow", "fg": 168, "rotates": false },
+          { "id": "overlay_wielded_auto_crossbow", "fg": 169, "rotates": false },
+          { "id": "plasma_longbow", "fg": 170, "rotates": false },
+          { "id": "overlay_wielded_plasma_longbow", "fg": 171, "rotates": false },
+          { "id": "machine_bow", "fg": 172, "rotates": false },
+          { "id": "overlay_wielded_machine_bow", "fg": 173, "rotates": false },
+          { "id": "mag_fed_bow", "fg": 174, "rotates": false },
+          { "id": "overlay_wielded_mag_fed_bow", "fg": 175, "rotates": false },
+          { "id": "bladed_crossbow_gauntlet", "fg": 176, "rotates": false },
+          { "id": "overlay_wielded_bladed_crossbow_gauntlet", "fg": 177, "rotates": false },
+
+
+          { "id": "modified_deagle_44", "fg": 178, "rotates": false },
+          { "id": "overlay_wielded_modified_deagle_44", "fg": 179, "rotates": false },
+          { "id": "we23s_minigun", "fg": 180, "rotates": false },
+          { "id": "overlay_wielded_we23s_minigun", "fg": 181, "rotates": false },
+          { "id": "rm11b_sniper_rifle_base", "fg": 182, "rotates": false },
+          { "id": "overlay_wielded_rm11b_sniper_rifle_base", "fg": 183, "rotates": false },
+          { "id": "rm11b_sniper_rifle_on", "fg": 184, "rotates": false },
+          { "id": "overlay_wielded_rm11b_sniper_rifle_on", "fg": 185, "rotates": false },
+          { "id": "beretta_93r", "fg": 186, "rotates": false },
+          { "id": "overlay_wielded_beretta_93r", "fg": 187, "rotates": false },
+          { "id": "folding_glock_base", "fg": 188, "rotates": false },
+          { "id": "overlay_wielded_folding_glock_base", "fg": 189, "rotates": false },
+          { "id": "folding_glock_on", "fg": 190, "rotates": false },
+          { "id": "overlay_wielded_folding_glock_on", "fg": 191, "rotates": false },
+          { "id": "life_card", "fg": 192, "rotates": false },
+          { "id": "overlay_wielded_life_card", "fg": 193, "rotates": false },
+          { "id": "double_mgl", "fg": 194, "rotates": false },
+          { "id": "overlay_wielded_double_mgl", "fg": 195, "rotates": false },
+
+
+          { "id": "x_12_pistol", "fg": 196, "rotates": false },
+          { "id": "overlay_wielded_x_12_pistol", "fg": 197, "rotates": false },
+          { "id": "dx_12_punisher", "fg": 198, "rotates": false },
+          { "id": "overlay_wielded_dx_12_punisher", "fg": 199, "rotates": false },
+          { "id": "aa_12", "fg": 200, "rotates": false },
+          { "id": "overlay_wielded_aa_12", "fg": 201, "rotates": false },
+          { "id": "kf2_doomstick", "fg": 202, "rotates": false },
+          { "id": "overlay_wielded_kf2_doomstick", "fg": 203, "rotates": false },
+          { "id": "m95_tact_shotgun", "fg": 204, "rotates": false },
+          { "id": "overlay_wielded_m95_tact_shotgun", "fg": 205, "rotates": false },
+          { "id": "cindy_suppressed_12g", "fg": 206, "rotates": false },
+          { "id": "overlay_wielded_cindy_suppressed_12g", "fg": 207, "rotates": false },
+
+
+          { "id": "AF2011A1", "fg": 208, "rotates": false },
+          { "id": "overlay_wielded_AF2011A1", "fg": 209, "rotates": false },
+          { "id": "gmglynx", "fg": 210, "rotates": false },
+          { "id": "overlay_wielded_gmglynx", "fg": 211, "rotates": false },
+          { "id": "beowolf_ar", "fg": 212, "rotates": false },
+          { "id": "overlay_wielded_beowolf_ar", "fg": 213, "rotates": false },
+          { "id": "deagle_50ae", "fg": 214, "rotates": false },
+          { "id": "overlay_wielded_deagle_50ae", "fg": 215, "rotates": false },
+          { "id": "experimental_.50", "fg": 216, "rotates": false },
+          { "id": "overlay_wielded_experimental_.50", "fg": 217, "rotates": false },
+          { "id": "folding_rifle_base", "fg": 218, "rotates": false },
+          { "id": "overlay_wielded_folding_rifle_base", "fg": 219, "rotates": false },
+          { "id": "folding_rifle_on", "fg": 220, "rotates": false },
+          { "id": "overlay_wielded_folding_rifle_on", "fg": 221, "rotates": false },
+          { "id": "double_m4a1", "fg": 222, "rotates": false },
+          { "id": "overlay_wielded_double_m4a1", "fg": 223, "rotates": false },
+          { "id": "double_m249", "fg": 224, "rotates": false },
+          { "id": "overlay_wielded_double_m249", "fg": 225, "rotates": false },
+          { "id": "rm277", "fg": 226, "rotates": false },
+          { "id": "overlay_wielded_rm277", "fg": 227, "rotates": false },
+          { "id": "m134m", "fg": 228, "rotates": false },
+          { "id": "overlay_wielded_m134m", "fg": 229, "rotates": false },
+
+ 
+          { "id": "cbma_em_railrifle", "fg": 230, "rotates": false },
+          { "id": "overlay_wielded_cbma_em_railrifle", "fg": 231, "rotates": false },
+          { "id": "cbma_em_railrifle_as", "fg": 232, "rotates": false },
+          { "id": "overlay_wielded_cbma_em_railrifle_as", "fg": 233, "rotates": false },
+          { "id": "cbma_pilehammer_exp", "fg": 234, "rotates": false },
+          { "id": "overlay_wielded_cbma_pilehammer_exp", "fg": 235, "rotates": false },
+          { "id": "cbma_pilehammer_emp", "fg": 236, "rotates": false },
+          { "id": "overlay_wielded_cbma_pilehammer_emp", "fg": 237, "rotates": false },
+
+
+          { "id": "plasma_emitter_rifle", "fg": 238, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_rifle", "fg": 239, "rotates": false },
+          { "id": "plasma_emitter_carbine", "fg": 240, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_carbine", "fg": 241, "rotates": false },
+          { "id": "plasma_emitter_heavy", "fg": 242, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_heavy", "fg": 243, "rotates": false },
+          { "id": "plasma_emitter_suppressed", "fg": 244, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_suppressed", "fg": 245, "rotates": false },
+          { "id": "plasma_emitter_assault", "fg": 246, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_assault", "fg": 247, "rotates": false },
+          { "id": "plasma_emitter_sniper", "fg": 248, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_sniper", "fg": 249, "rotates": false },
+          { "id": "plasma_emitter_thrower", "fg": 250, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_thrower", "fg": 251, "rotates": false },
+          { "id": "plasma_emitter_double_assault", "fg": 252, "rotates": false },
+          { "id": "overlay_wielded_plasma_emitter_double_assault", "fg": 253, "rotates": false },
+          
+          { "id": "cbmp_plasma_sword_off", "fg": 254, "rotates": false },
+          { "id": "overlay_wielded_cbmp_plasma_sword_off", "fg": 255, "rotates": false },
+          { "id": "cbmp_plasma_sword_on", "fg": 256, "rotates": false },
+          { "id": "overlay_wielded_cbmp_plasma_sword_on", "fg": 257, "rotates": false },
+          
+          { "id": "double_laser_rifle", "fg": 258, "rotates": false },
+          { "id": "overlay_wielded_double_laser_rifle", "fg": 259, "rotates": false },
+          { "id": "arc_lightning_rifle", "fg": 260, "rotates": false },
+          { "id": "overlay_wielded_arc_lightning_rifle", "fg": 261, "rotates": false },
+
+
+          { "id": "four_barrel_pistol_flintlock", "fg": 262, "rotates": false },
+          { "id": "overlay_wielded_four_barrel_pistol_flintlock", "fg": 263, "rotates": false },
+          { "id": "axe_flintlock", "fg": 264, "rotates": false },
+          { "id": "overlay_wielded_axe_flintlock", "fg": 265, "rotates": false },
+		  
+		  { "id": "leather_soaked_in_blob", "fg": 266, "rotates": false },
+          { "id": "overlay_wielded_leather_soaked_in_blob", "fg": 266, "rotates": false }
+        ],
+        "sprite_width": 32,
+        "sprite_height": 32,
+        "sprite_offset_x": 0,
+        "sprite_offset_y": 0
+      }
+    ]
+  }
+]
